@@ -31,7 +31,6 @@ const Hero = () => {
                   UX DESIGNER WITH FRONT-END SKILLS
                 </Text>
                 <Title variant="hero">
-                  Jaime designs digital crafts for clients.Hi, I'm Jaime.
                   I'm a UX designer with web development experience and a love for research. 
                   I am passionate about utilizing copywriting to make things easier for people. 
                 </Title>
