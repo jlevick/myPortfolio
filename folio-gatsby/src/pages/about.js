@@ -2,7 +2,7 @@ import React from "react";
 
 import PageWrapper from "../components/PageWrapper";
 import { Box } from "../components/Core";
-import About from "../sections/others/About";
+import About from "..git status/others/About";
 
 const AboutPage = () => {
   return (
