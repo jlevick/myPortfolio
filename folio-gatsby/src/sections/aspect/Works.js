@@ -1,62 +1,59 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "gatsby";
-import styled from "styled-components";
-import { Container, Row, Col } from "react-bootstrap";
-import Masonry from "react-masonry-component";
+import React, { useState, useEffect } from 'react'
+import { Link } from 'gatsby'
+import styled from 'styled-components'
+import { Container, Row, Col } from 'react-bootstrap'
+import Masonry from 'react-masonry-component'
 
-import {
-  Title,
-  Section,
-  Box,
-  Text,
-  ButtonOutline,
-} from "../../components/Core";
-import RotateImg from "../../components/RotateImg";
-import { devWorks2 } from "../../data";
-import { useWindowSize } from "../../hooks";
-import { breakpoints } from "../../utils";
+import { Title, Section, Box, Text, ButtonOutline } from '../../components/Core'
+import RotateImg from '../../components/RotateImg'
+import { designWorks2 } from '../../data'
+import { useWindowSize } from '../../hooks'
+import { breakpoints } from '../../utils'
 
-const WorkCard = styled(Box)``;
-const WorkText = styled(Box)``;
+const WorkCard = styled(Box)``
+const WorkText = styled(Box)``
 
-const Grid = (props) => {
-  const size = useWindowSize();
+const Grid = props => {
+  const size = useWindowSize()
 
   const masonryOptions = {
     transitionDuration: 1000,
-  };
+  }
 
   return size.width < breakpoints.lg ? (
     <Masonry
       options={masonryOptions}
-      className={"masonry-grid row"}
+      className={'masonry-grid row'}
       {...props}
     />
   ) : (
     <Row {...props} />
-  );
-};
+  )
+}
 
 const Works = () => {
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState([])
 
   useEffect(() => {
-    setItems(devWorks2);
-  }, []);
+    setItems(designWorks2)
+  }, [])
 
   return (
     <>
       {/* <!-- Works Area --> */}
-      <Section className="position-relative pt-0">
+      <Section className="position-relative">
         <Container>
           <Grid>
             {items.map((item, index) => (
-              <Col md="6" key={index} className="filtr-item">
+              <Col
+                lg={item.halfWidth ? 6 : 4}
+                md="6"
+                sm="6"
+                key={index}
+                className="filtr-item"
+              >
                 <WorkCard className="position-relative" mb="30px">
-                  <RotateImg
-                    link={item.link}
-                    imgSrc={item.thumbnail}
-                  />
+                  <RotateImg link={item.link} imgSrc={item.thumbnail} />
                   <Box pt="2.125rem">
                     <WorkText className="overflow-hidden text-center">
                       <Text variant="tag" mb="0.5rem">
@@ -77,7 +74,7 @@ const Works = () => {
         </Container>
       </Section>
     </>
-  );
-};
+  )
+}
 
-export default Works;
+export default Works

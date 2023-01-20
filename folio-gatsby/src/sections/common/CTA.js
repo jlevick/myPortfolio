@@ -1,13 +1,13 @@
-import React, { useContext } from "react";
-import styled from "styled-components";
-import { Container, Row, Col } from "react-bootstrap";
+import React, { useContext } from 'react'
+import styled from 'styled-components'
+import { Container, Row, Col } from 'react-bootstrap'
 
-import GlobalContext from "../../context/GlobalContext";
-import { Section, Box, Title, Text, ButtonIcon } from "../../components/Core";
-import Availability from "../../components/Availability";
+import GlobalContext from '../../context/GlobalContext'
+import { Section, Box, Title, Text, ButtonIcon } from '../../components/Core'
+import Availability from '../../components/Availability'
 
 const CTA = () => {
-  const gContext = useContext(GlobalContext);
+  const gContext = useContext(GlobalContext)
   return (
     <>
       <Section>
@@ -20,9 +20,9 @@ const CTA = () => {
               </div>
               <div className="text-center">
                 <ButtonIcon
-                  onClick={(e) => {
-                    e.preventDefault();
-                    gContext.toggleContact();
+                  onClick={e => {
+                    e.preventDefault()
+                    gContext.toggleContact()
                   }}
                 >
                   Let's Talk Now
@@ -33,7 +33,7 @@ const CTA = () => {
         </Container>
       </Section>
     </>
-  );
-};
+  )
+}
 
-export default CTA;
+export default CTA

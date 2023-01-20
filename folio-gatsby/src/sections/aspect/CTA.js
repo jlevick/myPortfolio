@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react'
+import styled from 'styled-components'
+import { Container, Row, Col } from 'react-bootstrap'
 
 import {
   Title,
@@ -9,7 +9,7 @@ import {
   Box,
   Text,
   LinkContact,
-} from "../../components/Core";
+} from '../../components/Core'
 
 const Hero = () => {
   return (
@@ -27,7 +27,7 @@ const Hero = () => {
 
                 <Box
                   className="text-center d-flex justify-content-center"
-                  mt={["3rem", null, "4rem"]}
+                  mt={['3rem', null, '4rem']}
                 >
                   <div className="d-flex flex-column flex-lg-row justify-content-center">
                     <LinkContact
@@ -54,7 +54,7 @@ const Hero = () => {
         </Container>
       </Section>
     </>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

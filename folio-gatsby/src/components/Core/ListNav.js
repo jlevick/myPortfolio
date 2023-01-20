@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const ListNav = styled.ul`
   li {
@@ -14,6 +14,6 @@ const ListNav = styled.ul`
       }
     }
   }
-`;
+`
 
-export default ListNav;
+export default ListNav

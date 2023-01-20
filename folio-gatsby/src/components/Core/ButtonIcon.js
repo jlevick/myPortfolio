@@ -1,9 +1,9 @@
-import React from "react";
-import { Box, Button } from "../Core";
+import React from 'react'
+import { Box, Button } from '../Core'
 
 const ButtonIcon = ({
-  variant = "success",
-  color = "#fff",
+  variant = 'success',
+  color = '#fff',
   children,
   ...rest
 }) => {
@@ -20,7 +20,7 @@ const ButtonIcon = ({
       </Box>
       {children}
     </Button>
-  );
-};
+  )
+}
 
-export default ButtonIcon;
+export default ButtonIcon

@@ -1,27 +1,27 @@
-import React, { useContext } from "react";
-import styled from "styled-components";
-import { Container, Row, Col } from "react-bootstrap";
+import React, { useContext } from 'react'
+import styled from 'styled-components'
+import { Container, Row, Col } from 'react-bootstrap'
 
-import GlobalContext from "../../context/GlobalContext";
-import { Section, Title, ButtonIcon } from "../../components/Core";
-import Availability from "../../components/Availability";
-import bgFooter from "../../assets/image/png/subscribe-pattern.png";
+import GlobalContext from '../../context/GlobalContext'
+import { Section, Title, ButtonIcon } from '../../components/Core'
+import Availability from '../../components/Availability'
+import bgFooter from '../../assets/image/png/subscribe-pattern.png'
 
 const SectionStyled = styled(Section)`
   &::before {
     position: absolute;
     bottom: -150px;
-    content: "";
+    content: '';
     width: 120%;
     height: 150%;
     background: url(${bgFooter}) bottom center no-repeat;
     background-size: cover;
     z-index: -1;
   }
-`;
+`
 
 const Hero = () => {
-  const gContext = useContext(GlobalContext);
+  const gContext = useContext(GlobalContext)
 
   return (
     <>
@@ -35,9 +35,9 @@ const Hero = () => {
               </div>
               <div className="text-center">
                 <ButtonIcon
-                  onClick={(e) => {
-                    e.preventDefault();
-                    gContext.toggleContact();
+                  onClick={e => {
+                    e.preventDefault()
+                    gContext.toggleContact()
                   }}
                 >
                   Let's Talk Now
@@ -48,7 +48,7 @@ const Hero = () => {
         </Container>
       </SectionStyled>
     </>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

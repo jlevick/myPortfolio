@@ -1,20 +1,16 @@
 import React from 'react'
-import { Element } from 'react-scroll'
 
 import PageWrapper from '../components/PageWrapper'
-import Hero from '../sections/index/Hero'
-import Works from '../sections/index/Works'
-import Contact from '../sections/index/Contact'
+import Hero from '../sections/work/Hero'
+import Works from '../sections/work/Works'
+import Contact from '../sections/work/Contact'
 
 const IndexPage = () => {
   return (
     <>
       <PageWrapper>
         <Hero />
-        <Element name="works">
-          <Works />
-        </Element>
-
+        <Works />
         <Contact />
       </PageWrapper>
     </>

@@ -1,35 +1,35 @@
-import React, { useState, useEffect } from "react";
-import { Container, Col } from "react-bootstrap";
-import Masonry from "react-masonry-component";
+import React, { useState, useEffect } from 'react'
+import { Container, Col } from 'react-bootstrap'
+import Masonry from 'react-masonry-component'
 
-import { Section, Box, ListNav } from "../../components/Core";
-import WorkCard from "../../components/WorkCard";
-import { devWorks1 } from "../../data";
+import { Section, Box, ListNav } from '../../components/Core'
+import WorkCard from '../../components/WorkCard'
+import { devWorks1 } from '../../data'
 
 const Works = () => {
-  const [items, setItems] = useState([]);
-  const [activeLink, setActiveLink] = useState("*");
+  const [items, setItems] = useState([])
+  const [activeLink, setActiveLink] = useState('*')
 
   useEffect(() => {
-    setItems(devWorks1);
-  }, []);
+    setItems(devWorks1)
+  }, [])
 
-  const filterBy = (cat) => {
-    if (cat === "*") {
-      setActiveLink("*");
-      setItems(devWorks1);
+  const filterBy = cat => {
+    if (cat === '*') {
+      setActiveLink('*')
+      setItems(devWorks1)
     } else {
-      const filteredItems = devWorks1.filter((item) => {
-        return item.categories.indexOf(cat) !== -1;
-      });
-      setActiveLink(cat);
-      setItems(filteredItems);
+      const filteredItems = devWorks1.filter(item => {
+        return item.categories.indexOf(cat) !== -1
+      })
+      setActiveLink(cat)
+      setItems(filteredItems)
     }
-  };
+  }
 
   const masonryOptions = {
     transitionDuration: 1000,
-  };
+  }
 
   return (
     <>
@@ -41,11 +41,11 @@ const Works = () => {
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "*" ? "active" : null
+                    activeLink === '*' ? 'active' : null
                   }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    filterBy("*");
+                  onClick={e => {
+                    e.preventDefault()
+                    filterBy('*')
                   }}
                 >
                   All works
@@ -54,11 +54,11 @@ const Works = () => {
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "ui-design" ? "active" : null
+                    activeLink === 'ui-design' ? 'active' : null
                   }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    filterBy("ui-design");
+                  onClick={e => {
+                    e.preventDefault()
+                    filterBy('ui-design')
                   }}
                 >
                   UI Design
@@ -67,11 +67,11 @@ const Works = () => {
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "app" ? "active" : null
+                    activeLink === 'app' ? 'active' : null
                   }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    filterBy("app");
+                  onClick={e => {
+                    e.preventDefault()
+                    filterBy('app')
                   }}
                 >
                   App Developement
@@ -80,11 +80,11 @@ const Works = () => {
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "web" ? "active" : null
+                    activeLink === 'web' ? 'active' : null
                   }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    filterBy("web");
+                  onClick={e => {
+                    e.preventDefault()
+                    filterBy('web')
                   }}
                 >
                   Web Developement
@@ -97,18 +97,18 @@ const Works = () => {
         <Container fluid>
           <Masonry
             options={masonryOptions}
-            className={"masonry-grid row"} // default ''
+            className={'masonry-grid row'} // default ''
           >
             {items.map((item, index) => (
               <Col lg="4" md="6" sm="6" key={index} className="filtr-item">
-                <WorkCard workItem={item} mb="30px" link={item.link}/>
+                <WorkCard workItem={item} mb="30px" link={item.link} />
               </Col>
             ))}
           </Masonry>
         </Container>
       </Section>
     </>
-  );
-};
+  )
+}
 
-export default Works;
+export default Works

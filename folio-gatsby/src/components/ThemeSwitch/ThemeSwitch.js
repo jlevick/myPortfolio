@@ -1,8 +1,8 @@
-import React, { useState, useContext } from "react";
-import styled from "styled-components";
-import { color } from "styled-system";
-import { Box } from "../Core";
-import GlobalContext from "../../context/GlobalContext";
+import React, { useState, useContext } from 'react'
+import styled from 'styled-components'
+import { color } from 'styled-system'
+import { Box } from '../Core'
+import GlobalContext from '../../context/GlobalContext'
 
 const BoxWrapper = styled(Box)`
   transition: 0.4s;
@@ -14,7 +14,7 @@ const BoxWrapper = styled(Box)`
   &.opened {
     transform: translate(0);
   }
-`;
+`
 
 const Panel = styled(Box)`
   box-shadow: 0 22px 34px rgba(22, 28, 45, 0.18);
@@ -26,7 +26,7 @@ const Panel = styled(Box)`
   padding-bottom: 15px;
   text-align: center;
   border-bottom-left-radius: 25px;
-`;
+`
 
 const TextBox = styled(Box)`
   color: #ffffff;
@@ -35,7 +35,7 @@ const TextBox = styled(Box)`
   letter-spacing: -0.09px;
   line-height: 26px;
   padding-bottom: 8px;
-`;
+`
 
 const ButtonGroup = styled(Box)`
   box-shadow: 0 12px 34px rgba(22, 28, 45, 0.2);
@@ -44,7 +44,7 @@ const ButtonGroup = styled(Box)`
   overflow: hidden;
   display: flex;
   max-width: 153px;
-`;
+`
 
 const Button = styled.button`
   background: transparent;
@@ -61,7 +61,7 @@ const Button = styled.button`
   &.active {
     background-color: #ced4e7;
   }
-`;
+`
 
 const ButtonToggle = styled.button`
   width: 30px;
@@ -88,24 +88,24 @@ const ButtonToggle = styled.button`
       transform: scaleX(-1);
     }
   }
-`;
+`
 
-const ThemeSwitch = (props) => {
-  const [active, setActive] = useState(false);
-  const gContext = useContext(GlobalContext);
+const ThemeSwitch = props => {
+  const [active, setActive] = useState(false)
+  const gContext = useContext(GlobalContext)
 
   return (
     <>
       {/* <!-- Footer section --> */}
       <BoxWrapper
-        className={`position-fixed ${active ? "opened" : ""}`}
+        className={`position-fixed ${active ? 'opened' : ''}`}
         {...props}
       >
         <Panel bg="primary" className="position-relative">
           <TextBox>Change Version</TextBox>
           <ButtonGroup>
             <Button
-              className={!gContext.theme.bodyDark ? "active" : ""}
+              className={!gContext.theme.bodyDark ? 'active' : ''}
               onClick={() =>
                 gContext.changeTheme({
                   bodyDark: false,
@@ -117,7 +117,7 @@ const ThemeSwitch = (props) => {
               Light
             </Button>
             <Button
-              className={gContext.theme.bodyDark ? "active" : ""}
+              className={gContext.theme.bodyDark ? 'active' : ''}
               onClick={() =>
                 gContext.changeTheme({
                   bodyDark: true,
@@ -132,14 +132,14 @@ const ThemeSwitch = (props) => {
           <ButtonToggle
             bg="primary"
             onClick={() => setActive(!active)}
-            className={active ? "opened" : ""}
+            className={active ? 'opened' : ''}
           >
             <i className="icon icon-small-left"></i>
           </ButtonToggle>
         </Panel>
       </BoxWrapper>
     </>
-  );
-};
+  )
+}
 
-export default ThemeSwitch;
+export default ThemeSwitch

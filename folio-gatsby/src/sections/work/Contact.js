@@ -1,12 +1,12 @@
-import React, { useContext } from "react";
+import React, { useContext } from 'react'
 
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from 'react-bootstrap'
 
-import GlobalContext from "../../context/GlobalContext";
-import { Section, Title, ButtonIcon } from "../../components/Core";
+import GlobalContext from '../../context/GlobalContext'
+import { Section, Title, ButtonIcon } from '../../components/Core'
 
 const Hero = () => {
-  const gContext = useContext(GlobalContext);
+  const gContext = useContext(GlobalContext)
 
   return (
     <>
@@ -19,9 +19,9 @@ const Hero = () => {
               </div>
               <div className="text-center">
                 <ButtonIcon
-                  onClick={(e) => {
-                    e.preventDefault();
-                    gContext.toggleContact();
+                  onClick={e => {
+                    e.preventDefault()
+                    gContext.toggleContact()
                   }}
                 >
                   Let's Talk Now
@@ -32,7 +32,7 @@ const Hero = () => {
         </Container>
       </Section>
     </>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

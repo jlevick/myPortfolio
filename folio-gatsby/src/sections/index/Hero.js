@@ -1,16 +1,16 @@
-import React from "react";
-import styled from "styled-components";
-import { Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-scroll";
+import React from 'react'
+import styled from 'styled-components'
+import { Container, Row, Col } from 'react-bootstrap'
+import { Link } from 'react-scroll'
 
-import { Title, Button, Section, Box, Text } from "../../components/Core";
+import { Title, Button, Section, Box, Text } from '../../components/Core'
 
-import { device } from "../../utils";
-import imgL from "../../../../doc/assets/images/aspect_profile_image_background@1x.png";
+import { device } from '../../utils'
+import imgL from '../../../../doc/assets/images/aspect_profile_image_background@1x.png'
 
 const ImgRight = styled.img`
   max-width: 100%;
-`;
+`
 
 const Hero = () => {
   return (
@@ -26,13 +26,13 @@ const Hero = () => {
                   mb={4}
                   className="text-uppercase"
                   color="heading"
-                  mb="40px"
                 >
                   UX DESIGNER WITH FRONT-END SKILLS
                 </Text>
                 <Title variant="hero">
-                  I'm a UX designer with web development experience and a love for research. 
-                  I am passionate about utilizing copywriting to make things easier for people. 
+                  I'm a UX designer with web development experience and a love
+                  for research. I am passionate about utilizing copywriting to
+                  make things easier for people.
                 </Title>
 
                 <Box mt="52px">
@@ -59,7 +59,7 @@ const Hero = () => {
         </Container>
       </Section>
     </>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

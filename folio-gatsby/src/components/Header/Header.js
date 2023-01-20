@@ -1,15 +1,15 @@
-import React, { useState, useContext } from "react";
-import styled from "styled-components";
-import { Container } from "react-bootstrap";
-import { useScrollPosition } from "@n8tb1t/use-scroll-position";
-import { Link } from "gatsby";
+import React, { useState, useContext } from 'react'
+import styled from 'styled-components'
+import { Container } from 'react-bootstrap'
+import { useScrollPosition } from '@n8tb1t/use-scroll-position'
+import { Link } from 'gatsby'
 
-import GlobalContext from "../../context/GlobalContext";
-import Offcanvas from "../Offcanvas";
-import NestedMenu from "../NestedMenu";
-import { device } from "../../utils";
-import Logo from "../Logo";
-import { menuItems } from "./menuItems";
+import GlobalContext from '../../context/GlobalContext'
+import Offcanvas from '../Offcanvas'
+import NestedMenu from '../NestedMenu'
+import { device } from '../../utils'
+import Logo from '../Logo'
+import { menuItems } from './menuItems'
 
 const SiteHeader = styled.header`
   padding: 0;
@@ -32,12 +32,12 @@ const SiteHeader = styled.header`
       background: ${({ dark, theme }) => theme.colors.bg};
     }
   }
-`;
+`
 
 const ToggleButton = styled.button`
   color: ${({ dark, theme }) => theme.colors.front}!important;
   border-color: ${({ dark, theme }) => theme.colors.front}!important;
-`;
+`
 
 const Menu = styled.ul`
   @media ${device.lg} {
@@ -69,9 +69,9 @@ const Menu = styled.ul`
           position: relative;
           transform: rotate(90deg);
           top: 1px;
-          content: "\\ea06";
+          content: '\\ea06';
           border: none;
-          font-family: "Grayic";
+          font-family: 'Grayic';
           font-size: 24px;
           transition: 0.4s;
           font-weight: 900;
@@ -103,7 +103,7 @@ const Menu = styled.ul`
       }
     }
   }
-`;
+`
 
 const MenuDropdown = styled.ul`
   list-style: none;
@@ -148,9 +148,9 @@ const MenuDropdown = styled.ul`
         margin-left: 10px;
         position: relative;
         top: 1px;
-        content: "\\ea06";
+        content: '\\ea06';
         border: none;
-        font-family: "Grayic";
+        font-family: 'Grayic';
         font-size: 24px;
         transition: 0.4s;
         font-weight: 900;
@@ -204,31 +204,31 @@ const MenuDropdown = styled.ul`
     left: auto;
     right: -90%;
   }
-`;
+`
 
 const Header = ({ isDark }) => {
-  const gContext = useContext(GlobalContext);
-  const [showScrolling, setShowScrolling] = useState(false);
-  const [showReveal, setShowReveal] = useState(false);
+  const gContext = useContext(GlobalContext)
+  const [showScrolling, setShowScrolling] = useState(false)
+  const [showReveal, setShowReveal] = useState(false)
 
   useScrollPosition(({ prevPos, currPos }) => {
     if (currPos.y < 0) {
-      setShowScrolling(true);
+      setShowScrolling(true)
     } else {
-      setShowScrolling(false);
+      setShowScrolling(false)
     }
     if (currPos.y < -300) {
-      setShowReveal(true);
+      setShowReveal(true)
     } else {
-      setShowReveal(false);
+      setShowReveal(false)
     }
-  });
+  })
 
   return (
     <>
       <SiteHeader
-        className={`sticky-header ${showScrolling ? "scrolling" : ""} ${
-          showReveal ? "reveal-header" : ""
+        className={`sticky-header ${showScrolling ? 'scrolling' : ''} ${
+          showReveal ? 'reveal-header' : ''
         }`}
         dark={isDark ? 1 : 0}
       >
@@ -236,7 +236,7 @@ const Header = ({ isDark }) => {
           <nav className="navbar px-0 px-md-3 site-navbar offcanvas-active navbar-expand-lg navbar-light">
             {/* <!-- Brand Logo--> */}
             <div className="brand-logo">
-              <Logo color={isDark ? "light" : "dark"} />
+              <Logo color={isDark ? 'light' : 'dark'} />
             </div>
             <div className="collapse navbar-collapse">
               <div className="navbar-nav ml-lg-auto mr-3">
@@ -249,7 +249,7 @@ const Header = ({ isDark }) => {
                       { label, isExternal = false, name, items, ...rest },
                       index
                     ) => {
-                      const hasSubItems = Array.isArray(items);
+                      const hasSubItems = Array.isArray(items)
                       return (
                         <React.Fragment key={name + index}>
                           {hasSubItems ? (
@@ -260,7 +260,7 @@ const Header = ({ isDark }) => {
                                 data-toggle="dropdown"
                                 aria-expanded="false"
                                 href="/#"
-                                onClick={(e) => e.preventDefault()}
+                                onClick={e => e.preventDefault()}
                               >
                                 {label}
                               </a>
@@ -271,7 +271,7 @@ const Header = ({ isDark }) => {
                                 {items.map((subItem, indexSub) => {
                                   const hasInnerSubItems = Array.isArray(
                                     subItem.items
-                                  );
+                                  )
                                   return (
                                     <React.Fragment
                                       key={subItem.name + indexSub}
@@ -284,7 +284,7 @@ const Header = ({ isDark }) => {
                                             data-toggle="dropdown"
                                             aria-expanded="false"
                                             href="/#"
-                                            onClick={(e) => e.preventDefault()}
+                                            onClick={e => e.preventDefault()}
                                           >
                                             {subItem.label}
                                           </a>
@@ -296,7 +296,7 @@ const Header = ({ isDark }) => {
                                               (itemSubInner, indexSubInner) => {
                                                 const hasInnerMostItems = Array.isArray(
                                                   itemSubInner.items
-                                                );
+                                                )
                                                 return (
                                                   <React.Fragment
                                                     key={
@@ -312,7 +312,7 @@ const Header = ({ isDark }) => {
                                                           data-toggle="dropdown"
                                                           aria-expanded="false"
                                                           href="/#"
-                                                          onClick={(e) =>
+                                                          onClick={e =>
                                                             e.preventDefault()
                                                           }
                                                         >
@@ -378,7 +378,7 @@ const Header = ({ isDark }) => {
                                                       </li>
                                                     )}
                                                   </React.Fragment>
-                                                );
+                                                )
                                               }
                                             )}
                                           </MenuDropdown>
@@ -401,7 +401,7 @@ const Header = ({ isDark }) => {
                                         </li>
                                       )}
                                     </React.Fragment>
-                                  );
+                                  )
                                 })}
                               </MenuDropdown>
                             </li>
@@ -429,7 +429,7 @@ const Header = ({ isDark }) => {
                             </li>
                           )}
                         </React.Fragment>
-                      );
+                      )
                     }
                   )}
 
@@ -438,9 +438,9 @@ const Header = ({ isDark }) => {
                     <a
                       className="nav-link"
                       href="/#"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        gContext.toggleAbout();
+                      onClick={e => {
+                        e.preventDefault()
+                        gContext.toggleAbout()
                       }}
                     >
                       about me.
@@ -452,9 +452,9 @@ const Header = ({ isDark }) => {
                     <a
                       className="nav-link"
                       href="/#"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        gContext.toggleContact();
+                      onClick={e => {
+                        e.preventDefault()
+                        gContext.toggleContact()
                       }}
                     >
                       contact.
@@ -466,7 +466,7 @@ const Header = ({ isDark }) => {
 
             <ToggleButton
               className={`navbar-toggler btn-close-off-canvas ml-3 ${
-                gContext.visibleOffCanvas ? "collapsed" : ""
+                gContext.visibleOffCanvas ? 'collapsed' : ''
               }`}
               type="button"
               data-toggle="collapse"
@@ -490,6 +490,6 @@ const Header = ({ isDark }) => {
         <NestedMenu menuItems={menuItems} />
       </Offcanvas>
     </>
-  );
-};
-export default Header;
+  )
+}
+export default Header

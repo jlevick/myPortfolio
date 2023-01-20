@@ -1,7 +1,7 @@
-import React from "react";
-import { Box } from "../Core";
+import React from 'react'
+import { Box } from '../Core'
 
-const IconCircle = ({ bg = "success", color = "#fff", children, ...rest }) => (
+const IconCircle = ({ bg = 'success', color = '#fff', children, ...rest }) => (
   <Box
     bg={bg}
     color={color}
@@ -21,6 +21,6 @@ const IconCircle = ({ bg = "success", color = "#fff", children, ...rest }) => (
   >
     {children}
   </Box>
-);
+)
 
-export default IconCircle;
+export default IconCircle

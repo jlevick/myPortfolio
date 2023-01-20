@@ -1,15 +1,15 @@
-import React, { useEffect, useContext } from "react";
+import React, { useEffect, useContext } from 'react'
 
-import GlobalContext from "../../context/GlobalContext";
+import GlobalContext from '../../context/GlobalContext'
 
 const themeConfigDefault = {
   headerDark: false,
   bodyDark: false,
   footerDark: false,
-};
+}
 
 const PageWrapper = ({ children, darkTheme = false, themeConfig = null }) => {
-  const gContext = useContext(GlobalContext);
+  const gContext = useContext(GlobalContext)
 
   useEffect(() => {
     if (darkTheme) {
@@ -17,13 +17,13 @@ const PageWrapper = ({ children, darkTheme = false, themeConfig = null }) => {
         headerDark: true,
         bodyDark: true,
         footerDark: true,
-      });
+      })
     } else {
-      gContext.changeTheme({ ...themeConfigDefault, ...themeConfig });
+      gContext.changeTheme({ ...themeConfigDefault, ...themeConfig })
     }
-  }, []);
+  }, [])
 
-  return <>{children}</>;
-};
+  return <>{children}</>
+}
 
-export default PageWrapper;
+export default PageWrapper

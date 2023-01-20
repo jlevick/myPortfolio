@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react'
 
-import { Form } from "react-bootstrap";
+import { Form } from 'react-bootstrap'
 
-import { Input, TextArea, Button } from "../Core";
+import { Input, TextArea, Button } from '../Core'
 
-const ContactForm = ({ theme = "dark", ...rest }) => {
+const ContactForm = ({ theme = 'dark', ...rest }) => {
   return (
     <Form
       name="contact"
@@ -38,7 +38,7 @@ const ContactForm = ({ theme = "dark", ...rest }) => {
         </Button>
       </div>
     </Form>
-  );
-};
+  )
+}
 
-export default ContactForm;
+export default ContactForm

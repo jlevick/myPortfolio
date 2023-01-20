@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 import {
   color,
   background,
@@ -9,7 +9,7 @@ import {
   shadow,
   flexbox,
   layout,
-} from "styled-system";
+} from 'styled-system'
 
 const ButtonStyled = styled.button`
   font-size: 13px;
@@ -45,11 +45,11 @@ const ButtonStyled = styled.button`
     transform: translateY(-10px);
     box-shadow: 0 32px 54px rgba(3, 3, 3, 0.14);
   }
-`;
+`
 
 const Button = ({
-  variant = "primary",
-  color = "#fff",
+  variant = 'primary',
+  color = '#fff',
   arrowRight = false,
   children,
   ...rest
@@ -107,7 +107,7 @@ const Button = ({
         </svg>
       )}
     </ButtonStyled>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button

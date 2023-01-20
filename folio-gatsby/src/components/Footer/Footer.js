@@ -1,6 +1,6 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import { Box, Title } from "../Core";
+import React from 'react'
+import { Container } from 'react-bootstrap'
+import { Box, Title } from '../Core'
 
 const Footer = ({ isDark = true }) => {
   return (
@@ -8,7 +8,7 @@ const Footer = ({ isDark = true }) => {
       {/* <!-- Footer section --> */}
       <Box
         bg="bg"
-        pt={[0, null, null, "3.75rem"]}
+        pt={[0, null, null, '3.75rem']}
         pb="3.75rem"
         css={`
           z-index: -50;
@@ -30,7 +30,7 @@ const Footer = ({ isDark = true }) => {
         </Container>
       </Box>
     </>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
