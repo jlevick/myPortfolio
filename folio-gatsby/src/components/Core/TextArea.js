@@ -1,7 +1,7 @@
-import React from "react";
-import { Form } from "react-bootstrap";
-import styled from "styled-components";
-import { rgba } from "polished";
+import React from 'react'
+import { Form } from 'react-bootstrap'
+import styled from 'styled-components'
+import { rgba } from 'polished'
 
 const FormControlStyled = styled(Form.Control)`
   &.form-control {
@@ -20,7 +20,7 @@ const FormControlStyled = styled(Form.Control)`
       background-color: ${({ theme }) => theme.colors.dark};
     }
   }
-`;
+`
 
 const TextArea = ({ rows = 3, ...rest }) => (
   <FormControlStyled
@@ -29,6 +29,6 @@ const TextArea = ({ rows = 3, ...rest }) => (
     {...rest}
     className="form-control"
   />
-);
+)
 
-export default TextArea;
+export default TextArea

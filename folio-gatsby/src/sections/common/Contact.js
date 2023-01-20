@@ -1,29 +1,29 @@
-import React from "react";
-import styled from "styled-components";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react'
+import styled from 'styled-components'
+import { Container, Row, Col } from 'react-bootstrap'
 
-import { Title, Section, Box, LinkContact } from "../../components/Core";
-import bgFooter from "../../assets/image/png/subscribe-pattern.png";
+import { Title, Section, Box, LinkContact } from '../../components/Core'
+import bgFooter from '../../assets/image/png/subscribe-pattern.png'
 
 const SectionStyled = styled(Section)`
   &.pattern::before {
     position: absolute;
     bottom: -150px;
-    content: "";
+    content: '';
     width: 120%;
     height: 150%;
     background: url(${bgFooter}) bottom center no-repeat;
     background-size: cover;
     z-index: -1;
   }
-`;
+`
 
 const Contact = ({ pattern = true }) => {
   return (
     <>
       {/* <!-- Hero Area --> */}
       <SectionStyled
-        className={`position-relative ${pattern ? "pattern" : ""}`}
+        className={`position-relative ${pattern ? 'pattern' : ''}`}
       >
         <Container>
           <Row className="justify-content-center align-items-center">
@@ -36,7 +36,7 @@ const Contact = ({ pattern = true }) => {
 
                 <Box
                   className="text-center d-flex justify-content-center"
-                  mt={["3rem", null, "4rem"]}
+                  mt={['3rem', null, '4rem']}
                 >
                   <div className="d-flex flex-column flex-lg-row justify-content-center">
                     <LinkContact
@@ -63,7 +63,7 @@ const Contact = ({ pattern = true }) => {
         </Container>
       </SectionStyled>
     </>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

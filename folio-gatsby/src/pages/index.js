@@ -1,10 +1,10 @@
-import React from "react";
-import { Element } from "react-scroll";
+import React from 'react'
+import { Element } from 'react-scroll'
 
-import PageWrapper from "../components/PageWrapper";
-import Hero from "../sections/landing1/Hero";
-import Works from "../sections/landing1/Works";
-import Contact from "../sections/landing1/Contact";
+import PageWrapper from '../components/PageWrapper'
+import Hero from '../sections/index/Hero'
+import Works from '../sections/index/Works'
+import Contact from '../sections/index/Contact'
 
 const IndexPage = () => {
   return (
@@ -18,6 +18,6 @@ const IndexPage = () => {
         <Contact />
       </PageWrapper>
     </>
-  );
-};
-export default IndexPage;
+  )
+}
+export default IndexPage

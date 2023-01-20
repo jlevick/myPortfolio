@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react'
 
-import PageWrapper from "../components/PageWrapper";
-import { Box } from "../components/Core";
-import About from "../sections/others/About";
+import PageWrapper from '../components/PageWrapper'
+import { Box } from '../components/Core'
+import About from '../sections/others/About'
 
 const AboutPage = () => {
   return (
@@ -13,7 +13,7 @@ const AboutPage = () => {
         </Box>
       </PageWrapper>
     </>
-  );
-};
+  )
+}
 
-export default AboutPage;
+export default AboutPage

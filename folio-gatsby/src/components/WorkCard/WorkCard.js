@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "gatsby";
-import styled from "styled-components";
-import { Box, Title, Text } from "../Core";
+import React from 'react'
+import { Link } from 'gatsby'
+import styled from 'styled-components'
+import { Box, Title, Text } from '../Core'
 
-const WorkBox = styled(Box)``;
+const WorkBox = styled(Box)``
 const TextBox = styled(Box)`
   position: absolute;
   overflow: hidden;
@@ -17,7 +17,7 @@ const TextBox = styled(Box)`
   transition: 0.4s;
   &::before {
     position: absolute;
-    content: "";
+    content: '';
     background: ${({ theme }) => theme.colors.bg};
     top: 0;
     left: 0;
@@ -30,7 +30,7 @@ const TextBox = styled(Box)`
     bottom: 20px;
     opacity: 1;
   }
-`;
+`
 
 const WorkCard = ({ workItem, link, ...rest }) => (
   <WorkBox className="position-relative" {...rest}>
@@ -47,6 +47,6 @@ const WorkCard = ({ workItem, link, ...rest }) => (
       </Title>
     </TextBox>
   </WorkBox>
-);
+)
 
-export default WorkCard;
+export default WorkCard

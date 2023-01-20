@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-import PageWrapper from "../components/PageWrapper";
-import Hero from "../sections/landing2/Hero";
-import Works from "../sections/landing2/Works";
-import CTA from "../sections/landing2/CTA";
+import PageWrapper from '../components/PageWrapper'
+import Hero from '../sections/aspect/Hero'
+import Works from '../sections/aspect/Works'
+import CTA from '../sections/aspect/CTA'
 
 const IndexPage = () => {
   return (
@@ -14,6 +14,6 @@ const IndexPage = () => {
         <CTA />
       </PageWrapper>
     </>
-  );
-};
-export default IndexPage;
+  )
+}
+export default IndexPage

@@ -1,10 +1,10 @@
-import React from "react";
-import styled from "styled-components";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react'
+import styled from 'styled-components'
+import { Container, Row, Col } from 'react-bootstrap'
 
-import { Section, Title, Text, Span } from "../../components/Core";
-import imgPhoto from "../../assets/image/jpg/portfolio-about.jpg";
-import imgSignLight from "../../assets/image/png/signature.png";
+import { Section, Title, Text, Span } from '../../components/Core'
+import imgPhoto from '../../assets/image/jpg/portfolio-about.jpg'
+import imgSignLight from '../../assets/image/png/signature.png'
 
 const LinkSocial = styled.a`
   color: ${({ theme }) => theme.colors.light} !important;
@@ -17,9 +17,9 @@ const LinkSocial = styled.a`
     color: ${({ theme }) => theme.colors.light} !important;
     transform: translateY(-5px);
   }
-`;
+`
 
-const About = ({ hero = true, bg = "dark", ...rest }) => {
+const About = ({ hero = true, bg = 'dark', ...rest }) => {
   return (
     <>
       <Section hero={hero} bg={bg} {...rest}>
@@ -109,7 +109,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
         </Container>
       </Section>
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default About

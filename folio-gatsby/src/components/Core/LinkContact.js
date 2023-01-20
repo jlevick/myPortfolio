@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const LinkStyled = styled.a`
   color: ${({ theme }) => theme.colors.primary} !important;
@@ -18,6 +18,6 @@ const LinkStyled = styled.a`
     color: ${({ theme }) => theme.colors.frontShade} !important;
     opacity: 0.25;
   }
-`;
+`
 
-export default LinkStyled;
+export default LinkStyled

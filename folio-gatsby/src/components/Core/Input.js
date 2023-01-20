@@ -1,7 +1,7 @@
-import React from "react";
-import { Form } from "react-bootstrap";
-import styled from "styled-components";
-import { rgba } from "polished";
+import React from 'react'
+import { Form } from 'react-bootstrap'
+import styled from 'styled-components'
+import { rgba } from 'polished'
 
 const FormControlStyled = styled(Form.Control)`
   &.form-control {
@@ -21,10 +21,10 @@ const FormControlStyled = styled(Form.Control)`
       background-color: ${({ theme }) => theme.colors.dark};
     }
   }
-`;
+`
 
-const Input = ({ type = "text", placeholder = "", ...rest }) => (
+const Input = ({ type = 'text', placeholder = '', ...rest }) => (
   <FormControlStyled type={type} placeholder={placeholder} {...rest} />
-);
+)
 
-export default Input;
+export default Input

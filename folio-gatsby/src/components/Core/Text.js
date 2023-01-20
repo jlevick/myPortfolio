@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import { color, space, typography, shadow } from "styled-system";
+import React from 'react'
+import styled from 'styled-components'
+import { color, space, typography, shadow } from 'styled-system'
 
 const Paragraph = styled.p`
   margin-bottom: 0;
@@ -13,7 +13,7 @@ const Paragraph = styled.p`
   ${space};
   ${typography};
   ${shadow};
-`;
+`
 
 const ParagraphLg = styled(Paragraph)`
   font-size: 21px;
@@ -24,7 +24,7 @@ const ParagraphLg = styled(Paragraph)`
   ${space};
   ${typography};
   ${shadow};
-`;
+`
 
 const ParagraphSmall = styled(Paragraph)`
   font-size: 16px;
@@ -34,7 +34,7 @@ const ParagraphSmall = styled(Paragraph)`
   ${space};
   ${typography};
   ${shadow};
-`;
+`
 
 const ParagraphTag = styled(Paragraph)`
   font-size: 0.8125rem;
@@ -46,29 +46,29 @@ const ParagraphTag = styled(Paragraph)`
   ${space};
   ${typography};
   ${shadow};
-`;
+`
 
-const Text = ({ variant = "lg", ...props }) => {
-  let TextRender;
+const Text = ({ variant = 'lg', ...props }) => {
+  let TextRender
 
   switch (variant) {
-    case "lg":
-      TextRender = ParagraphLg;
-      break;
-    case "small":
-      TextRender = ParagraphSmall;
-      break;
-    case "tag":
-      TextRender = ParagraphTag;
-      break;
-    case "p":
-      TextRender = Paragraph;
-      break;
+    case 'lg':
+      TextRender = ParagraphLg
+      break
+    case 'small':
+      TextRender = ParagraphSmall
+      break
+    case 'tag':
+      TextRender = ParagraphTag
+      break
+    case 'p':
+      TextRender = Paragraph
+      break
     default:
-      TextRender = ParagraphLg;
+      TextRender = ParagraphLg
   }
 
-  return <TextRender color="text" {...props} />;
-};
+  return <TextRender color="text" {...props} />
+}
 
-export default Text;
+export default Text
