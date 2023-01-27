@@ -21,8 +21,7 @@ const Hero = () => {
             <Col lg="11" xl="10" className="text-center">
               <Box>
                 <Title variant="secSm">
-                  I am taking new projects. Waiting to hearing about new
-                  projects, so if you'd like to chat please get in touch.
+                  Let's connect!
                 </Title>
 
                 <Box
@@ -31,20 +30,20 @@ const Hero = () => {
                 >
                   <div className="d-flex flex-column flex-lg-row justify-content-center">
                     <LinkContact
-                      href="mailto:contact@folio.design"
+                      href="jaimelevick@gmail.com"
                       target="_blank"
                       className="mb-2 mb-lg-0"
                     >
-                      contact@folio.design
+                      Email 
                     </LinkContact>
                     <span className="divider mx-2 mx-lg-4 d-none d-lg-block">
                       |
                     </span>
                     <LinkContact
-                      href="https://www.linkedin.com/folio"
+                      href="https://www.linkedin.com/in/jaimelevickoxner/"
                       target="_blank"
                     >
-                      linkedin.com/folio
+                      LinkedIn
                     </LinkContact>
                   </div>
                 </Box>

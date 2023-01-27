@@ -25,7 +25,7 @@ const Hero = () => {
                     gContext.toggleContact()
                   }}
                 >
-                  Let's Talk Now
+                  Let's Talk
                 </ButtonIcon>
               </div>
             </Col>

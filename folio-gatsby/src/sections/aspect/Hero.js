@@ -41,7 +41,7 @@ const Hero = () => {
               pb="3.125rem"
             >
               <div className="img-main text-center">
-                <ImgRight src={imgL} alt="" className="img-fluid" />
+                {/* <ImgRight src={imgL} alt="" className="img-fluid" /> */}
               </div>
             </Box>
             <Title
@@ -53,10 +53,10 @@ const Hero = () => {
                 letter-spacing: 1.63px;
               `}
             >
-              HI, I AM BRUCE RYAN
+              UX/UI
             </Title>
             <Title>
-              Full Stack UX Designer <br /> who loves nature!
+              Aspect <br /> Astrology App
             </Title>
           </Box>
         </Container>

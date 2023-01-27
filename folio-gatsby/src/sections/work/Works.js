@@ -4,22 +4,22 @@ import Masonry from 'react-masonry-component'
 
 import { Section, Box, ListNav } from '../../components/Core'
 import WorkCard from '../../components/WorkCard'
-import { devWorks1 } from '../../data'
+import devWorks2 from '../../data/devWorks2'
 
 const Works = () => {
   const [items, setItems] = useState([])
   const [activeLink, setActiveLink] = useState('*')
 
   useEffect(() => {
-    setItems(devWorks1)
+    setItems(devWorks2)
   }, [])
 
   const filterBy = cat => {
     if (cat === '*') {
       setActiveLink('*')
-      setItems(devWorks1)
+      setItems(devWorks2)
     } else {
-      const filteredItems = devWorks1.filter(item => {
+      const filteredItems = devWorks2.filter(item => {
         return item.categories.indexOf(cat) !== -1
       })
       setActiveLink(cat)

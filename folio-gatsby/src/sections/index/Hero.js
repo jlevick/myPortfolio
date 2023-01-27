@@ -27,12 +27,10 @@ const Hero = () => {
                   className="text-uppercase"
                   color="heading"
                 >
-                  UX DESIGNER WITH FRONT-END SKILLS
+                  UX Specialist with a love for research 
                 </Text>
                 <Title variant="hero">
-                  I'm a UX designer with web development experience and a love
-                  for research. I am passionate about utilizing copywriting to
-                  make things easier for people.
+                I'm Jaime, an inclusive designer living in Wyoming.
                 </Title>
 
                 <Box mt="52px">
@@ -43,7 +41,7 @@ const Hero = () => {
                     offset={-50}
                     duration={1000}
                   >
-                    <Button arrowRight>Check out my work</Button>
+                    <Button variant={'purple'}  arrowRight>Check out my work</Button>
                   </Link>
                 </Box>
               </Box>

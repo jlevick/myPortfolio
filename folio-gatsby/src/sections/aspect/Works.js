@@ -6,7 +6,7 @@ import Masonry from 'react-masonry-component'
 
 import { Title, Section, Box, Text, ButtonOutline } from '../../components/Core'
 import RotateImg from '../../components/RotateImg'
-import { designWorks2 } from '../../data'
+import devWorks2 from '../../data/devWorks2'
 import { useWindowSize } from '../../hooks'
 import { breakpoints } from '../../utils'
 
@@ -35,7 +35,7 @@ const Works = () => {
   const [items, setItems] = useState([])
 
   useEffect(() => {
-    setItems(designWorks2)
+    setItems(devWorks2)
   }, [])
 
   return (

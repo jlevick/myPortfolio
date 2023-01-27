@@ -5,7 +5,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 import GlobalContext from '../../context/GlobalContext'
 import { Title, ButtonIcon, Section, Box } from '../../components/Core'
 import bgHeroPattern from '../../assets/image/webp/hero-pattern.webp'
-import imgL from '../../assets/image/jpg/portfolio-about-3.jpg'
 
 const SectionStyled = styled(Section)`
   &::before {
@@ -29,13 +28,13 @@ const Hero = () => {
       <SectionStyled hero className="position-relative">
         <Container>
           <Box pb="40px">
-            <img
+            {/* <img
               src={imgL}
               alt=""
               css={`
                 border-radius: 50rem !important;
               `}
-            />
+            /> */}
           </Box>
           <Row className="align-items-lg-end">
             <Col lg="8" sm="12" className="mb-5 mb-lg-0">

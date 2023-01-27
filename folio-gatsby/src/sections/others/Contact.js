@@ -25,11 +25,10 @@ const Contact = ({ hero = true, bg = 'dark', ...rest }) => {
             <Col lg="6">
               <Box className="pr-lg-5">
                 <Title color="light" variant="secSm" mb="2rem">
-                  Contact now
+                 Let's touch base!
                 </Title>
                 <Text color="light" mb="2.75rem">
-                  Have a project or question? Send me a message. I will reply
-                  within 48 hours.
+                  I will respond to messages within 48 hours.
                 </Text>
                 <ContactForm theme="dark" />
               </Box>
@@ -39,16 +38,16 @@ const Contact = ({ hero = true, bg = 'dark', ...rest }) => {
                 <div>
                   <Text color="light">Email me at</Text>
 
-                  <a href="mailto:hello@folio.com" className="font-weight-bold">
-                    <Span color="primary">hello@folio.com</Span>
+                  <a href="mailto:jaimelevick@gmail.com" className="font-weight-bold">
+                    <Span color="primary">jaimelevick@gmail.com</Span>
                   </a>
                 </div>
                 <div className="mt-5">
                   <Text color="light">Call me at</Text>
 
                   <div>
-                    <a href="tel:+1-402-4983" className="font-weight-bold">
-                      <Span color="primary">+1-402-4983</Span>
+                    <a href="tel:+1-307-221-1069" className="font-weight-bold">
+                      <Span color="primary">+1-307-221-1069</Span>
                     </a>
                   </div>
                 </div>
