@@ -5,8 +5,6 @@ import { Link } from 'react-scroll'
 
 import { Title, Button, Section, Box, Text } from '../../components/Core'
 
-import { device } from '../../utils'
-import imgL from '../../../../doc/assets/images/aspect_profile_image_background@1x.png'
 
 const ImgRight = styled.img`
   max-width: 100%;
@@ -19,7 +17,7 @@ const Hero = () => {
       <Section hero className="position-relative">
         <Container>
           <Row className="align-items-center">
-            <Col lg="7" className="mb-5 mb-lg-0">
+            <Col lg="11" className="mb-5 mb-lg-0">
               <Box>
                 <Text
                   variant="tag"
@@ -27,10 +25,10 @@ const Hero = () => {
                   className="text-uppercase"
                   color="heading"
                 >
-                  UX Specialist with a love for research 
+                  UX Research Specialist 
                 </Text>
                 <Title variant="hero">
-                I'm Jaime, an inclusive designer living in Wyoming.
+                I'm Jaime, an inclusive designer based in Wyoming.
                 </Title>
 
                 <Box mt="52px">
@@ -41,17 +39,10 @@ const Hero = () => {
                     offset={-50}
                     duration={1000}
                   >
-                    <Button variant={'purple'}  arrowRight>Check out my work</Button>
+                    <Button variant={'purple'}  arrowRight>Check out my resume</Button>
                   </Link>
                 </Box>
               </Box>
-            </Col>
-            <Col lg="5" md="8" sm="9">
-              <div className="text-center text-lg-right position-relative">
-                <div className="img-main">
-                  <ImgRight src={imgL} alt="" />
-                </div>
-              </div>
             </Col>
           </Row>
         </Container>

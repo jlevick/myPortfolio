@@ -20,5 +20,5 @@ export const designWorks2 = [
     thumbnail: imgT2,
     halfWidth: false,
     link: '/portfolio-details',
-  },
+  }
 ]

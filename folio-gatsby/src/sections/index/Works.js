@@ -54,24 +54,11 @@ const Works = () => {
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === 'branding' ? 'active' : null
+                    activeLink === 'ux' ? 'active' : null
                   }`}
                   onClick={e => {
                     e.preventDefault()
-                    filterBy('branding')
-                  }}
-                >
-                  Branding
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === 'ux-design' ? 'active' : null
-                  }`}
-                  onClick={e => {
-                    e.preventDefault()
-                    filterBy('ux-design')
+                    filterBy('ux')
                   }}
                 >
                   UX Design
@@ -80,14 +67,14 @@ const Works = () => {
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === 'photography' ? 'active' : null
+                    activeLink === 'webdev' ? 'active' : null
                   }`}
                   onClick={e => {
                     e.preventDefault()
-                    filterBy('photography')
+                    filterBy('webdev')
                   }}
                 >
-                  Photography
+                  Web Dev
                 </a>
               </li>
             </ListNav>

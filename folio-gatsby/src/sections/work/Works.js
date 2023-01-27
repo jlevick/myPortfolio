@@ -61,7 +61,7 @@ const Works = () => {
                     filterBy('ui-design')
                   }}
                 >
-                  UI Design
+                  UX Design
                 </a>
               </li>
               <li className="nav-item">

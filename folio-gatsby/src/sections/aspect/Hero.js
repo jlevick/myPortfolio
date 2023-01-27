@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap'
 import { Title, Section, Box } from '../../components/Core'
 
 import bgHeroPattern from '../../assets/image/webp/hero-pattern.webp'
-import imgL from '../../assets/image/jpg/portfolio-about-2.jpg'
+import imgL from '../../assets/image/jpg/photo/regular/portfolio-about-2.jpg'
 
 const SectionStyled = styled(Section)`
   &::before {
@@ -41,7 +41,7 @@ const Hero = () => {
               pb="3.125rem"
             >
               <div className="img-main text-center">
-                {/* <ImgRight src={imgL} alt="" className="img-fluid" /> */}
+                <ImgRight src={imgL} alt="" className="img-fluid" />
               </div>
             </Box>
             <Title
@@ -56,7 +56,7 @@ const Hero = () => {
               UX/UI
             </Title>
             <Title>
-              Aspect <br /> Astrology App
+              Aspect
             </Title>
           </Box>
         </Container>

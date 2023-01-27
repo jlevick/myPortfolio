@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import { Container, Row, Col } from 'react-bootstrap'
 
 import { Section, Title, Text, Span } from '../../components/Core'
-import imgPhoto from '../../assets/image/jpg/portfolio-about-2.jpg'
-// import imgSignLight from '../../assets/image/png/signature.png'
+import imgPhoto from '../../assets/image/jpg/photo/regular/portfolio-about-2.jpg'
+import imgSignLight from '../../assets/image/png/signature.png'
 
 const LinkSocial = styled.a`
   color: ${({ theme }) => theme.colors.light} !important;
