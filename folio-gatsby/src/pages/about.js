@@ -7,7 +7,7 @@ import About from '../sections/others/About'
 const AboutPage = () => {
   return (
     <>
-      <PageWrapper darkTheme>
+      <PageWrapper lightTheme>
         <Box pt={4}>
           <About />
         </Box>

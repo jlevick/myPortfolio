@@ -15,7 +15,7 @@ const Hero = ({ className = 'justify-content-center', ...rest }) => {
       <Box className={`d-flex align-items-center ${className}`} {...rest}>
         <AvailableCircle className="bg-success" mr="13px" />
         <Text variant="tag" className="text-uppercase" color="heading">
-          AVAILABLE FOR FREELANCE PROJECTS
+          AVAILABLE FOR REMOTE POSITIONS
         </Text>
       </Box>
     </>

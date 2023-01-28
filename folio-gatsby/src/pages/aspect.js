@@ -8,7 +8,7 @@ import CTA from '../sections/aspect/CTA'
 const IndexPage = () => {
   return (
     <>
-      <PageWrapper darkTheme>
+      <PageWrapper lightTheme>
         <Hero />
         <Works />
         <CTA />

@@ -4,7 +4,7 @@ import { Element } from 'react-scroll'
 import PageWrapper from '../components/PageWrapper'
 import Hero from '../sections/index/Hero'
 import Works from '../sections/index/Works'
-import Contact from '../sections/index/Contact'
+import CTA from '../sections/aspect/CTA'
 
 const IndexPage = () => {
   return (
@@ -15,7 +15,7 @@ const IndexPage = () => {
           <Works />
         </Element>
 
-        <Contact />
+        <CTA />
       </PageWrapper>
     </>
   )

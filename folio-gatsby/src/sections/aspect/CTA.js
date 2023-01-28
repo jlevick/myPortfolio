@@ -45,6 +45,15 @@ const Hero = () => {
                     >
                       LinkedIn
                     </LinkContact>
+                    <span className="divider mx-2 mx-lg-4 d-none d-lg-block">
+                      |
+                    </span>
+                    <LinkContact
+                      href="https://github.com/jlevick"
+                      target="_blank"
+                    >
+                      GitHub
+                    </LinkContact>
                   </div>
                 </Box>
               </Box>

@@ -39,7 +39,7 @@ const Hero = () => {
                     offset={-50}
                     duration={1000}
                   >
-                    <Button variant={'purple'}  arrowRight>Check out my resume</Button>
+                    <Button variant={'#3D675D'}  arrowRight>Check out my resume</Button>
                   </Link>
                 </Box>
               </Box>

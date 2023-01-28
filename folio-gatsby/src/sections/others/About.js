@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Container, Row, Col } from 'react-bootstrap'
 
 import { Section, Title, Text, Span } from '../../components/Core'
-import imgPhoto from '../../assets/image/jpg/photo/regular/portfolio-about-2.jpg'
+import imgPhoto from '../../assets/image/png/jaime.png'
 import imgSignLight from '../../assets/image/png/signature.png'
 
 const LinkSocial = styled.a`

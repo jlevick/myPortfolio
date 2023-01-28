@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap'
 import { Title, Section, Box } from '../../components/Core'
 
 import bgHeroPattern from '../../assets/image/webp/hero-pattern.webp'
-import imgL from '../../assets/image/png/aspect_index@2x.png'
+import imgL from '../../assets/image/png/aspect_hero.png'
 
 const SectionStyled = styled(Section)`
   &::before {
@@ -21,10 +21,10 @@ const SectionStyled = styled(Section)`
 `
 
 const ImgRight = styled.img`
-  border-radius: 50%;
+  border-radius: 10%;
   transition: 0.4s;
   &:hover {
-    transform: scale(0.8) rotate(-16deg);
+    transform: scale(0.8) rotate(-4deg);
     box-shadow: 0 32px 74px rgba(68, 77, 136, 0.2);
   }
 `
@@ -35,7 +35,7 @@ const Hero = () => {
       {/* <!-- Hero Area --> */}
       <SectionStyled hero className="position-relative">
         <Container>
-          <Box className="d-flex flex-column align-items-center text-center">
+          <Box className="d-flex flex-column text-center">
             <Box
               className="text-center text-lg-right position-relative"
               pb="3.125rem"

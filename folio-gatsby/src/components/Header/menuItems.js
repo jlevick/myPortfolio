@@ -6,6 +6,7 @@ export const menuItems = [
       // case studies below
       { name: 'aspect', label: 'aspect' },
       { name: 'front-end-portfolio', label: 'front end portfolio' },
+      //{ name: 'seans-legacy', label: 'sean's legacy' },
     ],
   },
 ]
