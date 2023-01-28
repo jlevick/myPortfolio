@@ -42,14 +42,15 @@ const About = ({ hero = true, bg = 'dark', ...rest }) => {
                     line-height: .07;
                   `}
                 >
-                  With 10+ years of experience in customer-facing roles and an educational background in sociocultural anthropology and gender studies, I have developed an affinity for enhancing every user's experience. <br />
+                  With 10+ years of experience in customer-facing roles and an educational background in anthropology and gender studies, I have developed an affinity for enhancing every user's experience. <br />
                   <br /> 
-                  I am an open and empathetic communicator who prefers to lift the figurative stone in every conversation, awed by what crawls out and the gems that always seem to be hidden underneath. <br />
-                  I focus on delivering high-quality results rather than seeking recognition or accolades. I see failure as an opportunity to learn and am not afraid to ask those "silly" questions. <br />
-                  <br /> I love anything I can zone in to: climbing, snowboarding, research, organization, deep abstract thinking ... you get the idea!
+                  I'm an open and empathetic communicator who strives for inclusivity and accessibility in my work.
+                  I prefer to lift the figurative stone in every conversation, awed by what crawls out and the gems that always seem to be hidden underneath. <br />
+                  <br /> Focused on delivering high-quality results rather than seeking recognition, I see failure as an opportunity to grow and I'm not afraid to ask the "silly" questions. <br />
+                  <br /> I enjoy anything I can zone in to: climbing, snowboarding, research, writing, organization, deep abstract thinking ... you get the idea.
                 </Text>
                 <Text color="light" className="mt-4">
-                  I strive for inclusivity and accessibility in my work.
+                  
                 </Text>
                 <div className="mt-4">
                   <Text color="light">Want to learn more? Send me a message!</Text>

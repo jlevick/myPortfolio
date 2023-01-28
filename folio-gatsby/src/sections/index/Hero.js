@@ -25,7 +25,7 @@ const Hero = () => {
                   className="text-uppercase"
                   color="heading"
                 >
-                  UX Research Specialist 
+                  UX Researcher and Content Designer
                 </Text>
                 <Title variant="hero">
                 I'm Jaime, an inclusive designer based in Wyoming.
