@@ -6,11 +6,11 @@ import { Link } from 'react-scroll'
 import { Title, Section, Box, Text, Button } from '../../components/Core'
 import IconCircle from '../../components/IconCircle'
 
-import bgHero from '../../assets/image/png/dev-bg.png'
+import bgHero from '../../assets/image/png/portfolio_mockup_index@2x.png'
 
 const SectionStyled = styled(Section)`
   &::before {
-    opacity: 0.085;
+    opacity: 0;
     position: absolute;
     top: 0;
     content: '';
@@ -34,12 +34,10 @@ const Hero = () => {
       >
         <Container>
           <Box className="d-flex flex-column align-items-center text-center">
-            <IconCircle mb="2.5rem">
-              <i className="icon icon-code-2"></i>
-            </IconCircle>
+            
 
             <Title variant="hero" mb="1.5rem">
-              Code. Eat. Sleep.
+              Front-End Portfolio
             </Title>
             <Text
               color="text"
@@ -48,9 +46,7 @@ const Hero = () => {
               `}
               mb="2.5rem"
             >
-              I create meaningful solutions for your brands and products.
-              <br />
-              Give your customers the best experience possible.
+              A responsive portfolio site built with HTML, CSS, and vanilla JavaScript.
             </Text>
             <Link
               to="works"
@@ -59,7 +55,7 @@ const Hero = () => {
               offset={-50}
               duration={1000}
             >
-              <Button>Check latest works</Button>
+             
             </Link>
           </Box>
         </Container>

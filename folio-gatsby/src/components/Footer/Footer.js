@@ -22,7 +22,7 @@ const Footer = ({ isDark = true }) => {
               css={`
                 font-size: 0.8125rem;
               `}
-              className="text-uppercase"
+              className="text-normal"
             >
               © Jaime Levick-Oxner 2023
             </Title>

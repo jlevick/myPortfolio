@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap'
 import { Title, Section, Box } from '../../components/Core'
 
 import bgHeroPattern from '../../assets/image/webp/hero-pattern.webp'
-import imgL from '../../assets/image/png/aspect_hero.png'
+import imgL from '../../assets/image/png/aspect_hero@2x.png'
 
 const SectionStyled = styled(Section)`
   &::before {
@@ -22,9 +22,9 @@ const SectionStyled = styled(Section)`
 
 const ImgRight = styled.img`
   border-radius: 10%;
-  transition: 0.4s;
+  transition: 0.8s;
   &:hover {
-    transform: scale(0.8) rotate(-4deg);
+    transform: scale(0.8) rotate(-2deg);
     box-shadow: 0 32px 74px rgba(68, 77, 136, 0.2);
   }
 `
@@ -58,6 +58,7 @@ const Hero = () => {
             <Title>
               Aspect
             </Title>
+            <p>A comprehensive astrology resource offering access to your birth chart, vetted professional astrologers, and a community of astro-enthusiasts. Designed in Figma for iOS mobile.</p>
           </Box>
         </Container>
       </SectionStyled>
