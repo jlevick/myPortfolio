@@ -30,17 +30,10 @@ const Hero = () => {
                 <Title variant="hero">
                 I'm Jaime, an inclusive designer based in Wyoming.
                 </Title>
-
                 <Box mt="52px">
-                  <Link
-                    to="works"
-                    spy={true}
-                    smooth={true}
-                    offset={-50}
-                    duration={1000}
-                  >
+                <a target='_blank' rel="noreferrer" href={'static/levick_oxner_resume.pdf'}>
                     <Button variant={'#3D675D'}  arrowRight>Check out my resume</Button>
-                  </Link>
+                </a>
                 </Box>
               </Box>
             </Col>
