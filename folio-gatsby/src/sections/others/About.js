@@ -25,12 +25,12 @@ const About = ({ hero = true, bg = 'dark', ...rest }) => {
       <Section hero={hero} bg={bg} {...rest}>
         <Container>
           <Row className="align-items-center">
-            <Col lg="6">
+            <Col lg="4">
               <div>
                 <img src={imgPhoto} alt="folio" className="img-fluid" />
               </div>
             </Col>
-            <Col lg="6">
+            <Col lg="8">
               <div className="pl-lg-4 pt-5 pt-lg-0">
                 <Title color="light" variant="secSm">
                   Hi! I'm Jaime.

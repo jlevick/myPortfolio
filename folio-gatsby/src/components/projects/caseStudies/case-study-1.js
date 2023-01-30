@@ -23,47 +23,72 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
     <>
       <Section hero={hero} bg={bg} {...rest}>
         <Container>
-          <Row className="align-items-center">
-            <Col lg="6">
-              <div>
-                <img src={imgPhoto} alt="folio" className="img-fluid" />
+          <Row className="align-items-start">
+            <Col lg="5">
+              <div className="pl-lg-4 pt-5 pt-lg-0">
+                  <Title color="light" variant="secSm">
+                    Duration
+                  </Title>
+                  <Text
+                    color="light"
+                    className="mt-4 mb-5"
+                    css={`
+                      line-height: .07;
+                    `}
+                    >
+                      6 months
+                  </Text>
+                  <Title color="light" variant="secSm">
+                    My Role
+                  </Title>
+                  <Text
+                    color="light"
+                    className="mt-4 mb-5"
+                    css={`
+                      line-height: .07;
+                    `}
+                  >
+                    UX/UI Designer
+                  </Text>
+                  <Title color="light" variant="secSm">
+                    The Challenge
+                  </Title>
+                  <Text
+                    color="light"
+                    className="mt-4 mb-5"
+                    css={`
+                      line-height: .07;
+                    `}
+                  >
+                    Design the minimum viable product (MVP) of a mobile app that allows users to instantly connect with astrologers in order to ask astro-related questions.
+                  </Text>
               </div>
             </Col>
-            <Col lg="6">
-              <div className="pl-lg-4 pt-5 pt-lg-0">
+            <Col lg="5">
+              <div className="pl-4 pl-lg-4">
                 <Title color="light" variant="secSm">
-                Duration
+                Tools
                 </Title>
                 <Text
                   color="light"
-                  className="mt-3 mt-lg-5"
+                  className="mt-4 mb-5"
                   css={`
                     line-height: .07;
                   `}
                 >
-                  Aspect is a comprehensive astrology resource offering access to your unique birth chart, vetted professional astrologers, and a community of astro-enthusiasts. 
-                  <br /> 
-                  I'm an open and empathetic communicator who strives for inclusivity and accessibility in my work.
-                  I prefer to lift the figurative stone in every conversation, awed by what crawls out and the gems that always seem to be hidden underneath. <br />
-                  <br /> Focused on delivering high-quality results rather than seeking recognition, I see failure as an opportunity to grow and I'm not afraid to ask the "silly" questions. <br />
-                  <br /> I enjoy anything I can zone in to: climbing, snowboarding, research, writing, organization, deep abstract thinking ... you get the idea.
+                  Figma, Miro, UsabilityHub, Optimal Workshop
                 </Text>
-                <Text color="light" className="mt-4">
-                  
-                </Text>
-                <div className="mt-4">
-                  <Text color="light">Want to learn more? Send me a message!</Text>
+                <Title color="light" variant="secSm">
+                Type
+                </Title>
+                <div className="mt-4 mb-5">
+                  <Text color="light"> Independent Project for CareerFoundry's UX Immersive</Text>
 
                   <Text variant="p">
-                    <a
-                      href="mailto:jaimelevick@gmail.com"
-                      className="font-weight-bold"
-                    >
-                      <Span color="light">jaimelevick@gmail.com</Span>
-                    </a>
+                    
                   </Text>
                 </div>
-                <div className="mt-5">
+                <div className="mt-4 mb-5">
                 </div>
                 <Text color="light" className="mt-3 font-weight-bold">
                 </Text>
