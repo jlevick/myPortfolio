@@ -22,9 +22,9 @@ const Footer = ({ isDark = true }) => {
               css={`
                 font-size: 0.8125rem;
               `}
-              className="text-normal"
+              className="text-small"
             >
-              © Jaime Levick-Oxner 2023
+             I built this site using Gatsby © Jaime Levick-Oxner 2023
             </Title>
           </div>
         </Container>

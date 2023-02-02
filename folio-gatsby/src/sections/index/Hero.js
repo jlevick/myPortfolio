@@ -25,10 +25,10 @@ const Hero = () => {
                   className="text-uppercase"
                   color="heading"
                 >
-                  UX Researcher and Content Designer
+                  UX Research and Content Design
                 </Text>
                 <Title variant="hero">
-                I'm Jaime, an inclusive designer based in Wyoming.
+                I strive to design clear, concise, and consistent content.
                 </Title>
                 <Box mt="52px">
                 <a target='_blank' rel="noreferrer" href={'static/levick_oxner_resume.pdf'}>
