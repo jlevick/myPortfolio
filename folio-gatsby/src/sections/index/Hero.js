@@ -28,11 +28,11 @@ const Hero = () => {
                   UX Research and Content Design
                 </Text>
                 <Title variant="hero">
-                I strive to design clear, concise, and consistent content.
+                Crafting better digital experiences through clear, concise content.
                 </Title>
                 <Box mt="52px">
                 <a target='_blank' rel="noreferrer" href={'static/levick_oxner_resume.pdf'}>
-                    <Button variant={'#3D675D'}  arrowRight>Check out my resume</Button>
+                    <Button variant={'#3D675D'}  arrowRight>Download my resume</Button>
                 </a>
                 </Box>
               </Box>

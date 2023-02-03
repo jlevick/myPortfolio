@@ -42,12 +42,23 @@ const About = ({ hero = true, bg = 'dark', ...rest }) => {
                     line-height: .07;
                   `}
                 >
-                  With 10+ years of experience in customer-facing roles and an educational background in anthropology and gender studies, I have developed an affinity for enhancing every user's experience. <br />
-                  <br /> 
-                  I'm an open and empathetic communicator who strives for inclusivity and accessibility in my work.
-                  I prefer to lift the figurative stone in every conversation, awed by what crawls out and the gems that always seem to be hidden underneath. <br />
-                  <br /> Focused on delivering high-quality results rather than seeking recognition, I see failure as an opportunity to grow and I'm not afraid to ask the "silly" questions. <br />
-                  <br /> I enjoy anything I can zone in to: climbing, snowboarding, research, writing, organization, deep abstract thinking ... you get the idea.
+                  With 10+ years experience in customer-facing roles and a background in anthropology and gender studies, I have developed an affinity for enhancing every user's experience. <br />
+                  <br />
+                  To ensure useful and positive experiences, I seek to bring clarity to every interaction. 
+                  I'm an open and empathetic communicator who strives for inclusivity and accessibility in my work.  
+                  In conversation I endeavor to lift the figurative stone, awed by what may crawl out and the gems that always seem to be hidden underneath. 
+                  <br />
+                  <br /> While happily autonomous, my creativity thrives when given clear parameters.
+                  Focused on delivering high-quality results rather than seeking recognition, I see failure as an opportunity to grow and I'll happily ask the silly questions. <br />
+                  <br /> I enjoy anything I can zone in to: 
+                  <li>climbing</li>
+                  <li>snowboarding</li>
+                  <li>research</li>
+                  <li>writing</li>
+                  <li>organization</li>
+                  <li>learning to code</li>
+                  <li>deep abstract thinking</li>
+                  <br/>... you get the idea!
                 </Text>
                 <Text color="light" className="mt-4">
                   

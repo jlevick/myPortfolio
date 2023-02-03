@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-bootstrap'
-import imgPhoto from '../../../assets/image/png/jaime_small.png'
+import imgPhoto from '../../../assets/image/png/swot_sanctuary.png'
+import imgPhoto1 from '../../../assets/image/png/swot_kasamba.png'
+import imgPhoto2 from '../../../assets/image/png/aspect_piechart.png'
 
 import {
   Title,
@@ -21,46 +23,91 @@ const CaseStudy1Body = () => {
           <Row className="justify-content-center align-items-center">
             <Box className="pl-lg-4 pt-5 pt-lg-0">
                 <Title variant="secSm">
-                    01 Research
+                    01 Discover
                 </Title>
+                <Title
+              variant="card"
+              mb="2.5rem"
+              fontSize="1rem"
+              className="text-uppercase"
+              css={`
+                letter-spacing: 1.63px;
+              `}
+            >
+              Business Opportunity - Competitive Analysis - Survey - User Interviews 
+            </Title>
                 <Text
                     className="mt-4 mb-5"
                     css={`
                       line-height: .07;
                     `}
                     >
-                      here is a bunch of info.
+                      Astrology offers personal guidance and is a growing $2.2 billion industry. Aspect, an astrology app, stands out in the market as the only one offering its unique services, making it a promising opportunity for investors.
                   </Text>
             </Box>
             <Box>
             <img src={imgPhoto} alt="folio" className="img-fluid" />
             </Box>
+            <Box>
+            <img src={imgPhoto1} alt="folio" className="img-fluid" />
+            </Box>
             <Box className="pl-lg-4 pt-5 pt-lg-0">
                 <h2 variant="secSm">
-                    Survey
+                Top 3 Market Gaps to Fill
                 </h2>
+                <Title
+              variant="card"
+              mb="2.5rem"
+              fontSize="1rem"
+              className="text-uppercase"
+              css={`
+                letter-spacing: 1.63px;
+              `}
+            >
+              Based on S.W.O.T analyses of Sanctuary Astrology and Kasamba 
+            </Title>
                 <Text
                     className="mt-4 mb-5"
                     css={`
                       line-height: .07;
                     `}
                     >
-                      here is a bunch of info.
+                   <h4>Pricing</h4> 
+                        <li>We need to offer upfront, transparent pricing.</li>
+                   <h4>Qualifications</h4> 
+                        <li>We need to attract vetted astrologers and list their qualifications.</li>
+                   <h4>Reviews</h4> 
+                        <li>We need to make it easy to find user reviews.</li>
                   </Text>
             </Box>
             <Box className="pl-lg-4 pt-5 pt-lg-0">
-                <h3 variant="secSm">
-                    Another smaller heading
-                </h3>
                 <Text
                     className="mt-4 mb-5"
                     css={`
                       line-height: .07;
                     `}
                     >
-                      more information.
-                  </Text>
+                    After determining the viability of the project, I surveyed 22 people in order to gather information about their interest in astrology and what they look for in an astrologer. The survey was open to everyone.
+                </Text>
             </Box>
+            <Box>
+                <img src={imgPhoto2} alt="folio" className="img-fluid" />
+            </Box>
+                <Text
+                    className="mt-4 mb-5"
+                    css={`
+                      line-height: .07;
+                    `}
+                    >
+                     The most important criteria when seeking an astrologer:
+                    <li>Verified Expertise</li>
+                    <li>Astrologer's Background (63.6%)</li>
+                    <li>Client Reviews (45.5%)</li>
+                    <br/>People ultimately don't book astrology readings because they are:
+                    <li>Unsure of the astrologer's credibility (64.7%)</li>
+                    <li>Unsure of whom to book with (64.7%)</li>
+
+                </Text>
           </Row>
         </Container>
       </Section>
