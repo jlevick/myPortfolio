@@ -15,6 +15,19 @@ const Paragraph = styled.p`
   ${shadow};
 `
 
+const Link = styled.a`
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 1.0625rem;
+  letter-spacing: -0.2px;
+  line-height: 1.71;
+
+  ${color};
+  ${space};
+  ${typography};
+  ${shadow};
+`
+
 const ListItem = styled.li`
   margin-bottom: 0;
   font-weight: 400;
@@ -92,6 +105,9 @@ const Text = ({ variant = 'lg', ...props }) => {
       break
     case 'li':
       TextRender = ListItem
+      break
+    case 'a':
+      TextRender = Link
       break
     default:
       TextRender = ParagraphLg

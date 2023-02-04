@@ -9,6 +9,14 @@ import imgPhoto5 from '../../../assets/image/png/aspect_userflow_hannah@2px.png'
 import imgPhoto6 from '../../../assets/image/png/aspect_browse_iteration@2x.png'
 import imgPhoto7 from '../../../assets/image/jpg/aspect_early_prototype@2px.jpg'
 import imgPhoto8 from '../../../assets/image/jpg/aspect_research_notes@2px.jpg'
+import imgPhoto9 from '../../../assets/image/png/aspect_preference_option_a@2x.png'
+import imgPhoto10 from '../../../assets/image/png/aspect_preference_option_b@2x.png'
+import imgPhoto11 from '../../../assets/image/png/aspect_design_crit_before@2x.png'
+import imgPhoto12 from '../../../assets/image/png/aspect_design_crit_after@2x.png'
+import imgPhoto13 from '../../../assets/image/png/aspect_sneak_peek_browse@2x.png'
+import imgPhoto14 from '../../../assets/image/png/aspect_sneak_peek_my_chart@2x.png'
+import imgPhoto15 from '../../../assets/image/png/aspect_sneak_peek_community@2x.png'
+import imgPhoto16 from '../../../assets/image/png/aspect_final_mockups@2px.png'
 
 import {
   Title,
@@ -68,11 +76,13 @@ const CaseStudy1Body = () => {
                   Based on S.W.O.T analyses of Sanctuary Astrology and Kasamba 
                 </Title>
                 <h4>Pricing</h4> 
-                <Text variant='li'>We need to offer <b>upfront, transparent pricing</b>.</Text>
+                <Text variant='li'>We need to offer <b>upfront, transparent pricing</b></Text>
+                  <br />
                 <h4>Qualifications</h4> 
-                <Text variant='li'>We need to attract <b>qualified astrologers</b> and relay their qualifications.</Text>
+                <Text variant='li'>We need to attract <b>qualified astrologers</b> and relay their qualifications</Text>
+                  <br />
                 <h4>Reviews</h4> 
-                <Text variant='li'>We need to make it <b>easy to find user reviews</b>.</Text>
+                <Text variant='li'>We need to make it <b>easy to find user reviews</b></Text>
               </Col>
             </Row>
             <Row className="justify-content-center align-items-center">
@@ -104,12 +114,14 @@ const CaseStudy1Body = () => {
                 </ul>
                 <br />
                 <Text>The survey was followed up by user interviews with 4 self identified astro-enthusiasts. The goal of these interviews was to gain a deeper understanding of people's <b>motivations</b> for following astrology, their <b>experiences</b> working with astrologers, and their <b>expectations</b> of astrological content.</Text>
+                <br />
                 <h3>User Interview Key Findings</h3>
                 <ul type='circle' className='pl-4'>
                   <Text variant='li'><b>Users engage with astrology for fun, connection, and self knowledge.</b></Text>
                   <Text variant='li'><b>Users won't book readings if they aren't certain the astrologer is trustworthy.</b></Text>
                   <Text variant='li'><b>No single astrology resource provides all the information users need.</b></Text>
                 </ul>
+                <br />
               </Col>
             </Row>
           </Col>
@@ -194,7 +206,7 @@ const CaseStudy1Body = () => {
                   line-height: .07;
                 `}
               >
-                The culmination resulted in 3 Main App Features
+                <h4>The culmination resulted in 3 Main App Features</h4>
                 <ul type='circle' className='pl-4'>
                   <Text variant='li'>A way for Hannah to find an astrologer who fits their needs <b>(Browse and Chat)</b></Text>
                   <Text variant='li'>A way for Vanessa to connect with others <b>(Community Chat)</b></Text>
@@ -228,12 +240,14 @@ const CaseStudy1Body = () => {
               >
                 With a clear understanding of target users and required screens, I used a hybrid card sort to create Aspect’s site map. I then created low-fidelity wireframes using pen and paper, including copy to provide context to the designs. After refining my ideas, I moved on to designing in Figma.
               </Text>
-                <Row>
-                  <img src={imgPhoto6} alt="folio" className="img-fluid" />
-                </Row>
+              <Row>
+                <img src={imgPhoto6} alt="folio" className="img-fluid" />
+              </Row>
             </Box>
             <Box className="pl-lg-4 pt-5 pt-lg-0">
+              <br />
               <Text>Above is an example of the iterative process for one of Aspect's main features, <b>Browse Astrologers</b>.</Text>
+              <br />
             </Box>
           </Row>
           {/* <!-- 04 Prototype --> */}
@@ -242,8 +256,9 @@ const CaseStudy1Body = () => {
               <Title variant="secSm">
                   04 Prototype
               </Title>
+                <br />
                 <Row>
-                  <img src={imgPhoto7} alt="folio" className="img-fluid" />
+                    <img src={imgPhoto7} alt="folio" className="img-fluid" />
                 </Row>
               <Text
                 className="mt-4 mb-5"
@@ -255,11 +270,11 @@ const CaseStudy1Body = () => {
               </Text>
             </Box>
             <Box className="pl-lg-4 pt-5 pt-lg-0">
-              <Text>Click here to see the final prototype for Aspect.</Text>
+              <Text target="_blank" href="https://www.figma.com/proto/W2qPXH6fRc4VrBPhPlc93i/Aspect-v11?node-id=1334%3A7185&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1330%3A7221"variant='a'><u><b>Click here to see the final prototype for Aspect</b></u>.</Text>
             </Box>
           </Row>
            {/* <!-- 05 Test --> */}
-           <Row className="justify-content-center align-items-center">
+          <Row className="justify-content-center align-items-center">
             <Box className="pl-lg-4 pt-5 pt-lg-0">
               <Title variant="secSm">
                   05 Test
@@ -291,14 +306,162 @@ const CaseStudy1Body = () => {
               <h4 variant="secSm">
                 Task Scenario Example
               </h4>
-              <Text>You've registered for the app and can now see if there are any astrologers you might be interested in connecting with. How would you go about finding someone and then connecting with them? Please show me.</Text>
+              <Text><i>You've registered for the app and can now see if there are any astrologers you might be interested in connecting with. How would you go about finding someone and connecting with them? Please show me.</i></Text>
             </Box>
-            <Box className="pl-lg-4 pt-5 pt-lg-0">
-              <h2 variant="secSm">
+          </Row>
+          <Row className="justify-content-center align-items-center">
+            <Col>
+                <br />
+                <br />
+              <h2>
                 Usability Test Key Findings
               </h2>
-              <Text>You've registered for the app and can now see if there are any astrologers you might be interested in connecting with. How would you go about finding someone and then connecting with them? Please show me.</Text>
+                <br />
+              <h4>Information Overload</h4>
+              <Text variant="li">Astrologer's profile is <b>too busy</b></Text>
+              <Text variant="li"><b>3 out of 6</b> experienced information overload on astrologer's profile, and 2 participants wanted more drop down content</Text>
+                <br />
+              <h4>Confusing Copy</h4>
+              <Text variant="li">"Readings" <b>copy</b> in menu <b>is confusing</b></Text>
+              <Text variant="li"><b>3 out of 6</b> expressed confusion with the term “Readings”, thinking it was their past chart readings and not where to find astrologers</Text>
+                <br />
+              <h4>Expectations</h4>
+              <Text variant="li">Users expect <b>option to contact astrologer</b> prior to booking</Text>
+              <Text variant="li"><b>3 out of 6</b> want to reach out to an astrologer before committing to a reading in order to feel assurance</Text>
+            </Col>
+          </Row>
+          <Row className="justify-content-center align-items-center">
+           <Col>
+           <br />
+           <br />
+            <h3>Implemented Changes</h3>
+            <Text variant="li">Designed drop downs for About Me and Qualifications in astrologer's profile, mitigating information overload</Text>
+            <Text variant="li">Changed menu copy from “Readings” to “Readers", adding clarity</Text>
+            <Text variant="li">Designed Messages feature, allowing users to easily contact astrologers </Text>
+           </Col>  
+          </Row>
+          <Row>
+            <Col>
+              <br />
+              <Text>
+              The feedback I received from usability testing allowed me to clean up screens, thereby reducing confusion. Based on test results I <b>redesigned 3 screens</b> and <b>12 participants voted on which they preferred</b>.
+              </Text>
+              <br />
+              <Text>
+                <b>Below are results for the Home screen.</b>
+              </Text>
+            </Col>
+          </Row>
+          <br />
+          <Row>
+            <h4>Option A: 17% of votes</h4>
+            <img src={imgPhoto9} alt="folio" className="img-fluid" />
+          </Row>
+          <Row>
+            <h4>Option B: 83% of votes</h4>
+            <img src={imgPhoto10} alt="folio" className="img-fluid" />
+          </Row>
+          <Row>
+            <Col>
+              <Text>
+                <b>Why Option B? Participants said it's</b>
+              </Text>
+              <Text variant='li'>Cleaner</Text>
+              <Text variant='li'>Easier to navigate</Text>
+              <Text variant='li'>More organized</Text>
+              <Text variant='li'>Easier on the eyes</Text>
+              <Text variant='li'>More consistent</Text>
+              <Text variant='li'>Less old-school</Text>
+            </Col>
+          </Row>
+          <br />
+          <Row>
+            <Col>
+              <h3>What do my peers think?</h3>
+              <Text>Before finalizing designs I participated in <b>design critiques</b>, receiving (and giving) feedback from 5 peers. Below is a single example of <b>feedback I received and how I implemented changes</b>.</Text>
+            </Col>
+          </Row>
+          <br />
+          <Row>
+            <Col>
+              <Text><b>Before Changes</b></Text>
+              <img src={imgPhoto11} alt="folio" className="img-fluid" />
+              <Text><b>After Changes</b></Text>
+              <img src={imgPhoto12} alt="folio" className="img-fluid" />
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+            <h4>Feedback</h4>
+            <Text><i>“I think this profile page is very well laid out. One thing that confuses me is the bell and the word 'online' next to it. I can't tell if it's two separate icons or if they are supposed to correspond together.” - L.</i></Text>
+             <br />
+            <h4>Reasoning</h4>
+            <Text>The bell icon for scheduling a reading was confusing without proper context. After further consideration, I realized the user only learns about the bells’ purpose if they click on Rates and Info. This led me to consider adding a third status, ”In Reading”, to indicate the astrologer is online but busy. I considered designing a timer to display how long they'll be occupied but I haven't pursued this yet as it will require additional time to design in a user-friendly, aesthetically pleasing way. </Text>
+            </Col>
+          </Row>
+          <br />
+          <Row className="justify-content-center align-items-center">
+            <Box className="pl-lg-4 pt-5 pt-lg-0">
+              <Title variant="secSm">
+                  06 Document
+              </Title>
+              <Text
+                className="mt-4 mb-5"
+                css={`
+                  line-height: .07;
+                `}
+              >
+                I made informed decisions regarding feedback by applying my <b>design system</b>, <b>style guide</b>, and <b>accessibility knowledge</b> to justify declining any proposed changes.
+              </Text>
             </Box>
+            <Box className="pl-lg-4 pt-5 pt-lg-0">
+              <Text target="_blank" href="https://www.figma.com/file/49BqqEEEOIOpWnxEugs8eQ/Aspect-Design-System-%26-Style-Sheet?node-id=0%3A1"variant='a'><u><b>You can find the design system and style guide for Aspect by clicking on this link</b></u>.</Text>
+            </Box>
+          </Row>
+           <br />
+          <Row className="justify-content-center align-items-center">
+            <Box className="pl-lg-4 pt-5 pt-lg-0">
+              <img src={imgPhoto16} alt="folio" className="img-fluid" />
+              <Title variant="secSm">
+                  07 Final Designs and Reflections
+              </Title>
+                <br />
+                <Row>
+                  <h3>Browse and Chat with an astrologer</h3>>
+                  <img src={imgPhoto13} alt="folio" className="img-fluid" />
+                  <h3>My Chart</h3>
+                  <img src={imgPhoto14} alt="folio" className="img-fluid" />
+                  <h3>Community Chat</h3>
+                  <img src={imgPhoto15} alt="folio" className="img-fluid" />
+                </Row>
+              <Text
+                className="mt-4 mb-5"
+                css={`
+                  line-height: .07;
+                `}
+              >
+                Final iterations took in to account <b>web accessibility best practices</b>, <b>usability heuristics</b>, and the real-life <b>feedback</b> of everyone who helped shape Aspect. I designed a minimum viable product <b>(MVP)</b> with <b>3 distinct features</b> that <b>offers users exactly what they want</b>, <i>all in one convenient app</i>.
+              </Text>
+              <br />
+              <Text>
+              As a new product on the market, the KPI <b>(key performance indicator)</b> I would measure is <b>user return rate</b>. It's a relatively easy metric to track and holds invaluable insight. <i>How many users are booking an astrologer through our platform, and how many are returning to book again?</i> If the user experience is poor because of the apps' flow, the user interface, the copy/content, the astrology experts, or any other number of reasons, we may find users do not return.
+              </Text>
+              <br />
+              <Text>
+              I believe Aspect is a genuinely <b>profitable business venture</b>. Testing would need to be done on a much larger scale with more participants but I stand behind the idea as an entry point in to this quickly growing industry.
+              </Text>
+            </Box>
+          </Row>
+          <Row>
+            <Col>
+              <br />
+              <h3>Next Steps</h3>
+              <Text variant='li'>Design a Direct Message feature for user to user connection</Text>
+              <Text variant='li'>Design a feature to compare astrologers</Text>
+              <Text variant='li'>Design a more robust review feature</Text>
+              <Text variant='li'>Develop a strategy for vetting and recruiting astrologers</Text>
+              <Text variant='li'>Re-design the Browse feature to include a section on how astrologers are vetted</Text>
+            </Col>
           </Row>
         </Container>
       </Section>
