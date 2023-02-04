@@ -1,8 +1,14 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import imgPhoto from '../../../assets/image/png/swot_sanctuary.png'
-import imgPhoto1 from '../../../assets/image/png/swot_kasamba.png'
-import imgPhoto2 from '../../../assets/image/png/aspect_piechart.png'
+import imgPhoto1 from '../../../assets/image/png/aspect_piechart.png'
+import imgPhoto2 from '../../../assets/image/png/aspect_persona_vanessa@2px.png'
+import imgPhoto3 from '../../../assets/image/png/aspect_userFlow_vanessa@2px.png'
+import imgPhoto4 from '../../../assets/image/png/aspect_persona_hannah@2px.png'
+import imgPhoto5 from '../../../assets/image/png/aspect_userflow_hannah@2px.png'
+import imgPhoto6 from '../../../assets/image/png/aspect_browse_iteration@2x.png'
+import imgPhoto7 from '../../../assets/image/jpg/aspect_early_prototype@2px.jpg'
+import imgPhoto8 from '../../../assets/image/jpg/aspect_research_notes@2px.jpg'
 
 import {
   Title,
@@ -14,7 +20,7 @@ import {
 const CaseStudy1Body = () => {
   return (
     <>
-      {/* <!-- Hero Area --> */}
+      {/* <!-- 01 Discover --> */}
       <Section className="position-relative">
         <Container>
           <Col className="justify-content-center align-items-center">
@@ -80,7 +86,7 @@ const CaseStudy1Body = () => {
               </Text>
             </Row>
             <Row>
-              <img src={imgPhoto2} alt="folio" className="img-fluid" />
+              <img src={imgPhoto1} alt="folio" className="img-fluid" />
             </Row>
             <Row>
               <Col>
@@ -152,7 +158,7 @@ const CaseStudy1Body = () => {
               <br />
             </Box>
             <Box>
-              <h3>Hypothesis</h3>
+              <h4>Hypothesis</h4>
               <Text
                 className="mt-4 mb-5"
                 css={`
@@ -168,8 +174,130 @@ const CaseStudy1Body = () => {
                   line-height: .07;
                 `}
               >
-                Thanks to the prior research and hours of affinity mapping, 2 distinct personas were created. User flows helped me plan which features and screens were necessary for a user to complete a given task
+                Thanks to the prior research and hours of affinity mapping, 2 distinct personas were created. User flows helped me plan which features and screens were necessary for a user to complete a given task.
               </Text>
+                <Row>
+                  <img src={imgPhoto2} alt="folio" className="img-fluid" />
+                </Row>
+                <Row>
+                  <img src={imgPhoto3} alt="folio" className="img-fluid" />
+                </Row>
+                <Row>
+                  <img src={imgPhoto4} alt="folio" className="img-fluid" />
+                </Row>
+                <Row>
+                  <img src={imgPhoto5} alt="folio" className="img-fluid" />
+                </Row>
+              <Text
+                className="mt-4 mb-5"
+                css={`
+                  line-height: .07;
+                `}
+              >
+                The culmination resulted in 3 Main App Features
+                <ul type='circle' className='pl-4'>
+                  <Text variant='li'>A way for Hannah to find an astrologer who fits their needs <b>(Browse and Chat)</b></Text>
+                  <Text variant='li'>A way for Vanessa to connect with others <b>(Community Chat)</b></Text>
+                  <Text variant='li'>A way for Hannah to delve in to self exploration <b>(My Chart)</b></Text>
+                </ul>
+              </Text>
+            </Box>
+          </Row>
+          {/* <!-- 03 Ideate --> */}
+          <Row className="justify-content-center align-items-center">
+            <Box className="pl-lg-4 pt-5 pt-lg-0">
+              <Title variant="secSm">
+                  03 Ideate
+              </Title>
+              <Title
+                variant="card"
+                mb="2.5rem"
+                fontSize="1rem"
+                className="text-uppercase"
+                css={`
+                  letter-spacing: 1.63px;
+                `}
+              >
+                Card Sorting - Information Architecture - Wireframing
+              </Title>
+              <Text
+                className="mt-4 mb-5"
+                css={`
+                  line-height: .07;
+                `}
+              >
+                With a clear understanding of target users and required screens, I used a hybrid card sort to create Aspect’s site map. I then created low-fidelity wireframes using pen and paper, including copy to provide context to the designs. After refining my ideas, I moved on to designing in Figma.
+              </Text>
+                <Row>
+                  <img src={imgPhoto6} alt="folio" className="img-fluid" />
+                </Row>
+            </Box>
+            <Box className="pl-lg-4 pt-5 pt-lg-0">
+              <Text>Above is an example of the iterative process for one of Aspect's main features, <b>Browse Astrologers</b>.</Text>
+            </Box>
+          </Row>
+          {/* <!-- 04 Prototype --> */}
+          <Row className="justify-content-center align-items-center">
+            <Box className="pl-lg-4 pt-5 pt-lg-0">
+              <Title variant="secSm">
+                  04 Prototype
+              </Title>
+                <Row>
+                  <img src={imgPhoto7} alt="folio" className="img-fluid" />
+                </Row>
+              <Text
+                className="mt-4 mb-5"
+                css={`
+                  line-height: .07;
+                `}
+              >
+                As you can see in the image above, I began my prototyping process with my final paper sketches.
+              </Text>
+            </Box>
+            <Box className="pl-lg-4 pt-5 pt-lg-0">
+              <Text>Click here to see the final prototype for Aspect.</Text>
+            </Box>
+          </Row>
+           {/* <!-- 05 Test --> */}
+           <Row className="justify-content-center align-items-center">
+            <Box className="pl-lg-4 pt-5 pt-lg-0">
+              <Title variant="secSm">
+                  05 Test
+              </Title>
+              <Title
+                variant="card"
+                mb="2.5rem"
+                fontSize="1rem"
+                className="text-uppercase"
+                css={`
+                  letter-spacing: 1.63px;
+                `}
+              >
+                Usability Testing - Preference Testing 
+              </Title>
+                <Row>
+                  <img src={imgPhoto8} alt="folio" className="img-fluid" />
+                </Row>
+              <Text
+                className="mt-4 mb-5"
+                css={`
+                  line-height: .07;
+                `}
+              >
+                The goal of usability testing was to measure for usability errors. Moderated remote testing was used for all 6 usability tests. Participants were given 4 tasks to complete.
+              </Text>
+            </Box>
+            <Box className="pl-lg-4 pt-5 pt-lg-0">
+              <h4 variant="secSm">
+                Task Scenario Example
+              </h4>
+              <Text>You've registered for the app and can now see if there are any astrologers you might be interested in connecting with. How would you go about finding someone and then connecting with them? Please show me.</Text>
+            </Box>
+            <Box className="pl-lg-4 pt-5 pt-lg-0">
+              <h2 variant="secSm">
+                Usability Test Key Findings
+              </h2>
+              <Text>You've registered for the app and can now see if there are any astrologers you might be interested in connecting with. How would you go about finding someone and then connecting with them? Please show me.</Text>
             </Box>
           </Row>
         </Container>
