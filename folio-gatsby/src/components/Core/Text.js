@@ -15,6 +15,19 @@ const Paragraph = styled.p`
   ${shadow};
 `
 
+const ListItem = styled.li`
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 1.0625rem;
+  letter-spacing: -0.2px;
+  line-height: 1.71;
+  list-style-type: disc;
+  ${color};
+  ${space};
+  ${typography};
+  ${shadow};
+`
+
 const ParagraphLg = styled(Paragraph)`
   font-size: 21px;
   font-weight: 400;
@@ -29,6 +42,16 @@ const ParagraphLg = styled(Paragraph)`
 const ParagraphSmall = styled(Paragraph)`
   font-size: 16px;
   letter-spacing: -0.5px;
+  line-height: 28px;
+  ${color};
+  ${space};
+  ${typography};
+  ${shadow};
+`
+const ParagraphBold = styled(Paragraph)`
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  font-weight: bold;
   line-height: 28px;
   ${color};
   ${space};
@@ -55,6 +78,9 @@ const Text = ({ variant = 'lg', ...props }) => {
     case 'lg':
       TextRender = ParagraphLg
       break
+    case 'bold':
+      TextRender = ParagraphBold
+      break
     case 'small':
       TextRender = ParagraphSmall
       break
@@ -63,6 +89,9 @@ const Text = ({ variant = 'lg', ...props }) => {
       break
     case 'p':
       TextRender = Paragraph
+      break
+    case 'li':
+      TextRender = ListItem
       break
     default:
       TextRender = ParagraphLg

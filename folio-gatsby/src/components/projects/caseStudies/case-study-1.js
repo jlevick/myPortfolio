@@ -79,14 +79,10 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
                   Figma, Miro, UsabilityHub, Optimal Workshop
                 </Text>
                 <Title color="light" variant="secSm">
-                Type
+                  Type
                 </Title>
                 <div className="mt-4 mb-5">
-                  <Text color="light"> Independent Project for CareerFoundry's UX Immersive</Text>
-
-                  <Text variant="p">
-                    
-                  </Text>
+                  <Text color="light">Independent Project for CareerFoundry's UX Immersive</Text>
                 </div>
                 <div className="mt-4 mb-5">
                 </div>
