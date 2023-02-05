@@ -23,7 +23,7 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
     <>
       <Section hero={hero} bg={bg} {...rest}>
         <Container>
-          <Row className="align-items-start">
+          <Row className="align-items-start justify-content-start">
             <Col lg="5">
               <div className="pl-lg-4 pt-5 pt-lg-0">
                   <Title color="light" variant="secSm">
@@ -49,18 +49,6 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
                     `}
                   >
                     UX/UI Designer
-                  </Text>
-                  <Title color="light" variant="secSm">
-                    The Challenge
-                  </Title>
-                  <Text
-                    color="light"
-                    className="mt-4 mb-5"
-                    css={`
-                      line-height: .07;
-                    `}
-                  >
-                    Design the minimum viable product (MVP) of a mobile app that allows users to instantly connect with astrologers in order to ask astro-related questions.
                   </Text>
               </div>
             </Col>
@@ -89,6 +77,24 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
                 <Text color="light" className="mt-3 font-weight-bold">
                 </Text>
                 <Text color="light" variant="small">
+                </Text>
+              </div>
+            </Col>
+          </Row>
+          <Row className="justify-content-center align-items-center">
+            <Col className='justify-content-center'>
+              <div className="pl-4 pl-lg-4">
+                <Title color="light" variant="secSm">
+                  The Challenge
+                </Title>
+                <Text
+                  color="light"
+                  className="mt-4 mb-5"
+                  css={`
+                    line-height: .07;
+                    `}
+                  >
+                    Design the minimum viable product (MVP) of a mobile app that allows users to instantly connect with astrologers in order to ask astro-related questions.
                 </Text>
               </div>
             </Col>

@@ -3,8 +3,8 @@ import Box from './Box'
 
 const Section = ({ hero, children, ...rest }) => {
   return (
-    <Box py={['50px', null, '75px', '100px']} {...rest}>
-      {hero && <Box mt={['50px', null, '65px', '85px']}></Box>}
+    <Box py={['20px', null, '25px', '30px']} {...rest} px={"20px"}>
+      {hero && <Box mt={['20px', null, '35px', '45px']}></Box>}
       {children}
     </Box>
   )

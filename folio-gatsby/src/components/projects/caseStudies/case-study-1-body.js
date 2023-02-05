@@ -57,7 +57,7 @@ const CaseStudy1Body = () => {
               </Text>
             </Box>
             <Row className="justify-content-center align-items-center">
-              <img src={imgPhoto} alt="folio" className="img-fluid" />
+              <img src={imgPhoto} alt="folio" className="" />
             </Row>
             <Row className="justify-content-center align-items-center">
               <Col>
@@ -95,8 +95,10 @@ const CaseStudy1Body = () => {
                 After determining the viability of the project, I surveyed 22 people in order to gather information about their interest in astrology and what they look for in an astrologer. The survey was open to everyone.
               </Text>
             </Row>
-            <Row>
-              <img src={imgPhoto1} alt="folio" className="img-fluid" />
+            <Row className="justify-content-center align-items-center">
+              <Box>
+              <img src={imgPhoto1} alt="folio" className="" />
+              </Box>
             </Row>
             <Row>
               <Col>
@@ -427,7 +429,7 @@ const CaseStudy1Body = () => {
               </Title>
                 <br />
                 <Row>
-                  <h3>Browse and Chat with an astrologer</h3>>
+                  <h3>Browse and Chat with an astrologer</h3>
                   <img src={imgPhoto13} alt="folio" className="img-fluid" />
                   <h3>My Chart</h3>
                   <img src={imgPhoto14} alt="folio" className="img-fluid" />
