@@ -32,7 +32,7 @@ const Hero = () => {
                 </Title>
                 <Box mt="52px">
                 <a target='_blank' rel="noreferrer" href={'static/levick_oxner_resume.pdf'}>
-                    <Button variant={'#3D675D'}  arrowRight>Download my resume</Button>
+                    <Button variant={'#FF00FF'}  arrowRight>Download my resume</Button>
                 </a>
                 </Box>
               </Box>

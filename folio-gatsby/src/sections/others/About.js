@@ -4,10 +4,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 import { Section, Title, Text, Span } from '../../components/Core'
 import imgPhoto from '../../assets/image/png/jaime_small.png'
-import imgSignLight from '../../assets/image/png/signature.png'
 
 const LinkSocial = styled.a`
-  color: ${({ theme }) => theme.colors.light} !important;
+  color: ${({ theme }) => theme.colors.dark} !important;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 13px;
@@ -19,7 +18,7 @@ const LinkSocial = styled.a`
   }
 `
 
-const About = ({ hero = true, bg = 'dark', ...rest }) => {
+const About = ({ hero = true, bg = 'light', ...rest }) => {
   return (
     <>
       <Section hero={hero} bg={bg} {...rest}>

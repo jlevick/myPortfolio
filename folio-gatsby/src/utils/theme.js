@@ -2,7 +2,7 @@ import { rgba } from 'polished'
 import { breakpoints } from './breakpoints'
 
 const defaultColors = {
-  primary: '#495fef',
+  primary: '#FF00FF',
   secondary: '#f5f5f7',
   white: '#ffffff',
   dark: '#161c2d',

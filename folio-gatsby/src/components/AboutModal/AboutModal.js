@@ -23,7 +23,7 @@ const ModalStyled = styled(Modal)`
   .modal-content {
     min-width: 100vw;
     min-height: 100vh;
-    background: ${({ theme }) => theme.colors.primary};
+    background: ${({ theme }) => theme.colors.dark};
     border: none;
     border-radius: 0;
     padding: 0;
@@ -96,7 +96,7 @@ const AboutModal = props => {
             <CloseButton onClick={gContext.toggleAbout} />
           </div>
         </Container>
-        <About hero={false} bg="primary" />
+        <About hero={false} bg="dark" />
       </Modal.Body>
     </ModalStyled>
   )

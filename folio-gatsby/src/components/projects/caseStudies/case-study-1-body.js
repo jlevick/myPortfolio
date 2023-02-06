@@ -330,9 +330,11 @@ const CaseStudy1Body = () => {
                 copy to provide context to the designs. After refining my ideas,
                 I moved on to designing in Figma.
               </Text>
-              <Row>
-                <img src={imgPhoto6} alt="folio" className="img-fluid" />
-              </Row>
+              <Row className="justify-content-center align-items-center py-5">
+                  <div className="w-75">
+                    <img src={imgPhoto6} alt="folio" className="img-fluid" />
+                  </div>
+            </Row>
             </Box>
             <Box className="pl-lg-4 pt-5 pt-lg-0">
               <br />
@@ -389,9 +391,11 @@ const CaseStudy1Body = () => {
               >
                 Usability Testing - Preference Testing
               </Title>
-              <Row>
-                <img src={imgPhoto8} alt="folio" className="img-fluid" />
-              </Row>
+                <Row className="justify-content-center align-items-center py-5">
+                  <div className="w-75">
+                     <img src={imgPhoto8} alt="folio" className="img-fluid" />
+                  </div>
+                </Row>
               <Text
                 className="mt-4 mb-5"
                 css={`
@@ -472,20 +476,27 @@ const CaseStudy1Body = () => {
           </Row>
           <Row>
             <Col>
-              <br />
               <Text>
                 The feedback I received from usability testing allowed me to
                 clean up screens, thereby reducing confusion. Based on test
                 results I <b>redesigned 3 screens</b> and{" "}
                 <b>12 participants voted on which they preferred</b>.
               </Text>
-              <br />
               <Text>
                 <b>Below are results for the Home screen.</b>
               </Text>
             </Col>
           </Row>
-          <br />
+          <Row className="justify-content-center align-items-center py-5">
+            <Col>
+              <div>
+                <h4>Option A: 17% of votes</h4>
+                <div className="w-75">
+                  <img src={imgPhoto9} alt="folio" className="img-fluid" />
+                </div>
+              </div>
+            </Col>
+          </Row>
           <Row>
             <h4>Option A: 17% of votes</h4>
             <img src={imgPhoto9} alt="folio" className="img-fluid" />

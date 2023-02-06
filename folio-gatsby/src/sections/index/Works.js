@@ -37,7 +37,7 @@ const Works = () => {
       <Section className="position-relative">
         <Container>
           <Box mb="2.5rem" ml="-1.75rem">
-            <ListNav className="nav">
+            <ListNav color="dark" className="nav">
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
