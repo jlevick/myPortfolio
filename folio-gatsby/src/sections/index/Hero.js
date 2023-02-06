@@ -28,7 +28,7 @@ const Hero = () => {
                   UX Research and Content Design
                 </Text>
                 <Title variant="hero">
-                Crafting better digital experiences through clear, concise content.
+                Enhancing UX through clear, concise content.
                 </Title>
                 <Box mt="52px">
                 <a target='_blank' rel="noreferrer" href={'static/levick_oxner_resume.pdf'}>

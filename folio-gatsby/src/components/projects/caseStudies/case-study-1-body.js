@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import imgPhoto from '../../../assets/image/png/swot_sanctuary.png'
+import imgPhoto from '../../../assets/image/png/swot.png'
 import imgPhoto1 from '../../../assets/image/png/aspect_piechart.png'
 import imgPhoto2 from '../../../assets/image/png/aspect_persona_vanessa@2px.png'
 import imgPhoto3 from '../../../assets/image/png/aspect_userFlow_vanessa@2px.png'
@@ -81,21 +81,21 @@ const CaseStudy1Body = () => {
                 </Title>
                 <h4>Pricing</h4>
                 <Text variant="li">
-                  We need to offer <b>upfront, transparent pricing</b>
+                  We need to offer upfront, transparent pricing
                 </Text>
                 <br />
                 <h4>Qualifications</h4>
                 <Text variant="li">
-                  We need to attract <b>qualified astrologers</b> and relay
+                  We need to attract qualified astrologers and relay
                   their qualifications
                 </Text>
                 <br />
                 <h4>Reviews</h4>
                 <Text variant="li">
-                  We need to make it <b>easy to find user reviews</b>
+                  We need to make it easy to find user reviews
                 </Text>
                 <Row className="justify-content-center align-items-center py-3">
-                  <div className="py-5 px-5 w-75">
+                  <div className="py-5 px-5 w-100">
                     <img src={imgPhoto} alt="folio" className="img-fluid" />
                   </div>
                 </Row>
@@ -124,16 +124,16 @@ const CaseStudy1Body = () => {
                 <h3>Most important criteria when seeking an astrologer</h3>
                 <ul type="circle" className="pl-4">
                   <Text variant="li">
-                    <b>Verified Expertise</b> (63.6%)
+                    Verified Expertise (63.6%)
                   </Text>
                   <Text variant="li">
-                    <b>Astrologer's Background</b> (63.6%)
+                    Astrologer's Background (63.6%)
                   </Text>
                   <Text variant="li">
-                    <b>Client Reviews</b> (45.5%)
+                    Client Reviews (45.5%)
                   </Text>
                 </ul>
-                <br />
+               
                 <Row>
                   <Col>
                     <h3>
@@ -141,15 +141,15 @@ const CaseStudy1Body = () => {
                     </h3>
                     <ul type="circle" className="pl-4 pb-4">
                       <Text variant="li">
-                        <b>Unsure of astrologer's credibility</b> (64.7%)
+                        Unsure of astrologer's credibility (64.7%)
                       </Text>
                       <Text variant="li">
-                        <b>Unsure whom to book with</b> (64.7%)
+                        Unsure whom to book with (64.7%)
                       </Text>
                     </ul>
                     <Text>
-                      The survey was followed up by user interviews with 4 self
-                      identified astro-enthusiasts. The goal of these interviews
+                      The survey was followed up with user interviews with 4 self
+                      identified astro-enthusiasts. The goal of interviews
                       was to gain a deeper understanding of people's{" "}
                       <b>motivations</b> for following astrology, their{" "}
                       <b>experiences</b> working with astrologers, and their{" "}
@@ -162,22 +162,13 @@ const CaseStudy1Body = () => {
                     <h3>User Interview Key Findings</h3>
                     <ul type="circle" className="pl-4">
                       <Text variant="li">
-                        <b>
-                          Users engage with astrology for fun, connection, and
-                          self knowledge.
-                        </b>
+                          Users engage with astrology for fun, connection, and self knowledge.
                       </Text>
                       <Text variant="li">
-                        <b>
-                          Users won't book readings if they aren't certain the
-                          astrologer is trustworthy.
-                        </b>
+                          Users won't book readings if they aren't certain the astrologer is trustworthy.
                       </Text>
                       <Text variant="li">
-                        <b>
-                          No single astrology resource provides all the
-                          information users need.
-                        </b>
+                          No single astrology resource provides all the information users need.
                       </Text>
                     </ul>
                   </Col>
@@ -242,13 +233,7 @@ const CaseStudy1Body = () => {
                   line-height: 0.07;
                 `}
               >
-                If we focus on offering access to{" "}
-                <b>inclusive astrology experts</b>,{" "}
-                <b>user and astrologer compatibility</b>,{" "}
-                <b>upfront costs and reviews</b>, providing{" "}
-                <b>personalized astrology content</b>, and creating a{" "}
-                <b>supportive community space</b> we will be well positioned to
-                break in to the market with a product unlike any other.
+                If we focus on offering access to inclusive astrology experts, user and astrologer compatibility, upfront costs and reviews, providing personalized astrology content, and creating a supportive community space, we will be well positioned to break in to the market with a product unlike any other.
               </Text>
               <h3>User Personas and User Flows</h3>
               <Text
@@ -257,11 +242,27 @@ const CaseStudy1Body = () => {
                   line-height: 0.07;
                 `}
               >
-                Thanks to the prior research and hours of affinity mapping, 2
-                distinct personas were created. User flows helped me plan which
-                features and screens were necessary for a user to complete a
-                given task.
+                To identify themes and parse out insights, I created an affinity map, and 2 distinct personas emerged. User flows followed and helped plan which features and screens were necessary for a user to complete a given task. 
               </Text>
+              <Row className="justify-content-center align-items-center">
+                <div className="pb-5">
+                  <h4>The culmination resulted in 3 main app features</h4>
+                  <ul type="circle" className="pl-4">
+                    <Text variant="li">
+                      A way for Hannah to find an astrologer who fits their
+                      needs <b>(Browse and Chat)</b>
+                    </Text>
+                    <Text variant="li">
+                      A way for Vanessa to connect with others{" "}
+                      <b>(Community Chat)</b>
+                    </Text>
+                    <Text variant="li">
+                      A way for Hannah to delve in to self exploration{" "}
+                      <b>(My Chart)</b>
+                    </Text>
+                  </ul>
+                </div>
+              </Row>
               <Row className="justify-content-center align-items-center py-5">
                 <div className="w-50">
                   <img src={imgPhoto2} alt="folio" className="img-fluid" />
@@ -282,42 +283,30 @@ const CaseStudy1Body = () => {
                   <img src={imgPhoto5} alt="folio" className="img-fluid" />
                 </div>
               </Row>
-              <Row className="justify-content-center align-items-center">
-                <div className="pb-5">
-                  <h4>The culmination resulted in 3 Main App Features</h4>
-                  <ul type="circle" className="pl-4">
-                    <Text variant="li">
-                      A way for Hannah to find an astrologer who fits their
-                      needs <b>(Browse and Chat)</b>
-                    </Text>
-                    <Text variant="li">
-                      A way for Vanessa to connect with others{" "}
-                      <b>(Community Chat)</b>
-                    </Text>
-                    <Text variant="li">
-                      A way for Hannah to delve in to self exploration{" "}
-                      <b>(My Chart)</b>
-                    </Text>
-                  </ul>
-                </div>
-              </Row>
             </Box>
           </Row>
           {/* <!-- 03 Ideate --> */}
           <Row className="justify-content-center align-items-center">
             <Box className="pt-5">
-              <Title variant="secSm">03 Ideate</Title>
-              <Title
-                variant="card"
-                mb="2.5rem"
-                fontSize="1rem"
-                className="text-uppercase"
-                css={`
-                  letter-spacing: 1.63px;
-                `}
-              >
-                Card Sorting - Information Architecture - Wireframing
-              </Title>
+              <Section hero={true} bg={"dark"} className="px-5">
+                <Container className="pb-3">
+                  <Title color="light" variant="secSm">
+                    03 Ideate
+                  </Title>
+                  <Title
+                    color="light"
+                    variant="card"
+                    mb="2.5rem"
+                    fontSize="1rem"
+                    className="text-uppercase"
+                    css={`
+                      letter-spacing: 1.63px;
+                    `}
+                  >
+                    Card Sorting - Information Architecture - Wireframing
+                  </Title>
+                </Container>
+              </Section>
               <Text
                 className="mt-4 mb-5"
                 css={`
@@ -330,11 +319,11 @@ const CaseStudy1Body = () => {
                 copy to provide context to the designs. After refining my ideas,
                 I moved on to designing in Figma.
               </Text>
-              <Row className="justify-content-center align-items-center py-5">
+                <Row className="justify-content-center align-items-center py-5">
                   <div className="w-75">
                     <img src={imgPhoto6} alt="folio" className="img-fluid" />
                   </div>
-            </Row>
+                </Row>
             </Box>
             <Box className="pl-lg-4 pt-5 pt-lg-0">
               <br />
@@ -348,19 +337,32 @@ const CaseStudy1Body = () => {
           {/* <!-- 04 Prototype --> */}
           <Row className="justify-content-center align-items-center">
             <Box className="pl-lg-4 pt-5 pt-lg-0">
-              <Title variant="secSm">04 Prototype</Title>
-              <br />
-              <Row>
-                <img src={imgPhoto7} alt="folio" className="img-fluid" />
-              </Row>
+              <Section hero={true} bg={"dark"} className="px-5">
+                <Container className="pb-3">
+                <Title color="light" variant="secSm">
+                    04 Prototype
+                  </Title>
+                  <Title
+                    color="light"
+                    variant="card"
+                    mb="2.5rem"
+                    fontSize="1rem"
+                    className="text-uppercase"
+                    css={`
+                      letter-spacing: 1.63px;
+                    `}
+                  >
+                    Paper Prototyping - Final Prototype
+                  </Title>
+                </Container>
+              </Section>
               <Text
                 className="mt-4 mb-5"
                 css={`
                   line-height: 0.07;
                 `}
               >
-                As you can see in the image above, I began my prototyping
-                process with my final paper sketches.
+                I began my prototyping process with my final paper sketches as I was still learning Figma. In hindsight I created a lot of extra work for myself and likely wouldn't do this again, but it's a nice keepsake.
               </Text>
             </Box>
             <Box className="pl-lg-4 pt-5 pt-lg-0">
@@ -370,32 +372,39 @@ const CaseStudy1Body = () => {
                 variant="a"
               >
                 <u>
-                  <b>Click here to see the final prototype for Aspect</b>
+                  <b>Here is the final prototype for Aspect</b>
                 </u>
                 .
               </Text>
             </Box>
+                <Row className="justify-content-center align-items-center py-5">
+                  <div className="w-50">
+                    <img src={imgPhoto7} alt="folio" className="img-fluid" />
+                  </div>
+              </Row>
           </Row>
           {/* <!-- 05 Test --> */}
           <Row className="justify-content-center align-items-center">
             <Box className="pl-lg-4 pt-5 pt-lg-0">
-              <Title variant="secSm">05 Test</Title>
-              <Title
-                variant="card"
-                mb="2.5rem"
-                fontSize="1rem"
-                className="text-uppercase"
-                css={`
-                  letter-spacing: 1.63px;
-                `}
-              >
-                Usability Testing - Preference Testing
-              </Title>
-                <Row className="justify-content-center align-items-center py-5">
-                  <div className="w-75">
-                     <img src={imgPhoto8} alt="folio" className="img-fluid" />
-                  </div>
-                </Row>
+              <Section hero={true} bg={"dark"} className="px-5">
+                <Container className="pb-3">
+                  <Title color="light" variant="secSm">
+                    05 Test
+                  </Title>
+                  <Title
+                    color="light"
+                    variant="card"
+                    mb="2.5rem"
+                    fontSize="1rem"
+                    className="text-uppercase"
+                    css={`
+                      letter-spacing: 1.63px;
+                    `}
+                  >
+                    Usability Testing - Preference Testing
+                  </Title>
+                </Container>
+              </Section>
               <Text
                 className="mt-4 mb-5"
                 css={`
@@ -419,6 +428,11 @@ const CaseStudy1Body = () => {
               </Text>
             </Box>
           </Row>
+                <Row className="justify-content-center align-items-center py-5">
+                  <div className="w-50">
+                     <img src={imgPhoto8} alt="folio" className="img-fluid" />
+                  </div>
+                </Row>
           <Row className="justify-content-center align-items-center">
             <Col>
               <br />
@@ -427,7 +441,7 @@ const CaseStudy1Body = () => {
               <br />
               <h4>Information Overload</h4>
               <Text variant="li">
-                Astrologer's profile is <b>too busy</b>
+                Astrologer's profile is too busy
               </Text>
               <Text variant="li">
                 <b>3 out of 6</b> experienced information overload on
@@ -437,7 +451,7 @@ const CaseStudy1Body = () => {
               <br />
               <h4>Confusing Copy</h4>
               <Text variant="li">
-                "Readings" <b>copy</b> in menu <b>is confusing</b>
+                "Readings" copy in menu is confusing
               </Text>
               <Text variant="li">
                 <b>3 out of 6</b> expressed confusion with the term “Readings”,
@@ -447,7 +461,7 @@ const CaseStudy1Body = () => {
               <br />
               <h4>Expectations</h4>
               <Text variant="li">
-                Users expect <b>option to contact astrologer</b> prior to
+                Users expect option to contact astrologer prior to
                 booking
               </Text>
               <Text variant="li">
@@ -491,19 +505,19 @@ const CaseStudy1Body = () => {
             <Col>
               <div>
                 <h4>Option A: 17% of votes</h4>
-                <div className="w-75">
+                <div className="w-100">
                   <img src={imgPhoto9} alt="folio" className="img-fluid" />
                 </div>
               </div>
             </Col>
-          </Row>
-          <Row>
-            <h4>Option A: 17% of votes</h4>
-            <img src={imgPhoto9} alt="folio" className="img-fluid" />
-          </Row>
-          <Row>
-            <h4>Option B: 83% of votes</h4>
-            <img src={imgPhoto10} alt="folio" className="img-fluid" />
+            <Col>
+              <div>
+                <h4>Option B: 83% of votes</h4>
+                <div className="w-100">
+                  <img src={imgPhoto10} alt="folio" className="img-fluid" />
+                </div>
+              </div>
+            </Col>
           </Row>
           <Row>
             <Col>
@@ -530,17 +544,20 @@ const CaseStudy1Body = () => {
               </Text>
             </Col>
           </Row>
-          <br />
-          <Row>
+          <Row className="justify-content-center align-items-center py-5">
             <Col>
-              <Text>
-                <b>Before Changes</b>
-              </Text>
-              <img src={imgPhoto11} alt="folio" className="img-fluid" />
-              <Text>
-                <b>After Changes</b>
-              </Text>
-              <img src={imgPhoto12} alt="folio" className="img-fluid" />
+              <div>
+                <div className="w-100">
+                  <img src={imgPhoto11} alt="folio" className="img-fluid" />
+                </div>
+              </div>
+            </Col>
+            <Col>
+              <div>
+                <div className="w-100">
+                  <img src={imgPhoto12} alt="folio" className="img-fluid" />
+                </div>
+              </div>
             </Col>
           </Row>
           <Row>
@@ -572,7 +589,25 @@ const CaseStudy1Body = () => {
           <br />
           <Row className="justify-content-center align-items-center">
             <Box className="pl-lg-4 pt-5 pt-lg-0">
-              <Title variant="secSm">06 Document</Title>
+              <Section hero={true} bg={"dark"} className="px-5">
+                <Container className="pb-3">
+                  <Title color="light" variant="secSm">
+                    06 Document
+                  </Title>
+                  <Title
+                    color="light"
+                    variant="card"
+                    mb="2.5rem"
+                    fontSize="1rem"
+                    className="text-uppercase"
+                    css={`
+                      letter-spacing: 1.63px;
+                    `}
+                  >
+                    Design System - Style Guide
+                  </Title>
+                </Container>
+              </Section>
               <Text
                 className="mt-4 mb-5"
                 css={`
@@ -593,8 +628,7 @@ const CaseStudy1Body = () => {
               >
                 <u>
                   <b>
-                    You can find the design system and style guide for Aspect by
-                    clicking on this link
+                    The design system and style guide for Aspect can be found here.
                   </b>
                 </u>
                 .
@@ -604,9 +638,27 @@ const CaseStudy1Body = () => {
           <br />
           <Row className="justify-content-center align-items-center">
             <Box className="pl-lg-4 pt-5 pt-lg-0">
-              <img src={imgPhoto16} alt="folio" className="img-fluid" />
-              <Title variant="secSm">07 Final Designs and Reflections</Title>
-              <br />
+              <Section hero={true} bg={"dark"} className="px-5">
+                <Container className="pb-3">
+                  <Title color="light" variant="secSm">
+                    07 Final Designs and Reflections
+                  </Title>
+                  <Title
+                    color="light"
+                    variant="card"
+                    mb="2.5rem"
+                    fontSize="1rem"
+                    className="text-uppercase"
+                    css={`
+                      letter-spacing: 1.63px;
+                    `}
+                  >
+                    Top 3 Features - Next Steps
+                  </Title>
+                </Container>
+              </Section>
+              
+              
               <Row>
                 <h3>Browse and Chat with an astrologer</h3>
                 <img src={imgPhoto13} alt="folio" className="img-fluid" />
