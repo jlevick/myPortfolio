@@ -24,51 +24,77 @@ const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
       <Section hero={hero} bg={bg} {...rest}>
         <Container>
           <Row className="align-items-center">
-            <Col lg="6">
-              <div>
-                <img src={imgPhoto} alt="folio" className="img-fluid" />
+            <Col lg="5">
+              <div className="pl-lg-4 pt-5 pt-lg-0">
+                  <Title color="light" variant="secSm">
+                    Duration
+                  </Title>
+                  <Text
+                    color="light"
+                    className="mt-4 mb-5"
+                    css={`
+                      line-height: .07;
+                    `}
+                    >
+                      2 months
+                  </Text>
+                  <Title color="light" variant="secSm">
+                    My Role
+                  </Title>
+                  <Text
+                    color="light"
+                    className="mt-4 mb-5"
+                    css={`
+                      line-height: .07;
+                    `}
+                  >
+                    Developer and Designer
+                  </Text>
               </div>
             </Col>
-            <Col lg="6">
-              <div className="pl-lg-4 pt-5 pt-lg-0">
+            <Col lg="5">
+              <div className="pl-4 pl-lg-4">
                 <Title color="light" variant="secSm">
-                Project Overview
+                Tools
                 </Title>
                 <Text
                   color="light"
-                  className="mt-3 mt-lg-5"
+                  className="mt-4 mb-5"
                   css={`
                     line-height: .07;
                   `}
                 >
-                  In order to improve my communication with developers and facilitate smooth design hand-offs, I sought to deepen my understanding of the dynamic between UX designers and developers by learning HTML, CSS, and vanilla JavaScript. In order to exercise my front-end skills, I coded a responsive portfolio website from scratch. 
-
-                  <br /> 
-                  I'm an open and empathetic communicator who strives for inclusivity and accessibility in my work.
-                  I prefer to lift the figurative stone in every conversation, awed by what crawls out and the gems that always seem to be hidden underneath. <br />
-                  <br /> Focused on delivering high-quality results rather than seeking recognition, I see failure as an opportunity to grow and I'm not afraid to ask the "silly" questions. <br />
-                  <br /> I enjoy anything I can zone in to: climbing, snowboarding, research, writing, organization, deep abstract thinking ... you get the idea.
+                  VS Code, Github, Codepen.io, Figma
                 </Text>
-                <Text color="light" className="mt-4">
-                  
-                </Text>
-                <div className="mt-4">
-                  <Text color="light">Want to learn more? Send me a message!</Text>
-
-                  <Text variant="p">
-                    <a
-                      href="mailto:jaimelevick@gmail.com"
-                      className="font-weight-bold"
-                    >
-                      <Span color="light">jaimelevick@gmail.com</Span>
-                    </a>
-                  </Text>
+                <Title color="light" variant="secSm">
+                  Project Goal
+                </Title>
+                <div className="mt-4 mb-5">
+                  <Text color="light">Code a responsive portfolio website in order to learn front end skills.</Text>
                 </div>
-                <div className="mt-5">
+                <div className="mt-4 mb-5">
                 </div>
                 <Text color="light" className="mt-3 font-weight-bold">
                 </Text>
                 <Text color="light" variant="small">
+                </Text>
+              </div>
+            </Col>
+          </Row>
+          <Row className="justify-content-center align-items-center">
+            <Col className='justify-content-center'>
+              <div className="pl-4 pl-lg-4">
+                <Title color="light" variant="secSm">
+                  Project Overview
+                </Title>
+                <Text
+                  color="light"
+                  className="mt-4 mb-5"
+                  css={`
+                    line-height: .07;
+                    `}
+                  >
+                   In order to improve my communication with developers and facilitate smooth design hand-offs, I sought to deepen my understanding of the dynamic between UX designers and developers by learning HTML, CSS, and vanilla JavaScript. In order to exercise my front-end skills, I coded a responsive portfolio website from scratch. 
                 </Text>
               </div>
             </Col>

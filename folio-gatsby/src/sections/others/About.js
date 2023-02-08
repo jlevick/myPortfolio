@@ -6,7 +6,7 @@ import { Section, Title, Text, Span } from '../../components/Core'
 import imgPhoto from '../../assets/image/png/jaime_small.png'
 
 const LinkSocial = styled.a`
-  color: ${({ theme }) => theme.colors.dark} !important;
+  color: ${({ theme }) => theme.colors.light} !important;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 13px;
@@ -23,12 +23,14 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
     <>
       <Section hero={hero} bg={bg} {...rest}>
         <Container>
-          <Row className="align-items-center">
-            <Col lg="4">
-              <div>
-                <img src={imgPhoto} alt="folio" className="img-fluid" />
+          <Row className="justify-content-center align-items-center py-5">
+            <Col>
+              <div className='w-25'>
+              <img src={imgPhoto} alt="folio" className="img-fluid" />
               </div>
             </Col>
+          </Row> 
+          <Row>
             <Col lg="8">
               <div className="pl-lg-4 pt-5 pt-lg-0">
                 <Title color="light" variant="secSm">
@@ -41,9 +43,8 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                     line-height: .07;
                   `}
                 >
-                  With 10+ years experience in customer-facing roles and a background in anthropology and gender studies, I have developed an affinity for enhancing every user's experience. <br />
-                  <br />
-                  To ensure useful and positive experiences, I seek to bring clarity to every interaction. 
+                  With 10+ years experience in customer-facing roles and a background in anthropology and gender studies, I have developed an affinity for enhancing every user's experience. To ensure useful and positive experiences, I seek to bring clarity to every interaction. <br />
+                  <br /> 
                   I'm an open and empathetic communicator who strives for inclusivity and accessibility in my work.  
                   In conversation I endeavor to lift the figurative stone, awed by what may crawl out and the gems that always seem to be hidden underneath. 
                   <br />
@@ -60,11 +61,9 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                   <br/>... you get the idea!
                 </Text>
                 <Text color="light" className="mt-4">
-                  
                 </Text>
                 <div className="mt-4">
                   <Text color="light">Want to learn more? Send me a message!</Text>
-
                   <Text variant="p">
                     <a
                       href="mailto:jaimelevick@gmail.com"

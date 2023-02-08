@@ -72,38 +72,40 @@ const CaseStudy1Body = () => {
             </Row>
             <Row className="justify-content-center align-items-center py-5">
               <Col>
-                <h2 variant="secSm">Top 3 Market Gaps to Fill</h2>
-                <Title
-                  variant="card"
-                  mb="2.5rem"
-                  fontSize="1rem"
-                  className="text-uppercase"
-                  css={`
-                    letter-spacing: 1.63px;
-                  `}
-                >
-                  Based on S.W.O.T analyses of Sanctuary Astrology and Kasamba
-                </Title>
-                <h4>Pricing</h4>
-                <Text variant="li">
-                  We need to offer upfront, transparent pricing
-                </Text>
-                <br />
-                <h4>Qualifications</h4>
-                <Text variant="li">
-                  We need to attract qualified astrologers and relay
-                  their qualifications
-                </Text>
-                <br />
-                <h4>Reviews</h4>
-                <Text variant="li">
-                  We need to make it easy to find user reviews
-                </Text>
-                <Row className="justify-content-center align-items-center py-3">
-                  <div className="py-5 px-5 w-100">
-                    <img src={imgPhoto} alt="folio" className="img-fluid" />
-                  </div>
-                </Row>
+                <div>
+                  <h2 variant="secSm">Top 3 Market Gaps to Fill</h2>
+                  <Title
+                    variant="card"
+                    mb="2.5rem"
+                    fontSize="1rem"
+                    className="text-uppercase"
+                    css={`
+                      letter-spacing: 1.63px;
+                    `}
+                  >
+                    Based on S.W.O.T analyses of Sanctuary Astrology and Kasamba
+                  </Title>
+                  <h4>Pricing</h4>
+                  <Text variant="li">
+                    We need to offer upfront, transparent pricing
+                  </Text>
+                  <br />
+                  <h4>Qualifications</h4>
+                  <Text variant="li">
+                    We need to attract qualified astrologers and relay
+                    their qualifications
+                  </Text>
+                  <br />
+                  <h4>Reviews</h4>
+                  <Text variant="li">
+                    We need to make it easy to find user reviews
+                  </Text>
+                  <Row className="justify-content-center align-items-center py-3">
+                    <div className="py-5 px-5 w-100">
+                      <img src={imgPhoto} alt="folio" className="img-fluid" />
+                    </div>
+                  </Row>
+                </div>
               </Col>
             </Row>
             <Row className="justify-content-center align-items-center">

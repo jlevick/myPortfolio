@@ -19,10 +19,12 @@ const Footer = ({ isDark = true }) => {
           <div className="text-center">
             <Title
               variant="card"
-              css={`
-                font-size: 0.8125rem;
-              `}
+              mb="2.5rem"
+              fontSize="1rem"
               className="text-small"
+              css={`
+                letter-spacing: 1.63px;
+              `}
             >
              I built this site using Gatsby © Jaime Levick-Oxner 2023
             </Title>
