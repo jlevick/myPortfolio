@@ -4,6 +4,7 @@ import Masonry from 'react-masonry-component'
 
 import { Section, Box, ListNav } from '../../components/Core'
 import WorkCard from '../../components/WorkCard'
+// heres the images
 import devWorks2 from '../../data/devWorks2'
 
 const Works = () => {
@@ -88,7 +89,7 @@ const Works = () => {
           >
             {items.map((item, index) => (
               <Col lg="3" md="4" sm="6" key={index} className="filtr-item">
-                <WorkCard workItem={item} mb="20px" link={item.link} />
+                <WorkCard workItem={item} link={item.link} />
               </Col>
             ))}
           </Masonry>

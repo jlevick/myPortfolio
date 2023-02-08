@@ -55,15 +55,19 @@ const Hero = () => {
             >
               UX/UI
             </Title>
-            <Title>
+            <Title variant="hero" mb="1.5rem">
               Aspect
             </Title>
-            <p>A comprehensive astrology resource offering access to your birth chart, vetted professional astrologers, and a community of astro-enthusiasts. Designed in Figma for iOS mobile.</p>
+            <p>
+              A comprehensive astrology resource offering access to your birth
+              chart, vetted professional astrologers, and a community of
+              astro-enthusiasts. Designed in Figma for iOS mobile.
+            </p>
           </Box>
         </Container>
       </SectionStyled>
     </>
-  )
+  );
 }
 
 export default Hero

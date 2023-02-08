@@ -1,6 +1,7 @@
 import imgT1 from '../assets/image/png/test_aspect.png'
 import imgT2 from '../assets/image/png/portfolio_index@2x.png'
 import imgT3 from '../assets/image/png/sean.png'
+import imgPhoto from "../assets/image/png/aspect_index2@2x.png";
 
 
 const devWorks2 = [
@@ -9,7 +10,7 @@ const devWorks2 = [
     slug: `aspect`,
     title: `Amazing astrology app for seniors.`,
     categories: [`ux`],
-    thumbnail: imgT1,
+    thumbnail: imgPhoto,
     link: '/aspect',
   },
   {
