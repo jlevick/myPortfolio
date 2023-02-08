@@ -210,6 +210,8 @@ const CaseStudy1Body = () => {
                   line-height: 0.07;
                 `}
               >
+                After conducting user interviews I felt concerned I hadn't asked the right questions. I committed to extracting what I could from the data and believe this served me well. I was left with a deeper understanding of the complexity and ambiguity that come with analyzing qualitative data.
+                <br />
                 The interviews indicated users are seeking more than just access
                 to reputable astrologers. Based on these findings I crafted a
                 problem statement and initial hypothesis.
@@ -238,7 +240,7 @@ const CaseStudy1Body = () => {
                   line-height: 0.07;
                 `}
               >
-                If we focus on offering access to inclusive astrology experts, user and astrologer compatibility, upfront costs and reviews, providing personalized astrology content, and creating a supportive community space, we will be well positioned to break in to the market with a product unlike any other.
+                If we focus on offering access to inclusive astrology experts, user-astrologer compatibility, upfront costs and reviews, personalized astrology content, and creating a supportive community space, we will be well positioned to break in to the market with a product unlike any other.
               </Text>
               <h3>User Personas and User Flows</h3>
               <Text
