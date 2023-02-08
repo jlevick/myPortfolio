@@ -2,10 +2,8 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import imgPhoto from '../../../assets/image/png/swot.png'
 import imgPhoto1 from '../../../assets/image/png/aspect_piechart.png'
-import imgPhoto2 from '../../../assets/image/png/aspect_persona_vanessa@2px.png'
-import imgPhoto3 from '../../../assets/image/png/aspect_userFlow_vanessa@2px.png'
-import imgPhoto4 from '../../../assets/image/png/aspect_persona_hannah@2px.png'
-import imgPhoto5 from '../../../assets/image/png/aspect_userflow_hannah@2px.png'
+import imgPhoto2 from '../../../assets/image/png/vanessa.png'
+import imgPhoto3 from '../../../assets/image/png/hannah.png'
 import imgPhoto6 from '../../../assets/image/png/aspect_browse_iteration@2x.png'
 import imgPhoto7 from '../../../assets/image/jpg/aspect_early_prototype@2px.jpg'
 import imgPhoto8 from '../../../assets/image/jpg/aspect_research_notes@2px.jpg'
@@ -52,20 +50,27 @@ const CaseStudy1Body = () => {
             </Container>
           </Section>
           <Col className="justify-content-center align-items-center">
-            <Box className="pt-5">
-              <Text
-                className="mt-4 mb-5"
-                css={`
-                  line-height: 0.07;
-                `}
-              >
-                Astrology offers personal guidance and is a growing $2.2 billion
-                industry. Aspect, an astrology app, stands out in the market as
-                the only one offering its unique services, making it a promising
-                opportunity for investors.
+            <Row>
+              <Box className="pt-5">
+                <Text
+                  className="mt-4 mb-5"
+                  css={`
+                    line-height: 0.07;
+                  `}
+                >
+                  Astrology offers personal guidance and is a growing $2.2 billion
+                  industry. Aspect, an astrology app, stands out in the market as
+                  the only one offering its unique services, making it a promising
+                  opportunity for investors.
+                </Text>
+              </Box>
+            </Row>
+            <Row>
+              <Text>
+                In order to understand the problem space and where Aspect could fill in gaps for users, I conducted 2 competitive analyses. Sanctuary offers similar, albeit generic, features and is the top competitor. Kasamba also offers live readings and has been in business for many years.
               </Text>
-            </Box>
-            <Row className="justify-content-center align-items-center">
+            </Row>
+            <Row className="justify-content-center align-items-center py-5">
               <Col>
                 <h2 variant="secSm">Top 3 Market Gaps to Fill</h2>
                 <Title
@@ -273,16 +278,6 @@ const CaseStudy1Body = () => {
                   <img src={imgPhoto3} alt="folio" className="img-fluid" />
                 </div>
               </Row>
-              <Row className="justify-content-center align-items-center py-5">
-                <div className="w-50">
-                  <img src={imgPhoto4} alt="folio" className="img-fluid" />
-                </div>
-              </Row>
-              <Row className="justify-content-center align-items-center py-5">
-                <div className="w-50">
-                  <img src={imgPhoto5} alt="folio" className="img-fluid" />
-                </div>
-              </Row>
             </Box>
           </Row>
           {/* <!-- 03 Ideate --> */}
@@ -314,24 +309,25 @@ const CaseStudy1Body = () => {
                 `}
               >
                 With a clear understanding of target users and required screens,
-                I used a hybrid card sort to create Aspect’s site map. I then
-                created low-fidelity wireframes using pen and paper, including
+                I used a hybrid card sort to create Aspect's site map; I wanted to offer the structure of defined categories so participants wouldn't abandon the study, while leaving room for their mental models to shine.
+                <br />
+                I created low-fidelity wireframes using pen and paper, including
                 copy to provide context to the designs. After refining my ideas,
                 I moved on to designing in Figma.
               </Text>
+              <Box className="pl-lg-4 pt-5 pt-lg-0">
+              <br />
+              <Text>
+                Here is an example of the iterative process for one of Aspect's
+                main features, <b>Browse Astrologers</b>.
+              </Text>
+              <br />
+            </Box>
                 <Row className="justify-content-center align-items-center py-5">
                   <div className="w-75">
                     <img src={imgPhoto6} alt="folio" className="img-fluid" />
                   </div>
                 </Row>
-            </Box>
-            <Box className="pl-lg-4 pt-5 pt-lg-0">
-              <br />
-              <Text>
-                Above is an example of the iterative process for one of Aspect's
-                main features, <b>Browse Astrologers</b>.
-              </Text>
-              <br />
             </Box>
           </Row>
           {/* <!-- 04 Prototype --> */}
@@ -362,7 +358,7 @@ const CaseStudy1Body = () => {
                   line-height: 0.07;
                 `}
               >
-                I began my prototyping process with my final paper sketches as I was still learning Figma. In hindsight I created a lot of extra work for myself and likely wouldn't do this again, but it's a nice keepsake.
+                I began my prototyping process with my final paper sketches as I was still learning Figma. In hindsight I created a lot of extra work for myself and likely wouldn't do this again, but it's a nice keepsake and inspired confidence moving forward.
               </Text>
             </Box>
             <Box className="pl-lg-4 pt-5 pt-lg-0">
@@ -405,16 +401,19 @@ const CaseStudy1Body = () => {
                   </Title>
                 </Container>
               </Section>
+              <Box className="pl-lg-4 pt-5 pt-lg-0">
               <Text
-                className="mt-4 mb-5"
-                css={`
-                  line-height: 0.07;
-                `}
+                target="_blank"
+                href="https://docs.google.com/spreadsheets/d/16Wbg4Y7sKAnkJnRXY7GUK7j14-K5hmfOPl9W45BOxCs/edit"
+                variant="a"
               >
-                The goal of usability testing was to measure for usability
+                <u>
+                  <b>The goal of usability testing was to measure for usability
                 errors. Moderated remote testing was used for all 6 usability
-                tests. Participants were given 4 tasks to complete.
+                tests. Participants were given 4 tasks to complete.</b>
+                </u>
               </Text>
+            </Box>
             </Box>
             <Box className="pl-lg-4 pt-5 pt-lg-0">
               <h4 variant="secSm">Task Scenario Example</h4>
@@ -433,6 +432,11 @@ const CaseStudy1Body = () => {
                      <img src={imgPhoto8} alt="folio" className="img-fluid" />
                   </div>
                 </Row>
+          <Row className="justify-content-center align-items-center">
+            <Text>
+              Notes from usability test sessions.
+            </Text>
+          </Row>
           <Row className="justify-content-center align-items-center">
             <Col>
               <br />
@@ -631,7 +635,6 @@ const CaseStudy1Body = () => {
                     The design system and style guide for Aspect can be found here.
                   </b>
                 </u>
-                .
               </Text>
             </Box>
           </Row>
@@ -657,15 +660,29 @@ const CaseStudy1Body = () => {
                   </Title>
                 </Container>
               </Section>
-              
-              
-              <Row>
-                <h3>Browse and Chat with an astrologer</h3>
-                <img src={imgPhoto13} alt="folio" className="img-fluid" />
-                <h3>My Chart</h3>
-                <img src={imgPhoto14} alt="folio" className="img-fluid" />
-                <h3>Community Chat</h3>
-                <img src={imgPhoto15} alt="folio" className="img-fluid" />
+              <Row className="justify-content-center align-items-center">
+                <Col>
+                  <h3>Browse and Chat with an astrologer</h3>
+                  <div className="w-100">
+                  <img src={imgPhoto13} alt="folio" className="img-fluid" />
+                  </div>
+                </Col>
+              </Row>
+              <Row className="justify-content-center align-items-center">
+                <Col>
+                  <h3>My Chart</h3>
+                  <div className="w-100">
+                  <img src={imgPhoto14} alt="folio" className="img-fluid" />
+                  </div>
+                </Col>
+              </Row>
+              <Row className="justify-content-center align-items-center py-5">
+                <Col>
+                  <h3>Community Chat</h3>
+                  <div className="w-100">
+                  <img src={imgPhoto15} alt="folio" className="img-fluid" />
+                  </div>
+                </Col>
               </Row>
               <Text
                 className="mt-4 mb-5"
@@ -685,8 +702,8 @@ const CaseStudy1Body = () => {
               <Text>
                 As a new product on the market, the KPI{" "}
                 <b>(key performance indicator)</b> I would measure is{" "}
-                <b>user return rate</b>. It's a relatively easy metric to track
-                and holds invaluable insight.{" "}
+                <b>user return rate</b>, a relatively easy metric to track
+                that holds invaluable insight.{" "}
                 <i>
                   How many users are booking an astrologer through our platform,
                   and how many are returning to book again?
