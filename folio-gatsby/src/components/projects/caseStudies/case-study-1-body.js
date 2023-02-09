@@ -72,8 +72,7 @@ const CaseStudy1Body = () => {
             </Row>
             <Row className="justify-content-center align-items-center py-5">
               <Col>
-                <div>
-                  <h2 variant="secSm">Top 3 Market Gaps to Fill</h2>
+                  <Title variant="cardBig">Top 3 Market Gaps to Fill</Title>
                   <Title
                     variant="card"
                     mb="2.5rem"
@@ -85,18 +84,18 @@ const CaseStudy1Body = () => {
                   >
                     Based on S.W.O.T analyses of Sanctuary Astrology and Kasamba
                   </Title>
-                  <h4>Pricing</h4>
+                  <Title variant="cardSm">Pricing</Title>
                   <Text variant="li">
                     We need to offer upfront, transparent pricing
                   </Text>
                   <br />
-                  <h4>Qualifications</h4>
+                  <Title variant="cardSm">Qualifications</Title>
                   <Text variant="li">
                     We need to attract qualified astrologers and relay
                     their qualifications
                   </Text>
                   <br />
-                  <h4>Reviews</h4>
+                  <Title variant="cardSm">Reviews</Title>
                   <Text variant="li">
                     We need to make it easy to find user reviews
                   </Text>
@@ -105,7 +104,6 @@ const CaseStudy1Body = () => {
                       <img src={imgPhoto} alt="folio" className="img-fluid" />
                     </div>
                   </Row>
-                </div>
               </Col>
             </Row>
             <Row className="justify-content-center align-items-center">
@@ -128,7 +126,7 @@ const CaseStudy1Body = () => {
             </Row>
             <Row className="py-5">
               <Col>
-                <h3>Most important criteria when seeking an astrologer</h3>
+                <Title variant="cardBig">Most important criteria when seeking an astrologer</Title>
                 <ul type="circle" className="pl-4">
                   <Text variant="li">
                     Verified Expertise (63.6%)
@@ -140,12 +138,11 @@ const CaseStudy1Body = () => {
                     Client Reviews (45.5%)
                   </Text>
                 </ul>
-               
                 <Row>
                   <Col>
-                    <h3>
+                    <Title variant="cardBig">
                       People don't book astrology readings because they are
-                    </h3>
+                    </Title>
                     <ul type="circle" className="pl-4 pb-4">
                       <Text variant="li">
                         Unsure of astrologer's credibility (64.7%)
@@ -166,7 +163,7 @@ const CaseStudy1Body = () => {
                 </Row>
                 <Row className="pt-5 pb-4">
                   <Col className="justify-content-center align-items-center">
-                    <h3>User Interview Key Findings</h3>
+                    <Title variant="cardBig">User Interview Key Findings</Title>
                     <ul type="circle" className="pl-4">
                       <Text variant="li">
                           Users engage with astrology for fun, connection, and self knowledge.
@@ -220,7 +217,7 @@ const CaseStudy1Body = () => {
               </Text>
             </Box>
             <Box>
-              <h3 className="mb-4">Problem Statement</h3>
+              <Title variant="cardBig" className="mb-4">Problem Statement</Title>
               <Text className="mb-4">
                 Users need a convenient platform where they can easily find
                 qualified astrologers, connect with other astrology enthusiasts,
@@ -235,7 +232,7 @@ const CaseStudy1Body = () => {
               <br />
             </Box>
             <Box className="pt-3">
-              <h3>Hypothesis</h3>
+              <Title variant="cardBig" >Hypothesis</Title>
               <Text
                 className="mt-4 mb-4"
                 css={`
@@ -244,7 +241,7 @@ const CaseStudy1Body = () => {
               >
                 If we focus on offering access to inclusive astrology experts, user-astrologer compatibility, upfront costs and reviews, personalized astrology content, and creating a supportive community space, we will be well positioned to break in to the market with a product unlike any other.
               </Text>
-              <h3>User Personas and User Flows</h3>
+              <Title variant="cardBig" >User Personas and User Flows</Title>
               <Text
                 className="mt-4 mb-5"
                 css={`
@@ -255,7 +252,7 @@ const CaseStudy1Body = () => {
               </Text>
               <Row className="justify-content-center align-items-center">
                 <div className="pb-5">
-                  <h4>The culmination resulted in 3 main app features</h4>
+                  <Title variant="cardBig" >The culmination resulted in 3 main app features</Title>
                   <ul type="circle" className="pl-4">
                     <Text variant="li">
                       A way for Hannah to find an astrologer who fits their
@@ -319,15 +316,11 @@ const CaseStudy1Body = () => {
                 copy to provide context to the designs. After refining my ideas,
                 I moved on to designing in Figma.
               </Text>
-              <Box className="pl-lg-4 pt-5 pt-lg-0">
-              <br />
-              <Text>
-                Here is an example of the iterative process for one of Aspect's
-                main features, <b>Browse Astrologers</b>.
-              </Text>
-              <br />
-            </Box>
                 <Row className="justify-content-center align-items-center py-5">
+                  <Text>
+                  Here is an example of the iterative process for one of Aspect's
+                  main features, <b>Browse Astrologers</b>.
+                  </Text>
                   <div className="w-75">
                     <img src={imgPhoto6} alt="folio" className="img-fluid" />
                   </div>
@@ -385,7 +378,7 @@ const CaseStudy1Body = () => {
           </Row>
           {/* <!-- 05 Test --> */}
           <Row className="justify-content-center align-items-center">
-            <Box className="pl-lg-4 pt-5 pt-lg-0">
+            <Box className="py-5">
               <Section hero={true} bg={"dark"} className="px-5">
                 <Container className="pb-3">
                   <Title color="light" variant="secSm">
@@ -405,7 +398,7 @@ const CaseStudy1Body = () => {
                   </Title>
                 </Container>
               </Section>
-              <Box className="pl-lg-4 pt-5 pt-lg-0">
+              <Box className="py-5">
               <Text
                 target="_blank"
                 href="https://docs.google.com/spreadsheets/d/16Wbg4Y7sKAnkJnRXY7GUK7j14-K5hmfOPl9W45BOxCs/edit"
@@ -414,13 +407,13 @@ const CaseStudy1Body = () => {
                 <u>
                   <b>The goal of usability testing was to measure for usability
                 errors. Moderated remote testing was used for all 6 usability
-                tests. Participants were given 4 tasks to complete.</b>
+                tests. Participants were given 4 tasks to complete. You can find results here.</b>
                 </u>
               </Text>
             </Box>
             </Box>
-            <Box className="pl-lg-4 pt-5 pt-lg-0">
-              <h4 variant="secSm">Task Scenario Example</h4>
+            <Box>
+              <Title variant="cardSm" >Task Scenario Example</Title>
               <Text>
                 <i>
                   You've registered for the app and can now see if there are any
@@ -445,44 +438,42 @@ const CaseStudy1Body = () => {
             <Col>
               <br />
               <br />
-              <h2>Usability Test Key Findings</h2>
+              <Title variant="cardBig">Usability Test Key Findings</Title>
               <br />
-              <h4>Information Overload</h4>
+              <Title variant={"cardSm"}>Information Overload</Title>
               <Text variant="li">
                 Astrologer's profile is too busy
               </Text>
               <Text variant="li">
-                <b>3 out of 6</b> experienced information overload on
+                3 out of 6 experienced information overload on
                 astrologer's profile, and 2 participants wanted more drop down
                 content
               </Text>
               <br />
-              <h4>Confusing Copy</h4>
+              <Title variant={"cardSm"}>Confusing Copy</Title>
               <Text variant="li">
                 "Readings" copy in menu is confusing
               </Text>
               <Text variant="li">
-                <b>3 out of 6</b> expressed confusion with the term “Readings”,
+                3 out of 6 expressed confusion with the term “Readings”,
                 thinking it was their past chart readings and not where to find
                 astrologers
               </Text>
               <br />
-              <h4>Expectations</h4>
+              <Title variant={"cardSm"}>Expectations</Title>
               <Text variant="li">
                 Users expect option to contact astrologer prior to
                 booking
               </Text>
               <Text variant="li">
-                <b>3 out of 6</b> want to reach out to an astrologer before
+                3 out of 6 want to reach out to an astrologer before
                 committing to a reading in order to feel assurance
               </Text>
             </Col>
           </Row>
-          <Row className="justify-content-center align-items-center">
+          <Row className="justify-content-center align-items-center py-4">
             <Col>
-              <br />
-              <br />
-              <h3>Implemented Changes</h3>
+              <Title variant={"cardBig"}>Implemented Changes</Title>
               <Text variant="li">
                 Designed drop downs for About Me and Qualifications in
                 astrologer's profile, mitigating information overload
@@ -498,13 +489,13 @@ const CaseStudy1Body = () => {
           </Row>
           <Row>
             <Col>
-              <Text>
+              <Text className="justify-content-center align-items-center py-4">
                 The feedback I received from usability testing allowed me to
                 clean up screens, thereby reducing confusion. Based on test
                 results I <b>redesigned 3 screens</b> and{" "}
                 <b>12 participants voted on which they preferred</b>.
               </Text>
-              <Text>
+              <Text className="justify-content-center align-items-center py-4">
                 <b>Below are results for the Home screen.</b>
               </Text>
             </Col>
@@ -512,7 +503,7 @@ const CaseStudy1Body = () => {
           <Row className="justify-content-center align-items-center py-5">
             <Col>
               <div>
-                <h4>Option A: 17% of votes</h4>
+                <Title variant={"cardLg"}>Option A: 17% of votes</Title>
                 <div className="w-100">
                   <img src={imgPhoto9} alt="folio" className="img-fluid" />
                 </div>
@@ -520,7 +511,7 @@ const CaseStudy1Body = () => {
             </Col>
             <Col>
               <div>
-                <h4>Option B: 83% of votes</h4>
+                <Title variant={"cardLg"}>Option B: 83% of votes</Title>
                 <div className="w-100">
                   <img src={imgPhoto10} alt="folio" className="img-fluid" />
                 </div>
@@ -529,9 +520,9 @@ const CaseStudy1Body = () => {
           </Row>
           <Row>
             <Col>
-              <Text>
+              <Title variant="cardSm">
                 <b>Why Option B? Participants said it's</b>
-              </Text>
+              </Title>
               <Text variant="li">Cleaner</Text>
               <Text variant="li">Easier to navigate</Text>
               <Text variant="li">More organized</Text>
@@ -543,7 +534,7 @@ const CaseStudy1Body = () => {
           <br />
           <Row>
             <Col>
-              <h3>What do my peers think?</h3>
+              <Title variant={"cardLg"}>What do my peers think?</Title>
               <Text>
                 Before finalizing designs I participated in{" "}
                 <b>design critiques</b>, receiving (and giving) feedback from 5
@@ -570,7 +561,7 @@ const CaseStudy1Body = () => {
           </Row>
           <Row>
             <Col>
-              <h4>Feedback</h4>
+              <Title variant={"cardSm"}>Feedback</Title>
               <Text>
                 <i>
                   “I think this profile page is very well laid out. One thing
@@ -580,7 +571,7 @@ const CaseStudy1Body = () => {
                 </i>
               </Text>
               <br />
-              <h4>Reasoning</h4>
+              <Title variant={"cardSm"}>Reasoning</Title>
               <Text>
                 The bell icon for scheduling a reading was confusing without
                 proper context. After further consideration, I realized the user
@@ -664,9 +655,9 @@ const CaseStudy1Body = () => {
                   </Title>
                 </Container>
               </Section>
-              <Row className="justify-content-center align-items-center">
+              <Row className="justify-content-center align-items-center py-5">
                 <Col>
-                  <h3>Browse and Chat with an astrologer</h3>
+                  <Title variant="cardBig">Browse and Chat with an Astrologer</Title>
                   <div className="w-100">
                   <img src={imgPhoto13} alt="folio" className="img-fluid" />
                   </div>
@@ -674,7 +665,7 @@ const CaseStudy1Body = () => {
               </Row>
               <Row className="justify-content-center align-items-center">
                 <Col>
-                  <h3>My Chart</h3>
+                  <Title variant="cardBig">My Chart</Title>
                   <div className="w-100">
                   <img src={imgPhoto14} alt="folio" className="img-fluid" />
                   </div>
@@ -682,7 +673,7 @@ const CaseStudy1Body = () => {
               </Row>
               <Row className="justify-content-center align-items-center py-5">
                 <Col>
-                  <h3>Community Chat</h3>
+                  <Title variant="cardBig">Community Chat</Title>
                   <div className="w-100">
                   <img src={imgPhoto15} alt="folio" className="img-fluid" />
                   </div>
@@ -729,7 +720,7 @@ const CaseStudy1Body = () => {
           <Row>
             <Col>
               <br />
-              <h3>Next Steps</h3>
+              <Title variant="cardBig">Next Steps</Title>
               <Text variant="li">
                 Design a Direct Message feature for user to user connection
               </Text>

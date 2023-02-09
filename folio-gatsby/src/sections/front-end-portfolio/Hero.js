@@ -4,9 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-scroll'
 import imgL from "../../assets/image/png/aspect_hero@2x.png";
 import { Title, Section, Box, Text, Button } from '../../components/Core'
-import IconCircle from '../../components/IconCircle'
-
-import bgHero from '../../assets/image/png/portfolio_mockup_index@2x.png'
+import imgPhoto from "../../assets/image/png/portfolio_index@2x.png";
 
 const SectionStyled = styled(Section)`
   &::before {
@@ -16,7 +14,6 @@ const SectionStyled = styled(Section)`
     content: '';
     width: 100%;
     height: 100%;
-    background: url(${bgHero}) top center no-repeat;
     background-size: cover;
     z-index: -1;
   }
@@ -45,7 +42,7 @@ const Hero = () => {
             <Row>
               <Box className="d-flex flex-column align-items-center text-center">
                 <div className="img-main text-center w-50 mb-5">
-                  <ImgRight src={imgL} alt="" className="img-fluid" />
+                  <ImgRight src={imgPhoto} alt="" className="img-fluid" />
                 </div>
                 <Title
                   variant="card"
