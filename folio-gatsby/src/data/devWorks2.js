@@ -1,7 +1,7 @@
 import imgT1 from '../assets/image/png/test_aspect.png'
-import imgT2 from '../assets/image/png/portfolio_index@2x.png'
-import imgT3 from '../assets/image/png/sean.png'
-import imgPhoto from "../assets/image/png/aspect_index2@2x.png";
+import imgT2 from '../assets/image/png/portfolioindex.png'
+import imgT3 from '../assets/image/png/sean1.png'
+import imgPhoto from "../assets/image/png/aspectindex.png";
 
 
 const devWorks2 = [
@@ -22,7 +22,7 @@ const devWorks2 = [
     link: '/front-end-portfolio',
   },
   {
-    brand: `Sean's Legacy Mentorship Program: Coming Soon`,
+    brand: `Sean's Legacy Mentorship Platform: Coming Soon`,
     slug: `seanslegacycontentdesign`,
     title: `coming soon`,
     categories: [`ux`],
