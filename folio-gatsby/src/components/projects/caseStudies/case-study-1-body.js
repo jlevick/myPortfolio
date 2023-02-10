@@ -49,11 +49,12 @@ const CaseStudy1Body = () => {
               </Title>
             </Container>
           </Section>
-          <Col className="justify-content-center align-items-center">
+          <Col className="justify-content-center align-items-center py-5">
             <Row>
-              <Box className="pt-5">
+              <Box>
+                <Title variant="cardBig" className="mb-4">Business Opportunity </Title>
                 <Text
-                  className="mt-4 mb-5"
+                  className="mb-5"
                   css={`
                     line-height: 0.07;
                   `}
@@ -66,18 +67,22 @@ const CaseStudy1Body = () => {
               </Box>
             </Row>
             <Row>
-              <Text>
+              <Text className="mb-4">
                 In order to understand the problem space and where Aspect could fill in gaps for users, I conducted 2 competitive analyses. Sanctuary offers similar, albeit generic, features and is the top competitor. Kasamba also offers live readings and has been in business for many years.
               </Text>
             </Row>
+            <Row className="justify-content-center align-items-center">
+                <div className="py-5 px-5 w-100">
+                    <img src={imgPhoto} alt="folio" className="img-fluid" />
+                </div>
+            </Row>
             <Row className="justify-content-center align-items-center py-5">
               <Col>
-                  <Title variant="cardBig">Top 3 Market Gaps to Fill</Title>
+                  <Title variant="cardBig" className="mb-4">Top 3 Market Gaps to Fill</Title>
                   <Title
                     variant="card"
                     mb="2.5rem"
                     fontSize="1rem"
-                    className="text-uppercase"
                     css={`
                       letter-spacing: 1.63px;
                     `}
@@ -99,11 +104,6 @@ const CaseStudy1Body = () => {
                   <Text variant="li">
                     We need to make it easy to find user reviews
                   </Text>
-                  <Row className="justify-content-center align-items-center py-3">
-                    <div className="py-5 px-5 w-100">
-                      <img src={imgPhoto} alt="folio" className="img-fluid" />
-                    </div>
-                  </Row>
               </Col>
             </Row>
             <Row className="justify-content-center align-items-center">
@@ -126,21 +126,21 @@ const CaseStudy1Body = () => {
             </Row>
             <Row className="py-5">
               <Col>
-                <Title variant="cardBig">Most important criteria when seeking an astrologer</Title>
+                <Title variant="cardBig" className="mb-4">Most important criteria when seeking an astrologer</Title>
                 <ul type="circle" className="pl-4">
                   <Text variant="li">
-                    Verified Expertise (63.6%)
+                    Verified expertise (63.6%)
                   </Text>
                   <Text variant="li">
-                    Astrologer's Background (63.6%)
+                    Astrologer's background (63.6%)
                   </Text>
                   <Text variant="li">
-                    Client Reviews (45.5%)
+                    Client reviews (45.5%)
                   </Text>
                 </ul>
                 <Row>
                   <Col>
-                    <Title variant="cardBig">
+                    <Title variant="cardBig" className="mb-4">
                       People don't book astrology readings because they are
                     </Title>
                     <ul type="circle" className="pl-4 pb-4">
@@ -161,23 +161,22 @@ const CaseStudy1Body = () => {
                     </Text>
                   </Col>
                 </Row>
-                <Row className="pt-5 pb-4">
+                <Row className="pt-5">
                   <Col className="justify-content-center align-items-center">
-                    <Title variant="cardBig">User Interview Key Findings</Title>
+                    <Title variant="cardBig" className="mb-4">User Interview Key Findings</Title>
                     <ul type="circle" className="pl-4">
                       <Text variant="li">
-                          Users engage with astrology for fun, connection, and self knowledge.
+                          Users engage with astrology for fun, connection, and self knowledge
                       </Text>
                       <Text variant="li">
-                          Users won't book readings if they aren't certain the astrologer is trustworthy.
+                          Users won't book readings if they aren't certain the astrologer is trustworthy
                       </Text>
                       <Text variant="li">
-                          No single astrology resource provides all the information users need.
+                          No single astrology resource provides all the information users need
                       </Text>
                     </ul>
                   </Col>
                 </Row>
-                <br />
               </Col>
             </Row>
           </Col>
@@ -209,13 +208,14 @@ const CaseStudy1Body = () => {
                   line-height: 0.07;
                 `}
               >
-                After conducting user interviews I felt concerned I hadn't asked the right questions. I committed to extracting what I could from the data and believe this served me well. I was left with a deeper understanding of the complexity and ambiguity that come with analyzing qualitative data.
+                After conducting interviews I had a moment of self doubt, worried I had not asked the <i>right</i> questions. I knew I had prepared thoughtful questions, even reasons as to why I asked each, so I committed to extracting what I could from the data. 
                 <br />
-                The interviews indicated users are seeking more than just access
-                to reputable astrologers. Based on these findings I crafted a
-                problem statement and initial hypothesis.
+                This served me well and ultimately my findings were insightful and informative. I was left with a deeper understanding of the complexity and ambiguity that come with analyzing qualitative data.
               </Text>
             </Box>
+            <Text className="mb-4">The interviews surprised me and indicated users are seeking more than just access
+                to reputable astrologers. Based on these findings I crafted a
+                problem statement and initial hypothesis.</Text>
             <Box>
               <Title variant="cardBig" className="mb-4">Problem Statement</Title>
               <Text className="mb-4">
@@ -232,7 +232,7 @@ const CaseStudy1Body = () => {
               <br />
             </Box>
             <Box className="pt-3">
-              <Title variant="cardBig" >Hypothesis</Title>
+              <Title variant="cardSm" >Hypothesis</Title>
               <Text
                 className="mt-4 mb-4"
                 css={`
@@ -250,9 +250,21 @@ const CaseStudy1Body = () => {
               >
                 To identify themes and parse out insights, I created an affinity map, and 2 distinct personas emerged. User flows followed and helped plan which features and screens were necessary for a user to complete a given task. 
               </Text>
-              <Row className="justify-content-center align-items-center">
+              <Row className="justify-content-center align-items-center py-5">
+                <div className="w-50">
+                  <img src={imgPhoto2} alt="folio" className="img-fluid" />
+                </div>
+              </Row>
+              <Row className="justify-content-center align-items-center py-5">
+                <div className="w-50">
+                  <img src={imgPhoto3} alt="folio" className="img-fluid" />
+                </div>
+              </Row>
+            </Box>
+          </Row>
+          <Row className="justify-content-center align-items-center">
                 <div className="pb-5">
-                  <Title variant="cardBig" >The culmination resulted in 3 main app features</Title>
+                  <Title variant="cardBig" className="mb-4">The culmination resulted in 3 main app features</Title>
                   <ul type="circle" className="pl-4">
                     <Text variant="li">
                       A way for Hannah to find an astrologer who fits their
@@ -269,18 +281,6 @@ const CaseStudy1Body = () => {
                   </ul>
                 </div>
               </Row>
-              <Row className="justify-content-center align-items-center py-5">
-                <div className="w-50">
-                  <img src={imgPhoto2} alt="folio" className="img-fluid" />
-                </div>
-              </Row>
-              <Row className="justify-content-center align-items-center py-5">
-                <div className="w-50">
-                  <img src={imgPhoto3} alt="folio" className="img-fluid" />
-                </div>
-              </Row>
-            </Box>
-          </Row>
           {/* <!-- 03 Ideate --> */}
           <Row className="justify-content-center align-items-center">
             <Box className="pt-5">
@@ -317,10 +317,10 @@ const CaseStudy1Body = () => {
                 I moved on to designing in Figma.
               </Text>
                 <Row className="justify-content-center align-items-center py-5">
-                  <Text>
+                  <Title variant="cardSm">
                   Here is an example of the iterative process for one of Aspect's
-                  main features, <b>Browse Astrologers</b>.
-                  </Text>
+                  main features Browse Astrologers.
+                  </Title>
                   <div className="w-75">
                     <img src={imgPhoto6} alt="folio" className="img-fluid" />
                   </div>
@@ -399,21 +399,22 @@ const CaseStudy1Body = () => {
                 </Container>
               </Section>
               <Box className="py-5">
+                <Text>The goal of usability testing was to measure for usability
+                errors. Moderated remote testing was used for all 6 usability
+                tests. Participants were given 4 tasks to complete.</Text>
               <Text
                 target="_blank"
                 href="https://docs.google.com/spreadsheets/d/16Wbg4Y7sKAnkJnRXY7GUK7j14-K5hmfOPl9W45BOxCs/edit"
                 variant="a"
               >
                 <u>
-                  <b>The goal of usability testing was to measure for usability
-                errors. Moderated remote testing was used for all 6 usability
-                tests. Participants were given 4 tasks to complete. You can find results here.</b>
+                  <b>You can find results here.</b>
                 </u>
               </Text>
             </Box>
             </Box>
             <Box>
-              <Title variant="cardSm" >Task Scenario Example</Title>
+              <Title variant="cardSm">Task Scenario Example</Title>
               <Text>
                 <i>
                   You've registered for the app and can now see if there are any
@@ -424,15 +425,15 @@ const CaseStudy1Body = () => {
               </Text>
             </Box>
           </Row>
-                <Row className="justify-content-center align-items-center py-5">
+            <Row className="justify-content-center align-items-center py-2">
                   <div className="w-50">
                      <img src={imgPhoto8} alt="folio" className="img-fluid" />
                   </div>
-                </Row>
+            </Row>
           <Row className="justify-content-center align-items-center">
-            <Text>
+            <Title variant="cardSm">
               Notes from usability test sessions.
-            </Text>
+            </Title>
           </Row>
           <Row className="justify-content-center align-items-center">
             <Col>
@@ -473,7 +474,7 @@ const CaseStudy1Body = () => {
           </Row>
           <Row className="justify-content-center align-items-center py-4">
             <Col>
-              <Title variant={"cardBig"}>Implemented Changes</Title>
+              <Title variant={"cardBig"} className="mb-4">Implemented Changes</Title>
               <Text variant="li">
                 Designed drop downs for About Me and Qualifications in
                 astrologer's profile, mitigating information overload
@@ -492,11 +493,7 @@ const CaseStudy1Body = () => {
               <Text className="justify-content-center align-items-center py-4">
                 The feedback I received from usability testing allowed me to
                 clean up screens, thereby reducing confusion. Based on test
-                results I <b>redesigned 3 screens</b> and{" "}
-                <b>12 participants voted on which they preferred</b>.
-              </Text>
-              <Text className="justify-content-center align-items-center py-4">
-                <b>Below are results for the Home screen.</b>
+                results I redesigned 3 screens and 2 participants voted on which they preferred. <b>Below are the results for the Home Screen</b>.
               </Text>
             </Col>
           </Row>
@@ -534,7 +531,7 @@ const CaseStudy1Body = () => {
           <br />
           <Row>
             <Col>
-              <Title variant={"cardLg"}>What do my peers think?</Title>
+              <Title variant={"cardLg"} className="mb-4">What do my peers think?</Title>
               <Text>
                 Before finalizing designs I participated in{" "}
                 <b>design critiques</b>, receiving (and giving) feedback from 5
@@ -614,8 +611,8 @@ const CaseStudy1Body = () => {
                 `}
               >
                 I made informed decisions regarding feedback by applying my{" "}
-                <b>design system</b>, <b>style guide</b>, and{" "}
-                <b>accessibility knowledge</b> to justify declining any proposed
+                design system, style guide, and{" "}
+                accessibility knowledge to justify declining any proposed
                 changes.
               </Text>
             </Box>
@@ -655,7 +652,21 @@ const CaseStudy1Body = () => {
                   </Title>
                 </Container>
               </Section>
-              <Row className="justify-content-center align-items-center py-5">
+              <Text
+                className="mt-4 mb-5"
+                css={`
+                  line-height: 0.07;
+                `}
+              >
+                Final iterations took in to account{" "}
+                web accessibility best practices{" "}
+                usability heuristics, and the real-life feedback {" "}
+                of everyone who helped shape Aspect. I designed a minimum viable
+                product with 3 distinct features that{" "}
+                <b>offers users exactly what they want</b>,{" "}
+                <i>all in one convenient app</i>.
+              </Text>
+              <Row className="justify-content-center align-items-center">
                 <Col>
                   <Title variant="cardBig">Browse and Chat with an Astrologer</Title>
                   <div className="w-100">
@@ -679,24 +690,10 @@ const CaseStudy1Body = () => {
                   </div>
                 </Col>
               </Row>
-              <Text
-                className="mt-4 mb-5"
-                css={`
-                  line-height: 0.07;
-                `}
-              >
-                Final iterations took in to account{" "}
-                <b>web accessibility best practices</b>,{" "}
-                <b>usability heuristics</b>, and the real-life <b>feedback</b>{" "}
-                of everyone who helped shape Aspect. I designed a minimum viable
-                product <b>(MVP)</b> with <b>3 distinct features</b> that{" "}
-                <b>offers users exactly what they want</b>,{" "}
-                <i>all in one convenient app</i>.
-              </Text>
-              <br />
+              <Row className="mb-4">
               <Text>
                 As a new product on the market, the KPI{" "}
-                <b>(key performance indicator)</b> I would measure is{" "}
+                (key performance indicator) I would measure is{" "}
                 <b>user return rate</b>, a relatively easy metric to track
                 that holds invaluable insight.{" "}
                 <i>
@@ -707,20 +704,22 @@ const CaseStudy1Body = () => {
                 user interface, the copy/content, the astrology experts, or any
                 other number of reasons, we may find users do not return.
               </Text>
-              <br />
+              </Row>
+              <Row className="mb-4">
               <Text>
                 I believe Aspect is a genuinely{" "}
-                <b>profitable business venture</b>. Testing would need to be
+                profitable business venture. Testing would need to be
                 done on a much larger scale with more participants but I stand
                 behind the idea as an entry point in to this quickly growing
                 industry.
               </Text>
+              </Row>
             </Box>
           </Row>
           <Row>
             <Col>
               <br />
-              <Title variant="cardBig">Next Steps</Title>
+              <Title variant="cardBig" className="mb-4">Next Steps</Title>
               <Text variant="li">
                 Design a Direct Message feature for user to user connection
               </Text>
