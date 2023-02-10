@@ -19,6 +19,8 @@ import imgPhoto12 from "../../../assets/image/png/js_console_practice@2x.png";
 import imgPhoto13 from "../../../assets/image/png/codepen@2x.png";
 import imgPhoto14 from "../../../assets/image/png/js_menu_code@2x.png";
 import imgPhoto15 from "../../../assets/image/png/menu_mobile@2x.png";
+import imgPhoto16 from "../../../assets/image/png/added_phone@2x.png";
+import imgPhoto17 from "../../../assets/image/png/added_phone_hover@2x.png";
 
 
 
@@ -300,6 +302,55 @@ const CaseStudy2Body = () => {
                   <Title variant="card">User Goals</Title>
                   <Text>Learn more about the designer and their work. Find the designer's contact information. </Text>
               </div>
+            </Row>
+            <Row className='mt-4'>
+                <div>
+                  <Title variant="card">Starting Situation</Title>
+                  <Text><i>“You are a hiring manager and you have received this designer's portfolio to see if you are interested in interviewing them for an early career UX Design position.”</i></Text>
+                </div>
+            </Row>
+            <Row className='mt-4'>
+                <div>
+                  <Title variant="card">Example Scenario</Title>
+                  <Text><i>"You have viewed the designer's work and want to learn more on who they are. Please show me how you would go about doing so."</i></Text>
+                </div>
+            </Row>
+            <Row className='mt-4'>
+                <div>
+                  <Title variant="card">Results</Title>
+                  <Text>Test for errors based on Jakob Nielsen's error rating scale.</Text>
+                </div>
+            </Row>
+            <Row className='mt-5'>
+              <div>
+                <Text>Overall there were no major usability issues, although 3 out of 5 participants wanted to see a phone number listed in the contact section. </Text>
+                <br />
+                <Text>One participant ran Lighthouse on the site and suggested I do the same to fix a few accessibility errors they found (more on this later). </Text>
+                <br />
+                <Text>For a positive user experience I chose to make the phone number clickable by using &lt;a&gt;href=“tel:PHONENUMBER>PHONE NUMBER&lt;/a&gt;  </Text>
+              </div>
+            </Row>
+            <Row className='mt-5'>
+              <Col>
+                <Title variant="card">Phone number added</Title>
+                <img src={imgPhoto16} alt="" className="img-fluid w-50" />
+              </Col>
+              <Col>
+                  <Title variant="card">Hover state </Title>
+                  <img src={imgPhoto17} alt="" className="img-fluid w-50" />
+              </Col>
+            </Row>
+            <Row className='mt-5'>
+              <Col>
+                <div>
+                  <Title variant="cardBig">Code Quality and Cross-Browser Testing</Title>
+                  <Text>To ensure that my code was error- free and consistently formatted, I implemented linters (HTML Hint, Stylelint, Standard JS) and used Prettier to format the code. </Text>
+                  <br />
+                  <Text>One error was related to the use of ampersands. After doing some research online, I realized that my initial fix was incorrect. I was able to resolve the issue by using " & amp" instead of “[ & ]". </Text>
+                  <br />
+                  <Text>I learned an ampersand ( & ) by itself is technically an error in HTML and can potentially cause a browser to display strange things. </Text>
+                </div>
+              </Col>
             </Row>
           </Section>
         </Container>
