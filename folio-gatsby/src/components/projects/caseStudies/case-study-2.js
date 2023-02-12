@@ -111,16 +111,10 @@ const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
           <div className="pt-5 pt-lg-0">
             <Title variant="cardBig">Problem</Title>
             <Text color="dark" variant="secSm" className="mb-4 mt-4">
-              Although designers and developers are both working toward the
-              same goal, problems can arise when design decisions don’t take
-              into account the technical limitations and challenges involved
-              in bringing a design to life.
+              Designers and developers are working toward the same goal, but problems can arise when design decisions don't take into account the technical limitations and challenges involved in bringing a design to life.   
             </Text>
             <Text color="dark" variant="secSm">
-              By familiarizing themselves with coding concepts, designers can
-              better understand the capabilities and limitations of the
-              development process, leading to smoother collaboration, easier
-              design hand-offs, and more successful projects.
+            By becoming familiar with coding concepts, designers can better understand the capabilities and limitations of the development process.  This leads to smoother collaboration, easier design hand-offs, and more successful projects.
             </Text>
           </div>
         </Row>
