@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-bootstrap'
 
-import { Section, Title, Text, Span } from '../../../components/Core'
+import { Section, Title, Text, Button } from '../../../components/Core'
 import imgPhoto from '../../../assets/image/png/aspect_index2@2x.png'
 
 const LinkSocial = styled.a`
@@ -116,6 +116,15 @@ const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
             <Text color="dark" variant="secSm">
             By becoming familiar with coding concepts, designers can better understand the capabilities and limitations of the development process.  This leads to smoother collaboration, easier design hand-offs, and more successful projects.
             </Text>
+          </div>
+        </Row>
+      </Container>
+      <Container>
+        <Row className="pl-4 mt-5 justify-content-center">
+          <div className="pt-lg-0">
+                <a target='_blank' rel="noreferrer" href={'https://jlevick.github.io/portfolio-website/index.html'}>
+                    <Button variant={'#7155ff'}>Finished Website</Button>
+                </a>
           </div>
         </Row>
       </Container>

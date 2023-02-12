@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-bootstrap'
 
-import { Section, Title, Text, Span } from '../../../components/Core'
+import { Section, Title, Text, Button } from '../../../components/Core'
 import imgPhoto from '../../../assets/image/png/aspect_index2@2x.png'
 
 const LinkSocial = styled.a`
@@ -101,6 +101,15 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
           </Row>
         </Container>
       </Section>
+      <Container>
+        <Row className="pl-4 mt-5 justify-content-center">
+          <div className="pt-lg-0">
+                <a target='_blank' rel="noreferrer" href={'https://www.figma.com/proto/W2qPXH6fRc4VrBPhPlc93i/Aspect-v11?node-id=1334%3A7185&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1330%3A7221'}>
+                    <Button variant={'#7155ff'}>Final Prototype</Button>
+                </a>
+          </div>
+        </Row>
+      </Container>
     </>
   )
 }

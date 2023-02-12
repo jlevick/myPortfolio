@@ -29,7 +29,7 @@ const CaseStudy1Body = () => {
       {/* <!-- 01 Discover --> */}
       <Section className="position-relative">
         <Container>
-          <Section hero={true} bg={"dark"} className="mt-5 px-5">
+          <Section hero={true} bg={"dark"} className="mt-4 px-5">
             <Container className="pb-3">
               <Title color="light" variant="secSm">
                 01 Discover
