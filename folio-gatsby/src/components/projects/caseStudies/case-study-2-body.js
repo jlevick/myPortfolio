@@ -315,19 +315,14 @@ const CaseStudy2Body = () => {
                   <Text><i>"You have viewed the designer's work and want to learn more on who they are. Please show me how you would go about doing so."</i></Text>
                 </div>
             </Row>
-            <Row className='mt-4'>
-                <div>
-                  <Title variant="card">Results</Title>
-                  <Text>Test for errors based on Jakob Nielsen's error rating scale.</Text>
-                </div>
-            </Row>
             <Row className='mt-5'>
+                <Title variant="card">Results</Title>
               <div>
                 <Text>Overall there were no major usability issues, although 3 out of 5 participants wanted to see a phone number listed in the contact section. </Text>
                 <br />
                 <Text>One participant ran Lighthouse on the site and suggested I do the same to fix a few accessibility errors they found (more on this later). </Text>
                 <br />
-                <Text>For a positive user experience I chose to make the phone number clickable by using &lt;a&gt;href=“tel:PHONENUMBER>PHONE NUMBER&lt;/a&gt;  </Text>
+                <Text>For a positive user experience I chose to make the phone number clickable by using &lt;a&gt;href=“tel:PHONENUMBER&lt;PHONE NUMBER&lt;/a&gt;  </Text>
               </div>
             </Row>
             <Row className='mt-5'>
@@ -346,9 +341,9 @@ const CaseStudy2Body = () => {
                   <Title variant="cardBig">Code Quality and Cross-Browser Testing</Title>
                   <Text>To ensure that my code was error- free and consistently formatted, I implemented linters (HTML Hint, Stylelint, Standard JS) and used Prettier to format the code. </Text>
                   <br />
-                  <Text>One error was related to the use of ampersands. After doing some research online, I realized that my initial fix was incorrect. I was able to resolve the issue by using " & amp" instead of “[ & ]". </Text>
+                  <Text>One error was related to the use of ampersands (&amp;). After doing some research online, I realized that my initial fix was incorrect. I was able to resolve the issue by using &amp;amp; instead of my initial try, [&amp;]. </Text>
                   <br />
-                  <Text>I learned an ampersand ( & ) by itself is technically an error in HTML and can potentially cause a browser to display strange things. </Text>
+                  <Text>I learned an ampersand by itself is technically an error in HTML and can potentially cause a browser to display strange things. </Text>
                 </div>
               </Col>
             </Row>
