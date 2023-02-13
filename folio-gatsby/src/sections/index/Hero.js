@@ -17,7 +17,7 @@ const Hero = () => {
       <Section hero className="position-relative">
         <Container>
           <Row className="align-items-center">
-            <Col lg="11" className="mb-5 mb-lg-0">
+            <Col lg="11" className="mb-5 mt-5">
               <Box>
                 <Text
                   variant="tag"

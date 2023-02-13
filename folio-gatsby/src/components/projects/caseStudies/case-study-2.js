@@ -110,10 +110,10 @@ const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
         <Row className="pl-4 mt-5">
           <div className="pt-5 pt-lg-0">
             <Title variant="cardBig">Problem</Title>
-            <Text color="dark" variant="secSm" className="mb-4 mt-4">
+            <Text className="mb-4 mt-4">
               Designers and developers are working toward the same goal, but problems can arise when design decisions don't take into account the technical limitations and challenges involved in bringing a design to life.   
             </Text>
-            <Text color="dark" variant="secSm">
+            <Text className="mb-4 mt-4">
             By becoming familiar with coding concepts, designers can better understand the capabilities and limitations of the development process.  This leads to smoother collaboration, easier design hand-offs, and more successful projects.
             </Text>
           </div>

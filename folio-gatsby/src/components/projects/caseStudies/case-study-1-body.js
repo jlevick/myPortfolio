@@ -398,29 +398,32 @@ const CaseStudy1Body = () => {
                   </Title>
                 </Container>
               </Section>
-              <Box className="py-5">
-                <Text>The goal of usability testing was to measure for usability
-                errors. Moderated remote testing was used for all 6 usability
-                tests. Participants were given 4 tasks to complete.</Text>
-              <Text
-                target="_blank"
-                href="https://docs.google.com/spreadsheets/d/16Wbg4Y7sKAnkJnRXY7GUK7j14-K5hmfOPl9W45BOxCs/edit"
-                variant="a"
-              >
-                <u>
-                  <b>You can find results here.</b>
-                </u>
-              </Text>
-            </Box>
+              <Row>
+                <Box>
+                  <Text className="mb-4 mt-4">The goal of usability testing was to measure for usability
+                  errors. Moderated remote testing was used for all 6 usability
+                  tests. Participants were given 4 tasks to complete.</Text>
+                  <Text
+                    className="pl-lg-4 pt-5 pt-lg-0"
+                    target="_blank"
+                    href="https://docs.google.com/spreadsheets/d/16Wbg4Y7sKAnkJnRXY7GUK7j14-K5hmfOPl9W45BOxCs/edit"
+                    variant="a"
+                    >
+                    <u>
+                      <b>You can find results here.</b>
+                    </u>
+                  </Text>
+                </Box>
+              </Row>
             </Box>
             <Box>
               <Title variant="cardSm">Task Scenario Example</Title>
-              <Text>
+              <Text className="mb-4 mt-4">
                 <i>
-                  You've registered for the app and can now see if there are any
+                  "You've registered for the app and can now see if there are any
                   astrologers you might be interested in connecting with. How
                   would you go about finding someone and connecting with them?
-                  Please show me.
+                  Please show me."
                 </i>
               </Text>
             </Box>

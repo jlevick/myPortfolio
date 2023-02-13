@@ -33,8 +33,8 @@ const ContactForm = ({ theme = 'dark', ...rest }) => {
         />
       </div>
       <div className="mt-4 mt-lg-5">
-        <Button arrowRight variant="primary" type="submit">
-          SEND
+        <Button variant="primary" type="submit">
+          SEND MESSAGE
         </Button>
       </div>
     </Form>
