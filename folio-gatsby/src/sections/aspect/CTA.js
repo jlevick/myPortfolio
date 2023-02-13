@@ -1,13 +1,10 @@
 import React from 'react'
-import styled from 'styled-components'
 import { Container, Row, Col } from 'react-bootstrap'
 
 import {
   Title,
-  Button,
   Section,
   Box,
-  Text,
   LinkContact,
 } from '../../components/Core'
 
@@ -19,7 +16,7 @@ const Hero = () => {
         <Container>
           <Row className="justify-content-center align-items-center">
             <Col lg="11" xl="10" className="text-center">
-              <Box>
+              <Box mt="42px" mb="22px">
                 <Title variant="secSm">
                   Let's connect!
                 </Title>

@@ -1,14 +1,7 @@
 import React from 'react'
-import styled from 'styled-components'
 import { Container, Row, Col } from 'react-bootstrap'
-import { Link } from 'react-scroll'
 
 import { Title, Button, Section, Box, Text } from '../../components/Core'
-
-
-const ImgRight = styled.img`
-  max-width: 100%;
-`
 
 const Hero = () => {
   return (
@@ -18,7 +11,7 @@ const Hero = () => {
         <Container>
           <Row className="align-items-center">
             <Col lg="11" className="mb-5 mt-5">
-              <Box>
+              <Box mt="92px">
                 <Text
                   variant="tag"
                   mb={4}
@@ -28,12 +21,16 @@ const Hero = () => {
                   UX Writer and Content Designer
                 </Text>
                 <Title variant="hero">
-                Enhancing UX through clear, concise content.
+                  Enhancing UX through clear, concise content.
                 </Title>
-                <Box mt="52px">
-                <a target='_blank' rel="noreferrer" href={'static/levick_oxner_resume.pdf'}>
-                    <Button variant={'#7155ff'}>Download my resume</Button>
-                </a>
+                <Box mb="102px" mt="52px">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href={"static/levick_oxner_resume.pdf"}
+                  >
+                    <Button variant={"#7155ff"}>Download my resume</Button>
+                  </a>
                 </Box>
               </Box>
             </Col>
@@ -41,7 +38,7 @@ const Hero = () => {
         </Container>
       </Section>
     </>
-  )
+  );
 }
 
 export default Hero

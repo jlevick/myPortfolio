@@ -1,22 +1,6 @@
 import React from 'react'
-import styled from 'styled-components'
 import { Container, Row, Col } from 'react-bootstrap'
-
 import { Section, Title, Text, Button } from '../../../components/Core'
-import imgPhoto from '../../../assets/image/png/aspect_index2@2x.png'
-
-const LinkSocial = styled.a`
-  color: ${({ theme }) => theme.colors.light} !important;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 13px;
-  letter-spacing: 1.63px;
-  transition: 0.4s;
-  &:hover {
-    color: ${({ theme }) => theme.colors.light} !important;
-    transform: translateY(-5px);
-  }
-`
 
 const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
   return (
@@ -24,8 +8,8 @@ const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
       <Section hero={hero} bg={bg} {...rest}>
         <Container>
           <Row>
-            <Col lg="5">
-              <div className="pl-lg-4 pt-5 pt-lg-0">
+            <Col lg="6">
+              <div>
                 <Title color="light" variant="secSm">
                   Duration
                 </Title>
@@ -52,8 +36,8 @@ const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
                 </Text>
               </div>
             </Col>
-            <Col lg="5">
-              <div className="pl-4 pl-lg-4">
+            <Col lg="6">
+              <div>
                 <Title color="light" variant="secSm">
                   Tools
                 </Title>
@@ -75,15 +59,12 @@ const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
                     end skills.
                   </Text>
                 </div>
-                <div className="mt-4 mb-5"></div>
-                <Text color="light" className="mt-3 font-weight-bold"></Text>
-                <Text color="light" variant="small"></Text>
               </div>
             </Col>
           </Row>
           <Row className="justify-content-center align-items-center">
             <Col className="justify-content-center">
-              <div className="pl-4 pl-lg-4">
+              <div>
                 <Title color="light" variant="secSm">
                   Project Overview
                 </Title>
@@ -108,7 +89,7 @@ const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
       </Section>
       <Container>
         <Row className="pl-4 mt-5">
-          <div className="pt-5 pt-lg-0">
+          <div className="pt-5">
             <Title variant="cardBig">Problem</Title>
             <Text className="mb-4 mt-4">
               Designers and developers are working toward the same goal, but problems can arise when design decisions don't take into account the technical limitations and challenges involved in bringing a design to life.   
@@ -120,11 +101,11 @@ const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
         </Row>
       </Container>
       <Container>
-        <Row className="pl-4 mt-5 justify-content-center">
-          <div className="pt-lg-0">
-                <a target='_blank' rel="noreferrer" href={'https://jlevick.github.io/portfolio-website/index.html'}>
-                    <Button variant={'#7155ff'}>Finished Website</Button>
-                </a>
+        <Row className="pl-4 mt-5 mb-5 justify-content-center">
+          <div>
+            <a target='_blank' rel="noreferrer" href={'https://jlevick.github.io/portfolio-website/index.html'}>
+                <Button variant={'#7155ff'}>Finished Website</Button>
+            </a>
           </div>
         </Row>
       </Container>

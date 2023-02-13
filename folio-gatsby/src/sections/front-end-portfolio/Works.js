@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Container, Row, Col } from 'react-bootstrap'
 import Masonry from 'react-masonry-component'
 
-import { Title, Section, Box, Text, ButtonOutline } from '../../components/Core'
+import { Title, Section, Box, Text } from '../../components/Core'
 import RotateImg from '../../components/RotateImg'
 import devWorks2 from '../../data/devWorks2'
 import { useWindowSize } from '../../hooks'
@@ -62,9 +62,6 @@ const Works = () => {
               </Col>
             ))}
           </Grid>
-          <Box pt="3rem" className="text-center">
-            <ButtonOutline>Load more works</ButtonOutline>
-          </Box>
         </Container>
       </Section>
     </>

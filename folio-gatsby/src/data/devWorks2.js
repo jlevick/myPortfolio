@@ -1,4 +1,3 @@
-import imgT1 from '../assets/image/png/test_aspect.png'
 import imgT2 from '../assets/image/png/portfolioindex.png'
 import imgT3 from '../assets/image/png/sean1.png'
 import imgPhoto from "../assets/image/png/aspectindex.png";

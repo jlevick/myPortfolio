@@ -35,7 +35,7 @@ const Hero = () => {
       {/* <!-- Hero Area --> */}
       <SectionStyled hero className="position-relative">
         <Container>
-          <Box className="d-flex flex-column text-center">
+          <Box mt="92px" className="d-flex flex-column text-center">
             <Box
               className="text-center text-lg-right position-relative"
               pb="3.125rem"
@@ -46,14 +46,14 @@ const Hero = () => {
             </Box>
             <Title
               variant="card"
-              mb="2.5rem"
+              mb="1.5rem"
               fontSize="1rem"
               className="text-uppercase"
               css={`
                 letter-spacing: 1.63px;
               `}
             >
-              UX/UI
+              UX
             </Title>
             <Title variant="hero" mb="1.5rem">
               Aspect
