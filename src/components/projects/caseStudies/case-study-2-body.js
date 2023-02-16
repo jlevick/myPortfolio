@@ -122,13 +122,13 @@ const CaseStudy2Body = () => {
               <Row className="mt-5">
                 <Col>
                   <Title variant="card">Alt text describing image</Title>
-                  <img src={imgPhoto4} alt="" className="img-fluid w-25" />
+                  <img src={imgPhoto5} alt="" className="img-fluid w-25" />
                 </Col>
               </Row>
               <Row className="my-5">
                 <Col>
                   <Title variant="card">Image alt-text is describing</Title>
-                  <img src={imgPhoto5} alt="" className="img-fluid w-100" />
+                  <img src={imgPhoto4} alt="" className="img-fluid w-100" />
                 </Col>
               </Row>
               <Row className='mt-5 mb-3'>
@@ -176,7 +176,7 @@ const CaseStudy2Body = () => {
                 <Col>
                   <div>
                     <Title variant="cardBig">Media Queries</Title>
-                    <Text className="mb-4 mt-4">As I was using a mobile-first design process, I added media queries to my CSS in order to build a responsive site. </Text>
+                    <Text className="mb-4 mt-4">As I was using a mobile-first design process, I added media queries to my CSS in order to build a responsive site. Media queries are used to adjust content to fit all screen sizes. </Text>
                   </div>
                 </Col>
               </Row>

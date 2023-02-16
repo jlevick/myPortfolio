@@ -156,9 +156,9 @@ const CaseStudy1Body = () => {
                       The survey was followed up with user interviews with 4
                       self identified astro-enthusiasts. The goal of interviews
                       was to gain a deeper understanding of people's{" "}
-                      <b>motivations</b> for following astrology, their{" "}
-                      <b>experiences</b> working with astrologers, and their{" "}
-                      <b>expectations</b> of astrological content.
+                      motivations for following astrology, their{" "}
+                      experiences working with astrologers, and their{" "}
+                      expectations of astrological content.
                     </Text>
                   </Col>
                 </Row>
@@ -213,31 +213,20 @@ const CaseStudy1Body = () => {
                 css={`
                   line-height: 0.07;
                 `}
-              >
-                After conducting interviews I had a moment of self doubt,
-                worried I had not asked the <i>right</i> questions. I knew I had
-                prepared thoughtful questions, even reasons as to why I asked
-                each, so I committed to extracting what I could from the data.
-                <br />
-                This served me well and ultimately my findings were insightful
-                and informative. I was left with a deeper understanding of the
-                complexity and ambiguity that come with analyzing qualitative
-                data.
+                >
+                The interviews surprised me and indicated users are seeking more
+                than just access to reputable astrologers. Based on these findings
+                I crafted a problem statement and initial hypothesis.
               </Text>
             </Box>
-            <Text className="mb-3">
-              The interviews surprised me and indicated users are seeking more
-              than just access to reputable astrologers. Based on these findings
-              I crafted a problem statement and initial hypothesis.
-            </Text>
             <Box>
               <Title variant="cardBig" className="mt-4 mb-4">
                 Problem Statement
               </Title>
               <Text className="mb-4">
-                Users need a convenient platform where they can easily find
+                <b>Users need a convenient platform where they can easily find
                 qualified astrologers, connect with other astrology enthusiasts,
-                and learn about themselves through their own unique birth chart.
+                and learn about themselves through their own unique birth chart.</b>
               </Text>
               <Text>
                 We will know our problem statement is accurate when users are
