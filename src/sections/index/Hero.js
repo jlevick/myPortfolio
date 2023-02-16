@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import myPdf from '../../../static/levick_oxner_resume.pdf'
 
 import { Title, Button, Section, Box, Text } from '../../components/Core'
 
@@ -24,11 +25,7 @@ const Hero = () => {
                   Enhancing UX through clear, concise content.
                 </Title>
                 <Box mb="102px" mt="52px">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href={"static/levick_oxner_resume.pdf"}
-                  >
+                  <a href={myPdf} target="_blank" rel="noopener noreferrer">
                     <Button variant={"#7155ff"}>Download my resume</Button>
                   </a>
                 </Box>

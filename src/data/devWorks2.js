@@ -26,7 +26,7 @@ const devWorks2 = [
     title: `coming soon`,
     categories: [`ux`],
     thumbnail: imgT3,
-    link: '/front-end-portfolio',
+    link: '/seans-legacy',
   }
 ]
 

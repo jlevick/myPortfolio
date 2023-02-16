@@ -27,7 +27,7 @@ const Hero = () => {
                 >
                   <div className="d-flex flex-column flex-lg-row justify-content-center">
                     <LinkContact
-                      href="jaimelevick@gmail.com"
+                      href={`mailto: jaimelevick@gmail.com`}
                       target="_blank"
                       className="mb-2 mb-lg-0"
                     >
