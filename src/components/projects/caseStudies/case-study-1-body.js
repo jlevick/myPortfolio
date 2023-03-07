@@ -52,7 +52,7 @@ const CaseStudy1Body = () => {
             <Row>
               <Box>
                 <Title variant="cardBig" className="mb-4">
-                  Business Opportunity{" "}
+                  Why Astrology?{" "}
                 </Title>
                 <Text
                   className="mb-5"
