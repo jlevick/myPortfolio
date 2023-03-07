@@ -60,20 +60,16 @@ const CaseStudy1Body = () => {
                     line-height: 0.07;
                   `}
                 >
-                  Astrology offers personal guidance and is a growing $2.2
-                  billion industry. Aspect, an astrology app, stands out in the
-                  market as the only one offering its unique services, making it
-                  a promising opportunity for investors.
+                  Astrology offers personal guidance and support in increasingly stressful times. It's no wonder the mystical services industry is worth $2.2 billion and growing.
+                  Determining if Aspect could be a viable business opportunity required an understanding of the market. My exploratory research began with competetive analyses of 2 popular astro-related apps: Sanctuary Astrology and Kasamba. 
                 </Text>
               </Box>
             </Row>
             <Row>
               <Text className="mb-4">
-                In order to understand the problem space and where Aspect could
-                fill in gaps for users, I conducted 2 competitive analyses.
-                Sanctuary offers similar, albeit generic, features and is the
-                top competitor. Kasamba also offers live readings and has been
-                in business for many years.
+                Santuary offers instant access to astrologers, and their marketing strategy and social media presence make them Aspect's top direct competitor. 
+                <br />
+                Kasamba also offers live astrology readings and has been in business for decades, suggesting an extensive client base.
               </Text>
             </Row>
             <Row className="justify-content-center align-items-center">
