@@ -67,7 +67,7 @@ const CaseStudy1Body = () => {
             </Row>
             <Row>
               <Text className="mb-4">
-                Santuary offers instant access to astrologers, and their marketing strategy and social media presence make them Aspect's top direct competitor. 
+                Sanctuary offers instant access to astrologers, and their marketing strategy and social media presence make them Aspect's top direct competitor. 
                 <br />
                 Kasamba also offers live astrology readings and has been in business for decades, suggesting an extensive client base.
               </Text>
@@ -385,7 +385,7 @@ const CaseStudy1Body = () => {
                 variant="a"
               >
                 <u>
-                  <b>Here is the final prototype for Aspect</b>
+                  <b>Check out the final prototype for Aspect</b>
                 </u>
                 .
               </Text>
@@ -433,7 +433,7 @@ const CaseStudy1Body = () => {
                   variant="a"
                 >
                   <u>
-                    <b>You can find results here.</b>
+                    <b>Check out usability testing results</b>
                   </u>
                 </Text>
               </Row>
@@ -645,8 +645,7 @@ const CaseStudy1Body = () => {
               >
                 <u>
                   <b>
-                    The design system and style guide for Aspect can be found
-                    here.
+                   Check out the design system and style guide for Aspect
                   </b>
                 </u>
               </Text>
