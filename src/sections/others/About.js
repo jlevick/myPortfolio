@@ -28,18 +28,18 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                   line-height: .07;
                 `}
               >
-                With 10+ years in customer-facing roles and a background in anthropology and gender studies, I have an affinity for understanding and enhancing every user's experience. To ensure a useful and positive experience, I seek to bring clarity to every interaction. <br />
+                With a background in anthropology and gender studies, and 10+ years in client-facing roles, I have developed creative problem-solving abilities and an empathetic, curious approach to communication.
+                I excel at analyzing and synthesizing data and using the results to write clear, contextual copy.
+                I believe great content is useful, concise, and meets the human on the other end right where they are.
                 <br /> 
-                I'm an open and empathetic communicator who strives for inclusivity and accessibility in my work.  
-                In conversation I endeavor to lift the figurative stone, awed by what may crawl out and the gems that always seem to be hidden underneath. 
-                <br />
-                <br /> While happily autonomous, my creativity thrives when given clear parameters.
-                Focused on delivering high-quality results rather than seeking recognition, I see failure as an opportunity to grow and I'll happily ask the silly questions. <br />
+                I have a keen attention to detail, a love of the Oxford comma, and I'm proud to focus on inclusion and accessibility. 
+                <br /> While happily autonomous, there's nothing like diversity and collaboration to create a truly great experience. 
+                Focused on delivering high-quality, easily-understood results rather than seeking recognition, I view failure as an opportunity for growth. Being unafraid to ask questions in order to gain clarity and understanding is one of my superpowers. <br />
                 <br /> I enjoy anything I can zone in to: 
                 <li>climbing</li>
-                <li>snowboarding</li>
-                <li>research</li>
                 <li>writing</li>
+                <li>research</li>
+                <li>snowboarding</li>
                 <li>organization</li>
                 <li>learning to code</li>
                 <li>deep abstract thinking</li>
