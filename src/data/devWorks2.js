@@ -1,6 +1,7 @@
 import imgT2 from '../assets/image/png/portfolioindex.png'
 import imgT3 from '../assets/image/png/seanupdated.png'
-import imgPhoto from "../assets/image/png/aspectindex.png";
+import imgPhoto from "../assets/image/png/aspectindex.png"
+import imgPhoto1 from "../assets/image/png/writingsamples.png";
 
 
 const devWorks2 = [
@@ -33,7 +34,7 @@ const devWorks2 = [
     slug: `writingsamples`,
     title: `ux writing samples`,
     categories: [`ux`],
-    thumbnail: imgT3,
+    thumbnail: imgPhoto1,
     link: '/writingsamples',
   }
 ]
