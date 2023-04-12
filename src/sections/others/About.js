@@ -29,6 +29,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                 `}
               >
                 With a background in anthropology and gender studies, and 10+ years in client-facing roles, I have developed creative problem-solving abilities and an empathetic, curious approach to communication.
+                <br />
                 I excel at analyzing and synthesizing data and using the results to write clear, contextual copy.
                 I believe great content is useful, concise, and meets the human on the other end right where they are.
                 <br /> 
