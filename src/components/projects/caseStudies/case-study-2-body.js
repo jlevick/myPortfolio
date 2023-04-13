@@ -122,13 +122,13 @@ const CaseStudy2Body = () => {
               <Row className="mt-5">
                 <Col>
                   <Title variant="card">Alt text describing image</Title>
-                  <img src={imgPhoto5} alt="" className="img-fluid w-25" />
+                  <img src={imgPhoto5} alt="" className="img-fluid" />
                 </Col>
               </Row>
               <Row className="my-5">
                 <Col>
                   <Title variant="card">Image alt-text is describing</Title>
-                  <img src={imgPhoto4} alt="" className="img-fluid w-100" />
+                  <img src={imgPhoto4} alt="" className="img-fluid w-50" />
                 </Col>
               </Row>
               <Row className='mt-5 mb-3'>

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import { useWindowSize } from "../../../hooks";
+import { breakpoints } from "../../../utils";
 import imgPhoto from '../../../assets/image/png/swot.png'
 import imgPhoto1 from '../../../assets/image/png/aspect_piechart.png'
 import imgPhoto2 from '../../../assets/image/png/vanessa.png'
@@ -23,6 +25,21 @@ import {
 } from '../../../components/Core'
 
 const CaseStudy1Body = () => {
+
+  const ImageDynamic = (photo) => {
+    const size = useWindowSize();
+console.log(size, breakpoints.md)
+    return size.width < breakpoints.md ? (
+      <div className="w-100">
+        <img src={photo} alt="folio" className="img-fluid" />
+      </div>
+    ) : (
+      <div className="w-50">
+        <img src={photo} alt="folio" className="img-fluid" />
+      </div>
+    );
+  }
+
   return (
     <>
       {/* <!-- 01 Discover --> */}
@@ -60,22 +77,28 @@ const CaseStudy1Body = () => {
                     line-height: 0.07;
                   `}
                 >
-                  Astrology offers personal guidance and support in increasingly stressful times. It's no wonder the mystical services industry is worth $2.2 billion and growing.
-                  Determining if Aspect could be a viable business opportunity required an understanding of the market. My exploratory research began with competetive analyses of 2 popular astro-related apps: Sanctuary Astrology and Kasamba. 
+                  Astrology offers personal guidance and support in increasingly
+                  stressful times. It's no wonder the mystical services industry
+                  is worth $2.2 billion and growing. Determining if Aspect could
+                  be a viable business opportunity required an understanding of
+                  the market. My exploratory research began with competetive
+                  analyses of 2 popular astro-related apps: Sanctuary Astrology
+                  and Kasamba.
                 </Text>
               </Box>
             </Row>
             <Row>
               <Text className="mb-4">
-                Sanctuary offers instant access to astrologers, and their marketing strategy and social media presence make them Aspect's top direct competitor. 
+                Sanctuary offers instant access to astrologers, and their
+                marketing strategy and social media presence make them Aspect's
+                top direct competitor.
                 <br />
-                Kasamba also offers live astrology readings and has been in business for decades, suggesting an extensive client base.
+                Kasamba also offers live astrology readings and has been in
+                business for decades, suggesting an extensive client base.
               </Text>
             </Row>
             <Row className="justify-content-center align-items-center">
-              <div className="py-5 px-5 w-100">
-                <img src={imgPhoto} alt="folio" className="img-fluid" />
-              </div>
+              {ImageDynamic(imgPhoto)}
             </Row>
             <Row className="justify-content-center align-items-center py-5">
               <Col>
@@ -123,9 +146,7 @@ const CaseStudy1Body = () => {
               </Text>
             </Row>
             <Row className="justify-content-center align-items-center py-5">
-              <div className="w-50">
-                <img src={imgPhoto1} alt="folio" className="img-fluid" />
-              </div>
+              {ImageDynamic(imgPhoto1)}
             </Row>
             <Row className="py-5">
               <Col>
@@ -151,10 +172,10 @@ const CaseStudy1Body = () => {
                     <Text>
                       The survey was followed up with user interviews with 4
                       self identified astro-enthusiasts. The goal of interviews
-                      was to gain a deeper understanding of people's{" "}
-                      motivations for following astrology, their{" "}
-                      experiences working with astrologers, and their{" "}
-                      expectations of astrological content.
+                      was to gain a deeper understanding of people's motivations
+                      for following astrology, their experiences working with
+                      astrologers, and their expectations of astrological
+                      content.
                     </Text>
                   </Col>
                 </Row>
@@ -209,10 +230,10 @@ const CaseStudy1Body = () => {
                 css={`
                   line-height: 0.07;
                 `}
-                >
+              >
                 The interviews surprised me and indicated users are seeking more
-                than just access to reputable astrologers. Based on these findings
-                I crafted a problem statement and initial hypothesis.
+                than just access to reputable astrologers. Based on these
+                findings I crafted a problem statement and initial hypothesis.
               </Text>
             </Box>
             <Box>
@@ -220,9 +241,12 @@ const CaseStudy1Body = () => {
                 Problem Statement
               </Title>
               <Text className="mb-4">
-                <b>Users need a convenient platform where they can easily find
-                qualified astrologers, connect with other astrology enthusiasts,
-                and learn about themselves through their own unique birth chart.</b>
+                <b>
+                  Users need a convenient platform where they can easily find
+                  qualified astrologers, connect with other astrology
+                  enthusiasts, and learn about themselves through their own
+                  unique birth chart.
+                </b>
               </Text>
               <Text>
                 We will know our problem statement is accurate when users are
@@ -261,14 +285,10 @@ const CaseStudy1Body = () => {
                 to complete a given task.
               </Text>
               <Row className="justify-content-center align-items-center">
-                <div className="w-50">
-                  <img src={imgPhoto2} alt="folio" className="img-fluid" />
-                </div>
+                {ImageDynamic(imgPhoto2)}
               </Row>
               <Row className="justify-content-center align-items-center py-5">
-                <div className="w-50">
-                  <img src={imgPhoto3} alt="folio" className="img-fluid" />
-                </div>
+                {ImageDynamic(imgPhoto3)}
               </Row>
             </Box>
           </Row>
@@ -338,9 +358,7 @@ const CaseStudy1Body = () => {
                   Here is an example of the iterative process for one of
                   Aspect's main features Browse Astrologers.
                 </Title>
-                <div className="w-75 mb-5">
-                  <img src={imgPhoto6} alt="folio" className="img-fluid" />
-                </div>
+                {ImageDynamic(imgPhoto6)}
               </Row>
             </Box>
           </Row>
@@ -391,9 +409,7 @@ const CaseStudy1Body = () => {
               </Text>
             </Box>
             <Row className="justify-content-center align-items-center py-5">
-              <div className="w-50">
-                <img src={imgPhoto7} alt="folio" className="img-fluid" />
-              </div>
+              {ImageDynamic(imgPhoto7)}
             </Row>
           </Row>
           {/* <!-- 05 Test --> */}
@@ -451,9 +467,7 @@ const CaseStudy1Body = () => {
             </Box>
           </Row>
           <Row className="justify-content-center align-items-center py-2">
-            <div className="w-50">
-              <img src={imgPhoto8} alt="folio" className="img-fluid" />
-            </div>
+            {ImageDynamic(imgPhoto8)}
           </Row>
           <Row className="justify-content-center align-items-center">
             <Title variant="cardSm">Notes from usability test sessions.</Title>
@@ -522,17 +536,13 @@ const CaseStudy1Body = () => {
             <Col>
               <div>
                 <Title variant={"cardLg"}>Option A: 17% of votes</Title>
-                <div className="w-100">
-                  <img src={imgPhoto9} alt="folio" className="img-fluid" />
-                </div>
+                {ImageDynamic(imgPhoto9)}
               </div>
             </Col>
             <Col>
               <div>
                 <Title variant={"cardLg"}>Option B: 83% of votes</Title>
-                <div className="w-100">
-                  <img src={imgPhoto10} alt="folio" className="img-fluid" />
-                </div>
+                {ImageDynamic(imgPhoto10)}
               </div>
             </Col>
           </Row>
@@ -565,18 +575,10 @@ const CaseStudy1Body = () => {
           </Row>
           <Row className="justify-content-center align-items-center py-5 pl-2">
             <Col>
-              <div>
-                <div className="w-100">
-                  <img src={imgPhoto11} alt="folio" className="img-fluid" />
-                </div>
-              </div>
+              <div>{ImageDynamic(imgPhoto11)}</div>
             </Col>
             <Col>
-              <div>
-                <div className="w-100">
-                  <img src={imgPhoto12} alt="folio" className="img-fluid" />
-                </div>
-              </div>
+              <div>{ImageDynamic(imgPhoto12)}</div>
             </Col>
           </Row>
           <Row className="pl-2">
@@ -644,9 +646,7 @@ const CaseStudy1Body = () => {
                 variant="a"
               >
                 <u>
-                  <b>
-                   Check out the design system and style guide for Aspect
-                  </b>
+                  <b>Check out the design system and style guide for Aspect</b>
                 </u>
               </Text>
             </Box>
@@ -691,25 +691,19 @@ const CaseStudy1Body = () => {
                   <Title variant="cardBig">
                     Browse and Chat with an Astrologer
                   </Title>
-                  <div className="w-100">
-                    <img src={imgPhoto13} alt="folio" className="img-fluid" />
-                  </div>
+                  {ImageDynamic(imgPhoto13)}
                 </Col>
               </Row>
               <Row className="justify-content-center align-items-center">
                 <Col>
                   <Title variant="cardBig">My Chart</Title>
-                  <div className="w-100">
-                    <img src={imgPhoto14} alt="folio" className="img-fluid" />
-                  </div>
+                  {ImageDynamic(imgPhoto14)}
                 </Col>
               </Row>
               <Row className="justify-content-center align-items-center py-5">
                 <Col>
                   <Title variant="cardBig">Community Chat</Title>
-                  <div className="w-100">
-                    <img src={imgPhoto15} alt="folio" className="img-fluid" />
-                  </div>
+                  {ImageDynamic(imgPhoto15)}
                 </Col>
               </Row>
               <Row className="mb-4">
