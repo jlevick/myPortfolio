@@ -512,7 +512,7 @@ const CaseStudy1Body = () => {
               <Text className="justify-content-center align-items-center py-4">
                 The feedback I received from usability testing allowed me to
                 clean up screens, thereby reducing confusion. Based on test
-                results I redesigned 3 screens and 2 participants voted on which
+                results I redesigned 3 screens and 20 participants voted on which
                 they preferred. <b>Below are the results for the Home Screen</b>
                 .
               </Text>

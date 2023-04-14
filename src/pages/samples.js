@@ -13,11 +13,7 @@ const IndexPage = () => {
     <>
       <PageWrapper lightTheme>
         <Hero />
-        <CaseStudy2 />
-        <CaseStudy2Body />
-        <Element name="works">
-          <Works />
-        </Element>
+        
         <CTA />
       </PageWrapper>
     </>

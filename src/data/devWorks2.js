@@ -1,5 +1,5 @@
 import imgT2 from '../assets/image/png/portfolioindex.png'
-import imgT3 from '../assets/image/png/seanupdated2.png'
+import imgT3 from '../assets/image/png/seanupdated1.png'
 import imgPhoto from "../assets/image/png/aspectindex.png"
 import imgPhoto1 from "../assets/image/png/writingsamples.png";
 
