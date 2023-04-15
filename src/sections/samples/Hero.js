@@ -36,14 +36,6 @@ const Hero = () => {
       <SectionStyled hero className="position-relative">
         <Container>
           <Box mt="92px" className="d-flex flex-column text-center">
-            <Box
-              className="text-center text-lg-right position-relative"
-              pb="3.125rem"
-            >
-              <div className="img-main text-center">
-                <ImgRight src={imgL} alt="" className="img-fluid" />
-              </div>
-            </Box>
             <Title
               variant="card"
               mb="1.5rem"
