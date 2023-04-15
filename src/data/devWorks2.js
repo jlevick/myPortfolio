@@ -35,7 +35,7 @@ const devWorks2 = [
     title: `ux writing samples`,
     categories: [`ux`],
     thumbnail: imgPhoto1,
-    link: '/writingsamples',
+    link: '/samples',
   }
 ]
 
