@@ -8,7 +8,7 @@ const ContactPage = () => {
   return (
     <>
       <PageWrapper darkTheme>
-        <Box pt={4}>
+        <Box pt={5}>
           <Contact />
         </Box>
       </PageWrapper>

@@ -7,8 +7,8 @@ import About from '../sections/others/About'
 const AboutPage = () => {
   return (
     <>
-      <PageWrapper darkTheme>
-        <Box pt={4}>
+      <PageWrapper>
+        <Box pt={5}>
           <About />
         </Box>
       </PageWrapper>

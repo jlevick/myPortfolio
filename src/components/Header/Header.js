@@ -437,11 +437,7 @@ const Header = ({ isDark }) => {
                   <li className="nav-item">
                     <a
                       className="nav-link"
-                      href="/#"
-                      onClick={e => {
-                        e.preventDefault()
-                        gContext.toggleAbout()
-                      }}
+                      href="/about"
                     >
                       about me.
                     </a>
@@ -451,11 +447,7 @@ const Header = ({ isDark }) => {
                   <li className="nav-item">
                     <a
                       className="nav-link"
-                      href="/#"
-                      onClick={e => {
-                        e.preventDefault()
-                        gContext.toggleContact()
-                      }}
+                      href="/contact"
                     >
                       contact.
                     </a>
