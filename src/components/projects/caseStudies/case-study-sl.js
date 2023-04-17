@@ -92,7 +92,11 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  The UX Content Team was new in the project's second phase. Our team developed the initial Voice and Tone, Content Style Guide, wrote copy for the platform, and audited existing designs from Phase 1 to achieve standardization. We worked closely with Designers, Researchers, and Developers on a 42-person team.
+                  The UX Content Team was new in the project's second phase. We worked closely with Designers, Researchers, and Developers on a 42-person agile team.
+                  Phase 1 focused on researching and designing for the mentee side of the platform. Phase 2 continued with the mentee side and began working on the mentor side of the platform. 
+                  <br />
+                  <br />
+                  Our team developed the initial Voice and Tone, Content Style Guide, wrote copy for both sides of the platform, worked with Design on content strategy, and audited existing designs from Phase 1. 
                 </Text>
               </div>
             </Col>
@@ -104,10 +108,10 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
           <div className="pt-5">
             <Title variant="cardBig">Problem</Title>
             <Text className="mb-4 mt-4">
-              Based on Phase 1 research findings, potential users desired increased clarity in regard to the purpose of the mentorship platform and its safety features.
+              Based on Phase 1 research findings, potential users desired increased clarity in regard to the purpose of the mentorship platform and its safety features. Research indicated desire for guidance, personalization, and inclusivity. Potential users also felt the site had no personality.
             </Text>
             <Text className="mb-4 mt-4">
-              As a designated content team was new in this phase, copy was rather vague and content was not yet standardized. The product's voice and tone had not been determined, making it difficult to bring personality to the platform. 
+            As the content team was new in this phase, copy was rather vague and content was not yet standardized. The product voice was not determined, making it difficult to bring personality or a sense of trust to the platform. 
             </Text>
           </div>
         </Row>
