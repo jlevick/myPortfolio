@@ -55,7 +55,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  Audit existing content and create new content to align with Sean Legacy’s standards and values. 
+                  Audit existing content and create new content to align with Sean Legacy’s standards and values
                   </Text>
                 </div>
               </div>
@@ -108,7 +108,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
           <div className="pt-5">
             <Title variant="cardBig">Problem</Title>
             <Text className="mb-4 mt-4">
-              Based on Phase 1 research findings, potential users desired increased clarity in regard to the purpose of the mentorship platform and its safety features. Research indicated desire for guidance, personalization, and inclusivity. Potential users also felt the site had no personality.
+              Based on Phase 1 research findings, potential users desired increased clarity in regard to the purpose of the mentorship platform and its safety features. Research indicated desire for guidance, personalization, and inclusivity. Potential users also felt the site was lacking personality.
             </Text>
             <Text className="mb-4 mt-4">
             As the content team was new in this phase, copy was rather vague and content was not yet standardized. The product voice was not determined, making it difficult to bring personality or a sense of trust to the platform. 
