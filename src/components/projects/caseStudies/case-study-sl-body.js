@@ -61,21 +61,21 @@ const CaseStudy2Body = () => {
             <Row className="mt-3">
               <div>
                 <Text className="mb-4">
-                The main goal of this portfolio website project was to practice front-end skills. I will highlight both the technical skills I gained and the design process I followed. 
+               TBC
                 </Text>
                 <Text className="mb-4 mt-4">
-                I took a mobile-first approach and used Figma to resize pre-existing assets. After, I gathered all necessary assets in a single zip file to ensure a smooth hand-off.
+                TBC 
                 </Text>
               </div>
             </Row>
             <Row className="mt-5">
               <div>
-                <Title variant="cardBig">Style Guide</Title>
+                <Title variant="cardBig">Determining Voice and Tone</Title>
                 <Text className="mb-4 mt-4">
-                  I chose a relatively basic color palette as to not distract from anything on my portfolio website, and a brighter color for the main CTA buttons (Call to Action).
+                  .
                 </Text>
                 <Text className="mb-4 mt-4">
-                  I chose a Google Font (Poppins) for accessibility, as these fonts display quickly and are usable on many different browsers. I specifically chose a sans-serif font for increased readability on a screen.
+                  .
                 </Text>
               </div>
               <div>
