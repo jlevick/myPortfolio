@@ -20,7 +20,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  2 months
+                  2.5 months
                 </Text>
                 <Title color="light" variant="secSm">
                   My Role
@@ -32,7 +32,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  Developer and Designer
+                  UX Writer and Content Strategist on a 3-person UXW team
                 </Text>
               </div>
             </Col>
@@ -48,17 +48,34 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  VS Code, Github, Codepen.io, Figma
+                  Figma, Notion, Slack, Vowel
                 </Text>
                 <Title color="light" variant="secSm">
                   Project Goal
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                    Code a responsive portfolio website in order to learn front
-                    end skills.
+                  Audit existing content and create new content to align with Sean Legacy’s standards and values. 
                   </Text>
                 </div>
+              </div>
+            </Col>
+          </Row>
+          <Row className="justify-content-center align-items-center">
+            <Col className="justify-content-center">
+              <div>
+                <Title color="light" variant="secSm">
+                  About Sean's Legacy
+                </Title>
+                <Text
+                  color="light"
+                  className="mt-4 mb-5"
+                  css={`
+                    line-height: 0.07;
+                  `}
+                >
+                  Sean's Legacy is an organization dedicated to supporting LGBTQIA+ youth, with a primary focus on suicide prevention. Sean's Legacy is currently developing a platform focused on career mentorship for LGBTQIA+ young adults.  
+                </Text>
               </div>
             </Col>
           </Row>
@@ -75,12 +92,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  In order to improve my communication with developers and
-                  facilitate smooth design hand-offs, I sought to deepen my
-                  understanding of the dynamic between UX designers and
-                  developers by learning HTML, CSS, and vanilla JavaScript. In
-                  order to exercise my front-end skills, I coded a responsive
-                  portfolio website from scratch.
+                  The UX Content Team was new in the project's second phase. Our team developed the initial Voice and Tone, Content Style Guide, wrote copy for the platform, and audited existing designs from Phase 1 to achieve standardization. We worked closely with Designers, Researchers, and Developers on a 42-person team.
                 </Text>
               </div>
             </Col>
@@ -92,16 +104,10 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
           <div className="pt-5">
             <Title variant="cardBig">Problem</Title>
             <Text className="mb-4 mt-4">
-              Designers and developers are working toward the same goal, but
-              problems can arise when design decisions don't take into account
-              the technical limitations and challenges involved in bringing a
-              design to life.
+              Based on Phase 1 research findings, potential users desired increased clarity in regard to the purpose of the mentorship platform and its safety features.
             </Text>
             <Text className="mb-4 mt-4">
-              By becoming familiar with coding concepts, designers can better
-              understand the capabilities and limitations of the development
-              process. This leads to smoother collaboration, easier design
-              hand-offs, and more successful projects.
+              As a designated content team was new in this phase, copy was rather vague and content was not yet standardized. The product's voice and tone had not been determined, making it difficult to bring personality to the platform. 
             </Text>
           </div>
         </Row>
@@ -112,9 +118,9 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
             <a
               target="_blank"
               rel="noreferrer"
-              href={"https://jlevick.github.io/portfolio-website/index.html"}
+              href={"https://www.notion.so/tech-fleet-community-dao/SL-Mentorship-Platform-Content-Style-Guide-0875ea7d9dcc49eba9bcd5cff00de986"}
             >
-              <Button variant={"#7155ff"}>Finished Website</Button>
+              <Button variant={"#7155ff"}>Content Style Guide</Button>
             </a>
           </div>
         </Row>
