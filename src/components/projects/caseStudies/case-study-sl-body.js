@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { Section, Title, Text, Box } from "../../../components/Core";
-import imgPhoto from "../../../assets/image/png/color_palette@2x.png";
-import imgPhoto1 from "../../../assets/image/png/portfolio_home_lofi@2x.png";
-import imgPhoto2 from "../../../assets/image/png/portfolio_home_mockup@2x.png";
+import imgPhoto from "../../../assets/image/png/sl_affinity_mapping.png";
+import imgPhoto1 from "../../../assets/image/png/sl_voice.png";
+import imgPhoto2 from "../../../assets/image/png/sl_tone.png";
 import imgPhoto3 from "../../../assets/image/png/basic_html_structure@2x.png";
 import imgPhoto4 from "../../../assets/image/png/sun_change_orange@2x.png";
 import imgPhoto5 from "../../../assets/image/png/alt_text_example@2x.png";
@@ -53,18 +53,19 @@ const CaseStudy2Body = () => {
                   letter-spacing: 1.63px;
                 `}
               >
-                Voice and Tone - Content Style Guide - Content Audit
+                Content Audit - Voice and Tone - Content Style Guide
               </Title>
             </Container>
           </Section>
           <Section>
             <Row className="mt-3">
               <div>
+                <Title variant="cardBig">Content Audit</Title>
                 <Text className="mb-4">
-               TBC
+                    We began our first sprint by auditing Phase 1 designs. Overall our findings were similiar to those reported by potential users: <b>the platform lacked clarity overall</b>.
                 </Text>
                 <Text className="mb-4 mt-4">
-                TBC 
+                    We determined 3 main focus areas for clarification: <b>cost and location of mentorship</b>, and the site's <b>safety measures</b>. 
                 </Text>
               </div>
             </Row>
@@ -72,10 +73,29 @@ const CaseStudy2Body = () => {
               <div>
                 <Title variant="cardBig">Determining Voice and Tone</Title>
                 <Text className="mb-4 mt-4">
-                  .
+                    Before we could write appropriate, useful copy, we needed a clear understanding of our voice.
                 </Text>
                 <Text className="mb-4 mt-4">
-                  .
+                    Working in an agile environment, we needed to work relatively quickly. I was fortunate to head the task of developing voice and tone for the platform as my co-writer was out for the week and our team lead had a lot of work on their plate.
+                    <br />
+                    I began by reading through the Phase 1 research report, pulling out key words, phrases, and themes. 
+                    <br /> This document included a <b>list of adjectives provided by our client</b> which describe Sean's Legacy:
+                    <Text variant="li">Welcoming</Text>
+                    <Text variant="li">Trustworthy</Text>
+                    <Text variant="li">Professional</Text>
+                    <Text variant="li">Engaging</Text>
+                    <Text variant="li">Uplifting</Text>
+                    <Text variant="li">Community</Text>
+                </Text>
+                <Text>
+                    <b>Sean's Legacy </b> has its own <b>guiding principles</b>, and I added these to my list:
+                    <Text variant="li">Inclusivity</Text>
+                    <Text variant="li">Empowerment</Text>
+                    <Text variant="li">Compassion</Text>
+                    <Text variant="li">Respect</Text>
+                </Text>
+                <Text>
+                   Additionally I was able to view raw data from Phase 1 user interviews which allowed me to see direct quotes and concerns from potential mentees. I took my growing word list in to Fig Jam and began looking for patterns.
                 </Text>
               </div>
               <div>
@@ -84,28 +104,27 @@ const CaseStudy2Body = () => {
                   <img src={imgPhoto} alt="" className="img-fluid" />
                 </Box>
               </div>
-              <Row className="mt-4 pl-3">
-                <div>
-                  <Title variant="cardBig">Wireframing</Title>
-                  <Text className="mb-4 mt-4">
-                    I was provided low fidelity wireframes and used Figma to mock up high fidelity frames.
-                  </Text>
-                </div>
-              </Row>
+              <Row className="mt-3">
+              <div>
+                <Text className="mb-4">
+                After brainstorming with my team lead, we brought our ideas and writing samples to the client, where they were well received by their internal content team.
+                </Text>
+              </div>
+            </Row>
               <Row className="mt-5">
-                <Col>
-                  <Title variant="card">Lo-Fi</Title>
+                <div>
+                    <Title variant="card">Voice</Title>
                   <img src={imgPhoto1} alt="" className="img-fluid w-50" />
-                </Col>
-                <Col>
-                  <Title variant="card">Hi-Fi</Title>
+                </div>
+                <div>
+                    <Title variant="card">Tone</Title>
                   <img src={imgPhoto2} alt="" className="img-fluid w-50" />
-                </Col>
+                </div>
               </Row>
               <Row className='my-5'>
                 <div className="mt-5">
-                  <Title variant="cardBig">HTML</Title>
-                  <Text className="mb-4 mt-4">Once I could visualize what I was going to build, I started with a basic HTML structure. In order to achieve a positive user experience, I made the decision to open all links in a new tab so users aren't redirected from the site. I was able to do this using the 	&lt;a&gt; tag and target=“_blank”. I followed best practices for all headings to ensure proper hierarchy and help users quickly scan through each screen. </Text>
+                  <Title variant="cardBig">Content Style Guide</Title>
+                  <Text className="mb-4 mt-4">With a clearer understanding of our voice and tone, we developed our style guide from scratch. </Text>
                 </div>
               </Row>
               <Row>
