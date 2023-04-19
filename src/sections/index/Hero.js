@@ -22,7 +22,7 @@ const Hero = () => {
                   UX Writer and Content Designer
                 </Text>
                 <Title variant="hero">
-                  Enhancing UX through clear, concise content.
+                  Enhancing UX through clear, concise copy.
                 </Title>
                 <Box mb="102px" mt="52px">
                   <a href={myPdf} target="_blank" rel="noopener noreferrer">
