@@ -62,21 +62,19 @@ const CaseStudy2Body = () => {
               <div>
                 <Title variant="cardBig">Understanding Phase 1 designs</Title>
                 <Text className="mb-4">
-                    We began our first sprint by auditing Phase 1 designs. Overall our findings were similiar to those reported by potential mentees: <b>the platform lacked clarity overall</b>.
+                    We began our first sprint by auditing Phase 1 designs. Our findings were similiar to those reported by potential mentees: <b>the platform lacked clarity overall</b>.
                 </Text>
                 <Text className="mb-4 mt-4">
                     We determined 3 main focus areas for clarification: <b>cost and location of mentorship</b>, and the site's <b>safety measures</b>. 
                 </Text>
+                <Text>Before we could write clarifying copy, we needed a clear understanding of our voice.</Text>
               </div>
             </Row>
             <Row className="mt-5">
               <div>
                 <Title variant="cardBig">If this platform was a person, who would they be?</Title>
                 <Text className="mb-4 mt-4">
-                    Before we could write appropriate, useful copy, we needed a clear understanding of our voice.
-                </Text>
-                <Text className="mb-4 mt-4">
-                    Working in an agile environment required we work quickly. I was fortunate to head the task of developing voice and tone for the platform as my co-writer was out for the week and our team lead had a lot of work on their plate.
+                    Working in an agile environment required we move quickly. I was fortunate to head the task of developing voice and tone for the platform as my co-writer was out for the week and our team lead had additional priorities.
                     <br />
                     <br />
                     I began by reading through the Phase 1 research report, pulling out key words, phrases, and themes. 
@@ -96,7 +94,7 @@ const CaseStudy2Body = () => {
                     <Text variant="li">Respect</Text>
                 </Text>
                 <Text>
-                   I took my list in to Fig Jam and began looking for patterns.
+                   I imported findings into Fig Jam and began looking for patterns.
                 </Text>
               </div>
               <div>
@@ -105,27 +103,37 @@ const CaseStudy2Body = () => {
                   <img src={imgPhoto} alt="" className="img-fluid" />
                 </Box>
               </div>
+              <div className="mt-5">
+                  <Title variant="cardBig">How do we create safety through language?</Title>
+                  <Text className="mb-4 mt-4">We knew our platform's voice needed to communicate in a way that left our users feeling safe. But in a world where no one can guarantee a true safe space, how do we accomplish this? <i>How do we create safety</i>? 
+                  <br />
+                  <br />
+                  The answer is we can't. Safety is built and it takes effort. We brainstormed around the idea of designing experiences that promote safety and build trust through respect, consistency, transparency, inclusivity, and clarity.
+                  </Text>
+                  <Text>It was important to us to write in a way that offered choice and allowed for autonomy and consent.</Text>
+                </div>
               <Row className="mt-3">
               <div className="mt-5">
-                  <Title variant="cardBig">The Cool Guidance Counselor</Title>
-                  <Text className="mb-4 mt-4">We envisioned our voice and tone persona to be the cool guidance counselor or teacher we all want to have. They're warm, friendly, reliable, and make mentees feel at ease. They're professional and knowledgeable, inspiring trust and confidence. They're clear communicators, offering guidance with a sense of empowerment. They promote diversity and a sense of belonging with their inclusive and respectful behavior, and they prioritize safety.</Text>
+                  <Title variant="cardBig">Introducing the <i>Cool Guidance Counselor</i></Title>
+                  <Text className="mb-4 mt-4">With all of this in mind, we envisioned our voice and tone persona to be the well-balanced guidance counselor we all want(ed) to have. 
+                  <br />
+                  They're warm, friendly, reliable, and make mentees feel at ease. They're professional and knowledgeable, inspiring trust and confidence. They speak with authority without being authoritarian. They're clear communicators, offering guidance with a tone of empowerment. They promote diversity and a sense of belonging with their inclusive and respectful behavior, and they prioritize safety above all.</Text>
                     <br />
                   <Text>
-                    Ultimately, our persona is:
-                    <Text variant="li">Kind, not pushy</Text>
-                    <Text variant="li">Welcoming, not unapproachable</Text>
-                    <Text variant="li">Ethical and open, not withholding or cagey</Text>
-                    <Text variant="li">Empowering, not judgmental</Text>
-                </Text>
+                        Ultimately, our persona is:
+                        <Text variant="li">Kind, not pushy</Text>
+                        <Text variant="li">Welcoming, not unapproachable</Text>
+                        <Text variant="li">Ethical and open, not cagey</Text>
+                        <Text variant="li">Empowering, not judgmental</Text>
+                    </Text>
+                    <Text>We brought our ideas to the client, where they were well received by their co-founder and internal content team, allowing us to move forward.</Text>
                 </div>
-                <div>
-                <Text className="mb-4">
-                After brainstorming with my team, we brought our ideas to the client, where they were well received by their co-founder and internal content team.
-                </Text>
-              </div>
             </Row>
-              <Row className="mt-5">
-                <div>
+            <Row className='my-5'>
+                    <div className="mt-5">
+                        <Title variant="cardBig">Ensuring consistent copy</Title>
+                <Row className="mt-5">
+                    <div>
                     <Title variant="card">Voice</Title>
                   <img src={imgPhoto1} alt="" className="img-fluid w-50" />
                 </div>
@@ -134,15 +142,10 @@ const CaseStudy2Body = () => {
                   <img src={imgPhoto2} alt="" className="img-fluid w-50" />
                 </div>
               </Row>
-              <Row className='my-5'>
-                <div className="mt-5">
-                  <Title variant="cardBig">Content Style Guide</Title>
-                  <Text className="mb-4 mt-4">With a clear vision of our voice and tone, we began developing our style guide from scratch. The list I created grew into a keyword list that helped standardize copy on the platform; everything from Call to Action buttons, to titles, to tooltips.
-                  <br />
-                  During the audit I noticed inconsistencies in terms such as <i>Continue </i> versus <i>Next</i>, <i>Select</i> versus <i>Choose</i>, and <i>Create account</i> versus <i>Sign up</i>. As a team we made the choice to use <i>Continue</i> over <i>Next</i> as it felt more gentle. 
-                  </Text>
+                  <Text className="mb-4 mt-4">With a clear vision of our voice and tone, we began developing our style guide from scratch. The list I created grew into a keyword list that helped standardize copy on the platform; everything from Call to Action buttons, to titles, to tooltips.</Text>
+                  <Text>During the audit I noticed inconsistencies in terms such as <i>Continue </i> versus <i>Next</i>, and <i>Create account</i> versus <i>Sign up</i>. We chose to use <i>Continue</i> over <i>Next</i> as it felt a bit gentler, and <i>Sign up</i> over <i>Create account</i> to simplify.</Text>
                 </div>
-              </Row>
+            </Row>
               <Container>
             <Row className="pl-4 mt-5 mb-5 justify-content-center">
                 <div>

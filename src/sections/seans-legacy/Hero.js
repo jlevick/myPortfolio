@@ -51,7 +51,7 @@ const Hero = () => {
               Sean's Legacy Mentorship Platform
             </Title>
             <p>
-              Coming Soon!!
+              Coming Soon!
             </p>
           </Box>
         </Container>
