@@ -45,7 +45,7 @@ const Hero = () => {
                 letter-spacing: 1.63px;
               `}
             >
-              UX
+              UX Writing
             </Title>
             <Title variant="hero" mb="1.5rem">
               Sean's Legacy Mentorship Platform
