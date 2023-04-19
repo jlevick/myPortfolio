@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Section, Title, Text, Button } from "../../../components/Core";
+import { Section, Title, Text } from "../../../components/Core";
 
 const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
   return (
@@ -55,7 +55,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  Audit existing content and create new content to align with Sean Legacy’s standards and values
+                  Audit existing content from Phase 1 and create new content to align with Sean Legacy’s standards and values.
                   </Text>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
             <Col className="justify-content-center">
               <div>
                 <Title color="light" variant="secSm">
-                  About Sean's Legacy
+                  About Sean's Legacy and the Mentorship Platform
                 </Title>
                 <Text
                   color="light"
@@ -96,7 +96,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                   Phase 1 focused on researching and designing for the mentee side of the platform. Phase 2 continued with the mentee side and began working on the mentor side of the platform. 
                   <br />
                   <br />
-                  Our team developed the initial Voice and Tone, Content Style Guide, wrote copy for both sides of the platform, worked with Design on content strategy, and audited existing designs from Phase 1. 
+                  Our team audited existing designs from Phase 1, developed the initial Voice and Tone and Content Style Guide, wrote copy for both sides of the platform, and worked with Design on content strategy. 
                 </Text>
               </div>
             </Col>
@@ -108,24 +108,11 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
           <div className="pt-5">
             <Title variant="cardBig">Problem</Title>
             <Text className="mb-4 mt-4">
-              Based on Phase 1 research findings, potential users desired increased clarity in regard to the purpose of the mentorship platform and its safety features. Research indicated desire for guidance, personalization, and inclusivity. Potential users also felt the site was lacking personality.
+              Based on Phase 1 research findings, potential mentees desired increased clarity in regard to the purpose of the mentorship platform and its safety features. Research indicated a desire for guidance, personalization, and inclusivity. Potential mentees also felt the site was lacking personality.
             </Text>
             <Text className="mb-4 mt-4">
             As the content team was new in this phase, copy was rather vague and content was not yet standardized. The product voice was not determined, making it difficult to bring personality or a sense of trust to the platform. 
             </Text>
-          </div>
-        </Row>
-      </Container>
-      <Container>
-        <Row className="pl-4 mt-5 mb-5 justify-content-center">
-          <div>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href={"https://www.notion.so/tech-fleet-community-dao/SL-Mentorship-Platform-Content-Style-Guide-0875ea7d9dcc49eba9bcd5cff00de986"}
-            >
-              <Button variant={"#7155ff"}>Content Style Guide</Button>
-            </a>
           </div>
         </Row>
       </Container>

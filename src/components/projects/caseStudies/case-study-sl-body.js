@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import { Section, Title, Text, Box } from "../../../components/Core";
+import { Section, Title, Text, Box, Button } from "../../../components/Core";
 import imgPhoto from "../../../assets/image/png/sl_affinity_mapping.png";
 import imgPhoto1 from "../../../assets/image/png/sl_voice.png";
 import imgPhoto2 from "../../../assets/image/png/sl_tone.png";
@@ -60,9 +60,9 @@ const CaseStudy2Body = () => {
           <Section>
             <Row className="mt-3">
               <div>
-                <Title variant="cardBig">Content Audit</Title>
+                <Title variant="cardBig">Understanding Phase 1 designs</Title>
                 <Text className="mb-4">
-                    We began our first sprint by auditing Phase 1 designs. Overall our findings were similiar to those reported by potential users: <b>the platform lacked clarity overall</b>.
+                    We began our first sprint by auditing Phase 1 designs. Overall our findings were similiar to those reported by potential mentees: <b>the platform lacked clarity overall</b>.
                 </Text>
                 <Text className="mb-4 mt-4">
                     We determined 3 main focus areas for clarification: <b>cost and location of mentorship</b>, and the site's <b>safety measures</b>. 
@@ -71,12 +71,13 @@ const CaseStudy2Body = () => {
             </Row>
             <Row className="mt-5">
               <div>
-                <Title variant="cardBig">Determining Voice and Tone</Title>
+                <Title variant="cardBig">If this platform was a person, who would they be?</Title>
                 <Text className="mb-4 mt-4">
                     Before we could write appropriate, useful copy, we needed a clear understanding of our voice.
                 </Text>
                 <Text className="mb-4 mt-4">
-                    Working in an agile environment, we needed to work relatively quickly. I was fortunate to head the task of developing voice and tone for the platform as my co-writer was out for the week and our team lead had a lot of work on their plate.
+                    Working in an agile environment required we work quickly. I was fortunate to head the task of developing voice and tone for the platform as my co-writer was out for the week and our team lead had a lot of work on their plate.
+                    <br />
                     <br />
                     I began by reading through the Phase 1 research report, pulling out key words, phrases, and themes. 
                     <br /> This document included a <b>list of adjectives provided by our client</b> which describe Sean's Legacy:
@@ -95,7 +96,7 @@ const CaseStudy2Body = () => {
                     <Text variant="li">Respect</Text>
                 </Text>
                 <Text>
-                   Additionally I was able to view raw data from Phase 1 user interviews which allowed me to see direct quotes and concerns from potential mentees. I took my growing word list in to Fig Jam and began looking for patterns.
+                   I took my list in to Fig Jam and began looking for patterns.
                 </Text>
               </div>
               <div>
@@ -105,9 +106,21 @@ const CaseStudy2Body = () => {
                 </Box>
               </div>
               <Row className="mt-3">
-              <div>
+              <div className="mt-5">
+                  <Title variant="cardBig">The Cool Guidance Counselor</Title>
+                  <Text className="mb-4 mt-4">We envisioned our voice and tone persona to be the cool guidance counselor or teacher we all want to have. They're warm, friendly, reliable, and make mentees feel at ease. They're professional and knowledgeable, inspiring trust and confidence. They're clear communicators, offering guidance with a sense of empowerment. They promote diversity and a sense of belonging with their inclusive and respectful behavior, and they prioritize safety.</Text>
+                    <br />
+                  <Text>
+                    Ultimately, our persona is:
+                    <Text variant="li">Kind, not pushy</Text>
+                    <Text variant="li">Welcoming, not unapproachable</Text>
+                    <Text variant="li">Ethical and open, not withholding or cagey</Text>
+                    <Text variant="li">Empowering, not judgmental</Text>
+                </Text>
+                </div>
+                <div>
                 <Text className="mb-4">
-                After brainstorming with my team lead, we brought our ideas and writing samples to the client, where they were well received by their internal content team.
+                After brainstorming with my team, we brought our ideas to the client, where they were well received by their co-founder and internal content team.
                 </Text>
               </div>
             </Row>
@@ -124,68 +137,30 @@ const CaseStudy2Body = () => {
               <Row className='my-5'>
                 <div className="mt-5">
                   <Title variant="cardBig">Content Style Guide</Title>
-                  <Text className="mb-4 mt-4">With a clearer understanding of our voice and tone, we developed our style guide from scratch. </Text>
+                  <Text className="mb-4 mt-4">With a clear vision of our voice and tone, we began developing our style guide from scratch. The list I created grew into a keyword list that helped standardize copy on the platform; everything from Call to Action buttons, to titles, to tooltips.</Text>
                 </div>
               </Row>
-              <Row>
-                <Col>
-                  <Title variant="card">On the left is the HTML, on the right is how it appears in the browser</Title>
-                  <img src={imgPhoto3} alt="code and browser image" className="img-fluid w-75" />
-                </Col>
-              </Row>
-              <Row className='mt-5'>
+              <Container>
+            <Row className="pl-4 mt-5 mb-5 justify-content-center">
                 <div>
-                  <Text className="mb-4 mt-4">I labelled all images with appropriate alt text to ensure accessibility. Alt text is necessary for screen readers, and for those with sensory processing sensitivities. Alt text also optimizes the site for search engines, benefiting slow-loading browsers.</Text>
-                </div>
-              </Row>
-              <Row className="mt-5">
-                <Col>
-                  <Title variant="card">Alt text describing image</Title>
-                  <img src={imgPhoto5} alt="" className="img-fluid" />
-                </Col>
-              </Row>
-              <Row className="my-5">
-                <Col>
-                  <Title variant="card">Image alt-text is describing</Title>
-                  <img src={imgPhoto4} alt="" className="img-fluid w-50" />
-                </Col>
-              </Row>
-              <Row className='mt-5 mb-3'>
-                <Col>
-                  <div>
-                    <Title variant="cardBig">CSS</Title>
-                    <Text className="mb-4 mt-4">Once the HTML structure was finished I moved to CSS to style hyperlinks and buttons.</Text>
-                  </div>
-                </Col>
-              </Row>
-              <Row className="mt-5">
-                <Col>
-                  <Title variant="card">CSS styling</Title>
-                  <img src={imgPhoto7} alt="" className="img-fluid w-50" />
-                </Col>
-                <Col>
-                  <Title variant="card">Main CTA and its' hover state</Title>
-                  <img src={imgPhoto6} alt="" className="img-fluid w-50" />
-                </Col>
-              </Row>
-              <Row className='mt-5'>
-                <Col>
-                  <div>
-                    <Title className="mt-5" variant="cardBig">CSS Animations</Title>
-                    <Text className="mb-4 mt-4">To diversify my learning, I animated an svg illustration using CSS Keyframes.</Text>
-                  </div>
-                      <Text
+                    <a
                         target="_blank"
-                        href="https://jlevick.github.io/portfolio-website/animations.html"
-                        variant="a"
-                      >
-                        <u>
-                          <b>See the animation in action here.</b>
-                        </u>
-                      </Text>
-                </Col>
-              </Row>
-              <Row className="my-5">
+                        rel="noreferrer"
+                        href={"https://www.notion.so/tech-fleet-community-dao/SL-Mentorship-Platform-Content-Style-Guide-0875ea7d9dcc49eba9bcd5cff00de986"}
+                        >
+                        <Button variant={"#7155ff"}>Content Style Guide</Button>
+                    </a>
+                </div>
+            </Row>
+      </Container>
+            <Row className='mt-5'>
+                  <div>
+                    <Text className="mb-4 mt-4">
+                        We decided that due to the age range of our audience (18-25 for mentees) and their desire for inclusivity, we would use casual, informal language. This included choosing sentence case over title case and allowing for contractions.   
+                     </Text>
+                  </div>
+            </Row>
+            <Row className="my-5">
                 <Col>
                   <Title variant="card">Code for keyframes</Title>
                   <img src={imgPhoto11} alt="" className="img-fluid w-50" />
