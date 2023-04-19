@@ -137,7 +137,10 @@ const CaseStudy2Body = () => {
               <Row className='my-5'>
                 <div className="mt-5">
                   <Title variant="cardBig">Content Style Guide</Title>
-                  <Text className="mb-4 mt-4">With a clear vision of our voice and tone, we began developing our style guide from scratch. The list I created grew into a keyword list that helped standardize copy on the platform; everything from Call to Action buttons, to titles, to tooltips.</Text>
+                  <Text className="mb-4 mt-4">With a clear vision of our voice and tone, we began developing our style guide from scratch. The list I created grew into a keyword list that helped standardize copy on the platform; everything from Call to Action buttons, to titles, to tooltips.
+                  <br />
+                  During the audit I noticed inconsistencies in terms such as <i>Continue </i> versus <i>Next</i>, <i>Select</i> versus <i>Choose</i>, and <i>Create account</i> versus <i>Sign up</i>. As a team we made the choice to use <i>Continue</i> over <i>Next</i> as it felt more gentle. 
+                  </Text>
                 </div>
               </Row>
               <Container>
