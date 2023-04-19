@@ -1,5 +1,5 @@
 import imgT2 from '../assets/image/png/portfolioindex.png'
-import imgT3 from '../assets/image/png/seanupdated1.png'
+import imgT3 from '../assets/image/png/doesthiswork.png'
 import imgPhoto from "../assets/image/png/aspectindex.png"
 import imgPhoto1 from "../assets/image/png/writingsamples.png";
 
@@ -22,10 +22,10 @@ const devWorks2 = [
     link: '/front-end-portfolio',
   },
   {
-    brand: `Sean's Legacy Mentorship Platform: Coming Soon`,
+    brand: `Sean's Legacy Mentorship Platform`,
     slug: `seanslegacycontentdesign`,
-    title: `coming soon`,
-    categories: [`ux`],
+    title: `ux writing`,
+    categories: [`uxwriting`],
     thumbnail: imgT3,
     link: '/seans-legacy',
   },
@@ -33,7 +33,7 @@ const devWorks2 = [
     brand: `Writing Samples`,
     slug: `writingsamples`,
     title: `ux writing samples`,
-    categories: [`ux`],
+    categories: [`uxwriting`],
     thumbnail: imgPhoto1,
     link: '/samples',
   }

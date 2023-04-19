@@ -78,6 +78,19 @@ const Works = () => {
                   Web Dev
                 </a>
               </li>
+              <li className="nav-item">
+                <a
+                  className={`nav-link font-weight-bold text-uppercase ${
+                    activeLink === 'uxwriting' ? 'active' : null
+                  }`}
+                  onClick={e => {
+                    e.preventDefault()
+                    filterBy('uxwriting')
+                  }}
+                >
+                  UX Writing
+                </a>
+              </li>
             </ListNav>
           </Box>
         </Container>
