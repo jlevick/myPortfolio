@@ -12,8 +12,7 @@ const SeansLegacy = () => {
     <>
       <PageWrapper lightTheme>
         <Hero />
-        <CaseStudySl />
-        <CaseStudySLBody />
+  
         <CTA />
       </PageWrapper>
     </>
