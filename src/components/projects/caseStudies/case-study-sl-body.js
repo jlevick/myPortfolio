@@ -114,7 +114,7 @@ const CaseStudy2Body = () => {
                 </div>
               <Row className="mt-3">
               <div className="mt-5">
-                  <Title variant="cardBig">Introducing the <i>Cool Guidance Counselor</i></Title>
+                  <Title variant="cardBig">Introducing: the <i>Cool Guidance Counselor</i></Title>
                   <Text className="mb-4 mt-4">With all of this in mind, we envisioned our voice and tone persona to be the well-balanced guidance counselor we all want(ed) to have. 
                   <br />
                   They're warm, friendly, reliable, and make mentees feel at ease. They're professional and knowledgeable, inspiring trust and confidence. They speak with authority without being authoritarian. They're clear communicators, offering guidance with a tone of empowerment. They promote diversity and a sense of belonging with their inclusive and respectful behavior, and they prioritize safety above all.</Text>
@@ -167,97 +167,13 @@ const CaseStudy2Body = () => {
                   </div>
             </Row>
             <Row className="my-5">
-                <Col>
-                  <Title variant="card">Code for keyframes</Title>
-                  <img src={imgPhoto11} alt="" className="img-fluid w-50" />
-                </Col>
-              </Row>
-              <Row className='mt-5'>
-                <Col>
-                  <div>
-                    <Title variant="cardBig">Media Queries</Title>
-                    <Text className="mb-4 mt-4">As I was using a mobile-first design process, I added media queries to my CSS in order to build a responsive site. Media queries are used to adjust content to fit all screen sizes. </Text>
-                  </div>
-                </Col>
-              </Row>
-              <Row className='my-5'>
-                <Col>
-                  <Title variant="card">Medium devices (640px or larger)</Title>
-                  <img src={imgPhoto8} alt="" className="img-fluid w-50" />
-                </Col>
-                <Col>
-                  <Title variant="card">Large devices (1024px or larger) </Title>
-                  <img src={imgPhoto9} alt="" className="img-fluid w-50" />
-                </Col>
-              </Row>
-              <Row className='mt-5'>
-                <Col>
-                  <div>
-                    <Title variant="cardBig">Dev Tools</Title>
-                    <Text className="mb-4 mt-4">I initially struggled to understand the difference between margin and padding, and how to use them to achieve the desired layout. To figure out the correct solution, I experimented with commenting out code and adjusting the pixel values. </Text>
-                    <Text className="mb-4 mt-4">I also used the Inspect feature in Dev Tools to identify issues and test the site's responsiveness on various screen sizes. This helped me ensure that the website was functioning properly across different devices. </Text>
-                  </div>
-                </Col>
-              </Row>
-              <Row className='my-5'>
-                <Col>
-                  <Title variant="card">Using Inspect to find #hero and changing viewport to mobile (340px) </Title>
-                  <img src={imgPhoto10} alt="" className="img-fluid w-75" />
-                </Col>
-              </Row>
-              <Row className='mt-5'>
-                <Col>
-                  <div>
-                    <Title variant="cardBig">JavaScript</Title>
-                    <Text className="mb-4 mt-4">To practice JavaScript prior to adding it to my codebase, I played around in the console and also solved coding challenges on codepen.io.</Text>
-                  </div>
-                </Col>
-              </Row>
-              <Row className='mt-5'>
-                <Col>
-                  <Title variant="card">Playing in the console</Title>
-                  <img src={imgPhoto12} alt="" className="img-fluid w-75" />
-                </Col>
-              </Row>
-              <Row className='mt-5'>
-                <Col className="mt-5">
-                  <Title variant="card">Playing in Codepen</Title>
-                  <img src={imgPhoto13} alt="" className="img-fluid w-75" />
-                </Col>
-              </Row>
-              <Row className='mt-5'>
-                <div>
-                  <Text className="mb-4 mt-4 pl-3">Once I felt more comfortable with the various data types, I used my newfound knowledge to create a hamburger menu for mobile. </Text>
-                </div>
-              </Row>
-              <Row className='mt-5'>
-                <Col>
-                  <Title variant="card">JS code for menu</Title>
-                  <img src={imgPhoto14} alt="" className="img-fluid w-75" />
-                </Col>
-              </Row>
-              <Row className='mt-5'>
-                <Col>
-                  <div>
-                    <Title className="mt-4" variant="card">Uh oh...</Title>
-                    <Text className="mb-4 mt-4">Everything was going smoothly until I noticed that my hamburger menu was not functioning correctly. I tried to troubleshoot the issue on my own, but eventually sought help from my mentor. Interestingly, the menu worked fine for him. </Text>
-                    <Text className="mb-4 mt-4">I wondered if it was a problem with my browser or if I had forgotten to commit and push my changes to GitHub... </Text>
-                    <Text className="mb-4 mt-4">Eventually, after consulting with another developer, I learned that the issue was caused by the preview extension I was using. Once I installed the correct extension, the problem was resolved and I learned a valuable lesson. </Text>
-                  </div>
-                </Col>
-              </Row>
-              <Row className='my-5'>
-                <Col>
-                  <Title variant="card">Menu working properly</Title>
-                  <img src={imgPhoto15} alt="" className="img-fluid w-75 mb-5" />
-                </Col>
               </Row>
             </Row>
           </Section>
           <Section hero={true} bg={"dark"} className="px-5">
             <Container className="pb-3">
               <Title color="light" variant="secSm">
-                02 Test
+                02 Solution
               </Title>
               <Title
                 color="light"
@@ -269,7 +185,7 @@ const CaseStudy2Body = () => {
                   letter-spacing: 1.63px;
                 `}
               >
-                Usability Testing - Code Quality - Accessibility Testing - Lighthouse Testing
+                Clarifying Copy - Safety Features - SOMETHING - SOMETHING
               </Title>
             </Container>
           </Section>

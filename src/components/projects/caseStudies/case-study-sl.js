@@ -107,11 +107,20 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
         <Row className="pl-4 mt-5">
           <div className="pt-5">
             <Title variant="cardBig">Problem</Title>
+              <br />
+              <Title variant="cardSm">Mentees</Title>
             <Text className="mb-4 mt-4">
-              Based on Phase 1 research findings, potential mentees desired increased clarity in regard to the purpose of the mentorship platform and its safety features. Research indicated a desire for guidance, personalization, and inclusivity. Potential mentees also felt the site was lacking personality.
+              Based on Phase 1 usability testing, potential mentees desired increased clarity in regard to the purpose of the mentorship platform and its safety features. Research indicated a desire for guidance, personalization, and inclusivity. Potential mentees also felt the site was lacking personality.
+            </Text>
+            <Title variant="cardSm">Mentors</Title>
+              <Text className="mb-4 mt-4">
+              Based on preliminary findings from Phase 2, potential mentors struggle with imposter syndrome and seek support and resources from Sean's Legacy, as well as a community of other mentors to lean on. Potential mentors also have concerns around safety and privacy.
             </Text>
             <Text className="mb-4 mt-4">
-            As the content team was new in this phase, copy was rather vague and content was not yet standardized. The product voice was not determined, making it difficult to bring personality or a sense of trust to the platform. 
+              Both mentees and mentors are interested in connecting over shared interests, hobbies, and backgrounds. 
+              <br />
+              <br />
+              As the content team was new in this phase, copy was rather vague and content was not yet standardized. The product voice was not determined, making it difficult to bring personality or a sense of trust to the platform. 
             </Text>
           </div>
         </Row>
