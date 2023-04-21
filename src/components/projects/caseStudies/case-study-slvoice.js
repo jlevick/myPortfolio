@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Section, Title, Text } from "../../../components/Core";
+import { Section, Title, Text, Button, Box } from "../../../components/Core";
+import myPdf from '../../../../static/sl_content_style_guide.pdf';
 
 const CaseStudySLVoice = ({ hero = true, bg = "dark", ...rest }) => {
   return (
@@ -65,7 +66,7 @@ const CaseStudySLVoice = ({ hero = true, bg = "dark", ...rest }) => {
             <Col className="justify-content-center">
               <div>
                 <Title color="light" variant="secSm">
-                  About Sean's Legacy and the Mentorship Platform
+                  About the Sean's Legacy Mentorship Platform
                 </Title>
                 <Text
                   color="light"
@@ -92,11 +93,7 @@ const CaseStudySLVoice = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  The Sean's Legacy The UX Content Team was new in the project's second phase. We worked closely with Designers, Researchers, and Developers on a 42-person agile team.
-                  Phase 1 focused on researching and designing for the mentee side of the platform. Phase 2 continued with the mentee side and began working on the mentor side of the platform. 
-                  <br />
-                  <br />
-                  Our team audited existing designs from Phase 1, developed the initial Voice and Tone and Content Style Guide, wrote copy for both sides of the platform, and worked with Design on content strategy. 
+                 A dedicated UX Content Team was new in the project's second phase. No voice and tone guidelines existed, however data was available from user interviews and usability testing. I was fortunate to head the task of developing voice and tone for the platform. Our team of 3 UX Writers created the initial Content Style Guide for the project.
                 </Text>
               </div>
             </Col>
@@ -106,23 +103,26 @@ const CaseStudySLVoice = ({ hero = true, bg = "dark", ...rest }) => {
       <Container>
         <Row className="pl-4 mt-5">
           <div className="pt-5">
-            <Title variant="cardBig">Problem</Title>
-              <br />
-              <Title variant="cardSm">Mentees</Title>
+            <Title variant="cardBig">Challenge</Title>
             <Text className="mb-4 mt-4">
-              Based on Phase 1 usability testing, potential mentees desired increased clarity in regard to the purpose of the mentorship platform and its safety features. Research indicated a desire for guidance, personalization, and inclusivity. Potential mentees also felt the site was lacking personality.
+                Based on Phase 1 research, potential users expressed the importance of <b>safety</b>, <b>privacy</b>, and <b>inclusivity</b>. 
+                <br /> Potential users also felt the site was <b>lacking personality</b>.
             </Text>
-            <Title variant="cardSm">Mentors</Title>
-              <Text className="mb-4 mt-4">
-              Based on preliminary findings from Phase 2, potential mentors struggle with imposter syndrome and seek support and resources from Sean's Legacy, as well as a community of other mentors to lean on. Potential mentors also have concerns around safety and privacy.
-            </Text>
+            <Text className="mb-4 mt-4"> The product voice was not determined, making it difficult to bring personality or a sense of trust to the platform. 
+            <br /> Content and writing guidelines were not yet established, creating a lack of cohesion throughout the designs.</Text>
+            <Title variant="cardBig">Solution</Title>
             <Text className="mb-4 mt-4">
-              Both mentees and mentors are interested in connecting over shared interests, hobbies, and backgrounds. 
-              <br />
-              <br />
-              As the content team was new in this phase, copy was rather vague and content was not yet standardized. The product voice was not determined, making it difficult to bring personality or a sense of trust to the platform. 
+                Determine voice and tone by understanding user needs, goals, concerns, and the language they use. 
+                <br /> Create guidelines to standardize all copy.
             </Text>
           </div>
+        </Row>
+        <Row className="justify-content-center align-items-center">
+            <Box mb="50px" mt="52px">
+                <a href={myPdf} target="_blank" rel="noopener noreferrer">
+                    <Button variant={"#7155ff"}>Content Style Guide</Button>
+                </a>
+            </Box>
         </Row>
       </Container>
     </>

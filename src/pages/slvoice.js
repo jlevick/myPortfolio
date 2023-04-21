@@ -12,7 +12,8 @@ const slvoice = () => {
     <>
       <PageWrapper lightTheme>
         <Hero />
-  
+        <CaseStudySLVoice />
+        <CaseStudySLVoiceBody />
         <CTA />
       </PageWrapper>
     </>

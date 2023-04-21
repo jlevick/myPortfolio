@@ -50,7 +50,7 @@ const Hero = () => {
               Voice and Tone Guidelines
             </Title>
             <p>
-              For the Sean's Legacy Mentorship Platform
+              for the Sean's Legacy Mentorship Platform
             </p>
           </Box>
         </Container>

@@ -65,7 +65,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
             <Col className="justify-content-center">
               <div>
                 <Title color="light" variant="secSm">
-                  About Sean's Legacy and the Mentorship Platform
+                  About the Sean's Legacy Mentorship Platform
                 </Title>
                 <Text
                   color="light"
@@ -106,10 +106,11 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
       <Container>
         <Row className="pl-4 mt-5">
           <div className="pt-5">
-            <Title variant="cardBig">Problem</Title>
+            <Title variant="cardBig">Challenge</Title>
               <br />
               <Title variant="cardSm">Mentees</Title>
             <Text className="mb-4 mt-4">
+              Clarify copy  
               Based on Phase 1 usability testing, potential mentees desired increased clarity in regard to the purpose of the mentorship platform and its safety features. Research indicated a desire for guidance, personalization, and inclusivity. Potential mentees also felt the site was lacking personality.
             </Text>
             <Title variant="cardSm">Mentors</Title>

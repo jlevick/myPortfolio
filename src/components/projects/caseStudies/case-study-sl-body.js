@@ -28,7 +28,7 @@ const CaseStudy2Body = () => {
           <Section hero={true} bg={"dark"} className="px-5">
             <Container className="pb-3">
               <Title color="light" variant="secSm">
-                01 Approach
+                01 Empathize
               </Title>
               <Title
                 color="light"
@@ -40,7 +40,7 @@ const CaseStudy2Body = () => {
                   letter-spacing: 1.63px;
                 `}
               >
-                Content Audit - Voice and Tone - Content Style Guide
+                Content Audit - Voice and Tone
               </Title>
             </Container>
           </Section>
@@ -54,7 +54,9 @@ const CaseStudy2Body = () => {
                 <Text className="mb-4 mt-4">
                     We determined 3 main focus areas for clarification: <b>cost and location of mentorship</b>, and the site's <b>safety measures</b>. 
                 </Text>
-                <Text>Before we could write clarifying copy, we needed a clear understanding of our voice.</Text>
+                <Text>Before we could write clarifying copy, we needed a clear understanding of our voice.
+                  You'll find more information about the voice and tone here.
+                </Text>
               </div>
             </Row>
             <Row className="mt-5">
@@ -160,7 +162,7 @@ const CaseStudy2Body = () => {
           <Section hero={true} bg={"dark"} className="px-5">
             <Container className="pb-3">
               <Title color="light" variant="secSm">
-                02 Solution
+                02 Define
               </Title>
               <Title
                 color="light"

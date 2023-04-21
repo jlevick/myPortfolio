@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { Section, Title, Text, Box, Button } from "../../../components/Core";
-import imgPhoto from "../../../assets/image/png/sl_affinity_mapping.png";
-import imgPhoto1 from "../../../assets/image/png/sl_voice.png";
-import imgPhoto2 from "../../../assets/image/png/sl_tone.png";
+import imgPhoto from "../../../assets/image/png/affinitymap.png";
+import imgPhoto1 from "../../../assets/image/png/voice.png";
+import imgPhoto2 from "../../../assets/image/png/tone.png";
 import imgPhoto3 from "../../../assets/image/png/basic_html_structure@2x.png";
 import imgPhoto4 from "../../../assets/image/png/sun_change_orange@2x.png";
 import imgPhoto5 from "../../../assets/image/png/alt_text_example@2x.png";
@@ -41,7 +41,7 @@ const CaseStudySLVoiceBody = () => {
           <Section hero={true} bg={"dark"} className="px-5">
             <Container className="pb-3">
               <Title color="light" variant="secSm">
-                01 Approach
+                01 Approach 
               </Title>
               <Title
                 color="light"
@@ -53,32 +53,19 @@ const CaseStudySLVoiceBody = () => {
                   letter-spacing: 1.63px;
                 `}
               >
-                Content Audit - Voice and Tone - Content Style Guide
+                Voice and Tone 
               </Title>
             </Container>
           </Section>
           <Section>
-            <Row className="mt-3">
-              <div>
-                <Title variant="cardBig">Understanding Phase 1 designs</Title>
-                <Text className="mb-4">
-                    We began our first sprint by auditing Phase 1 designs. Our findings were similiar to those reported by potential mentees: <b>the platform lacked clarity overall</b>.
-                </Text>
-                <Text className="mb-4 mt-4">
-                    We determined 3 main focus areas for clarification: <b>cost and location of mentorship</b>, and the site's <b>safety measures</b>. 
-                </Text>
-                <Text>Before we could write clarifying copy, we needed a clear understanding of our voice.</Text>
-              </div>
-            </Row>
             <Row className="mt-5">
               <div>
                 <Title variant="cardBig">If this platform was a person, who would they be?</Title>
                 <Text className="mb-4 mt-4">
-                    Working in an agile environment required we move quickly. I was fortunate to head the task of developing voice and tone for the platform as my co-writer was out for the week and our team lead had additional priorities.
-                    <br />
-                    <br />
-                    I began by reading through the Phase 1 research report, pulling out key words, phrases, and themes. 
-                    <br /> This document included a <b>list of adjectives provided by our client</b> which describe Sean's Legacy:
+                    In order to understand how to write for our users, I read through the Phase 1 research report, creating a list of keywords and themes.
+                </Text>
+                <Text className="mb-4 mt-4">
+                    The report included a <b>list of adjectives provided by our client</b> which describe Sean's Legacy:
                     <Text variant="li">Welcoming</Text>
                     <Text variant="li">Trustworthy</Text>
                     <Text variant="li">Professional</Text>
@@ -86,15 +73,17 @@ const CaseStudySLVoiceBody = () => {
                     <Text variant="li">Uplifting</Text>
                     <Text variant="li">Community</Text>
                 </Text>
-                <Text>
-                    <b>Sean's Legacy </b> has its own <b>guiding principles</b>, and I added these to my list:
+                <Text className="mb-4 mt-4">
+                    <b>Sean's Legacy </b> has its own <b>guiding principles</b>, and I added these as well:
                     <Text variant="li">Inclusivity</Text>
                     <Text variant="li">Empowerment</Text>
                     <Text variant="li">Compassion</Text>
                     <Text variant="li">Respect</Text>
                 </Text>
-                <Text>
-                   I imported findings into Fig Jam and began looking for patterns.
+                <Text className="mb-4 mt-4">
+                   Additionally I viewed raw data from Phase 1 user interviews, again writing down common themes and terms.
+                   <br /> I imported the findings into FigJam and began looking for patterns. 
+                   <br /> Ultimately I was left with 4 broad categories: community, individual agency, growth, and safety.  
                 </Text>
               </div>
               <div>
@@ -105,19 +94,19 @@ const CaseStudySLVoiceBody = () => {
               </div>
               <div className="mt-5">
                   <Title variant="cardBig">How do we create safety through language?</Title>
-                  <Text className="mb-4 mt-4">We knew our platform's voice needed to communicate in a way that left our users feeling safe. But in a world where no one can guarantee a true safe space, how do we accomplish this? <i>How do we create safety</i>? 
+                  <Text className="mb-4 mt-4">I knew our platform's voice needed to communicate in a way that left our users feeling safe. But in an age where no one can guarantee a true safe space, how do we accomplish this? <i>How do we create safety</i>? 
                   <br />
                   <br />
-                  The answer is we can't. Safety is built and it takes effort. We brainstormed around the idea of designing experiences that promote safety and build trust through respect, consistency, transparency, inclusivity, and clarity.
+                  The answer is we can't. Safety is built and takes effort. My team brainstormed around the idea of designing experiences that promote safety and build trust through respect, consistency, transparency, inclusivity, and clarity.
                   </Text>
-                  <Text>It was important to us to write in a way that offered choice and allowed for autonomy and consent.</Text>
+                  <Text>Communicating choice and offering autonomy and consent was imperative.</Text>
                 </div>
               <Row className="mt-3">
               <div className="mt-5">
                   <Title variant="cardBig">Introducing: the <i>Cool Guidance Counselor</i></Title>
                   <Text className="mb-4 mt-4">With all of this in mind, we envisioned our voice and tone persona to be the well-balanced guidance counselor we all want(ed) to have. 
                   <br />
-                  They're warm, friendly, reliable, and make mentees feel at ease. They're professional and knowledgeable, inspiring trust and confidence. They speak with authority without being authoritarian. They're clear communicators, offering guidance with a tone of empowerment. They promote diversity and a sense of belonging with their inclusive and respectful behavior, and they prioritize safety above all.</Text>
+                  They're warm, friendly, reliable, and make ohers feel at ease. They're professional and knowledgeable, inspiring trust and confidence. They speak with authority without being authoritarian. They're clear communicators, offering guidance with a tone of empowerment. They promote diversity and a sense of belonging with their inclusive and respectful behavior, and they prioritize safety above all.</Text>
                     <br />
                   <Text>
                         Ultimately, our persona is:
@@ -126,7 +115,7 @@ const CaseStudySLVoiceBody = () => {
                         <Text variant="li">Ethical and open, not cagey</Text>
                         <Text variant="li">Empowering, not judgmental</Text>
                     </Text>
-                    <Text>We brought our ideas to the client, where they were well received by their co-founder and internal content team, allowing us to move forward.</Text>
+                    <Text>The team brought these ideas to our client, where they were well received by their co-founder and internal content team.</Text>
                 </div>
             </Row>
             <Row className='my-5'>
@@ -143,7 +132,7 @@ const CaseStudySLVoiceBody = () => {
                 </div>
               </Row>
                   <Text className="mb-4 mt-4">With a clear vision of our voice and tone, we began developing our style guide from scratch. The list I created grew into a keyword list that helped standardize copy on the platform; everything from Call to Action buttons, to titles, to tooltips.</Text>
-                  <Text>During the audit I noticed inconsistencies in terms such as <i>Continue </i> versus <i>Next</i>, and <i>Create account</i> versus <i>Sign up</i>. We chose to use <i>Continue</i> over <i>Next</i> as it felt a bit gentler, and <i>Sign up</i> over <i>Create account</i> to simplify.</Text>
+                  <Text>During an early audit of the platform, I noticed inconsistencies in terms such as <i>Continue </i> and <i>Next</i>, and <i>Create account</i> and <i>Sign up</i>. Our team chose to use <i>Continue</i> over <i>Next</i> as it felt gentler, and <i>Sign up</i> over <i>Create account</i> to simplify.</Text>
                 </div>
             </Row>
               <Container>
@@ -162,7 +151,7 @@ const CaseStudySLVoiceBody = () => {
             <Row className='mt-5'>
                   <div>
                     <Text className="mb-4 mt-4">
-                        We decided that due to the age range of our audience (18-25 for mentees) and their desire for inclusivity, we would use casual, informal language. This included choosing sentence case over title case and allowing for contractions.   
+                        We decided that due to the age range of our mentee audience (18-25) and their desire for inclusivity, we would use casual, informal language. The platform's voice needed to sound human, be readable at a 6th grade level, and communicate in a way that related both to mentees and mentors. Because of this, we chose to use sentence case over title case and allow for contractions. Our team also decided to use the Hemingway App in order to check the reading level of all copy. 
                      </Text>
                   </div>
             </Row>
@@ -173,7 +162,7 @@ const CaseStudySLVoiceBody = () => {
           <Section hero={true} bg={"dark"} className="px-5">
             <Container className="pb-3">
               <Title color="light" variant="secSm">
-                02 Solution
+                02 Define
               </Title>
               <Title
                 color="light"
