@@ -5,6 +5,19 @@ import { Section, Title, Text, Box, Button } from "../../../components/Core";
 import imgPhoto from "../../../assets/image/png/sl_affinity_mapping.png";
 import imgPhoto1 from "../../../assets/image/png/sl_voice.png";
 import imgPhoto2 from "../../../assets/image/png/sl_tone.png";
+import imgPhoto3 from "../../../assets/image/png/basic_html_structure@2x.png";
+import imgPhoto4 from "../../../assets/image/png/sun_change_orange@2x.png";
+import imgPhoto5 from "../../../assets/image/png/alt_text_example@2x.png";
+import imgPhoto6 from "../../../assets/image/png/buttons@2x.png";
+import imgPhoto7 from "../../../assets/image/png/styling_buttons@2x.png";
+import imgPhoto8 from "../../../assets/image/png/md_media_queries@2x.png";
+import imgPhoto9 from "../../../assets/image/png/lg_media_queries@2x.png";
+import imgPhoto10 from "../../../assets/image/png/using_dev_tools@2x.png";
+import imgPhoto11 from "../../../assets/image/png/keyframes@2x.png";
+import imgPhoto12 from "../../../assets/image/png/js_console_practice@2x.png";
+import imgPhoto13 from "../../../assets/image/png/codepen@2x.png";
+import imgPhoto14 from "../../../assets/image/png/js_menu_code@2x.png";
+import imgPhoto15 from "../../../assets/image/png/menu_mobile@2x.png";
 import imgPhoto16 from "../../../assets/image/png/added_phone@2x.png";
 import imgPhoto17 from "../../../assets/image/png/added_phone_hover@2x.png";
 import imgPhoto18 from "../../../assets/image/png/ampersand_fix@2x.png";
@@ -20,7 +33,7 @@ import imgPhoto27 from "../../../assets/image/png/aria_labels@2x.png";
 
 
 
-const CaseStudy2Body = () => {
+const CaseStudySLVoiceBody = () => {
   return (
     <>
       <Section className="position-relative">
@@ -385,4 +398,4 @@ const CaseStudy2Body = () => {
   );
 };
 
-export default CaseStudy2Body;
+export default CaseStudySLVoiceBody;
