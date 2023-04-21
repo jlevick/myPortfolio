@@ -5,7 +5,6 @@ import { Container } from 'react-bootstrap'
 import { Title, Section, Box } from '../../components/Core'
 
 import bgHeroPattern from '../../assets/image/webp/hero-pattern.webp'
-import imgL from '../../assets/image/png/aspect_hero@2x.png'
 
 const SectionStyled = styled(Section)`
   &::before {
