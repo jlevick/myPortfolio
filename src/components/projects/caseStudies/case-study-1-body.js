@@ -2,7 +2,6 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { useWindowSize } from "../../../hooks";
 import { breakpoints } from "../../../utils";
-import imgPhoto from '../../../assets/image/png/swot.png'
 import imgPhoto1 from '../../../assets/image/png/aspect_piechart.png'
 import imgPhoto2 from '../../../assets/image/png/vanessa.png'
 import imgPhoto3 from '../../../assets/image/png/hannah.png'
@@ -69,7 +68,7 @@ console.log(size, breakpoints.md)
             <Row>
               <Box>
                 <Title variant="cardBig" className="mb-4">
-                  Why Astrology?{" "}
+                  Why astrology?{" "}
                 </Title>
                 <Text
                   className="mb-5"
@@ -81,7 +80,9 @@ console.log(size, breakpoints.md)
                   stressful times. It's no wonder the mystical services industry
                   is worth $2.2 billion and growing. Determining if Aspect could
                   be a viable business opportunity required an understanding of
-                  the market. My exploratory research began with competetive
+                  the market. 
+                  <br /> 
+                  My exploratory research began with competetive
                   analyses of 2 popular astro-related apps: Sanctuary Astrology
                   and Kasamba.
                 </Text>
@@ -93,17 +94,15 @@ console.log(size, breakpoints.md)
                 marketing strategy and social media presence make them Aspect's
                 top direct competitor.
                 <br />
+                <br />
                 Kasamba also offers live astrology readings and has been in
                 business for decades, suggesting an extensive client base.
               </Text>
             </Row>
-            <Row className="justify-content-center align-items-center">
-              {ImageDynamic(imgPhoto)}
-            </Row>
             <Row className="justify-content-center align-items-center py-5">
               <Col>
                 <Title variant="cardBig" className="mb-4">
-                  Top 3 Market Gaps to Fill
+                  Top 3 market gaps to fill
                 </Title>
                 <Title
                   variant="card"
@@ -182,7 +181,7 @@ console.log(size, breakpoints.md)
                 <Row className="pt-5">
                   <Col className="justify-content-center align-items-center">
                     <Title variant="cardBig" className="mb-4">
-                      User Interview Key Findings
+                      User interview key findings
                     </Title>
                     <ul type="circle" className="pl-4">
                       <Text variant="li">
@@ -238,7 +237,7 @@ console.log(size, breakpoints.md)
             </Box>
             <Box>
               <Title variant="cardBig" className="mt-4 mb-4">
-                Problem Statement
+                Problem statement
               </Title>
               <Text className="mb-4">
                 <b>
@@ -271,7 +270,7 @@ console.log(size, breakpoints.md)
                 market with a product unlike any other.
               </Text>
               <Title className="mt-4 mb-4" variant="cardBig">
-                User Personas and User Flows
+                User personas and user flows
               </Title>
               <Text
                 className="mt-4 mb-5"
@@ -455,7 +454,7 @@ console.log(size, breakpoints.md)
               </Row>
             </Box>
             <Box>
-              <Title variant="cardSm">Task Scenario Example</Title>
+              <Title variant="cardSm">Task scenario example</Title>
               <Text className="mb-4 mt-4">
                 <i>
                   "You've registered for the app and can now see if there are
@@ -476,16 +475,16 @@ console.log(size, breakpoints.md)
             <Col>
               <br />
               <br />
-              <Title variant="cardBig">Usability Test Key Findings</Title>
+              <Title variant="cardBig">Usability test key findings</Title>
               <br />
-              <Title variant={"cardSm"}>Information Overload</Title>
+              <Title variant={"cardSm"}>Information overload</Title>
               <Text variant="li">Astrologer's profile is too busy</Text>
               <Text variant="li">
                 3 out of 6 experienced information overload on astrologer's
                 profile, and 2 participants wanted more drop down content
               </Text>
               <br />
-              <Title variant={"cardSm"}>Confusing Copy</Title>
+              <Title variant={"cardSm"}>Confusing copy</Title>
               <Text variant="li">"Readings" copy in menu is confusing</Text>
               <Text variant="li">
                 3 out of 6 expressed confusion with the term “Readings”,
@@ -506,7 +505,7 @@ console.log(size, breakpoints.md)
           <Row className="justify-content-center align-items-center py-4 pl-2">
             <Col>
               <Title variant={"cardBig"} className="mb-4">
-                Implemented Changes
+                Implemented changes
               </Title>
               <Text variant="li">
                 Designed drop downs for About Me and Qualifications in
@@ -527,7 +526,7 @@ console.log(size, breakpoints.md)
                 The feedback I received from usability testing allowed me to
                 clean up screens, thereby reducing confusion. Based on test
                 results I redesigned 3 screens and 20 participants voted on which
-                they preferred. <b>Below are the results for the Home Screen</b>
+                they preferred.
                 .
               </Text>
             </Col>
@@ -536,20 +535,26 @@ console.log(size, breakpoints.md)
             <Col>
               <div>
                 <Title variant={"cardLg"}>Option A: 17% of votes</Title>
-                {ImageDynamic(imgPhoto9)}
+                <Box
+                  className="d-flex justify-content-center align-items-center w-100">
+                  <img src={imgPhoto9} alt="" className="img-fluid" />
+                </Box>
               </div>
             </Col>
             <Col>
               <div>
-                <Title variant={"cardLg"}>Option B: 83% of votes</Title>
-                {ImageDynamic(imgPhoto10)}
+              <Title variant={"cardLg"}>Option B: 83% of votes</Title>
+                <Box
+                  className="d-flex justify-content-center align-items-center w-100">
+                  <img src={imgPhoto10} alt="" className="img-fluid" />
+                </Box>
               </div>
             </Col>
           </Row>
           <Row className="pl-2">
             <Col>
               <Title variant="cardSm">
-                <b>Why Option B? Participants said it's</b>
+                <b>Why option B? Participants said it's</b>
               </Title>
               <Text variant="li">Cleaner</Text>
               <Text variant="li">Easier to navigate</Text>
@@ -575,10 +580,22 @@ console.log(size, breakpoints.md)
           </Row>
           <Row className="justify-content-center align-items-center py-5 pl-2">
             <Col>
-              <div>{ImageDynamic(imgPhoto11)}</div>
+              <div>
+                  <Title variant={"cardLg"}>Before</Title>
+                <Box
+                  className="d-flex justify-content-center align-items-center w-100">
+                  <img src={imgPhoto11} alt="" className="img-fluid" />
+                </Box>
+              </div>
             </Col>
             <Col>
-              <div>{ImageDynamic(imgPhoto12)}</div>
+              <div>
+                  <Title variant={"cardLg"}>After</Title>
+                  <Box
+                    className="d-flex justify-content-center align-items-center w-100">
+                    <img src={imgPhoto12} alt="" className="img-fluid" />
+                  </Box>
+              </div>
             </Col>
           </Row>
           <Row className="pl-2">
@@ -636,7 +653,7 @@ console.log(size, breakpoints.md)
               >
                 I made informed decisions regarding feedback by applying my{" "}
                 design system, style guide, and accessibility knowledge to
-                justify declining any proposed changes.
+                justify declining or accepting any proposed changes.
               </Text>
             </Box>
             <Box mb="82px" className="pl-lg-4 pt-5 pt-lg-0">
@@ -688,22 +705,35 @@ console.log(size, breakpoints.md)
               </Text>
               <Row className="justify-content-center align-items-center">
                 <Col>
-                  <Title variant="cardBig">
-                    Browse and Chat with an Astrologer
-                  </Title>
-                  {ImageDynamic(imgPhoto13)}
+                  <div>
+                      <Title variant={"cardLg"}>Browse and chat with an astrologer</Title>
+                    <Box
+                      className="d-flex justify-content-center align-items-center w-100">
+                      <img src={imgPhoto13} alt="" className="img-fluid" />
+                    </Box>
+                  </div>
                 </Col>
               </Row>
               <Row className="justify-content-center align-items-center">
                 <Col>
-                  <Title variant="cardBig">My Chart</Title>
-                  {ImageDynamic(imgPhoto14)}
+                  <div>
+                      <Title variant={"cardLg"}>My chart</Title>
+                      <Box
+                        className="d-flex justify-content-center align-items-center w-100">
+                        <img src={imgPhoto14} alt="" className="img-fluid" />
+                    </Box>
+                  </div>
                 </Col>
               </Row>
               <Row className="justify-content-center align-items-center py-5">
                 <Col>
-                  <Title variant="cardBig">Community Chat</Title>
-                  {ImageDynamic(imgPhoto15)}
+                  <div>
+                        <Title variant={"cardLg"}>Community chat</Title>
+                      <Box
+                        className="d-flex justify-content-center align-items-center w-100">
+                        <img src={imgPhoto15} alt="" className="img-fluid" />
+                      </Box>
+                  </div>
                 </Col>
               </Row>
               <Row className="mb-4">
@@ -734,7 +764,7 @@ console.log(size, breakpoints.md)
             <Col>
               <br />
               <Title variant="cardBig" className="mb-4">
-                Next Steps
+                Next steps
               </Title>
               <Text variant="li">
                 Design a Direct Message feature for user to user connection

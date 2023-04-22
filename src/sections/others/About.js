@@ -29,7 +29,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                   line-height: .07;
                 `}
               >
-                With a background in anthropology and gender studies, and 10+ years in client-facing roles, I have developed creative problem-solving abilities and an empathetic, curious approach to communication. At the end of 2021 I decided to transition in to UX Design and quickly discovered my love of UX Writing. 
+                With a background in anthropology and gender studies, and 10+ years in client-facing roles, I have developed creative problem-solving abilities and an empathetic, curious approach to communication. In 2021 I decided to transition in to UX Design and quickly discovered my love of UX Writing. 
                 <br />
                 <br />
                 I excel at analyzing and synthesizing data and using the results to write clear, contextual copy.

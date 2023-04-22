@@ -78,9 +78,8 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  Design the minimum viable product (MVP) of a mobile app that
-                  allows users to instantly connect with astrologers in order to
-                  ask astro-related questions.
+                  Design the minimum viable product (MVP) for a mobile app that
+                  allows users to instantly connect with astrologers.
                 </Text>
               </div>
             </Col>

@@ -247,7 +247,7 @@ const CaseStudySLVoiceBody = () => {
           <Section hero={true} bg={"dark"}>
             <Container className="pb-3">
               <Title color="light" variant="secSm">
-                Outcome
+                Outcomes
               </Title>
               <Title
                 color="light"
