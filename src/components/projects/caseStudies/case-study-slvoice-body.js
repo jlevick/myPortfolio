@@ -13,24 +13,6 @@ import imgPhoto7 from "../../../assets/image/png/questionnaire.png";
 import imgPhoto8 from "../../../assets/image/png/support.png";
 import imgPhoto9 from "../../../assets/image/png/focus.png";
 import imgPhoto10 from "../../../assets/image/png/chosen.png";
-import imgPhoto11 from "../../../assets/image/png/keyframes@2x.png";
-import imgPhoto12 from "../../../assets/image/png/js_console_practice@2x.png";
-import imgPhoto13 from "../../../assets/image/png/codepen@2x.png";
-import imgPhoto14 from "../../../assets/image/png/js_menu_code@2x.png";
-import imgPhoto15 from "../../../assets/image/png/menu_mobile@2x.png";
-import imgPhoto16 from "../../../assets/image/png/added_phone@2x.png";
-import imgPhoto17 from "../../../assets/image/png/added_phone_hover@2x.png";
-import imgPhoto18 from "../../../assets/image/png/ampersand_fix@2x.png";
-import imgPhoto19 from "../../../assets/image/png/js_lint_error@2x.png";
-import imgPhoto20 from "../../../assets/image/png/w3c_div_error@2x.png";
-import imgPhoto21 from "../../../assets/image/png/w3c_error_free@2x.png";
-import imgPhoto22 from "../../../assets/image/png/accessibility_error@2x.png";
-import imgPhoto23 from "../../../assets/image/png/accessibility_fixed@2x.png";
-import imgPhoto24 from "../../../assets/image/png/before_fixing_accessibility@2x.png";
-import imgPhoto25 from "../../../assets/image/png/lighthouse_aria_labels@2x.png";
-import imgPhoto26 from "../../../assets/image/png/after_fixing_accessibility@2x.png";
-import imgPhoto27 from "../../../assets/image/png/aria_labels@2x.png";
-
 
 
 const CaseStudySLVoiceBody = () => {
