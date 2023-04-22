@@ -6,8 +6,8 @@ export const menuItems = [
              // case studies below
              { name: "aspect", label: "aspect" },
              { name: "seans-legacy", label: "sean's legacy" },
-             { name: "samples", label: "ux writing samples" },
              { name: "slvoice", label: "voice and tone" },
+             { name: "samples", label: "ux writing samples" },
              { name: "front-end-portfolio", label: "front end portfolio" },
            ],
          },

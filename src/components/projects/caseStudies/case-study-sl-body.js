@@ -52,7 +52,7 @@ const CaseStudy2Body = () => {
                     We began our first sprint by auditing Phase 1 designs. Our findings were similiar to those reported by potential mentees: <b>the platform lacked clarity overall</b>.
                 </Text>
                 <Text className="mb-4 mt-4">
-                    We determined 3 main focus areas for clarification: <b>cost and location of mentorship</b>, and the site's <b>safety measures</b>. 
+                    We determined 2 main focus areas for clarification: <b>safety</b> and <b>support</b>.
                 </Text>
                 <Text>Before we could write clarifying copy, we needed a clear understanding of our voice.
                   You'll find more information about the voice and tone here.
@@ -60,38 +60,12 @@ const CaseStudy2Body = () => {
               </div>
             </Row>
             <Row className="mt-5">
-              <div>
-                <Title variant="cardBig">If this platform was a person, who would they be?</Title>
-                <Text className="mb-4 mt-4">
-                    Working in an agile environment required we move quickly. I was fortunate to head the task of developing voice and tone for the platform as my co-writer was out for the week and our team lead had additional priorities.
-                    <br />
-                    <br />
-                    I began by reading through the Phase 1 research report, pulling out key words, phrases, and themes. 
-                    <br /> This document included a <b>list of adjectives provided by our client</b> which describe Sean's Legacy:
-                    <Text variant="li">Welcoming</Text>
-                    <Text variant="li">Trustworthy</Text>
-                    <Text variant="li">Professional</Text>
-                    <Text variant="li">Engaging</Text>
-                    <Text variant="li">Uplifting</Text>
-                    <Text variant="li">Community</Text>
-                </Text>
-                <Text>
-                    <b>Sean's Legacy </b> has its own <b>guiding principles</b>, and I added these to my list:
-                    <Text variant="li">Inclusivity</Text>
-                    <Text variant="li">Empowerment</Text>
-                    <Text variant="li">Compassion</Text>
-                    <Text variant="li">Respect</Text>
-                </Text>
-                <Text>
-                   I imported findings into Fig Jam and began looking for patterns.
-                </Text>
-              </div>
-              <div>
+           
                 <Box
                   className="d-flex justify-content-center align-items-center w-75 my-5">
                   <img src={imgPhoto} alt="" className="img-fluid" />
                 </Box>
-              </div>
+
               <div className="mt-5">
                   <Title variant="cardBig">How do we create safety through language?</Title>
                   <Text className="mb-4 mt-4">We knew our platform's voice needed to communicate in a way that left our users feeling safe. But in a world where no one can guarantee a true safe space, how do we accomplish this? <i>How do we create safety</i>? 

@@ -1,8 +1,8 @@
-import imgT2 from '../assets/image/png/portfolioindex.png'
-import imgT3 from '../assets/image/png/doesthiswork.png'
+import imgT2 from '../assets/image/png/frontend.png'
+import imgT3 from '../assets/image/png/sl.png'
 import imgPhoto from "../assets/image/png/aspectindex.png"
-import imgPhoto1 from "../assets/image/png/writingsamples.png"
-import imgPhoto2 from "../assets/image/png/slvoice.png";
+import imgPhoto1 from "../assets/image/png/samples.png"
+import imgPhoto2 from "../assets/image/png/indexvoice.png";
 
 
 const devWorks2 = [
@@ -23,20 +23,20 @@ const devWorks2 = [
     link: '/seans-legacy',
   },
   {
-    brand: `Writing Samples`,
-    slug: `writingsamples`,
-    title: `ux writing samples`,
-    categories: [`uxwriting`],
-    thumbnail: imgPhoto1,
-    link: '/samples',
-  },
-  {
     brand: `Voice and Tone Guidelines`,
     slug: `voiceandtone`,
     title: `contentstyleguide`,
     categories: [`uxwriting`],
     thumbnail: imgPhoto2,
     link: '/slvoice',
+  },
+  {
+    brand: `Writing Samples`,
+    slug: `writingsamples`,
+    title: `ux writing samples`,
+    categories: [`uxwriting`],
+    thumbnail: imgPhoto1,
+    link: '/samples',
   },
   {
     brand: `Front-End Portfolio`,

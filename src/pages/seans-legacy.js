@@ -12,6 +12,7 @@ const SeansLegacy = () => {
     <>
       <PageWrapper lightTheme>
         <Hero />
+        
         <CTA />
       </PageWrapper>
     </>

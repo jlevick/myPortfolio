@@ -56,7 +56,7 @@ const CaseStudySLVoice = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  Define voice and tone for the Sean's Legacy Mentorship platform and create initial Content Style Guide
+                  Define voice and tone for the Sean's Legacy Mentorship platform and create initial Content Style Guide.
                   </Text>
                 </div>
               </div>
@@ -66,7 +66,7 @@ const CaseStudySLVoice = ({ hero = true, bg = "dark", ...rest }) => {
             <Col className="justify-content-center">
               <div>
                 <Title color="light" variant="secSm">
-                  About the Sean's Legacy Mentorship Platform
+                  The Client
                 </Title>
                 <Text
                   color="light"
@@ -105,20 +105,17 @@ const CaseStudySLVoice = ({ hero = true, bg = "dark", ...rest }) => {
           <div className="pt-5">
             <Title variant="cardBig">Challenge</Title>
             <Text className="mb-4 mt-4">
-                Based on Phase 1 research, potential users expressed the importance of <b>safety</b>, <b>privacy</b>, and <b>inclusivity</b>. 
-                <br /> Potential users also felt the site was <b>lacking personality</b>.
+                Define a consistent and appropriate writing style for the Sean's Legacy Mentorship platform.
             </Text>
-            <Text className="mb-4 mt-4"> The product voice was not determined, making it difficult to bring personality or a sense of trust to the platform. 
-            <br /> Content and writing guidelines were not yet established, creating a lack of cohesion throughout the designs.</Text>
             <Title variant="cardBig">Solution</Title>
             <Text className="mb-4 mt-4">
-                Determine voice and tone by understanding user needs, goals, concerns, and the language they use. 
+                Clarify product voice by understanding user needs, goals, concerns, and the language they use. 
                 <br /> Create guidelines to standardize all copy.
             </Text>
           </div>
         </Row>
         <Row className="justify-content-center align-items-center">
-            <Box mb="50px" mt="52px">
+            <Box mb="25px" mt="25px">
                 <a href={myPdf} target="_blank" rel="noopener noreferrer">
                     <Button variant={"#7155ff"}>Content Style Guide</Button>
                 </a>
