@@ -51,7 +51,7 @@ const Hero = () => {
              UX Writing Samples
             </Title>
             <p>
-             A selection of microcopy and content design.
+             A selection of microcopy and content design
             </p>
           </Box>
         </Container>

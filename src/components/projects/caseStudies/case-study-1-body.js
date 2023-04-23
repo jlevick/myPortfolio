@@ -15,6 +15,10 @@ import imgPhoto12 from '../../../assets/image/png/aspect_design_crit_after@2x.pn
 import imgPhoto13 from '../../../assets/image/png/aspect_sneak_peek_browse@2x.png'
 import imgPhoto14 from '../../../assets/image/png/aspect_sneak_peek_my_chart@2x.png'
 import imgPhoto15 from '../../../assets/image/png/aspect_sneak_peek_community@2x.png'
+import imgPhoto16 from '../../../assets/image/png/colors.png'
+import imgPhoto17 from '../../../assets/image/png/ui_nav.png'
+import imgPhoto18 from '../../../assets/image/png/ui_select.png'
+
 
 import {
   Title,
@@ -355,7 +359,7 @@ console.log(size, breakpoints.md)
               <Row className="justify-content-center align-items-center py-5">
                 <Title variant="cardSm">
                   Here is an example of the iterative process for one of
-                  Aspect's main features Browse Astrologers.
+                  Aspect's main features, <i>Browse Astrologers</i>.
                 </Title>
                 {ImageDynamic(imgPhoto6)}
               </Row>
@@ -613,12 +617,10 @@ console.log(size, breakpoints.md)
               <Title variant={"cardSm"}>Reasoning</Title>
               <Text className="mb-5">
                 The bell icon for scheduling a reading was confusing without
-                proper context. After further consideration, I realized the user
-                only learns about the bells’ purpose if they click on Rates and
-                Info. This led me to consider adding a third status, ”In
-                Reading”, to indicate the astrologer is online but busy. I
+                context. I realized the user only learns about the bells’ purpose if they click on <i>Rates and Info</i>.
+                This led me to consider adding a third status, <i>"In Reading"</i>, to indicate the astrologer is online but busy. I
                 considered designing a timer to display how long they'll be
-                occupied but I haven't pursued this yet as it will require
+                occupied but haven't pursued this as it will require
                 additional time to design in a user-friendly, aesthetically
                 pleasing way.{" "}
               </Text>
@@ -666,6 +668,26 @@ console.log(size, breakpoints.md)
                   <b>Check out the design system and style guide for Aspect</b>
                 </u>
               </Text>
+              <div>
+                      <Box
+                        className="d-flex justify-content-center align-items-center w-50 my-5">
+                        <img src={imgPhoto16} alt="" className="img-fluid" />
+                    </Box>
+                </div>
+                <div>
+                    <Title variant={"cardLg"}>Navigation</Title>
+                      <Box
+                        className="d-flex justify-content-center align-items-center w-75">
+                        <img src={imgPhoto17} alt="" className="img-fluid" />
+                    </Box>
+                </div>
+                <div>
+                    <Title variant={"cardLg"}>Selectors</Title>
+                      <Box
+                        className="d-flex justify-content-center align-items-center w-75">
+                        <img src={imgPhoto18} alt="" className="img-fluid" />
+                    </Box>
+                </div>
             </Box>
           </Row>
           <br />

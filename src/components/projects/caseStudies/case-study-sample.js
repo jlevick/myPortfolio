@@ -6,13 +6,9 @@ import imgPhoto from "../../../assets/image/png/onboardingbefore.png";
 import imgPhoto1 from "../../../assets/image/png/onboardingafter.png";
 import imgPhoto2 from "../../../assets/image/png/favorites1.png";
 import imgPhoto3 from "../../../assets/image/png/recents1.png";
-import imgPhoto4 from "../../../assets/image/png/wordlist.png";
-import imgPhoto5 from "../../../assets/image/png/styleguidemvp.png";
-import imgPhoto6 from "../../../assets/image/png/quiz.png";
-import imgPhoto7 from "../../../assets/image/png/questionnaire.png";
-import imgPhoto8 from "../../../assets/image/png/support.png";
-import imgPhoto9 from "../../../assets/image/png/focus.png";
-import imgPhoto10 from "../../../assets/image/png/chosen.png";
+import imgPhoto4 from "../../../assets/image/png/3.png";
+import imgPhoto5 from "../../../assets/image/png/quizcopy.png";
+import imgPhoto6 from "../../../assets/image/png/exit.png";
 
 const CaseStudySample = () => {
   return (
@@ -56,7 +52,35 @@ const CaseStudySample = () => {
                 </Col>
             </Row>
           </Section>
-          
+          <Section>
+            <Row className='my-2'>
+                <Title variant="cardBig">Contextual help</Title>
+                <Text className="mb-4 mt-4">I offered concise copy that quickly and briefly explains the meaning of each term in astrology. 
+                I also included contextual help after usability testing showed users were confused on the meanings of <i>aspects</i> and <i>houses</i>.</Text>
+                <div>
+                    <img src={imgPhoto4} alt="" className="img-fluid w-75" />
+                </div>
+            </Row>
+          </Section>
+          <Section>
+            <Row className='my-2'>
+                <Title variant="cardBig">Personalized, concise copy</Title>
+                <Text className="mb-4 mt-4">I personalized the quiz by using “I” statements which also helped keep the titles and questions more concise (versus a question such as  “What are you looking for in an astrologer?”). I used an F pattern to help users scan the page easily and in less time.</Text>
+                <div>
+                    <img src={imgPhoto5} alt="" className="img-fluid w-25" />
+                </div>
+            </Row>
+          </Section>
+          <Section>
+            <Row className='my-2'>
+                <Title variant="cardBig">Edge case: exit chat</Title>
+                <Text className="mb-4 mt-4">I designed for various edge cases, offering the affirmative action on the right (if there were 2 options) and offering the user the help they might need in this moment (i.e. “Contact us”). 
+                  The voice and tone in the microcopy are sincere, offering choice and empathy.</Text>
+                <div>
+                    <img src={imgPhoto6} alt="" className="img-fluid w-75" />
+                </div>
+            </Row>
+          </Section>
         </Container>
       </Section>
     </>
