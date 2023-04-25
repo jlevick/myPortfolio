@@ -9,6 +9,10 @@ import imgPhoto3 from "../../../assets/image/png/recents1.png";
 import imgPhoto4 from "../../../assets/image/png/3.png";
 import imgPhoto5 from "../../../assets/image/png/quizcopy.png";
 import imgPhoto6 from "../../../assets/image/png/exit.png";
+import imgPhoto7 from "../../../assets/image/png/emailveribefore.png";
+import imgPhoto8 from "../../../assets/image/png/emailveriafter.png";
+import imgPhoto9 from "../../../assets/image/png/tooltipbefore.png";
+import imgPhoto10 from "../../../assets/image/png/tooltipafter.png";
 
 const CaseStudySample = () => {
   return (
@@ -36,19 +40,55 @@ const CaseStudySample = () => {
           </Section>
           <Section>
             <Row className='my-2'>
-                  <Title variant="cardBig">Empty state copy</Title>
-                  <Text className="mb-4 mt-4">I added proactive and positive empty state copy to clarify the purpose of these features and how to utilize them, offering users a clear “next step”.</Text>
+                <Title variant="cardBig">Email verification</Title>
+                <Text className="mb-4 mt-4 w-100">The client flagged this screen for editing. I clarified and condensed the copy. Following the style guide, I changed copy to sentence case.</Text>
                 <Col>
-                  <Title variant="card">Favorites tab</Title>
-                  <div>
-                      <img src={imgPhoto2} alt="" className="img-fluid w-50" />
-                  </div>
+                    <div>
+                        <Title variant="card">Before</Title>
+                        <img src={imgPhoto7} alt="" className="img-fluid w-100" />
+                    </div>
                 </Col>
                 <Col>
-                  <Title variant="card">Recents tab</Title>
-                  <div>
-                      <img src={imgPhoto3} alt="" className="img-fluid w-50" />
-                  </div>
+                    <div>
+                         <Title variant="card">After</Title>
+                        <img src={imgPhoto8} alt="" className="img-fluid w-100" />
+                    </div>
+                </Col>
+            </Row>
+          </Section>
+          <Section>
+            <Row className='my-2'>
+                  <Title variant="cardBig">Empty state copy</Title>
+                  <Text className="mb-4 mt-4">I added proactive and positive empty state copy to clarify the purpose of these features and how to utilize them, offering users a clear “next step”.</Text>
+                  <Col>
+                    <Title variant="card">Favorites tab</Title>
+                    <div>
+                      <img src={imgPhoto2} alt="" className="img-fluid w-75" />
+                    </div>
+                  </Col>
+                  <Col>
+                    <Title variant="card">Recents tab</Title>
+                    <div>
+                      <img src={imgPhoto3} alt="" className="img-fluid w-75" />
+                    </div>
+                  </Col>
+            </Row>
+          </Section>
+          <Section>
+            <Row className='my-2'>
+                <Title variant="cardBig">Tooltip copy</Title>
+                <Text className="mb-4 mt-4 w-100">I was provided this copy from a designer and edited so it was more concise and clear.</Text>
+                <Col>
+                    <div>
+                        <Title variant="card">Before</Title>
+                        <img src={imgPhoto9} alt="" className="img-fluid w-100" />
+                    </div>
+                </Col>
+                <Col>
+                    <div>
+                         <Title variant="card">After</Title>
+                        <img src={imgPhoto10} alt="" className="img-fluid w-100" />
+                    </div>
                 </Col>
             </Row>
           </Section>

@@ -719,7 +719,7 @@ console.log(size, breakpoints.md)
                 `}
               >
                 Final iterations took in to account web accessibility best
-                practices usability heuristics, and the real-life feedback of
+                practices, usability heuristics, and the real-life feedback of
                 everyone who helped shape Aspect. I designed a minimum viable
                 product with 3 distinct features that{" "}
                 <b>offers users exactly what they want</b>,{" "}
