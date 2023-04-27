@@ -33,7 +33,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                 <br />
                 <br />
                 I excel at analyzing and synthesizing data and using the results to write clear, contextual copy.
-                I believe great content is useful, concise, and meets the human on the other end right where they are. I have a keen attention to detail, a love of the Oxford comma, and I'm proud to focus on inclusion and accessibility. 
+                I believe great content is useful, concise, and meets the human on the other end right where they are. I have a keen attention to detail, a love of the Oxford comma, a distaste of Lorem Ipsum, and I'm proud to focus on inclusion and accessibility. 
                 <br /> 
                 <br /> While happily autonomous, there's nothing like diversity and collaboration to create a truly great experience. 
                 Focused on delivering high-quality, easily-understood results rather than seeking recognition, I view failure as an opportunity for growth. Being unafraid to ask questions in order to gain clarity is one of my superpowers. <br />

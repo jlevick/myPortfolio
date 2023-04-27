@@ -156,7 +156,7 @@ const CaseStudySLVoiceBody = () => {
                     <br /> 
                     <br />
                     During an early audit of the platform, I noticed inconsistencies in the usage of terms such as <i>Continue </i> and <i>Next</i>, and <i>Create account</i> and <i>Sign up</i>. 
-                    <br /> We went with <b><i>Continue</i></b> over <i>Next</i> as it feels gentler and conveys we haven't abandoned the user, we're still here with them - whereas <i>Next</i> feels as if we're in line, not a person but a number, wondering how much longer we must endure. 
+                    <br /> We went with <b><i>Continue</i></b> over <i>Next</i> as it feels gentler and conveys we haven't abandoned the user, we're still here with them - whereas <i>Next</i> feels as if we're in line, not a person but a number. 
                     <br /> 
                     <br /> We chose <b><i>Sign up</i> </b>over <i>Create account</i> to both simplify the copy and play to user's mental models of what they might expect. 
                     <br /> These seemingly small changes helped to create more cohesive designs as these subtle differences play in to properly conveying our tone.</Text>
