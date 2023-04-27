@@ -41,7 +41,7 @@ const CaseStudySample = () => {
           <Section>
             <Row className='my-2'>
                 <Title variant="cardBig">Email verification</Title>
-                <Text className="mb-4 mt-4 w-100">The client flagged this screen for editing. I clarified and condensed the copy. Following the style guide, I changed copy to sentence case.</Text>
+                <Text className="mb-4 mt-4 w-100">The client flagged this screen for editing. I clarified and condensed the copy, suggesting a left-alignment for readability. Following the style guide, I changed copy to sentence case and removed the period after the link (<i>Resend email</i>).</Text>
                 <Col>
                     <div>
                         <Title variant="card">Before</Title>
@@ -77,7 +77,7 @@ const CaseStudySample = () => {
           <Section>
             <Row className='my-2'>
                 <Title variant="cardBig">Tooltip copy</Title>
-                <Text className="mb-4 mt-4 w-100">I was provided this copy from a designer and edited so it was more concise and clear.</Text>
+                <Text className="mb-4 mt-4 w-100">I was provided this copy from a designer and edited for concision and clarity.</Text>
                 <Col>
                     <div>
                         <Title variant="card">Before</Title>
@@ -95,8 +95,8 @@ const CaseStudySample = () => {
           <Section>
             <Row className='my-2'>
                 <Title variant="cardBig">Contextual help</Title>
-                <Text className="mb-4 mt-4">I offered concise copy that quickly and briefly explains the meaning of each term in astrology. 
-                I also included contextual help after usability testing showed users were confused on the meanings of <i>aspects</i> and <i>houses</i>.</Text>
+                <Text className="mb-4 mt-4">Astrology is ripe with jargon. Thusly I offered concise copy that quickly and briefly explains the meaning of each term in astrology. 
+                I also included contextual help (<i>Tell me more about Aspects</i>) after usability testing showed users were confused on the meanings of <i>aspects</i> and <i>houses</i>.</Text>
                 <div>
                     <img src={imgPhoto4} alt="" className="img-fluid w-75" />
                 </div>
@@ -114,7 +114,7 @@ const CaseStudySample = () => {
           <Section>
             <Row className='my-2'>
                 <Title variant="cardBig">Edge case: exit chat</Title>
-                <Text className="mb-4 mt-4">I designed for various edge cases, offering the affirmative action on the right (if there were 2 options) and offering the user the help they might need in this moment (i.e. “Contact us”). 
+                <Text className="mb-4 mt-4">I offered affirmative actions on the right (if there were 2 options) and offered the user the help they might need in this moment (i.e. “Contact us”). 
                   The voice and tone in the microcopy are sincere, offering choice and empathy.</Text>
                 <div>
                     <img src={imgPhoto6} alt="" className="img-fluid w-75" />

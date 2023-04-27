@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap'
 
 import { Section, Title, Text } from '../../components/Core'
 import imgPhoto from '../../assets/image/png/jaime_small.png'
-import { sampleSize } from 'lodash'
+
 
 const About = ({ hero = true, bg = 'light', ...rest }) => {
   return (
@@ -17,6 +17,8 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
           </Row> 
           <Row>
             <div className="pl-lg-4 pt-5 pt-lg-0">
+              <Title variant="cardSm"><i>"From start to finish, Jaime displayed exceptional talent in crafting copy that was not only informative and accurate but also engaging and easy to understand."</i> - Sean's Legay Client</Title>
+              <br />
               <Title color="dark" variant="secSm">
                 Hi! I'm Jaime.
               </Title>
@@ -45,7 +47,17 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                 <li>organization</li>
                 <li>learning to code</li>
                 <li>deep abstract thinking</li>
-                <br/>... you get the idea!
+              ... you get the idea!
+                <br />
+                <br />
+                Here are some nice things people have said about me:
+                <br />
+                <br />
+                <Text><i>"I was particularly impressed with [Jaime's] attention to detail, which was invaluable in standardizing content and microcopy across the product."</i> - Former Team Lead</Text>
+                <br />
+                <Text><i>"[Jaime's] ability to communicate effectively and present her work with confidence and clarity was admirable, and she always went above and beyond to ensure that her writing was aligned with our organization's goals."</i> - Former Client</Text>
+                <br />
+                <Text><i>"[Jaime] showed persistence, creative thinking, a sharp analytical eye, and tremendous skill with content. She used great UX writing to elevate the tone of prototypes, and sought feedback from a wide range of sources in order to create a visual mood that perfectly matched the purpose of her app."</i> - Former Mentor</Text>
               </Text>
             </div>
           </Row>

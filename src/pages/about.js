@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <>
       <PageWrapper>
-        <Box pt={5}>
+        <Box pt={2}>
           <About />
         </Box>
       </PageWrapper>
