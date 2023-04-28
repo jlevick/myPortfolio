@@ -77,7 +77,7 @@ const CaseStudySample = () => {
           <Section>
             <Row className='my-2'>
                 <Title variant="cardBig">Tooltip copy</Title>
-                <Text className="mb-4 mt-4 w-100">I was provided this copy from a designer and edited for concision and clarity.</Text>
+                <Text className="mb-4 mt-4 w-100">I was provided this copy from a designer and edited for concision and clarity. I followed the product's voice and tone, offering personal autonomy and acknowledging research insights that users desire privacy.</Text>
                 <Col>
                     <div>
                         <Title variant="card">Before</Title>
