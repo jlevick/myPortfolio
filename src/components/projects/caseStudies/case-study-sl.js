@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Section, Title, Text } from "../../../components/Core";
+import { Section, Title, Text, Button } from "../../../components/Core";
 
 const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
   return (
@@ -65,7 +65,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
             <Col className="justify-content-center">
               <div>
                 <Title color="light" variant="secSm">
-                  About the Sean's Legacy Mentorship Platform
+                  The Client
                 </Title>
                 <Text
                   color="light"
@@ -74,7 +74,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  Sean's Legacy is a non-profit dedicated to supporting LGBTQIA+ youth, with a primary focus on suicide prevention. They are currently developing a platform focused on early career mentorship for LGBTQIA+ young adults.  
+                  Sean's Legacy is a non-profit dedicated to supporting LGBTQIA+ youth, with a primary focus on suicide prevention. They are creating a professional mentorship program that provides LGBTQIA+ young adults a safe space to seek career guidance and form long-lasting professional relationships.
                 </Text>
               </div>
             </Col>
@@ -96,8 +96,14 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                   Phase 1 focused on researching and designing for the mentee side of the platform. Phase 2 continued with the mentee side and began working on the mentor side of the platform. 
                   <br />
                   <br />
-                  Our team audited existing designs from Phase 1, developed the initial Voice and Tone and Content Style Guide, wrote copy for both sides of the platform, and worked with Design on content strategy. 
-                </Text>
+                  How I helped:
+                  <li>Audited exisiting designs</li>
+                  <li>Developed the initial Voice and Tone and Content Style Guide</li>
+                  <li>Worked with Research to understand user needs</li>
+                  <li>Wrote copy for both sides of the platform</li>
+                  <li>Collaborated with Design on content strategy</li>
+                  <li>Consulted with Development on feature feasibility</li>
+                  </Text>
               </div>
             </Col>
           </Row>
@@ -110,21 +116,56 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
               <br />
               <Title variant="cardSm">Mentees</Title>
             <Text className="mb-4 mt-4">
-              Clarify copy  
-              Based on Phase 1 usability testing, potential mentees desired increased clarity in regard to the purpose of the mentorship platform and its safety features. Research indicated a desire for guidance, personalization, and inclusivity. Potential mentees also felt the site was lacking personality.
+              Based on Phase 1 usability testing, potential mentees desire increased clarity in regard to the purpose of the mentorship platform and its safety features. Research indicated a desire for guidance, personalization, and inclusivity.
             </Text>
             <Title variant="cardSm">Mentors</Title>
               <Text className="mb-4 mt-4">
-              Based on preliminary findings from Phase 2, potential mentors struggle with imposter syndrome and seek support and resources from Sean's Legacy, as well as a community of other mentors to lean on. Potential mentors also have concerns around safety and privacy.
+              Based on preliminary findings from Phase 2, potential mentors struggle with imposter syndrome and seek support, resources, and a community of other mentors to lean on. Potential mentors also have concerns around safety and privacy.
             </Text>
             <Text className="mb-4 mt-4">
-              Both mentees and mentors are interested in connecting over shared interests, hobbies, and backgrounds. 
-              <br />
-              <br />
-              As the content team was new in this phase, copy was rather vague and content was not yet standardized. The product voice was not determined, making it difficult to bring personality or a sense of trust to the platform. 
+              Both mentees and mentors are interested in connecting over shared interests, hobbies, and backgrounds.
             </Text>
           </div>
         </Row>
+        <Row className="pl-4">
+          <div className="pt-5">
+            <Title variant="cardBig">Solution</Title>
+            <Text className="mb-4 mt-4">
+            As the content team was new in this phase, copy and content were not yet standardized. The product voice was not determined, making it difficult to bring personality and a sense of trust to the platform. 
+            </Text>
+
+          </div>
+        </Row>
+        <Container>
+        <Row className="pl-4 mt-5 justify-content-center">
+          <div className="pt-lg-0">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={
+                "https://www.figma.com/proto/tzM0sqMOb7b6MZelUkUDKX/SL-Design-Team-1-(Phase-2)?node-id=7066-271024&scaling=min-zoom&page-id=6848%3A267435&starting-point-node-id=7066%3A271024"
+              }
+            >
+              <Button variant={"#7155ff"}>Phase 2 Mentee Prototype</Button>
+            </a>
+          </div>
+        </Row>
+      </Container>
+      <Container>
+        <Row className="pl-4 mt-5 justify-content-center">
+          <div className="pt-lg-0">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={
+                "https://www.figma.com/proto/Dct1zEwFxywItCubobcO7K/SL-UX-Design-2?node-id=1392-72476&scaling=min-zoom&page-id=1229%3A71044&starting-point-node-id=1392%3A72476&show-proto-sidebar=1"
+              }
+            >
+              <Button variant={"#7155ff"}>Phase 2 Mentor Prototype</Button>
+            </a>
+          </div>
+        </Row>
+      </Container>
       </Container>
     </>
   );
