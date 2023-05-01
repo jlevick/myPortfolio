@@ -132,8 +132,11 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
             <Title variant="cardBig">Solution</Title>
             <Text className="mb-4 mt-4">
             As the content team was new in this phase, copy and content were not yet standardized. The product voice was not determined, making it difficult to bring personality and a sense of trust to the platform. 
+            <br /> Our solution was to <b>clarify safety and privacy features while offering supportive, user-appropriate language</b>.
+            <br />
+            <br />
+            <i>Please note not all copy has been updated in the below prototypes.</i>
             </Text>
-
           </div>
         </Row>
         <Container>
