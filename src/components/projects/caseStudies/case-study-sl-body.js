@@ -6,6 +6,11 @@ import imgPhoto from "../../../assets/image/png/audit1.png";
 import imgPhoto1 from "../../../assets/image/png/audit2.png";
 import imgPhoto2 from "../../../assets/image/png/landingbefore.png";
 import imgPhoto3 from "../../../assets/image/png/landingafter.png";
+import imgPhoto4 from "../../../assets/image/png/menteebenefits.png";
+import imgPhoto5 from "../../../assets/image/png/safetybefore.png";
+import imgPhoto6 from "../../../assets/image/png/safetyafter.png";
+import imgPhoto7 from "../../../assets/image/png/programgoalsbefore.png";
+import imgPhoto8 from "../../../assets/image/png/programgoalsafter.png";
 
 
 const CaseStudy2Body = () => {
@@ -54,7 +59,8 @@ const CaseStudy2Body = () => {
                 <Text className="mb-4 mt-4">
                     Following our newly developed Content Style Guide, we wrote our copy to be clear, consistent, inclusive, uplifting, ethical, respectful, approachable, and compassionate. 
                     <br /> 
-                    We used casual, informal language based on our user's age range (18-25 for mentees), their desire for inclusivity, and for overall readability. 
+                    We used casual, informal language based on our user's age range (18-25 for mentees), their desire for inclusivity, and for overall readability; this included the use of sentence case (aside from proper nouns which we determined would use title case).
+
                 </Text>
               </div>
             </Row>
@@ -102,7 +108,7 @@ const CaseStudy2Body = () => {
             <Row className='mt-4'>
                 <Col>
                   <Title variant="card">Before</Title>
-                  <Text className="mb-5 mt-4"><i>"Wherever you are on your journey, a mentor can help you take the next step."</i></Text>
+                  <Text className="mb-4 mt-4">The copy was vague and unclear:<br /><i>"Wherever you are on your journey, a mentor can help you take the next step."</i></Text>
                   <img src={imgPhoto2} alt="" className="img-fluid w-100" />
                 </Col>
                 <Col>
@@ -110,26 +116,47 @@ const CaseStudy2Body = () => {
                   <Text className="mb-4 mt-4"><i>"A free, online mentorship program that matches LGBTQIA+ young adults with mentors in the queer community."</i></Text>
                   <img src={imgPhoto3} alt="" className="img-fluid w-100" />
                 </Col>
-                <Text className="mb-5 mt-4"></Text>
+                <Text className="mb-5 mt-4">It was important to use <i>young adults</i> in the copy to further clarify who the platform is for and distinguish a separation from Sean's Legacy's non-profit mission. Adding upfront that mentorship is virtual, free, and specifically for the LGBTQIA+ community helps build trust from the start.</Text>
             </Row>
             <Row className='mt-4'>
               <div>
-                  <Title variant="card">User Goals</Title>
-                  <Text className="mb-4 mt-4" variant='li'>Learn more about the designer and their work.</Text>
-                  <Text className="mb-4 mt-4" variant='li'>Find the designer's contact information.</Text>
+                  <Title variant="cardBig">Why should I sign up for the Sean's Legacy Mentorship Program?</Title>
+                  <Text className="mb-4 mt-4">As the landing page had <b>no clear value proposition</b>, we ideated on how a potential mentee might feel and what questions they might be asking. Privacy was important to users based on prior research, and we added copy to show mentees we understand their concerns and take them seriously.</Text>
+                  <img src={imgPhoto4} alt="" className="img-fluid w-100" />
               </div>
             </Row>
             <Row className='mt-4'>
-                <div>
-                  <Title variant="card">Starting Situation</Title>
-                  <Text className="mb-4 mt-4"><i>“You are a hiring manager and you have received this designer's portfolio to see if you are interested in interviewing them for an early career UX Design position.”</i></Text>
-                </div>
+                  <Title variant="cardBig">Clarifying jargon, increasing understanding, building trust</Title>
+                  <Text className="mb-4 mt-4 w-100">One <b>major area of confusion</b> during Phase 1 usability testing was <b>around the phrase <i>Whisper Technology</i></b>. The designer I worked with on this page was unsure if our client wanted to keep that specific phrasing, so I reached out to Sean's Legacy's internal content team to inquire. With their input we crafted new copy, changing <i>Whisper technology</i> to <i>Customizable privacy settings</i>, and changing <i>DM's</i> to <i>messaging feature</i> for increased understanding.
+                  <br /> 
+                  <br /> Through our initial audit we realized all copy could be edited for concision and further clarity. <b>Only mentors complete a background check</b>, and <b>this copy read as though mentees must also undergo a background check.</b></Text>
+                <Col>
+                  <Title variant="card">Before</Title>
+                  <img src={imgPhoto5} alt="" className="img-fluid w-100" />
+                </Col>
+                <Col>
+                  <Title variant="card">After</Title>
+                  <img src={imgPhoto6} alt="" className="img-fluid w-100" />
+                </Col>
             </Row>
             <Row className='mt-4'>
                 <div>
-                  <Title variant="card">Example Scenario</Title>
-                  <Text className="mb-4 mt-4"><i>"You have viewed the designer's work and want to learn more on who they are. Please show me how you would go about doing so."</i></Text>
+                  <Text className="mb-4 mt-4"><i>Safe end-to-end encrypted chats</i> was simplified to <i>Secure communications</i>, with the meaning of "end-to-end encrypted chats" clearly explained in the copy. The <i>Mentee verification</i> title and copy were added when our client decided to move forward with 2-factor authorization in order to increase safety.</Text>
                 </div>
+            </Row>
+            <Row className='mt-4'>
+                  <Title variant="cardBig">Balancing needs of our client and our users</Title>
+                  <Text className="mb-4 mt-4 w-100">Our client was keen to showcase the goals of their mentorship program but current designs were lacking transparency. We wanted to ensure potential users would understand what the platform was for so we sharpened the copy.</Text>
+                <Col>
+                  <Title variant="card">Before</Title>
+                  <Text className="mb-4 mt-4 w-100">The content was unclear and difficult to read, causing concerns it would be skipped over.</Text>
+                  <img src={imgPhoto7} alt="" className="img-fluid w-100" />
+                </Col>
+                <Col>
+                  <Title variant="card">After</Title>
+                  <Text className="mb-4 mt-4 w-100">We improved readability by editting copy for concision. Headers were created to make scanning easier.</Text>
+                  <img src={imgPhoto8} alt="" className="img-fluid w-100" />
+                </Col>
             </Row>
             <Row className='mt-4'>
                 <Title variant="card">Results</Title>
