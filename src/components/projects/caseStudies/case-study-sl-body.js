@@ -11,6 +11,8 @@ import imgPhoto5 from "../../../assets/image/png/safetybefore.png";
 import imgPhoto6 from "../../../assets/image/png/safetyafter.png";
 import imgPhoto7 from "../../../assets/image/png/programgoalsbefore.png";
 import imgPhoto8 from "../../../assets/image/png/programgoalsafter.png";
+import imgPhoto9 from "../../../assets/image/png/reasoning.png";
+import imgPhoto10 from "../../../assets/image/png/reasoning2.png";
 
 
 const CaseStudy2Body = () => {
@@ -121,8 +123,12 @@ const CaseStudy2Body = () => {
             <Row className='mt-4'>
               <div>
                   <Title variant="cardBig">Why should I sign up for the Sean's Legacy Mentorship Program?</Title>
-                  <Text className="mb-4 mt-4">As the landing page had <b>no clear value proposition</b>, we ideated on how a potential mentee might feel and what questions they might be asking. Privacy was important to users based on prior research, and we added copy to show mentees we understand their concerns and take them seriously.</Text>
+                  <Text className="mb-4 mt-4">Originally located on the About page, we recommended changing the content hierarchy and moving this information to the landing page. As the landing page had <b>no clear value proposition</b>, we ideated on how a potential mentee might feel and what questions they might be asking. Privacy was important to users based on prior research, and we added copy to show mentees we understand their concerns and take them seriously.</Text>
                   <img src={imgPhoto4} alt="" className="img-fluid w-100" />
+              </div>
+              <div>
+                  <Text className="mb-4 mt-4">Before handing off suggestions to the Design team, we reworked content in a dedicated UXW Copy Iterating Figma file. Here you can see my recommendations, which were iterated upon in the final version.</Text>
+                  <img src={imgPhoto9} alt="" className="img-fluid w-100" />
               </div>
             </Row>
             <Row className='mt-4'>
@@ -146,7 +152,8 @@ const CaseStudy2Body = () => {
             </Row>
             <Row className='mt-4'>
                   <Title variant="cardBig">Balancing needs of our client and our users</Title>
-                  <Text className="mb-4 mt-4 w-100">Our client was keen to showcase the goals of their mentorship program but current designs were lacking transparency. We wanted to ensure potential users would understand what the platform was for so we sharpened the copy.</Text>
+                  <Text className="mb-4 mt-4 w-100">Our client was keen to showcase the goals of their mentorship program but current designs were lacking transparency. We wanted to ensure potential users would understand what the platform was for so we sharpened the copy.
+                  </Text>
                 <Col>
                   <Title variant="card">Before</Title>
                   <Text className="mb-4 mt-4 w-100">The content was unclear and difficult to read, causing concerns it would be skipped over.</Text>
@@ -157,71 +164,9 @@ const CaseStudy2Body = () => {
                   <Text className="mb-4 mt-4 w-100">We improved readability by editting copy for concision. Headers were created to make scanning easier.</Text>
                   <img src={imgPhoto8} alt="" className="img-fluid w-100" />
                 </Col>
-            </Row>
-            <Row className='mt-4'>
-                <Title variant="card">Results</Title>
-              <div>
-                <Text className="mb-4 mt-4"variant='li'>No major usability issues, but 3 out of 5 participants wanted a phone number listed in the contact section. </Text>
-                <Text className="mb-4 mt-4"variant='li'>One participant ran Lighthouse on the site and suggested I do the same to fix a few accessibility errors they found (more on this later). </Text>
-              </div>
-            </Row>
-            <Row className='mt-2'>
-              <div>
-                <Text className="mb-4 mt-4">For a positive user experience I chose to make the phone number clickable by using &lt;a&gt;href=“tel:PHONENUMBER&lt;PHONE NUMBER&lt;/a&gt;.</Text>
-              </div>
-            </Row>
-            
-            <Row className='mt-5'>
-              <Col>
-                <div className="mt-5">
-                  <Title variant="cardBig">Code Quality</Title>
-                  <Text className="mb-4 mt-4">To ensure my code was error-free and consistently formatted, I implemented linters (HTML Hint, Stylelint, Standard JS) and used Prettier to format the code. </Text>
-                  <Text className="mb-4 mt-4">One error was related to the use of ampersands (&amp;). After researching online, I realized my initial fix was incorrect. I was able to resolve the issue by using &amp;amp instead of [&amp;]. </Text>
-                  <Text className="mb-4 mt-4">I learned an ampersand by itself is technically an error in HTML and can potentially cause a browser to display strange things. </Text>
-                </div>
-              </Col>
-            </Row>
-            
-            <Row className='mt-4'>
-              <Text className="mb-4 mt-4 pl-2">To test the error handling in my JavaScript file I intentionally introduced random text. As expected, an error message was displayed, "unexpected keyword or identifier".</Text>
-            </Row>
-            
-            <Row className='mt-5 pl-3'>
-              <div>
-                <Text className="mb-4 mt-4">After installing the linters in my editor, I used a W3C Validator to identify issues in my HTML. After fixing the few that popped up I was left with two errors. </Text>
-                <Text className="mb-4 mt-4">Since the error was narrowed down to lines 38-92 I combed through looking for where I hadn't closed a &lt;div&gt;. I was able to trace each opening div to a closed div and was perplexed... </Text>
-              </div>
-            </Row>
-           
-            <Row className='mt-5'>
-              <div>
-                <Text className="mb-4 mt-4 pl-3">Eventually I discovered I had a single extra opening &lt;div&gt;, explaining why I was not able to locate the error during my first look through. After deletion, I was error free. </Text>
-              </div>
-            </Row>
-            
-            <Row className='mt-5 pl-3'>
-              <div className="mt-5">
-                <Title variant="cardBig">Accessibility Testing</Title>
-                <Text className="mb-4 mt-4">While passing AA standards might be <i>good enough</i>, I wanted my color combinations to pass AAA accessibility standards. The main CTA came back with a ratio too low to pass AAA.</Text>
-                <Text className="mb-4 mt-4">Based on the recommendations I changed the text color to comply with AAA standards. </Text>
-              </div>
-            </Row>
-            
-            <Row className='mt-5 pb-5 pl-3'>
-              <div>
-                <Text className="mb-4 mt-4">No changes were made to the secondary button as the combination passed AAA accessibility standards. </Text>
-              </div>
-            </Row>
-            <Row className='mt-5 pl-3'>
-              <div>
-                <Title variant="cardBig">Lighthouse Testing</Title>
-                <Text className="mb-4 mt-4">Due to feedback during usability testing, I ran Lighthouse on the site. The results were positive but Lighthouse directed to me to an article on aria-labels in order to increase accessibility. </Text>
-              </div>
-            </Row>
-            
-            <Row className='mt-5 pl-3'>
-              <div>
-                <Text className="mb-4 mt-4">After adding aria-labels I ran the test again and increased both performance <i>and</i> accessibility!</Text>
+                <div>
+                  <Text className="mb-4 mt-4">Here you can see my recommendations and the iterations this content went through.</Text>
+                  <img src={imgPhoto10} alt="" className="img-fluid w-100" />
               </div>
             </Row>
             
