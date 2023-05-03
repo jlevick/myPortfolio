@@ -13,6 +13,8 @@ import imgPhoto7 from "../../../assets/image/png/programgoalsbefore.png";
 import imgPhoto8 from "../../../assets/image/png/programgoalsafter.png";
 import imgPhoto9 from "../../../assets/image/png/reasoning.png";
 import imgPhoto10 from "../../../assets/image/png/reasoning2.png";
+import imgPhoto11 from "../../../assets/image/png/questions.png";
+import imgPhoto12 from "../../../assets/image/png/menteeprofile.png";
 
 
 const CaseStudy2Body = () => {
@@ -59,10 +61,10 @@ const CaseStudy2Body = () => {
                       </Col>
                   </Row>
                 <Text className="mb-4 mt-4">
-                    Following our newly developed Content Style Guide, we wrote our copy to be clear, consistent, inclusive, uplifting, ethical, respectful, approachable, and compassionate. 
+                    Following our newly developed Content Style Guide, we wrote our copy to be <b>clear, consistent, inclusive, uplifting, ethical, respectful, approachable, and compassionate</b> (think "<i>Cool Guidance Counselor</i>").
                     <br /> 
-                    We used casual, informal language based on our user's age range (18-25 for mentees), their desire for inclusivity, and for overall readability; this included the use of sentence case (aside from proper nouns which we determined would use title case).
-
+                    We used <b>casual</b>, <b>informal language</b> based on our user's age range (18-25 for mentees), their desire for inclusivity, and for overall readability; this included the use of <b>sentence case</b> (aside from proper nouns which we determined would use title case).
+                    We <b>never use gendered language</b>, and we use the <b>oxford comma</b> because our client loves it and it offers additional clarity.
                 </Text>
               </div>
             </Row>
@@ -97,7 +99,7 @@ const CaseStudy2Body = () => {
                   letter-spacing: 1.63px;
                 `}
               >
-                Clarifying Copy
+                Clarifying Copy - Reworking Content Hierarchy
               </Title>
             </Container>
           </Section>
@@ -131,11 +133,11 @@ const CaseStudy2Body = () => {
                   <img src={imgPhoto9} alt="" className="img-fluid w-100" />
               </div>
             </Row>
-            <Row className='mt-4'>
+            <Row className='mt-5'>
                   <Title variant="cardBig">Clarifying jargon, increasing understanding, building trust</Title>
                   <Text className="mb-4 mt-4 w-100">One <b>major area of confusion</b> during Phase 1 usability testing was <b>around the phrase <i>Whisper Technology</i></b>. The designer I worked with on this page was unsure if our client wanted to keep that specific phrasing, so I reached out to Sean's Legacy's internal content team to inquire. With their input we crafted new copy, changing <i>Whisper technology</i> to <i>Customizable privacy settings</i>, and changing <i>DM's</i> to <i>messaging feature</i> for increased understanding.
                   <br /> 
-                  <br /> Through our initial audit we realized all copy could be edited for concision and further clarity. <b>Only mentors complete a background check</b>, and <b>this copy read as though mentees must also undergo a background check.</b></Text>
+                  <br /> Through our initial audit we realized all copy could be edited for concision and further clarity. <b>Only mentors complete a background check</b>, and <b>this title read as though mentees must also undergo a background check.</b></Text>
                 <Col>
                   <Title variant="card">Before</Title>
                   <img src={imgPhoto5} alt="" className="img-fluid w-100" />
@@ -165,8 +167,37 @@ const CaseStudy2Body = () => {
                   <img src={imgPhoto8} alt="" className="img-fluid w-100" />
                 </Col>
                 <div>
-                  <Text className="mb-4 mt-4">Here you can see my recommendations and the iterations this content went through.</Text>
+                  <Text className="mb-4 mt-4">Here you can see my recommendations and the iterations this content went through. <b>Because users wanted increased personalization</b>, we <b>wrote copy in the first person</b>, using "you" instead of "they" or "mentees".</Text>
                   <img src={imgPhoto10} alt="" className="img-fluid w-100" />
+              </div>
+            </Row>
+            <Row className='mt-4'>
+                  <Title variant="cardBig">Offering guidance and personal autonomy</Title>
+                  <Text className="mb-4 mt-4 w-100">Researchers from Phase 1 suggested <b>pre-filled examples </b>for write-in text fields as well as more <b>specific writing prompts</b>. As this is an area where users may drop off due to uncertainty, confusion, or even annoyance, we knew it was important to offer guidance.
+                    <br />
+                    <br />
+                    Initial Phase 2 user interview findings seemed to indicate some mentors specifically used the word <i>story</i> when referring to learning more about their mentee. We <b>hypothesized utilizing the word <i>story</i></b> would be <b>easily understandable and speak directly to our users in their own words</b> (you will find moderated usability test results around this in the 03 Testing section).</Text>
+                <Col>
+                  <Title variant="card">Guided prompts to help users complete their profile</Title>
+                  <Text className="mb-4 mt-4 w-100">We broke down the questions in to bite-sized sections and combined responses into the <i>About</i> section.</Text>
+                  <img src={imgPhoto11} alt="" className="img-fluid w-100" />
+                </Col>
+                <Col>
+                  <Title variant="card">Offering choice, guidance, and inclusivity</Title>
+                  <Text className="mb-4 mt-4 w-100">Both Mentees and Mentors have the option to share their info, increasing privacy and autonomy.</Text>
+                  <img src={imgPhoto12} alt="" className="img-fluid w-100" />
+                </Col>
+            </Row>
+            <Row className='mt-4'>
+              <div>
+                  <Title variant="cardBig">Offering guidance and personal autonomy</Title>
+                  <Text className="mb-4 mt-4"></Text>
+                  <Text className="mb-4 mt-4">P</Text>
+                  <img src={imgPhoto11} alt="" className="img-fluid w-75" />
+              </div>
+              <div>
+                  <Text className="mb-4 mt-4">Before handing off suggestions to the Design team, we reworked content in a dedicated UXW Copy Iterating Figma file. Here you can see my recommendations, which were iterated upon in the final version.</Text>
+                  <img src={imgPhoto9} alt="" className="img-fluid w-100" />
               </div>
             </Row>
             

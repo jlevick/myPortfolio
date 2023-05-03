@@ -116,14 +116,14 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
               <br />
               <Title variant="cardSm">Mentees</Title>
             <Text className="mb-4 mt-4">
-              Based on Phase 1 usability testing, potential mentees desire increased clarity in regard to the purpose of the mentorship platform and its safety features. Research indicated a desire for guidance, personalization, and inclusivity.
+              Based on Phase 1 usability testing, potential <b>mentees desire increased clarity in regard to the purpose of the mentorship platform and its safety features</b>. Research indicated a desire for <b>guidance</b>, <b>personalization</b>, and <b>inclusivity</b>.
             </Text>
             <Title variant="cardSm">Mentors</Title>
               <Text className="mb-4 mt-4">
-              Based on preliminary findings from Phase 2, potential mentors struggle with imposter syndrome and seek support, resources, and a community of other mentors to lean on. Potential mentors also have concerns around safety and privacy.
+              Based on preliminary findings from Phase 2, potential <b>mentors struggle with imposter syndrome and seek support</b> and <b>resources</b>. Potential mentors also have <b>concerns around safety and privacy</b>.
             </Text>
             <Text className="mb-4 mt-4">
-              Both mentees and mentors are interested in connecting over shared interests, hobbies, and backgrounds.
+              Both mentees and mentors are interested in <b>connecting over shared interests</b>, <b>hobbies</b>, and <b>backgrounds</b>.
             </Text>
           </div>
         </Row>
