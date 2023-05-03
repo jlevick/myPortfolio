@@ -15,6 +15,10 @@ import imgPhoto9 from "../../../assets/image/png/reasoning.png";
 import imgPhoto10 from "../../../assets/image/png/reasoning2.png";
 import imgPhoto11 from "../../../assets/image/png/questions.png";
 import imgPhoto12 from "../../../assets/image/png/menteeprofile.png";
+import imgPhoto13 from "../../../assets/image/png/faqbefore.png";
+import imgPhoto14 from "../../../assets/image/png/faqafter.png";
+import imgPhoto15 from "../../../assets/image/png/words.png";
+import imgPhoto16 from "../../../assets/image/png/mentorsupport.png";
 
 
 const CaseStudy2Body = () => {
@@ -189,16 +193,45 @@ const CaseStudy2Body = () => {
                 </Col>
             </Row>
             <Row className='mt-4'>
-              <div>
-                  <Title variant="cardBig">Offering guidance and personal autonomy</Title>
-                  <Text className="mb-4 mt-4"></Text>
-                  <Text className="mb-4 mt-4">P</Text>
-                  <img src={imgPhoto11} alt="" className="img-fluid w-75" />
-              </div>
-              <div>
-                  <Text className="mb-4 mt-4">Before handing off suggestions to the Design team, we reworked content in a dedicated UXW Copy Iterating Figma file. Here you can see my recommendations, which were iterated upon in the final version.</Text>
-                  <img src={imgPhoto9} alt="" className="img-fluid w-100" />
-              </div>
+                  <Title variant="cardBig">Speaking to Mentors in their own words</Title>
+                  <Text className="mt-4 w-100">Just as we did with the word <i>story</i>, we <b>included numerous words and terms that potential mentors used</b>during interviews and moderated usability testing. I personally met with the UX Research team to go over their findings and share keywords I was seeing from their initial insights. Their team confirmed I was on the right track and helped add a couple more:</Text>
+                  <Text className="mb-4 mt-4 w-100">
+                        <Text variant="li">Connection</Text>
+                        <Text variant="li">Community</Text>
+                        <Text variant="li">Growth</Text>
+                        <Text variant="li">Giving back / Impact</Text>
+                        <Text variant="li">Resources / Support</Text>
+                        <Text variant="li">Shared experiences</Text>
+                        <Text variant="li">Imposter syndrome / Addressing challenges</Text>
+                  </Text>
+                    <img src={imgPhoto15} alt="" className="img-fluid w-100 mt-4" />
+            </Row>
+            <Row className='mt-4'>
+                  <Title variant="cardBig">Reworking content hierarchy and addressing concerns</Title>
+                  <Text className="mb-4 mt-4 w-100">
+                    Prior to Phase 2 usability testing, and in conjunction with the 2nd Design team, we reimagined the landing page hierarchy and iterated upon an initial FAQ section.
+                    <br />
+                    We utilized <i>giving back</i> and <i>community</i> in the copy in an effort to speak to mentors directly and <b>crafted questions based on themes from Phase 2 user interviews</b>.
+                  </Text>
+                <Col>
+                  <Title variant="card">Before</Title>
+                  <Text className="mb-4 mt-4 w-100">With input from Design 2 and Research, we removed questions regarding how mentors are supported and instead dedicated an entire section to the topic.</Text>
+                  <img src={imgPhoto13} alt="" className="img-fluid w-100" />
+                </Col>
+                <Col>
+                  <Title variant="card">After</Title>
+                  <Text className="mb-4 mt-4 w-100">Research indicated themes of <b>imposter syndrome</b> and I wrote compassionate body copy around supporting mentees.</Text>
+                  <img src={imgPhoto14} alt="" className="img-fluid w-100" />
+                </Col>
+                <Text>The Research team suggested a question around ending mentorship, as potential mentors indicated this as an area of concern. Initially our team was concerned this may give a negative connotation. We certaintly supported adding the question, but wondered if it might be better placed within the platform's internal Resource section, and not on the landing page. Research let us know it came up multiple times, and therefore we chose to move forward with including it here.</Text>
+            </Row>
+            <Row className='mt-4'>
+                  <Title variant="cardBig">Addressing mentor's desire for community, resources, and privacy</Title>
+                  <Text className="mt-4 w-100">With the question around mentorship support removed from the FAQ, we focused our efforts on crafting copy for an entire mentor support section. Sean's Legacy's <b><i>Master's of Public Health</i> interns are creating a comprehensive onboarding kit</b>, and <b>our client wanted this reflected within the copy</b>.
+                  <br />
+                  Potential mentors indicated a desire for community support and resources in general, and we included these needs using <b>uplifting</b>, <b>compassionate language</b>.
+                  </Text>
+                    <img src={imgPhoto16} alt="" className="img-fluid w-100 mt-4" />
             </Row>
             
           </Section>
