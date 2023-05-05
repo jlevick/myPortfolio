@@ -48,7 +48,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  Figma, Notion, Slack, Vowel
+                  Figma, FigJam, Notion, Slack, Google Docs, Vowel
                 </Text>
                 <Title color="light" variant="secSm">
                   Project Goal
@@ -121,9 +121,6 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
             <Title variant="cardSm">Mentors</Title>
               <Text className="mb-4 mt-4">
               Based on preliminary findings from Phase 2, potential <b>mentors struggle with imposter syndrome and seek support</b> and <b>resources</b>. Potential mentors also have <b>concerns around safety and privacy</b>.
-            </Text>
-            <Text className="mb-4 mt-4">
-              Both mentees and mentors are interested in <b>connecting over shared interests</b>, <b>hobbies</b>, and <b>backgrounds</b>.
             </Text>
           </div>
         </Row>

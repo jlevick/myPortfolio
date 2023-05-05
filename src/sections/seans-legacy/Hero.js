@@ -50,9 +50,6 @@ const Hero = () => {
             <Title variant="hero" mb="1.5rem">
               Sean's Legacy Mentorship Platform
             </Title>
-            <p>
-              Coming Soon!
-            </p>
           </Box>
         </Container>
       </SectionStyled>

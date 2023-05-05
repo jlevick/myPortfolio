@@ -70,10 +70,9 @@ const CaseStudy2Body = () => {
                   </Row>
                 <Text className="mb-4 mt-4">
                     Following our newly developed Content Style Guide, we wrote our copy to be <b>clear, consistent, inclusive, uplifting, ethical, respectful, approachable, and compassionate</b> (think "<i>Cool Guidance Counselor</i>").
-                    <br /> 
-                    We used <b>casual</b>, <b>informal language</b> based on our user's age range (18-25 for mentees), their desire for inclusivity, and for overall readability; this included the use of <b>sentence case</b> (aside from proper nouns which we determined would use title case).
-                    We <b>never use gendered language</b>, and we use the <b>oxford comma</b> because our client loves it and it offers additional clarity.
                 </Text>
+                <Text className="mb-4 mt-4">We used <b>casual</b>, <b>informal language</b> based on our user's age range (18-25 for mentees), their desire for inclusivity, and for overall readability; this included the use of <b>sentence case</b> (aside from proper nouns which we determined would use title case).</Text>
+                <Text className="mb-4 mt-4">We <b>never use gendered language</b>, and we use the <b>oxford comma</b> because our client loves it and it offers additional clarity.</Text>
               </div>
             </Row>
             <Row className="pl-4 mt-5 justify-content-center">
@@ -162,7 +161,7 @@ const CaseStudy2Body = () => {
             </Row>
             <Row className='mt-5'>
                   <Title variant="cardBig">Balancing needs of our client and our users</Title>
-                  <Text className="mb-4 mt-4 w-100">Our client was keen to showcase the goals of their mentorship program but current designs were lacking transparency. We wanted to ensure potential users would understand what the platform was for so we sharpened the copy.
+                  <Text className="mb-4 mt-4 w-100">Our client was keen to showcase the goals of their mentorship program but <b>current designs were lacking transparency</b>. We wanted to ensure potential users would understand what the platform was for so we sharpened the copy.
                   </Text>
                 <Col>
                   <Title variant="card">Before</Title>
@@ -198,7 +197,7 @@ const CaseStudy2Body = () => {
             </Row>
             <Row className='mt-5'>
                   <Title variant="cardBig">Speaking to Mentors in their own words</Title>
-                  <Text className="mt-4 w-100">Just as we did with the word <i>story</i>, we <b>included numerous words and terms that potential mentors used</b>during interviews and moderated usability testing. I met with the UX Research team to go over their findings and share keywords I was seeing from their initial insights. Their team confirmed I was on the right track and helped add a couple more:</Text>
+                  <Text className="mt-4 w-100">Just as we did with the word <i>story</i>, we <b>included numerous words and terms that potential mentors used</b> during interviews and moderated usability testing. I met with the UX Research team to go over their findings and share keywords I was seeing from their initial insights. Their team confirmed I was on the right track and helped add a couple more:</Text>
                   <Text className="mb-4 mt-4 w-100">
                         <Text variant="li">Connection</Text>
                         <Text variant="li">Community</Text>
@@ -206,12 +205,12 @@ const CaseStudy2Body = () => {
                         <Text variant="li">Giving back / Impact</Text>
                         <Text variant="li">Resources / Support</Text>
                         <Text variant="li">Shared experiences</Text>
-                        <Text variant="li">Imposter syndrome / Addressing challenges</Text>
+                        <Text variant="li">Imposter syndrome / addressing challenges</Text>
                   </Text>
                     <img src={imgPhoto15} alt="" className="img-fluid w-100 mt-4" />
             </Row>
             <Row className='mt-5'>
-                  <Title variant="cardBig">Reworking content hierarchy and addressing concerns</Title>
+                  <Title variant="cardBig">Reworking content hierarchy and addressing Mentor concerns</Title>
                   <Text className="mb-4 mt-4 w-100">
                     Prior to Phase 2 usability testing, and in conjunction with the 2nd Design team, we reimagined the landing page hierarchy and iterated upon an initial FAQ section.
                     <br />
@@ -231,7 +230,7 @@ const CaseStudy2Body = () => {
                       However, Research indicated potential mentors named this as an area of concern and therefore we chose to move forward with including it here.</Text>
             </Row>
             <Row className='mt-4'>
-                  <Title variant="cardBig">Addressing mentor's desire for community, resources, and privacy</Title>
+                  <Title variant="cardBig">Addressing Mentor desires for community, resources, and privacy</Title>
                   <Text className="mt-4 w-100">With the question around mentorship support removed from the FAQ, we focused our efforts on crafting copy for an entire mentor support section. Sean's Legacy's <b><i>Master's of Public Health</i> interns are creating a comprehensive onboarding kit</b>, and <b>our client wanted this reflected within the copy</b>.
                   <br />
                   Potential mentors indicated a desire for community support and resources in general, and we included these needs using <b>uplifting</b>, <b>compassionate language</b>.
@@ -248,7 +247,7 @@ const CaseStudy2Body = () => {
                   <img src={imgPhoto17} alt="" className="img-fluid w-100" />
                 </Col>
                 <Col>
-                  <Text className="mb-4 mt-4 w-100">Profile copy on both mentee and mentor sides of the platform initially read as <i>Fill out</i>. This was <b>standardized</b> to <i>Complete</i> <b>for clarity and concistency</b>, as we use the term <i>Complete</i> in numerous locations througout the platform.
+                  <Text className="mb-4 mt-4 w-100">Profile copy on both mentee and mentor sides of the platform initially read as <i>Fill out</i>. This was <b>standardized</b> to <i>Complete</i> <b>for clarity and consistency</b>, as we use the term <i>Complete</i> in numerous locations througout the platform.
                   <br />
                   To <b>increase transparency</b> that mentors need to both read and sign the privacy agreement, <i>sign</i> was added to the copy. Adding <i>sign</i> also increases clarity.
                   </Text>
@@ -288,26 +287,22 @@ const CaseStudy2Body = () => {
           </Section>
           <Section>
             <Row className='mt-4'>
-                  <Title variant="cardBig">What do potential mentors think of the platform?</Title>
-                  <Text className="mb-4 mt-4 w-100"><b>All testing for Phase 2 was done on the mentor side of the platform</b>. <i>All testing related information is from our Phase 2 Research team and is not my own</i>. I have removed some information to focus solely on content.
-                  </Text>
+                  <Text className="w-100"><b>All testing for Phase 2 was done on the mentor side of the platform</b>. <i>All testing results are from our Phase 2 Research team and are not my own</i>. I have included select information to focus solely on content. Phase 2 wrapped up shortly after moderated usability testing was completed and therefore <b>our team was unable to directly address findings</b>. We left reccomendations in our handoff documentation for Phase 3.</Text>
+                  <Title className="mb-4 mt-4" variant="cardBig">What do potential mentors think of the platform?</Title>
                   <div>
-                  <Title variant="card">Unmoderated research goals</Title>
-                  <Text variant='li' className="mb-4 mt-4">Understand the first impressions on the mentor landing page.</Text>
-                  <Text variant='li' className="mb-4 mt-4">Understand the level of difficulty in signing up and creating a mentor profile.</Text>
-                  <Text variant='li' className="mb-4 mt-4">Uncover the overall user experience of the mentor flow.</Text>
+                  <Title className="mb-4 mt-4" variant="card">Unmoderated research goals and findings</Title>
+                  <Text className="mb-4 mt-4">Understand first impressions, pain points, and overall user experience of the mentor flow.</Text>
+
                 </div> 
             </Row>
             <Row className='mt-4'>
                 <Col>
-                  <Title variant="card">High-level findings</Title>
                   <img src={imgPhoto20} alt="" className="img-fluid w-100" />
                 </Col>
                 <Col>
                   <Title variant="cardSm">Mentor landing page</Title>
-                  <Text variant='li' className="mb-4 mt-4">Users found the mentor landing page informative, friendly, clear, easy to sign up, and not too distracting.</Text>
+                  <Text variant='li' className="mb-4 mt-4">Users found the mentor landing page <b>informative</b>, <b>friendly</b>, <b>clear</b>, <b>easy</b> to sign up, and <b>not too distracting</b>.</Text>
                   <Title variant="cardSm">Mentor sign-up and profile creation</Title>
-                  <Text variant='li' className="mb-4 mt-4">Users found the various flows in this section clear and easy to use.</Text>
                   <Text variant='li' className="mb-4 mt-4">Regarding their experience of registering for an account, <b>9 out of 14 (62%) participants felt it was very easy</b>.</Text>
                   <Text variant='li' className="mb-4 mt-4">Regarding their experience of profile completion, <b>10 out of 14 (71%) participants felt it was very easy</b>.</Text>
                   <Title variant="cardSm">Overall mentor flow</Title>
@@ -316,10 +311,15 @@ const CaseStudy2Body = () => {
             </Row>
             <Row className='mt-4'>
                   <div>
-                  <Title variant="card">Moderated research goals</Title>
-                  <Text variant='li' className="mb-4 mt-4">Understand the first impressions on the mentor landing page.</Text>
-                  <Text variant='li' className="mb-4 mt-4">Understand the level of difficulty in signing up and creating a mentor profile.</Text>
-                  <Text variant='li' className="mb-4 mt-4">Uncover the overall user experience of the mentor flow.</Text>
+                  <Title variant="card">Moderated research goal and findings</Title>
+                  <Text className="mb-4 mt-4">Assess the <b>impact of copy and word choices on usability</b>, with special attention to areas that may have an emotional impact.</Text>
+                  <Title variant="cardBig">Confusing copy</Title>
+                  <Text className="mb-4 mt-4">You may recall our hypothesis that using the word <i>story</i> ("<i>Where does your story begin?</i> ") would speak to users in their own words. Research found <b>3 out of 6</b> potential mentors <b>found this phrasing confusing</b>. The Phase 3 Content team will need to address this finding and rewrite copy.</Text>
+                  <Title variant="cardBig">Unclear directions</Title>
+                  <Text className="mb-4 mt-4">Completing a background check as soon as possible is important, however <b>3 out of 6</b> mentors <b>wouldn't choose to complete their background check first</b>. The phase 3 Content team will need to further stress the importance of this step for mentors.</Text>
+                  <Title variant="cardBig">More information needed</Title>
+                  <Text className="mb-4 mt-4"><b>4 out of 6</b> mentors wanted to know <b>what data would be checked</b> and <b>what would make them ineligible to be a mentor</b>. I was not surprised by these findings as we too were unclear on the totality of the background check process. The phase 3 Content team will need to work with our client on specifics for this process.</Text>
+                  
                 </div> 
             </Row>
         
@@ -339,36 +339,38 @@ const CaseStudy2Body = () => {
                   letter-spacing: 1.63px;
                 `}
               >
-                Overview - Challenges - What I Learned
+                Challenges - What I Learned
               </Title>
             </Container>
           </Section>
           <Section>
             <Container>
-              <Row className='mt-5'>
+            <Row className='mt-5'>
                 <div>
-                  <Title variant="cardBig">Overview</Title>
-                  <Text className="mb-4 mt-4">Improving my front-end skills helped me grow as a designer.</Text>
-                  <Text className="mb-4 mt-4">This has been evident through my ability to both communicate more effectively with developers, and my ability to know what questions to ask and where to seek out the information.</Text>
-                  <Text className="mb-4 mt-4">The experience reiterated the importance of adhering to a design system and considering the technical limitations when designing.</Text>
+                  <Title variant="cardBig">Consistency requires cross-functional collaboration</Title>
+                  <Text className="mb-4 mt-4">In order to maintain consistency throughout designs, it's important to work with all team members. Occasionally an update to copy would be missed by one of our Design teams during Development handoff. This resulted in outdated copy being included on both final Phase 2 prototypes and in the actual build.</Text>
+                  
                 </div>
               </Row>
               <Row className='mt-5'>
                 <div>
-                  <Title variant="cardBig">Challenges</Title>
-                  <Text variant='li' className="mb-4 mt-4">Writing this case study was initially a challenge because while the project was building a portfolio website, I wanted to focus on the learning process that revolved around the build and not the build itself.</Text>
-                  <Text variant='li' className="mb-4 mt-4">Understanding the difference between padding and margin took some time but the ability to play around in my code and use the Inspect tool was invaluable to my learning. </Text>
-                  <Text variant='li' className="mb-4 mt-4">Writing a good GitHub commit message took some time but eventually I found my groove. </Text>
-                  <Text variant='li' className="mb-4 mt-4">The preview extension issue I encountered was one of the most confusing challenges I faced, but my ability to ask questions, research, and ask for help from others came in handy. </Text>
+                  <Title variant="cardBig">UX writers should be embedded within design teams</Title>
+                  <Text className="mb-4 mt-4"> At times it was difficult to write copy or develop content because our team didn't have as clear of an understanding of specific flows, constraints, and design decisions as the designers did. Our team had a Content representative present during most Design Working Sessions, which helped greately as requirements changed throughout the project. We were able to collaborate and offer guidance in real time, which was especially helpful as the Phase 2 team as a whole was global and often needed to work asynchronously.</Text>
+                  
                 </div>
               </Row>
               <Row className='mt-5'>
                 <div>
-                <Title variant="cardBig">What I Learned</Title>
-                  <Text variant='li' className="mb-4 mt-4"> HTML is all about building and stacking containers. Learn to build your &lt;div&gt; containers correctly the first time to avoid issues down the line. </Text>
-                  <Text variant='li' className="mb-4 mt-4">Often the issue is something easy, like needing to add or reduce padding, or having an extra &lt;div&gt; somewhere. Other times it is more complicated, and this is why MDN is our friend (Substack and Google are also helpful ... as is a mentor!).  </Text>
-                  <Text variant='li' className="mb-4 mt-4">One can learn a lot by using Lighthouse. </Text>
-                  <Text variant='li' className="mb-4 mt-4">Sometimes taking a break and stepping away from your code is the best way to figure out whatever it is you're trying to solve.  </Text>
+                  <Title variant="cardBig">Encouraging pushback is key</Title>
+                  <Text className="mb-4 mt-4">As this project had 2 design teams totaling 14 people, we encountered pushback on various decisions. I was often able to articulate my reasoning, but many times a designer had a legitimate point or concern, so we often compromised on design decisions. I encouraged pushback because it's how we all learn and grow. This helped our team come up with standards and have them stress-tested, ultimately making designs more inclusive and accessible.</Text>
+                  
+                </div>
+              </Row>
+              <Row className='mt-5'>
+                <div>
+                <Title variant="cardBig">Clarification is everything</Title>
+                  <Text className="mb-4 mt-4">Clarity was the overall theme of this experience for me; from not having enough of it, to doing my best to develop it in designs and in my own communications. Clarifying the platform's safety features was a top priority for good reason as safety isn't something we can simply create or design. Making it clear to our users that their privacy and safety are #1, and that they have full control over what they share increases transparency and builds trust.</Text>
+
                 </div>
               </Row>
             </Container>
