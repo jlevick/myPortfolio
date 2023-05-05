@@ -4,10 +4,10 @@ export const menuItems = [
            label: "my work.",
            items: [
              // case studies below
-             { name: "aspect", label: "aspect" },
              { name: "seans-legacy", label: "sean's legacy" },
              { name: "slvoice", label: "voice and tone" },
              { name: "samples", label: "ux writing samples" },
+             { name: "aspect", label: "aspect" },
              { name: "front-end-portfolio", label: "front end portfolio" },
            ],
          },

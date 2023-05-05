@@ -7,14 +7,6 @@ import imgPhoto2 from "../assets/image/png/indexvoice.png";
 
 const devWorks2 = [
   {
-    brand: `Aspect Astrology App`,
-    slug: `aspect`,
-    title: `astrology app prototype`,
-    categories: [`ux`],
-    thumbnail: imgPhoto,
-    link: '/aspect',
-  },
-  {
     brand: `Sean's Legacy Mentorship Platform`,
     slug: `seanslegacycontentdesign`,
     title: `ux writing`,
@@ -37,6 +29,14 @@ const devWorks2 = [
     categories: [`uxwriting`],
     thumbnail: imgPhoto1,
     link: '/samples',
+  },
+  {
+    brand: `Aspect Astrology App`,
+    slug: `aspect`,
+    title: `astrology app prototype`,
+    categories: [`ux`],
+    thumbnail: imgPhoto,
+    link: '/aspect',
   },
   {
     brand: `Front-End Portfolio`,
