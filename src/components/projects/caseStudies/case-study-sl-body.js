@@ -19,6 +19,10 @@ import imgPhoto13 from "../../../assets/image/png/faqbefore.png";
 import imgPhoto14 from "../../../assets/image/png/faqafter.png";
 import imgPhoto15 from "../../../assets/image/png/words.png";
 import imgPhoto16 from "../../../assets/image/png/mentorsupport.png";
+import imgPhoto17 from "../../../assets/image/png/beforechecklist.png";
+import imgPhoto18 from "../../../assets/image/png/mentorchecklist.png";
+import imgPhoto19 from "../../../assets/image/png/background.png";
+import imgPhoto20 from "../../../assets/image/png/wordcloud.png";
 
 
 const CaseStudy2Body = () => {
@@ -113,7 +117,7 @@ const CaseStudy2Body = () => {
                 <Title variant="cardBig">Clarifying purpose, cost, and location upfront</Title>
               </div>
             </Row>
-            <Row className='mt-4'>
+            <Row className='mt-5'>
                 <Col>
                   <Title variant="card">Before</Title>
                   <Text className="mb-4 mt-4">The copy was vague and unclear:<br /><i>"Wherever you are on your journey, a mentor can help you take the next step."</i></Text>
@@ -151,12 +155,12 @@ const CaseStudy2Body = () => {
                   <img src={imgPhoto6} alt="" className="img-fluid w-100" />
                 </Col>
             </Row>
-            <Row className='mt-4'>
+            <Row className='mt-5'>
                 <div>
                   <Text className="mb-4 mt-4"><i>Safe end-to-end encrypted chats</i> was simplified to <i>Secure communications</i>, with the meaning of "end-to-end encrypted chats" clearly explained in the copy. The <i>Mentee verification</i> title and copy were added when our client decided to move forward with 2-factor authorization in order to increase safety.</Text>
                 </div>
             </Row>
-            <Row className='mt-4'>
+            <Row className='mt-5'>
                   <Title variant="cardBig">Balancing needs of our client and our users</Title>
                   <Text className="mb-4 mt-4 w-100">Our client was keen to showcase the goals of their mentorship program but current designs were lacking transparency. We wanted to ensure potential users would understand what the platform was for so we sharpened the copy.
                   </Text>
@@ -175,7 +179,7 @@ const CaseStudy2Body = () => {
                   <img src={imgPhoto10} alt="" className="img-fluid w-100" />
               </div>
             </Row>
-            <Row className='mt-4'>
+            <Row className='mt-5'>
                   <Title variant="cardBig">Offering guidance and personal autonomy</Title>
                   <Text className="mb-4 mt-4 w-100">Researchers from Phase 1 suggested <b>pre-filled examples </b>for write-in text fields as well as more <b>specific writing prompts</b>. As this is an area where users may drop off due to uncertainty, confusion, or even annoyance, we knew it was important to offer guidance.
                     <br />
@@ -192,9 +196,9 @@ const CaseStudy2Body = () => {
                   <img src={imgPhoto12} alt="" className="img-fluid w-100" />
                 </Col>
             </Row>
-            <Row className='mt-4'>
+            <Row className='mt-5'>
                   <Title variant="cardBig">Speaking to Mentors in their own words</Title>
-                  <Text className="mt-4 w-100">Just as we did with the word <i>story</i>, we <b>included numerous words and terms that potential mentors used</b>during interviews and moderated usability testing. I personally met with the UX Research team to go over their findings and share keywords I was seeing from their initial insights. Their team confirmed I was on the right track and helped add a couple more:</Text>
+                  <Text className="mt-4 w-100">Just as we did with the word <i>story</i>, we <b>included numerous words and terms that potential mentors used</b>during interviews and moderated usability testing. I met with the UX Research team to go over their findings and share keywords I was seeing from their initial insights. Their team confirmed I was on the right track and helped add a couple more:</Text>
                   <Text className="mb-4 mt-4 w-100">
                         <Text variant="li">Connection</Text>
                         <Text variant="li">Community</Text>
@@ -206,7 +210,7 @@ const CaseStudy2Body = () => {
                   </Text>
                     <img src={imgPhoto15} alt="" className="img-fluid w-100 mt-4" />
             </Row>
-            <Row className='mt-4'>
+            <Row className='mt-5'>
                   <Title variant="cardBig">Reworking content hierarchy and addressing concerns</Title>
                   <Text className="mb-4 mt-4 w-100">
                     Prior to Phase 2 usability testing, and in conjunction with the 2nd Design team, we reimagined the landing page hierarchy and iterated upon an initial FAQ section.
@@ -223,7 +227,8 @@ const CaseStudy2Body = () => {
                   <Text className="mb-4 mt-4 w-100">Research indicated themes of <b>imposter syndrome</b> and I wrote compassionate body copy around supporting mentees.</Text>
                   <img src={imgPhoto14} alt="" className="img-fluid w-100" />
                 </Col>
-                <Text>The Research team suggested a question around ending mentorship, as potential mentors indicated this as an area of concern. Initially our team was concerned this may give a negative connotation. We certaintly supported adding the question, but wondered if it might be better placed within the platform's internal Resource section, and not on the landing page. Research let us know it came up multiple times, and therefore we chose to move forward with including it here.</Text>
+                <Text className="mb-4 mt-4 w-100">The Research team suggested a question around ending mentorship. While our team supported adding this Q, we wondered if it might be better suited within the platform's internal <i>Resource</i> section, and not on the landing page. 
+                      However, Research indicated potential mentors named this as an area of concern and therefore we chose to move forward with including it here.</Text>
             </Row>
             <Row className='mt-4'>
                   <Title variant="cardBig">Addressing mentor's desire for community, resources, and privacy</Title>
@@ -233,12 +238,96 @@ const CaseStudy2Body = () => {
                   </Text>
                     <img src={imgPhoto16} alt="" className="img-fluid w-100 mt-4" />
             </Row>
-            
+            <Row className='mt-5'>
+                  <Title variant="cardBig">Promoting safety through transparency and consistency</Title>
+                  <Text className="mb-4 mt-4 w-100">
+                     Because safety and privacy matter to both potential users and to Sean's Legacy, mentors are required to pass a background check. Needing to <b>convey the importance of completing the background check quickly</b>, the content hierarchy lists this step first and is supported in the body copy throughout the page.
+                  </Text>
+                <Col>
+                  <Title variant="card">Before</Title>
+                  <img src={imgPhoto17} alt="" className="img-fluid w-100" />
+                </Col>
+                <Col>
+                  <Text className="mb-4 mt-4 w-100">Profile copy on both mentee and mentor sides of the platform initially read as <i>Fill out</i>. This was <b>standardized</b> to <i>Complete</i> <b>for clarity and concistency</b>, as we use the term <i>Complete</i> in numerous locations througout the platform.
+                  <br />
+                  To <b>increase transparency</b> that mentors need to both read and sign the privacy agreement, <i>sign</i> was added to the copy. Adding <i>sign</i> also increases clarity.
+                  </Text>
+                </Col>
+                <div>
+                  <Title variant="card">After</Title>
+                  <Text>Following our voice and tone guidelines, copy was written to be <b>uplifting</b>, <b>ethical</b>, and <b>respectful</b>.</Text>
+                  <Text className="mb-4 mt-4 w-100"></Text>
+                  <img src={imgPhoto18} alt="" className="img-fluid w-100" />
+                </div>
+            </Row>
+            <Row className="mb-4 mt-5 w-100">
+                <Title variant="cardBig">What information is required for a background check?</Title>
+                <Text className="mb-4 mt-4 w-100">Research showed mentors expect and are used to background checks. In conjunction with the 2nd Design team, <b>we worked on making the background check process as clear and easy as possible</b>.
+                <br />Unsure of what exactly Sean's Legacy would be checking for, I reached out to our client for requirements: Social Security number, address history, and a form of payment were all needed. We wrote concise body copy to help mentor's understand why we are asking for this information.
+                </Text>
+                <img src={imgPhoto19} alt="" className="img-fluid w-100" />
+            </Row>
           </Section>
           <Section hero={true} bg={"dark"}>
             <Container className="pb-3">
               <Title color="light" variant="secSm">
-                03 Retro
+                03 Test
+              </Title>
+              <Title
+                color="light"
+                variant="card"
+                mb="2.5rem"
+                fontSize="1rem"
+                className="text-uppercase"
+                css={`
+                  letter-spacing: 1.63px;
+                `}
+              > Unmoderated Feedback - Moderated Usability Findings
+              </Title>
+            </Container>
+          </Section>
+          <Section>
+            <Row className='mt-4'>
+                  <Title variant="cardBig">What do potential mentors think of the platform?</Title>
+                  <Text className="mb-4 mt-4 w-100"><b>All testing for Phase 2 was done on the mentor side of the platform</b>. <i>All testing related information is from our Phase 2 Research team and is not my own</i>. I have removed some information to focus solely on content.
+                  </Text>
+                  <div>
+                  <Title variant="card">Unmoderated research goals</Title>
+                  <Text variant='li' className="mb-4 mt-4">Understand the first impressions on the mentor landing page.</Text>
+                  <Text variant='li' className="mb-4 mt-4">Understand the level of difficulty in signing up and creating a mentor profile.</Text>
+                  <Text variant='li' className="mb-4 mt-4">Uncover the overall user experience of the mentor flow.</Text>
+                </div> 
+            </Row>
+            <Row className='mt-4'>
+                <Col>
+                  <Title variant="card">High-level findings</Title>
+                  <img src={imgPhoto20} alt="" className="img-fluid w-100" />
+                </Col>
+                <Col>
+                  <Title variant="cardSm">Mentor landing page</Title>
+                  <Text variant='li' className="mb-4 mt-4">Users found the mentor landing page informative, friendly, clear, easy to sign up, and not too distracting.</Text>
+                  <Title variant="cardSm">Mentor sign-up and profile creation</Title>
+                  <Text variant='li' className="mb-4 mt-4">Users found the various flows in this section clear and easy to use.</Text>
+                  <Text variant='li' className="mb-4 mt-4">Regarding their experience of registering for an account, <b>9 out of 14 (62%) participants felt it was very easy</b>.</Text>
+                  <Text variant='li' className="mb-4 mt-4">Regarding their experience of profile completion, <b>10 out of 14 (71%) participants felt it was very easy</b>.</Text>
+                  <Title variant="cardSm">Overall mentor flow</Title>
+                  <Text variant='li' className="mb-4 mt-4">Users mostly found the mentor flow to be <b>easy</b>, <b>simple</b>, and <b>clear</b>.</Text>
+                </Col>
+            </Row>
+            <Row className='mt-4'>
+                  <div>
+                  <Title variant="card">Moderated research goals</Title>
+                  <Text variant='li' className="mb-4 mt-4">Understand the first impressions on the mentor landing page.</Text>
+                  <Text variant='li' className="mb-4 mt-4">Understand the level of difficulty in signing up and creating a mentor profile.</Text>
+                  <Text variant='li' className="mb-4 mt-4">Uncover the overall user experience of the mentor flow.</Text>
+                </div> 
+            </Row>
+        
+          </Section>
+          <Section hero={true} bg={"dark"}>
+            <Container className="pb-3">
+              <Title color="light" variant="secSm">
+                04 Retro
               </Title>
               <Title
                 color="light"
