@@ -13,6 +13,8 @@ import imgPhoto7 from "../../../assets/image/png/emailveribefore.png";
 import imgPhoto8 from "../../../assets/image/png/emailveriafter.png";
 import imgPhoto9 from "../../../assets/image/png/tooltipbefore.png";
 import imgPhoto10 from "../../../assets/image/png/tooltipafter.png";
+import imgPhoto11 from "../../../assets/image/png/notificationbefore.png";
+import imgPhoto12 from "../../../assets/image/png/notificationafter.png";
 
 const CaseStudySample = () => {
   return (
@@ -88,6 +90,19 @@ const CaseStudySample = () => {
                     <div>
                          <Title variant="card">After</Title>
                         <img src={imgPhoto10} alt="" className="img-fluid w-100" />
+                    </div>
+                </Col>
+                <Text className="mb-4 mt-4 w-100">The following copy was edited for concision and to stress the importance of beginning this step quickly.</Text>
+                <Col>
+                    <div>
+                        <Title variant="card">Before</Title>
+                        <img src={imgPhoto11} alt="" className="img-fluid w-100" />
+                    </div>
+                </Col>
+                <Col>
+                    <div>
+                         <Title variant="card">After</Title>
+                        <img src={imgPhoto12} alt="" className="img-fluid w-100" />
                     </div>
                 </Col>
             </Row>

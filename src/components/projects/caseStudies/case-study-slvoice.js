@@ -49,7 +49,7 @@ const CaseStudySLVoice = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  Notion, FigJam
+                  Notion, FigJam, Google Docs
                 </Text>
                 <Title color="light" variant="secSm">
                   Project Goal
