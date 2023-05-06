@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap'
 import { Title, Section, Box } from '../../components/Core'
 
 import bgHeroPattern from '../../assets/image/webp/hero-pattern.webp'
-import imgL from '../../assets/image/png/aspect_hero@2x.png'
+import imgL from '../../assets/image/png/seanhero.png'
 
 const SectionStyled = styled(Section)`
   &::before {
@@ -35,6 +35,14 @@ const Hero = () => {
       {/* <!-- Hero Area --> */}
       <SectionStyled hero className="position-relative">
         <Container>
+            <Box
+              className="text-center text-lg-right position-relative"
+              
+            >
+              <div className="img-main text-center">
+                
+              </div>
+            </Box>
           <Box mt="92px" className="d-flex flex-column text-center">
             <Title
               variant="card"

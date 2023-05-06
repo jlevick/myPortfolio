@@ -170,7 +170,7 @@ const CaseStudy2Body = () => {
                 </Col>
                 <Col>
                   <Title variant="card">After</Title>
-                  <Text className="mb-4 mt-4 w-100">We improved readability by editting copy for concision. Headers were created to make scanning easier.</Text>
+                  <Text className="mb-4 mt-4 w-100">We improved readability by editing copy for concision. Headers were created to make scanning easier.</Text>
                   <img src={imgPhoto8} alt="" className="img-fluid w-100" />
                 </Col>
                 <div>
@@ -235,7 +235,7 @@ const CaseStudy2Body = () => {
                   <br />
                   Potential mentors indicated a desire for community support and resources in general, and we included these needs using <b>uplifting</b>, <b>compassionate language</b>.
                   </Text>
-                    <img src={imgPhoto16} alt="" className="img-fluid w-100 mt-4" />
+                    <img src={imgPhoto16} alt="" className="img-fluid w-75 mt-4" />
             </Row>
             <Row className='mt-5'>
                   <Title variant="cardBig">Promoting safety through transparency and consistency</Title>
@@ -256,15 +256,15 @@ const CaseStudy2Body = () => {
                   <Title variant="card">After</Title>
                   <Text>Following our voice and tone guidelines, copy was written to be <b>uplifting</b>, <b>ethical</b>, and <b>respectful</b>.</Text>
                   <Text className="mb-4 mt-4 w-100"></Text>
-                  <img src={imgPhoto18} alt="" className="img-fluid w-100" />
+                  <img src={imgPhoto18} alt="" className="img-fluid w-75" />
                 </div>
             </Row>
             <Row className="mb-4 mt-5 w-100">
                 <Title variant="cardBig">What information is required for a background check?</Title>
                 <Text className="mb-4 mt-4 w-100">Research showed mentors expect and are used to background checks. In conjunction with the 2nd Design team, <b>we worked on making the background check process as clear and easy as possible</b>.
-                <br />Unsure of what exactly Sean's Legacy would be checking for, I reached out to our client for requirements: Social Security number, address history, and a form of payment were all needed. We wrote concise body copy to help mentor's understand why we are asking for this information.
+                <br />Unsure of what exactly Sean's Legacy would be checking for, I reached out to our client for requirements: Social Security number, address history, and a form of payment were all needed. We wrote concise body copy to help mentors understand why we are asking for this information.
                 </Text>
-                <img src={imgPhoto19} alt="" className="img-fluid w-100" />
+                <img src={imgPhoto19} alt="" className="img-fluid w-75" />
             </Row>
           </Section>
           <Section hero={true} bg={"dark"}>
