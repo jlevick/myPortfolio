@@ -20,7 +20,7 @@ import imgPhoto14 from "../../../assets/image/png/faqafter.png";
 import imgPhoto15 from "../../../assets/image/png/words.png";
 import imgPhoto16 from "../../../assets/image/png/mentorsupport.png";
 import imgPhoto17 from "../../../assets/image/png/beforechecklist.png";
-import imgPhoto18 from "../../../assets/image/png/mentorchecklist.png";
+import imgPhoto18 from "../../../assets/image/png/checklist.png";
 import imgPhoto19 from "../../../assets/image/png/background.png";
 import imgPhoto20 from "../../../assets/image/png/wordcloud.png";
 

@@ -37,35 +37,33 @@ const Hero = () => {
         <Container>
           <Col>
             <Row>
-              <Box className="d-flex flex-column align-items-center text-center">
-                <div className="img-main text-center w-50 h-50 mb-5">
-                  <ImgRight src={imgPhoto} alt="Laptop Image" className="img-fluid" />
-                </div>
-                <Title
-                  variant="card"
-                  mb="2.5rem"
-                  mt="2.5rem"
-                  fontSize="1rem"
-                  className="text-uppercase"
-                  css={`
-                    letter-spacing: 1.63px;
-                  `}
-                >
-                  Web Dev
-                </Title>
-                <Title variant="hero" mb="1.5rem">
-                  Front-End Portfolio
-                </Title>
-                <Text
-                  color="text"
-                  css={`
-                    line-height: 1.5;
-                  `}
-                >
-                  A responsive portfolio site built with HTML, CSS, and vanilla
-                  JavaScript.
-                </Text>
-              </Box>
+            <Box mt="" className="d-flex flex-column text-center">
+            <Box
+              className="text-center text-lg-right position-relative"
+              pb=""
+            >
+              <div className="img-main text-center">
+                <ImgRight src={imgPhoto} alt="" className="w-25" />
+              </div>
+            </Box>
+            <Title
+              variant="card"
+              mb="1.5rem"
+              fontSize="1rem"
+              className="text-uppercase"
+              css={`
+                letter-spacing: 1.63px;
+              `}
+            >
+              Web Dev
+            </Title>
+            <Title variant="hero" mb="1.5rem">
+              Front-End Portfolio
+            </Title>
+            <p>
+            A responsive portfolio site built with HTML, CSS, and vanilla JavaScript.
+            </p>
+          </Box>
             </Row>
           </Col>
         </Container>

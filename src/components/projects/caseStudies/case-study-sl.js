@@ -74,7 +74,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  Sean's Legacy is a non-profit dedicated to supporting LGBTQIA+ youth, with a primary focus on suicide prevention. They are creating a professional mentorship program that provides LGBTQIA+ young adults a safe space to seek career guidance and form long-lasting professional relationships.
+                  Sean's Legacy is a non-profit dedicated to supporting LGBTQIA+ youth, with a primary focus on suicide prevention. 
                 </Text>
               </div>
             </Col>
