@@ -64,7 +64,7 @@ const CaseStudy2Body = () => {
                       </Col>
                       <Col>
                         <Title variant="card">Increase user-control</Title>
-                        <Text>It's important to offer choice. What happens next? Do users create a profile, take a quiz, browse mentors? Offer clarity.</Text>
+                        <Text>It's important to offer choice. What happens next? Do users create a profile, take a quiz, browse mentors? We can offer more clarity.</Text>
                         <img src={imgPhoto1} alt="" className="img-fluid w-100" />
                       </Col>
                   </Row>
@@ -132,7 +132,7 @@ const CaseStudy2Body = () => {
             <Row className='mt-4'>
               <div>
                   <Title variant="cardBig">Why should I sign up for the Sean's Legacy Mentorship Program?</Title>
-                  <Text className="mb-4 mt-4">Originally located on the About page, we recommended changing the content hierarchy and moving this information to the landing page. As the landing page had <b>no clear value proposition</b>, we ideated on how a potential mentee might feel and what questions they might be asking. Privacy was important to users based on prior research, and we added copy to show mentees we understand their concerns and take them seriously.</Text>
+                  <Text className="mb-4 mt-4">Originally located on the About page, we recommended changing the content hierarchy and moving this information to the first screen a user sees, the landing page. As the landing page had <b>no clear value proposition</b>, we ideated on how a potential mentee might feel and what questions they might be asking. Privacy was important to users based on prior research, and we added copy to show mentees we understand their concerns and take them seriously.</Text>
                   <img src={imgPhoto4} alt="" className="img-fluid w-100" />
               </div>
               <div>
@@ -174,7 +174,7 @@ const CaseStudy2Body = () => {
                   <img src={imgPhoto8} alt="" className="img-fluid w-100" />
                 </Col>
                 <div>
-                  <Text className="mb-4 mt-4">Here you can see my recommendations and the iterations this content went through. <b>Because users wanted increased personalization</b>, we <b>wrote copy in the first person</b>, using "you" instead of "they" or "mentees".</Text>
+                  <Text className="mb-4 mt-4">Here you can see my recommendations and the iterations this content went through. <b>Because users wanted increased personalization</b>, we wrote copy as if we were speaking directly to each mentee, using "you" instead of "they" or "mentees".</Text>
                   <img src={imgPhoto10} alt="" className="img-fluid w-100" />
               </div>
             </Row>
@@ -314,7 +314,7 @@ const CaseStudy2Body = () => {
                   <Title variant="card">Moderated research goal and findings</Title>
                   <Text className="mb-4 mt-4">Assess the <b>impact of copy and word choices on usability</b>, with special attention to areas that may have an emotional impact.</Text>
                   <Title variant="cardBig">Confusing copy</Title>
-                  <Text className="mb-4 mt-4">You may recall our hypothesis that using the word <i>story</i> ("<i>Where does your story begin?</i> ") would speak to users in their own words. Research found <b>3 out of 6</b> potential mentors <b>found this phrasing confusing</b>. <br /> <br /> <b>My recommendation</b> is to rewrite this question but leave the supporting copy (<i>"Share as much or as little as you'd like"</i>). Changing the question into a statement may offer a conversational feel and is worth testing to increase the chance of users filling out their profile entirely. Copy ideas: <i>"Please tell us about yourself"</i>, or <i>"I want my mentor/mentee to know..."</i>.</Text>
+                  <Text className="mb-4 mt-4">You may recall our hypothesis that using the word <i>story</i> ("<i>Where does your story begin?</i> ") would speak to users in their own words. Research found <b>3 out of 6</b> potential mentors <b>found this phrasing confusing</b>. <br /> <br /> <b>My recommendation</b> is to rewrite this question and consider changing the supporting copy above from <i>"Share your story so mentors/mentees can get to know you better"</i> to <i>"Share as much or as little as you'd like"</i>. Changing the question into a statement may offer a conversational feel and is worth testing to increase the chance of users filling out their profile entirely. Copy ideas: <i>"Please tell us about yourself"</i>, or <i>"I want my mentor/mentee to know..."</i>.</Text>
                   <Title variant="cardBig">Unclear directions</Title>
                   <Text className="mb-4 mt-4">Completing a background check as soon as possible is an important step in mentorship approval, however <b>3 out of 6</b> mentors <b>wouldn't choose to complete their background check first</b>. <br /> <br /> Users were more likely to complete their profile prior to initiating their background check, and it might be worth using this knowledge in proposing a solution. I'm not certain changing copy alone is the best answer (although it may be the easiest and quickest to test), and <b>my recommendation</b> is to get more folks involved in brainstorming around potential solutions. It could be that instructional copy such as <i>"Initiate your background check and complete your profile while you wait"</i> would help, or it might be the design needs altered, or an explicit step-by-step for mentorship approval could be created. Or ... it could be something else entirely!</Text>
                   <Title variant="cardBig">More information needed</Title>
