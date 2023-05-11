@@ -218,7 +218,7 @@ const CaseStudySLVoiceBody = () => {
                     <br />
                     <Title variant="cardBig"> <i>Preferred name</i> implies a name is not <i>real</i></Title>
                     <Text className="mb-4 mt-4">Because the platform is built for the LGBTQIA+ community, <b>names</b>, <b>pronouns</b>, and <b>individual agency are significant</b>. Trans and non-binary folks may have a different name than was given to them at birth. Asking for someone's legal name may bring about unintended pain, and asking for someone's preferred name may come across as disrespectful.
-                    <br />In an effort to be inclusive, avoid deadnaming, and offer personal autonomy, we decided to use <b>Chosen name</b>.</Text>
+                    <br />In an effort to be inclusive, avoid deadnaming, and offer personal autonomy, I suggested using <b>Chosen name</b>.</Text>
                     <Title variant="card">Chosen name</Title>
                         <img src={imgPhoto10} alt="" className="img-fluid w-50  mb-4" />
                     <Text className="mb-4 mt-4">To our delight, <i>Chosen name</i> was mentioned as copy that potential mentors liked during Phase 2 usability testing.</Text>
