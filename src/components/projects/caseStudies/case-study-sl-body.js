@@ -183,7 +183,7 @@ const CaseStudy2Body = () => {
                   <Text className="mb-4 mt-4 w-100">Researchers from Phase 1 suggested <b>pre-filled examples </b>for write-in text fields as well as more <b>specific writing prompts</b>. As this is an area where users may drop off due to uncertainty, confusion, or even annoyance, we knew it was important to offer guidance.
                     <br />
                     <br />
-                    Initial Phase 2 user interview findings seemed to indicate some mentors specifically used the word <i>story</i> when referring to learning more about their mentee. We <b>hypothesized utilizing the word <i>story</i></b> would be <b>easily understandable and speak directly to our users in their own words</b> (you will find moderated usability test results around this in the 03 Testing section).</Text>
+                    Initial Phase 2 user interview findings seemed to indicate some mentors specifically used the word <i>story</i> when referring to learning more about their mentee. ADPList, another mentorship platform, also uses this language (<i>"Tell us your origin story", and "Everyone has a story, what's yours?"</i>). <br /> We <b>hypothesized utilizing the word <i>story</i></b> would be <b>easily understandable, familiar, and speak directly to our users in their own words</b> (you will find moderated usability test results around this in the 03 Testing section).</Text>
                 <Col>
                   <Title variant="card">Guided prompts to help users complete their profile</Title>
                   <Text className="mb-4 mt-4 w-100">We broke down the questions in to bite-sized sections and combined responses into the <i>About</i> section.</Text>

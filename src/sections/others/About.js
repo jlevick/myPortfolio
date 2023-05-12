@@ -31,11 +31,11 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                   line-height: .07;
                 `}
               >
-                With a background in anthropology and gender studies, and 10+ years in client-facing roles, I have developed creative problem-solving abilities and an empathetic, curious approach to communication. In 2021 I decided to transition in to UX Design and quickly discovered my love of UX Writing. 
+                With a background in anthropology and gender studies, and 10+ years in client-facing roles, I have developed creative problem-solving abilities and an empathetic, curious approach to communication. In 2021 I transitioned into UX design and quickly discovered my love of UX writing. 
                 <br />
                 <br />
                 I excel at analyzing and synthesizing data and using the results to write clear, contextual copy.
-                I believe great content is useful, concise, and meets the human on the other end right where they are. I have a keen attention to detail, a love of the Oxford comma, a distaste of Lorem Ipsum, and I'm proud to focus on inclusion and accessibility. 
+                I believe great content is useful, concise, and meets the human on the other end right where they are. I have a keen attention to detail, a love of the Oxford comma, a distaste for Lorem Ipsum, and I'm proud to focus on inclusion and accessibility. 
                 <br /> 
                 <br /> While happily autonomous, there's nothing like diversity and collaboration to create a truly great experience. 
                 Focused on delivering high-quality, easily-understood results rather than seeking recognition, I view failure as an opportunity for growth. Being unafraid to ask questions in order to gain clarity is one of my superpowers. <br />
