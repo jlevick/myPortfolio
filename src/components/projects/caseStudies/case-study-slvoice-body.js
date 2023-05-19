@@ -82,7 +82,7 @@ const CaseStudySLVoiceBody = () => {
               </div>
               <div className="mt-5">
                   <Title variant="cardBig">How do we create safety through language?</Title>
-                  <Text className="mb-4 mt-4">Safety and personal autonomy stood out as 2 important areas to focus on. I knew our platform's voice needed to communicate in a way that left our users feeling secure, but in an age where no one can guarantee a true safe space, how do we accomplish this? <i>How do we create safety</i>? 
+                  <Text className="mb-4 mt-4"><b>Safety and personal autonomy stood out as 2 important areas to focus on</b>. I knew our platform's voice needed to communicate in a way that left our users feeling secure, but in an age where no one can guarantee a true safe space, how do we accomplish this? <i>How do we create safety</i>? 
                   <br />
                   <br />
                   The answer is we can't. Safety is built and takes effort. My team brainstormed around the idea of designing experiences that promote safety and build trust through respect, consistency, transparency, inclusivity, and clarity.
@@ -93,17 +93,18 @@ const CaseStudySLVoiceBody = () => {
                   <Title variant="cardBig">Introducing: the <i>Cool Guidance Counselor</i></Title>
                   <Text className="mb-4 mt-4">With all of this in mind, I envisioned our voice persona to be the well-balanced guidance counselor we all want(ed) to have. 
                   <br />
+                  <br />
                   They're warm, friendly, reliable, and make others feel at ease. They're professional and knowledgeable, inspiring trust and confidence. They speak with authority without being authoritarian. They're clear communicators, offering guidance with a tone of empowerment. They promote diversity and a sense of belonging with their inclusive and respectful behavior, and they prioritize safety above all.</Text>
                     <br />
                   <Text>
-                        Ultimately, our persona is:
+                        Ultimately, <b>our persona is</b>:
                         <Text variant="li">Kind, not pushy</Text>
                         <Text variant="li">Welcoming, not unapproachable</Text>
                         <Text variant="li">Ethical and open, not cagey</Text>
                         <Text variant="li">Empowering, not judgmental</Text>
                     </Text>
                     <Text className="mb-4 mt-4">The team brought these ideas to our client, where they were well received by their co-founder and internal content team.</Text>
-                    <Title variant="card">Demo deck slide shared with our client</Title>
+                    <Title variant="card" className="mt-5">Demo deck slide shared with our client</Title>
                         <img src={imgPhoto5} alt="" className="img-fluid w-75" />
                 </div>
             </Row>
@@ -125,7 +126,7 @@ const CaseStudySLVoiceBody = () => {
                         <Text className="mb-4 mt-4">We decided that due to the age range of our mentee audience (18-25) and their desire for inclusivity, we would use <b>casual</b>, <b>informal language</b>.</Text>
                         <Text className="mb-4 mt-4">The platform's voice needed to sound human, read at a 6th grade level, and communicate in a way that related both to mentees and mentors. 
                         <br /> Because of this, we chose to use <b>sentence case</b> over title case and <b>allow for contractions</b>. Our team also decided to use the Hemingway App in order to check the reading level of all copy.</Text>
-                         <Title variant="card">Sentence case vs. Title Case</Title>
+                         <Title variant="card" className="mt-5">Sentence case vs. Title Case</Title>
                         <img src={imgPhoto3} alt="" className="img-fluid w-75" />
                     </div>
             </Row>
@@ -155,20 +156,23 @@ const CaseStudySLVoiceBody = () => {
                     <Text className="mb-4 mt-4">The list I created grew into a keyword list that helped standardize copy on the platform; everything from Call to Action buttons, to titles, to tooltips.
                     <br /> 
                     <br />
-                    During an early audit of the platform, I noticed inconsistencies in the usage of terms such as <i>Continue </i> and <i>Next</i>, and <i>Create account</i> and <i>Sign up</i>. 
-                    <br /> We went with <b><i>Continue</i></b> over <i>Next</i> as it feels gentler and conveys we haven't abandoned the user, we're still here with them - whereas <i>Next</i> feels as if we're in line, not a person but a number. 
+                    During an early audit of the platform, I noticed <b>inconsistencies in the usage of terms</b> such as <i>Continue </i> and <i>Next</i>, and <i>Create account</i> and <i>Sign up</i>.
+                    <br />
+                    <br />
+                    We went with <b><i>Continue</i></b> over <i>Next</i> as it feels gentler and conveys we haven't abandoned the user, we're still here with them - whereas <i>Next</i> feels as if we're in line, not a person but a number. In hindsight <i>Continue</i> could be clearer and may not be the best word choice, but the <b>consistency helps reduce cognitive load and mitigates confusion</b>.
                     <br /> 
-                    <br /> We chose <b><i>Sign up</i> </b>over <i>Create account</i> to both simplify the copy and play to user's mental models of what they might expect. 
-                    <br /> These seemingly small changes helped to create more cohesive designs as these subtle differences play in to properly conveying our tone.</Text>
-                    <Title variant="card">A portion of the word list</Title>
+                    <br /> We chose <b><i>Sign up</i></b> over <i>Create account</i> to both simplify the copy and play to user's mental models of what they might expect. 
+                    <br />
+                    <br /> These seemingly small changes helped to create more cohesive designs as these <b>subtle differences play in to properly conveying our tone</b>.</Text>
+                    <Title variant="card" className="mt-5">A portion of the word list</Title>
                     <img src={imgPhoto4} alt="" className="img-fluid w-50 mb-5" />
               </div>
             </Row>
             <Row className='mt-4'>
                 <div>
                   <Title variant="cardBig">A trauma-informed approach to communication</Title>
-                  <Text className="mb-4 mt-4">As our designers began building out new features we discovered additional langauge in need of clarification, as members of the LGBTQIA+ community experience a high rate of ongoing trauma.</Text>
-                  <Text className="mb-4 mt-4">Using language that mitigates triggers is essential, and 3 distinct phrases stood out:
+                  <Text className="mb-4 mt-4">As our designers began building out new features we discovered <b>additional langauge in need of clarification</b>, as members of the LGBTQIA+ community experience a high rate of ongoing traumas.</Text>
+                  <Text className="mb-4 mt-4"><b>Using language that mitigates triggers is essential</b>, and 3 distinct phrases stood out:
                   <Text variant="li">Quiz</Text>
                   <Text variant="li">Support needed</Text>
                   <Text variant="li">Preferred name or Name</Text></Text>

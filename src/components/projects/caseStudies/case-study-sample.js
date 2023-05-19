@@ -24,7 +24,7 @@ const CaseStudySample = () => {
           <Section>
             <Row className='my-2'>
                 <Title variant="cardBig">Onboarding microcopy</Title>
-                <Text className="mb-4 mt-4">I adjusted microcopy to be more concise and easier to read. Illustrations were added for character and to help convey the message on each screen. Variations of these illustrations are used throughout the designs to enhance understanding of copy and add brevity.
+                <Text className="mb-4 mt-4">I adjusted microcopy for concision and readability. Illustrations were added for character and to help convey copy. Variations of these illustrations are used throughout the designs to enhance understanding of copy and add brevity.
                 <br /> Visual cues were used to indicate status and to show there is additional content.</Text>
                 <Col>
                     <div>
@@ -43,7 +43,7 @@ const CaseStudySample = () => {
           <Section>
             <Row className='my-2'>
                 <Title variant="cardBig">Email verification</Title>
-                <Text className="mb-4 mt-4 w-100">The client flagged this screen for editing. I clarified and condensed the copy, suggesting a left-alignment for readability. Following the style guide, I changed copy to sentence case and removed the period after the link (<i>Resend email</i>).</Text>
+                <Text className="mb-4 mt-4 w-100">The client flagged this screen for editing. I clarified and condensed the copy, suggesting a left-alignment for readability. Following the style guide, I changed copy to sentence case and removed the period after the link (<i>Resend email</i>). Cognitive load was reduced by increasing blank space.</Text>
                 <Col>
                     <div>
                         <Title variant="card">Before</Title>
@@ -61,7 +61,7 @@ const CaseStudySample = () => {
           <Section>
             <Row className='my-2'>
                   <Title variant="cardBig">Empty state copy</Title>
-                  <Text className="mb-4 mt-4">I added proactive and positive empty state copy to clarify the purpose of these features and how to utilize them, offering users a clear “next step”.</Text>
+                  <Text className="mb-4 mt-4">I added proactive and positive empty state copy to clarify the purpose of these features and how to utilize them, offering users a clear next step.</Text>
                   <Col>
                     <Title variant="card">Favorites tab</Title>
                     <div>
@@ -110,7 +110,7 @@ const CaseStudySample = () => {
           <Section>
             <Row className='my-2'>
                 <Title variant="cardBig">Contextual help</Title>
-                <Text className="mb-4 mt-4">Astrology is ripe with jargon. Thusly I offered concise copy that quickly and briefly explains the meaning of each term in astrology. 
+                <Text className="mb-4 mt-4">Astrology is ripe with jargon, the antithesis of UX writing best practices. I offered concise copy that quickly and briefly explains the meaning of each term in astrology. 
                 I also included contextual help (<i>Tell me more about Aspects</i>) after usability testing showed users were confused on the meanings of <i>aspects</i> and <i>houses</i>.</Text>
                 <div>
                     <img src={imgPhoto4} alt="" className="img-fluid w-75" />
