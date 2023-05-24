@@ -2,15 +2,13 @@ import axios from "axios";
 
 export const sendEmail = async (data) => {
   try {
-    const response = await axios.post(
-      "https://7bisjwnw7nol2c3dex4arnpei40ixmmp.lambda-url.us-east-1.on.aws/",
-      data,
-      {
-        headers: {
-          "Content-Type": "*/*",
-        },
-      }
-    );
+    const response = await axios({
+      method: "post",
+      headers: { "content-type": "application/json" },
+      url:
+        "https://tryanmg4wsmoauvfzmrud6wphi0wfraf.lambda-url.us-east-1.on.aws/",
+      data: JSON.stringify(data),
+    }); 
 
     if (response.ok) {
       // Request was successful
