@@ -17,7 +17,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
           </Row> 
           <Row>
             <div className="pl-lg-4 pt-5 pt-lg-0">
-              <Title variant="cardSm"><i>"From start to finish, Jaime displayed exceptional talent in crafting copy that was not only informative and accurate but also engaging and easy to understand."</i> - Sean's Legay Client</Title>
+              <Title variant="cardSm"><i>"From start to finish, Jaime displayed exceptional talent in crafting copy that was not only informative and accurate but also engaging and easy to understand."</i> - Sean's Legacy Client</Title>
               <br />
               <Title color="dark" variant="secSm">
                 Hi! I'm Jaime.
@@ -50,7 +50,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
               ... you get the idea!
                 <br />
                 <br />
-                Here are some nice things people have said about me:
+                <b>Here are some nice things people have said about me:</b>
                 <br />
                 <br />
                 <Text><i>"I was particularly impressed with [Jaime's] attention to detail, which was invaluable in standardizing content and microcopy across the product."</i> - Former Team Lead</Text>

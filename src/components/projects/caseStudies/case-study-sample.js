@@ -21,6 +21,24 @@ const CaseStudySample = () => {
     <>
       <Section className="position-relative">
         <Container>
+        <Section>
+            <Row className='my-2'>
+                <Title variant="cardBig">Email verification</Title>
+                <Text className="mb-4 mt-4 w-100">Our client flagged this screen for editing. I clarified and condensed the copy, suggesting a left-alignment for readability. Following the style guide, I changed copy to sentence case and removed the period after the link (<i>Resend email</i>). Cognitive load was reduced by increasing blank space.</Text>
+                <Col>
+                    <div>
+                        <Title variant="card">Before</Title>
+                        <img src={imgPhoto7} alt="" className="img-fluid w-100" />
+                    </div>
+                </Col>
+                <Col>
+                    <div>
+                         <Title variant="card">After</Title>
+                        <img src={imgPhoto8} alt="" className="img-fluid w-100" />
+                    </div>
+                </Col>
+            </Row>
+          </Section>
           <Section>
             <Row className='my-2'>
                 <Title variant="cardBig">Onboarding microcopy</Title>
@@ -36,24 +54,6 @@ const CaseStudySample = () => {
                     <div>
                          <Title variant="card">After</Title>
                         <img src={imgPhoto1} alt="" className="img-fluid w-100" />
-                    </div>
-                </Col>
-            </Row>
-          </Section>
-          <Section>
-            <Row className='my-2'>
-                <Title variant="cardBig">Email verification</Title>
-                <Text className="mb-4 mt-4 w-100">The client flagged this screen for editing. I clarified and condensed the copy, suggesting a left-alignment for readability. Following the style guide, I changed copy to sentence case and removed the period after the link (<i>Resend email</i>). Cognitive load was reduced by increasing blank space.</Text>
-                <Col>
-                    <div>
-                        <Title variant="card">Before</Title>
-                        <img src={imgPhoto7} alt="" className="img-fluid w-100" />
-                    </div>
-                </Col>
-                <Col>
-                    <div>
-                         <Title variant="card">After</Title>
-                        <img src={imgPhoto8} alt="" className="img-fluid w-100" />
                     </div>
                 </Col>
             </Row>
