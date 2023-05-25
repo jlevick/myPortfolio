@@ -53,6 +53,8 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                 <b>Here are some nice things people have said about me:</b>
                 <br />
                 <br />
+                <Text><i>"Jaime effectively conveyed complex ideas in a concise and user-friendly manner, enhancing the platform's usability and creating a seamless experience for mentors and mentees. Her attention to detail, proactive approach, and collaborative spirit were invaluable assets to the project's success."</i> - Former Client</Text>
+                <br />
                 <Text><i>"I was particularly impressed with [Jaime's] attention to detail, which was invaluable in standardizing content and microcopy across the product."</i> - Former Team Lead</Text>
                 <br />
                 <Text><i>"[Jaime's] ability to communicate effectively and present her work with confidence and clarity was admirable, and she always went above and beyond to ensure that her writing was aligned with our organization's goals."</i> - Former Client</Text>
