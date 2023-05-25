@@ -198,7 +198,7 @@ const CaseStudy2Body = () => {
                 </Col>
             </Row>
             <Row className='mt-5'>
-                  <Title variant="cardBig" className='mt-5'>Speaking to Mentors in their own words</Title>
+                  <Title variant="cardBig" className='mt-5'>Speaking to mentors in their own words</Title>
                   <Text className="mt-4 w-100">Just as we did with the word <i>story</i>, we <b>included numerous words and terms that potential mentors used</b> during interviews and moderated usability testing. I met with the UX Research team to go over their findings and share keywords I was seeing from their initial insights. Their team confirmed I was on the right track and helped add a couple more:</Text>
                   <Text className="mb-4 mt-4 w-100">
                         <Text variant="li">Connection</Text>
@@ -212,7 +212,7 @@ const CaseStudy2Body = () => {
                     <img src={imgPhoto15} alt="" className="img-fluid w-100 mt-4" />
             </Row>
             <Row className='mt-5'>
-                  <Title variant="cardBig" className='mt-5'>Reworking content hierarchy and addressing Mentor concerns</Title>
+                  <Title variant="cardBig" className='mt-5'>Reworking content hierarchy and addressing mentor concerns</Title>
                   <Text className="mb-4 mt-4 w-100">
                     Prior to Phase 2 usability testing, and in conjunction with the 2nd Design team, we reimagined the landing page hierarchy and iterated upon an initial FAQ section.
                     We utilized <i>giving back</i> and <i>community</i> in the copy in an effort to speak to mentors directly and <b>crafted questions based on themes from Phase 2 user interviews</b>.
@@ -231,7 +231,7 @@ const CaseStudy2Body = () => {
                       However, Research indicated potential mentors named this as an area of concern and therefore we chose to move forward with including it here.</Text>
             </Row>
             <Row className='mt-4'>
-                  <Title variant="cardBig" className='mt-5'>Addressing Mentor desires for community, resources, and privacy</Title>
+                  <Title variant="cardBig" className='mt-5'>Addressing mentor desires for community, resources, and privacy</Title>
                   <Text className="mt-4 w-100">With the question around mentorship support removed from the FAQ, we focused our efforts on crafting copy for an entire mentor support section. Sean's Legacy's <b><i>Master's of Public Health</i> interns are creating a comprehensive onboarding kit</b>, and <b>our client wanted this reflected within the copy</b>.</Text>
                   <Text className="mt-4 w-100">Potential mentors indicated a desire for community support and resources in general, and we included these needs using <b>uplifting</b>, <b>compassionate language</b>.</Text>
                     <img src={imgPhoto16} alt="" className="img-fluid w-75 mt-4" />
