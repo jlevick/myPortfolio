@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import myPdf from '../../../static/levick_oxner_resume.pdf'
+import myPdf from '../../../static/resume_updated.pdf'
 
 import { Title, Button, Section, Box, Text } from '../../components/Core'
 
