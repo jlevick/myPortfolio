@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
 import { Section, Title, Text, Box, Button } from "../../../components/Core";
 import imgPhoto from "../../../assets/image/png/affinitymap.png";
 import imgPhoto1 from "../../../assets/image/png/voice.png";
@@ -245,12 +244,26 @@ const CaseStudySLVoiceBody = () => {
                   letter-spacing: 1.63px;
                 `}
               >
-               Impact - Challenges - What I Learned
+               Client Feedback - Impact - Challenges - What I Learned
               </Title>
             </Container>
           </Section>
           <Section>
             <Container>
+            <Row className='mt-5'>
+                <div>
+                  <Title variant="cardBig">Client feedback</Title>
+                  <Text className="mb-4 mt-4">
+                  <b><i>Overall, your content strategy embodies our values and goals, providing a strong foundation for our messaging and user experience. Your attention to detail and commitment to creating a supportive and inclusive environment are highly appreciated</i></b>.</Text>
+                  <Row className="justify-content-center align-items-center">
+                    <Box mb="25px" mt="25px">
+                      <a href={'https://www.notion.so/tech-fleet-community-dao/Phase-2-Client-Feedback-ac28abf4a9db4795b746b3158bb80b86'} target="_blank" rel="noopener noreferrer">
+                        <Button variant={"#7155ff"}>Client Feedback</Button>
+                      </a>
+                    </Box>
+                  </Row>
+                </div>
+              </Row>
               <Row className='mt-5'>
                 <div>
                   <Title variant="cardBig">Setting the stage for future designs</Title>
