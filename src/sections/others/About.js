@@ -20,7 +20,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
               <Title variant="cardSm"><i>"From start to finish, Jaime displayed exceptional talent in crafting copy that was not only informative and accurate but also engaging and easy to understand."</i> - Sean's Legacy Client</Title>
               <br />
               <Title color="dark" variant="secSm">
-                Hi! I'm Jaime.
+                Hi there, I'm Jaime.
               </Title>
               <Title color="dark" variant="cardSm">(and that's Cricket in the photo)
               </Title>
@@ -31,7 +31,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                   line-height: .07;
                 `}
               >
-                With a background in anthropology and gender studies, and 10+ years in client-facing roles, I have developed creative problem-solving abilities and an empathetic, curious approach to communication. In 2021 I transitioned into UX design and quickly discovered my love of UX writing. 
+                With a background in anthropology and gender studies and 10+ years in client-facing roles, I have developed creative problem-solving abilities and an empathetic, curious approach to human interaction. In 2020 I transitioned into UX design and quickly discovered my affinity for UX writing. 
                 <br />
                 <br />
                 I excel at analyzing and synthesizing data and using the results to write clear, contextual copy.
@@ -45,6 +45,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                 <li>research</li>
                 <li>snowboarding</li>
                 <li>organization</li>
+                <li>gardening</li>
                 <li>learning to code</li>
                 <li>deep abstract thinking</li>
               ... you get the idea!
