@@ -439,17 +439,7 @@ const Header = ({ isDark }) => {
                       className="nav-link"
                       href="/about"
                     >
-                      about me.
-                    </a>
-                  </li>
-
-                  {/* Open contact modal */}
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      href="/contact"
-                    >
-                      contact.
+                      About me
                     </a>
                   </li>
                 </Menu>

@@ -19,16 +19,11 @@ const Hero = () => {
                   className="text-uppercase"
                   color="heading"
                 >
-                  UX Writer & Designer
+                  UX Writer
                 </Text>
                 <Title variant="Hero">
-                  Enhancing UX through clear copy & modern design.
+                Enhancing UX through clear, concise copy.
                 </Title>
-                <Box mb="102px" mt="52px">
-                  <a href={myPdf} target="_blank" rel="noopener noreferrer">
-                    <Button variant={"#7155ff"}>Download Jaime's resume</Button>
-                  </a>
-                </Box>
               </Box>
             </Col>
           </Row>

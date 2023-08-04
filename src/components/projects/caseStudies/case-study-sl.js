@@ -10,7 +10,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
           <Row>
             <Col lg="6">
               <div>
-                <Title color="light" variant="secSm">
+                {/* <Title color="light" variant="secSm">
                   Duration
                 </Title>
                 <Text
@@ -21,7 +21,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                   `}
                 >
                   2.5 months
-                </Text>
+                </Text> */}
                 <Title color="light" variant="secSm">
                   My Role
                 </Title>
@@ -38,7 +38,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
             </Col>
             <Col lg="6">
               <div>
-                <Title color="light" variant="secSm">
+                {/* <Title color="light" variant="secSm">
                   Tools
                 </Title>
                 <Text
@@ -49,13 +49,13 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                   `}
                 >
                   Figma, FigJam, Notion, Slack, Google Docs, Vowel
-                </Text>
+                </Text> */}
                 <Title color="light" variant="secSm">
                   Project Goal
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  Audit existing content from Phase 1 and create new content to align with Sean Legacy’s standards and values.
+                  Create new content to align with Sean Legacy’s standards and values
                   </Text>
                 </div>
               </div>
@@ -74,7 +74,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  Sean's Legacy is a non-profit dedicated to supporting LGBTQIA+ youth, with a primary focus on suicide prevention. 
+                  Sean's Legacy is a non-profit dedicated to supporting LGBTQIA+ youth, with a primary focus on suicide prevention 
                 </Text>
               </div>
             </Col>
@@ -92,11 +92,18 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  The UX Content Team was new in the project's second phase. We worked closely with Designers, Researchers, and Developers on a 42-person agile team.
-                  Phase 1 focused on researching and designing for the mentee side of the platform. Phase 2 continued with the mentee side and began working on the mentor side of the platform. 
-                  <br />
-                  <br />
-                  How I helped:
+                  Working closely on a 42-person agile team, we focused on designing for both mentee and mentor sides of the platform
+                  </Text>
+              </div>
+              <div>
+              <Title color="light" variant="secSm">How I helped</Title>
+              <Text
+                  color="light"
+                  className="mt-4 mb-5"
+                  css={`
+                    line-height: 0.07;
+                  `}
+                >
                   <li>Audited exisiting designs</li>
                   <li>Developed the initial Voice and Tone and Content Style Guide</li>
                   <li>Worked with Research to understand user needs</li>
@@ -111,32 +118,32 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
       </Section>
       <Container>
         <Row className="pl-4 mt-5">
-          <div className="pt-5">
+          <div className="pt-4">
             <Title variant="cardBig">Challenge</Title>
-              <br />
-              <Title variant="cardSm">Mentees</Title>
             <Text className="mb-4 mt-4">
-              Based on Phase 1 usability testing, potential <b>mentees desire increased clarity in regard to the purpose of the mentorship platform and its safety features</b>. Research indicated a desire for <b>guidance</b>, <b>personalization</b>, and <b>inclusivity</b>.
+              The product voice was not determined, making it difficult to bring personality and a sense of trust to the platform.
             </Text>
-            <Title variant="cardSm">Mentors</Title>
+            <Text className="mb-4 mt-4">
+            <b>Mentees need</b>:
+            <li>increased clarity on the purpose of the mentorship platform and its safety features</li> 
+            <li>guidance, personalization, and inclusivity</li>
+            </Text>
               <Text className="mb-4 mt-4">
-              Based on preliminary findings from Phase 2, potential <b>mentors struggle with imposter syndrome and seek support</b> and <b>resources</b>. Potential mentors also have <b>concerns around safety and privacy</b>.
+            <b>Mentors need:</b>
+              <li>support and resources, as they struggle with imposter syndrome</li>
+              <li>safety and privacy</li>
             </Text>
           </div>
         </Row>
         <Row className="pl-4">
           <div className="pt-5">
             <Title variant="cardBig">Solution</Title>
-            <Text className="mb-4 mt-4">
-            As the content team was new in this phase, copy and content were not yet standardized. The product voice was not determined, making it difficult to bring personality and a sense of trust to the platform. 
-            <br /> Our solution was to <b>clarify safety and privacy features while offering supportive, user-appropriate language</b>.
-            <br />
-            <br />
-            <i>Please note not all copy has been updated in the below prototypes.</i>
+            <Text className="mb-4 mt-4"> 
+            Develop voice and tone, clarify copy for safety and privacy features, and offer supportive, user-appropriate language.
             </Text>
           </div>
         </Row>
-        <Container>
+        {/* <Container>
         <Row className="pl-4 mt-5 justify-content-center">
           <div className="pt-lg-0">
             <a
@@ -150,8 +157,8 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
             </a>
           </div>
         </Row>
-      </Container>
-      <Container>
+      </Container> */}
+      {/* <Container>
         <Row className="pl-4 mt-5 justify-content-center">
           <div className="pt-lg-0">
             <a
@@ -165,7 +172,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
             </a>
           </div>
         </Row>
-      </Container>
+      </Container> */}
       </Container>
     </>
   );

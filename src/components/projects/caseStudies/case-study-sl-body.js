@@ -52,27 +52,27 @@ const CaseStudy2Body = () => {
           <Section>
             <Row className="mt-3">
               <div>
-                <Title variant="cardBig">Understanding Phase 1 designs</Title>
+                <Title variant="cardBig">Understanding existing designs</Title>
                 <Text className="mb-5 mt-4">
-                    We began our first sprint by auditing Phase 1 designs. Our findings were similiar to those reported by potential mentees: <b>the platform lacked clarity overall</b>.
+                  Audit findings reflected those reported by mentees: <b>the platform lacked clarity overall</b>.
                 </Text>
                   <Row className="mt-5">
                       <Col>
                         <Title variant="card">Increase clarity to build trust</Title>
-                        <Text>This screen did not indicate mentors choose mentees back, which may come as a surprise. A potential area where users may lose trust.</Text>
+                        <Text>There is no indication mentors choose mentees back, which may come as a surprise and a potential area where mentee's may lose trust.</Text>
                         <img src={imgPhoto} alt="" className="img-fluid w-100" />
                       </Col>
                       <Col>
                         <Title variant="card">Increase user-control</Title>
-                        <Text>It's important to offer choice. What happens next? Do users create a profile, take a quiz, browse mentors? We can offer more clarity.</Text>
+                        <Text>It's important to offer choice. What happens next? Do users create a profile, take a quiz, browse mentors? Let's tell them.</Text>
                         <img src={imgPhoto1} alt="" className="img-fluid w-100" />
                       </Col>
                   </Row>
                 <Text className="mb-4 mt-4">
-                    Following our newly developed Content Style Guide, we wrote our copy to be <b>clear, consistent, inclusive, uplifting, ethical, respectful, approachable, and compassionate</b> (think "<i>Cool Guidance Counselor</i>").
+                    Following our newly developed Content Style Guide, copy was written to be <b>clear, consistent, inclusive, uplifting, ethical, respectful, approachable, and compassionate</b> (think "<i>Cool Guidance Counselor</i>").
                 </Text>
-                <Text className="mb-4 mt-4">We used <b>casual</b>, <b>informal language</b> based on our user's age range (18-25 for mentees), their desire for inclusivity, and for overall readability; this included the use of <b>sentence case</b> (aside from proper nouns which we determined would use title case).</Text>
-                <Text className="mb-4 mt-4">We <b>never use gendered language</b>, and we use the <b>oxford comma</b> because our client loves it and it offers additional clarity.</Text>
+                <Text className="mb-4 mt-4"><b>Casual</b>, <b>informal language</b> was used based on mentee's age range (18-25), their desire for inclusivity, and for overall readability; this included the use of <b>sentence case</b> (aside from proper nouns which we determined would use title case).</Text>
+                <Text className="mb-4 mt-4">We <b>never use gendered language</b>, and always use the <b>oxford comma</b> because our client loves it and it offers additional clarity.</Text>
               </div>
             </Row>
             <Row className="pl-4 mt-5 justify-content-center">
@@ -84,7 +84,7 @@ const CaseStudy2Body = () => {
                 "https://jaimelox.com/slvoice/"
               }
             >
-              <Button variant={"#7155ff"}>Learn more about our Voice and Tone</Button>
+              <Button variant={"#7155ff"}>More on Voice and Tone</Button>
             </a>
           </div>
         </Row>
