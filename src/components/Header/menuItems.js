@@ -1,7 +1,7 @@
 export const menuItems = [
          {
            name: "my-work",
-           label: "my work.",
+           label: "my work",
            items: [
              // case studies below
              { name: "seans-legacy", label: "sean's legacy" },

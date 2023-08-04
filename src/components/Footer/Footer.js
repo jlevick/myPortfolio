@@ -26,7 +26,7 @@ const Footer = ({ isDark = true }) => {
                 letter-spacing: 1.63px;
               `}
             >
-            Built with love and Gatsby © Jaime Levick-Oxner 2023
+            Built with love, patience, and Gatsby © Jaime Levick-Oxner 2023
             </Title>
           </div>
         </Container>
