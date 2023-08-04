@@ -12,7 +12,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
         <Container>
           <Row className="justify-content-center align-items-center py-5">
               <div className='w-50'>
-                <img src={imgPhoto} alt="folio" className="img-fluid" />
+                <img src={imgPhoto} alt="Photo of Jaime holding a dog" aria-label='Photo of Jaime smiling and holding a boston terrier dog' className="img-fluid" />
               </div>
           </Row> 
           <Row>
