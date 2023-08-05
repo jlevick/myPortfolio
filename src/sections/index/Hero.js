@@ -11,7 +11,7 @@ const Hero = () => {
       <Section hero className="position-relative">
         <Container>
           <Row className="align-items-center">
-            <Col lg="11" className="mb-5 mt-5">
+            <Col lg="13" className="mb-5 mt-5">
               <Box mt="92px">
                 <Text
                   variant="tag"
@@ -22,7 +22,7 @@ const Hero = () => {
                   UX Writer
                 </Text>
                 <Title variant="Hero">
-                Enhancing UX through clear, concise copy.
+                Intuitive copy to empower humans.
                 </Title>
               </Box>
             </Col>
