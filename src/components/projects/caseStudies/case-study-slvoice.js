@@ -12,18 +12,6 @@ const CaseStudySLVoice = ({ hero = true, bg = "dark", ...rest }) => {
             <Col lg="6">
               <div>
                 <Title color="light" variant="secSm">
-                  Duration
-                </Title>
-                <Text
-                  color="light"
-                  className="mt-4 mb-5"
-                  css={`
-                    line-height: 0.07;
-                  `}
-                >
-                  2.5 months
-                </Text>
-                <Title color="light" variant="secSm">
                   My Role
                 </Title>
                 <Text
@@ -39,18 +27,6 @@ const CaseStudySLVoice = ({ hero = true, bg = "dark", ...rest }) => {
             </Col>
             <Col lg="6">
               <div>
-                <Title color="light" variant="secSm">
-                  Tools
-                </Title>
-                <Text
-                  color="light"
-                  className="mt-4 mb-5"
-                  css={`
-                    line-height: 0.07;
-                  `}
-                >
-                  Notion, FigJam, Google Docs
-                </Text>
                 <Title color="light" variant="secSm">
                   Project Goal
                 </Title>
@@ -93,7 +69,7 @@ const CaseStudySLVoice = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                 A dedicated UX Content Team was new in the project's second phase. No voice and tone guidelines existed, however data was available from user interviews and usability testing. I was fortunate to head the task of developing voice and tone for the platform. Our team of 3 UX Writers created the initial Content Style Guide for the project.
+                 A dedicated UX Content Team was new in the project's second phase. No voice and tone guidelines existed, however data was available from user interviews and usability testing. Our team of 3 UX Writers created the initial Content Style Guide for the project.
                 </Text>
               </div>
             </Col>

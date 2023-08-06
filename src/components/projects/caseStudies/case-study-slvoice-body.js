@@ -286,7 +286,7 @@ const CaseStudySLVoiceBody = () => {
               <Row className='mt-5'>
                 <div>
                 <Title variant="cardBig">Final thoughts</Title>
-                  <Text className="mb-4 mt-4">Taking the lead on the platform's Voice and Tone was a gift, and I'd like to thank my teammates Dana and Bo for allowing me the opportunity. Our team played a key role in the future of the Sean's Legacy Mentorship platform by initiating a way of standardizing all copy and content, and determining a unique voice that speaks directly to our audience.</Text>
+                  <Text className="mb-4 mt-4">My contributions played a key role in the future of the Sean's Legacy Mentorship platform by initiating a way of standardizing all copy and content, and determining a unique voice that speaks directly to our audience.</Text>
                 </div>
               </Row>
             </Container>
