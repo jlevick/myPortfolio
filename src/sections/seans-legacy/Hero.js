@@ -55,7 +55,7 @@ const Hero = () => {
             >
               UX Writing
             </Title>
-            <Title variant="hero" mb="1.5rem">
+            <Title variant="secSm" mb="1.5rem">
               Sean's Legacy Mentorship Platform
             </Title>
               <p>A professional mentorship program providing LGBTQIA+ young adults a safe space to seek career guidance and form long-lasting professional relationships.</p>

@@ -55,7 +55,7 @@ const Hero = () => {
             >
               UX
             </Title>
-            <Title variant="hero" mb="1.5rem">
+            <Title variant="secSm" mb="1.5rem">
               Aspect
             </Title>
             <p>

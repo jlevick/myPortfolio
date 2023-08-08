@@ -12,18 +12,6 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
             <Col lg="6">
               <div className="pl-4 pl-lg-4">
                 <Title color="light" variant="secSm">
-                  Duration
-                </Title>
-                <Text
-                  color="light"
-                  className="mt-4 mb-5"
-                  css={`
-                    line-height: 0.07;
-                  `}
-                >
-                  6 months
-                </Text>
-                <Title color="light" variant="secSm">
                   My Role
                 </Title>
                 <Text
@@ -39,25 +27,7 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
             </Col>
             <Col lg="6">
               <div className="pl-4 pl-lg-4">
-                <Title color="light" variant="secSm">
-                  Tools
-                </Title>
-                <Text
-                  color="light"
-                  className="mt-4 mb-5"
-                  css={`
-                    line-height: 0.07;
-                  `}
-                >
-                  Figma, Miro, UsabilityHub, Optimal Workshop
-                </Text>
-                <Title color="light" variant="secSm">
-                  Type
-                </Title>
                 <div className="mt-4 mb-5">
-                  <Text color="light">
-                    Independent Project for CareerFoundry's UX Immersive
-                  </Text>
                 </div>
                 <div className="mt-4 mb-5"></div>
                 <Text color="light" className="mt-3 font-weight-bold"></Text>

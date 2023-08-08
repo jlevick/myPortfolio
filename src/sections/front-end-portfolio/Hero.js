@@ -57,7 +57,7 @@ const Hero = () => {
             >
               Web Dev
             </Title>
-            <Title variant="hero" mb="1.5rem">
+            <Title variant="secSm" mb="1.5rem">
               Front-End Portfolio
             </Title>
             <p>
