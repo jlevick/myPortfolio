@@ -22,7 +22,7 @@ const Hero = () => {
                 UX Writer
                 </Text>
                 <Title variant="Hero">
-                Empowering users, one word at a time. 
+                Empowering people, one word at a time. 
                 </Title>
               </Box>
             </Col>
