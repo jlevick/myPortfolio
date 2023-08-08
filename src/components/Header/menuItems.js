@@ -4,7 +4,7 @@ export const menuItems = [
            label: "my work",
            items: [
              // case studies below
-             { name: "seanslegacy", label: "mentorship platform" },
+             { name: "seans-legacy", label: "mentorship platform" },
              { name: "slvoice", label: "voice and tone" },
              { name: "samples", label: "ux writing samples" },
              { name: "aspect", label: "astrology app" },
