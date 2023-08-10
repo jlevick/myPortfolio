@@ -30,10 +30,10 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
               How I can help
             </Title>
               <Text className="mt-2 mb-5">
-                <li><b>UX writing</b>: combining different data sets to write clear, consistent, and contextual copy</li>
-                <li><b>Content design</b>: offering what users need when and where they need it with a user-first approach</li>
+                <li><b>UX writing</b>: combining different data sets to write clear, consistent, concise, and contextual copy</li>
+                <li><b>Content design</b>: offering what users need when and where they expect it with a user-first approach</li>
                 <li><b>Accessibility advocacy</b>: ensuring content is available to <i>everyone</i> and educating teams on why accessibility matters</li>
-                <li><b>Software development life cycle</b>: confident making basic changes in a complex codebase and experienced in Git</li>
+                <li><b>Software development lifecycle</b>: confident making basic changes in a complex codebase and experienced in Git</li>
               </Text>
               <Title
               variant="card"
