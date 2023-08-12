@@ -27,13 +27,13 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                 letter-spacing: 1.63px;
               `}
             >
-              How I can help
+              How I can contribute
             </Title>
               <Text className="mt-2 mb-5">
-                <li><b>UX writing</b>: combining different data sets to write clear, consistent, concise, and contextual copy</li>
-                <li><b>Content design</b>: offering what users need when and where they expect it with a user-first approach</li>
+                <li><b>UX writing</b>: combining data sets to write clear, consistent, and concise copy</li>
+                <li><b>Content design</b>: offering what users need when and where they expect it with a user-centered approach</li>
                 <li><b>Accessibility advocacy</b>: ensuring content is available to <i>everyone</i> and educating teams on why accessibility matters</li>
-                <li><b>Software development lifecycle</b>: confident making basic changes in a complex codebase and experienced in Git</li>
+                <li><b>Software development</b>: making changes in complex codebases and creating relevant pull requests</li>
               </Text>
               <Title
               variant="card"
@@ -44,7 +44,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                 letter-spacing: 1.63px;
               `}
             >
-              Nice things people have said about working with me
+              What others say about me
             </Title>
               <Text><i>"From start to finish, Jaime displayed exceptional talent in crafting copy that was not only informative and accurate but also engaging and easy to understand."</i> - Former Client</Text>
               <br />
