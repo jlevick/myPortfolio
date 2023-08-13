@@ -7,8 +7,6 @@ import imgPhoto1 from "../../../assets/image/png/audit2.png";
 import imgPhoto2 from "../../../assets/image/png/landingbefore.png";
 import imgPhoto3 from "../../../assets/image/png/landingafter.png";
 import imgPhoto4 from "../../../assets/image/png/menteebenefits.png";
-import imgPhoto5 from "../../../assets/image/png/safetybefore.png";
-import imgPhoto6 from "../../../assets/image/png/safetyafter.png";
 import imgPhoto7 from "../../../assets/image/png/programgoalsbefore.png";
 import imgPhoto8 from "../../../assets/image/png/programgoalsafter.png";
 import imgPhoto9 from "../../../assets/image/png/reasoning.png";
@@ -54,7 +52,7 @@ const CaseStudy2Body = () => {
               <div>
                 <Title variant="cardBig">Understanding existing designs</Title>
                 <Text className="mb-5 mt-4">
-                  Audit findings reflected those reported by mentees: <b>the platform lacked clarity overall</b>.
+                    Our audit findings reflected those reported by mentees: <b>the platform lacked clarity overall</b>.
                 </Text>
                   <Row className="mt-5">
                       <Col>
@@ -84,7 +82,7 @@ const CaseStudy2Body = () => {
                 "https://jaimelox.com/slvoice/"
               }
             >
-              <Button variant={"#7155ff"}>More on Voice and Tone</Button>
+              <Button variant={"#7155ff"}>Learn more about our Voice and Tone</Button>
             </a>
           </div>
         </Row>
@@ -140,25 +138,6 @@ const CaseStudy2Body = () => {
                   <Text className="mb-4 mt-4">Before handing off suggestions to the Design team, we reworked content in a dedicated UXW Copy Iterating Figma file. Here you can see my recommendations, which were iterated upon in the final version.</Text>
                   <img src={imgPhoto9} alt="" className="img-fluid w-100" />
               </div>
-            </Row>
-            <Row className='mt-5'>
-                  <Title variant="cardBig" className='mt-5'>Clarifying jargon, increasing understanding, building trust</Title>
-                  <Text className="mb-4 mt-4 w-100">One <b>major area of confusion</b> during Phase 1 usability testing was <b>around the phrase <i>Whisper Technology</i></b>. The designer I worked with on this page was unsure if our client wanted to keep that specific phrasing, so I reached out to Sean's Legacy's internal content team to inquire. With their input we crafted new copy, changing <i>Whisper technology</i> to <i>Customizable privacy settings</i>, and changing <i>DM's</i> to <i>messaging feature</i> for increased understanding.
-                  <br /> 
-                  <br /> Through our initial audit we realized all copy could be edited for concision and further clarity. <b>Only mentors complete a background check</b>, and <b>this title read as though mentees must also undergo a background check.</b></Text>
-                <Col className='mt-5'>
-                  <Title variant="card">Before</Title>
-                  <img src={imgPhoto5} alt="" className="img-fluid w-100" />
-                </Col>
-                <Col className='mt-5'>
-                  <Title variant="card">After</Title>
-                  <img src={imgPhoto6} alt="" className="img-fluid w-100" />
-                </Col>
-            </Row>
-            <Row className='mt-5'>
-                <div>
-                  <Text className="mb-4 mt-4"><i>Safe end-to-end encrypted chats</i> was simplified to <i>Secure communications</i>, with the meaning of "end-to-end encrypted chats" clearly explained in the copy. The <i>Mentee verification</i> title and copy were added when our client decided to move forward with 2-factor authorization in order to increase safety.</Text>
-                </div>
             </Row>
             <Row className='mt-5'>
                   <Title variant="cardBig">Balancing needs of our client and our users</Title>

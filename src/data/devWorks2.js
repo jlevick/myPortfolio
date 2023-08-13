@@ -1,7 +1,7 @@
 import imgT2 from '../assets/image/png/frontend.png'
 import imgT3 from '../assets/image/png/sl.png'
 import imgPhoto from "../assets/image/png/aspectindex.png"
-import imgPhoto1 from "../assets/image/png/samples.png"
+import imgPhoto1 from "../assets/image/png/jargon.png"
 import imgPhoto2 from "../assets/image/png/indexvoice.png";
 
 
@@ -15,20 +15,20 @@ const devWorks2 = [
     link: '/seans-legacy',
   },
   {
-    brand: `Voice and Tone Guidelines`,
+    brand: `Voice and Tone Development`,
     slug: `voiceandtone`,
-    title: `contentstyleguide`,
+    title: `voiceandtone`,
     categories: [`uxwriting`],
     thumbnail: imgPhoto2,
     link: '/slvoice',
   },
   {
-    brand: `Writing Samples`,
-    slug: `writingsamples`,
-    title: `ux writing samples`,
+    brand: `Clarifying Jargon`,
+    slug: `jargon`,
+    title: `Clarifying Jargon`,
     categories: [`uxwriting`],
     thumbnail: imgPhoto1,
-    link: '/samples',
+    link: '/jargon',
   },
   {
     brand: `Aspect Astrology App`,
