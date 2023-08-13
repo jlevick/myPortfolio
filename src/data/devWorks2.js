@@ -1,8 +1,9 @@
-import imgT2 from '../assets/image/png/frontend.png'
-import imgT3 from '../assets/image/png/sl.png'
-import imgPhoto from "../assets/image/png/aspectindex.png"
-import imgPhoto1 from "../assets/image/png/jargon.png"
+import imgT2 from '../assets/image/png/frontend.png';
+import imgT3 from '../assets/image/png/sl.png';
+import imgPhoto from "../assets/image/png/aspectindex.png";
+import imgPhoto1 from "../assets/image/png/jargon.png";
 import imgPhoto2 from "../assets/image/png/indexvoice.png";
+import imgPhoto3 from "../assets/image/png/ethics.png";
 
 
 const devWorks2 = [
@@ -29,6 +30,14 @@ const devWorks2 = [
     categories: [`uxwriting`],
     thumbnail: imgPhoto1,
     link: '/jargon',
+  },
+  {
+    brand: `Ethical Copywriting`,
+    slug: `ethical`,
+    title: `ux writing`,
+    categories: [`uxwriting`],
+    thumbnail: imgPhoto3,
+    link: '/ethical',
   },
   {
     brand: `Aspect Astrology App`,
