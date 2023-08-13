@@ -26,9 +26,8 @@ const EthicalBody = () => {
             <Row className='mt-5'>
                 <div>
                     <Title variant="cardBig"> <i>Quiz</i> connotes a score</Title>
-                        <Text className="mb-4 mt-4">Research shows <b>standardized testing has a negative impact on mental health</b>. As the Sean's Legacy Mentorship platform is based around connecting mentees to mentors, a <i>Mentorship Match Quiz</i> feature was established. There was discussion on how <i>Quiz</i> might leave mentees with <b>unintended stress or anxiety</b>, and how it wasn't the appropriate term anyway as there is no scoring at the end.
-                        <br />
-                        <br /> I initially offered <i>Survey</i> as a benign word choice that was short and easy to type, but ultimately the Design and our Content teams decided to move forward with <b><i>Questionnaire</i></b>.</Text>
+                        <Text className="mb-4 mt-4">Research shows <b>standardized testing has a negative impact on mental health</b>. As the Sean's Legacy Mentorship platform is based around connecting mentees to mentors, a <i>Mentorship Match Quiz</i> feature was requested. There was discussion on how <i>Quiz</i> might leave mentees with <b>unintended stress or anxiety</b>.
+                        <br /> I initially offered <i>Survey</i> as a benign word choice that was short and easy to type, but ultimately the team chose to move forward with <b><i>Questionnaire</i></b>.</Text>
                 </div>
                 <Col>
                     <div>

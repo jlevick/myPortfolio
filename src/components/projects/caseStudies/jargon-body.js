@@ -25,8 +25,8 @@ const JargonBody = () => {
             <Row className='mt-5'>
                 <div>
                   <Text className="mb-4 mt-4">Only mentors complete a background check, and existing copy made it sound as though mentees must also undergo a background check, so copy was adjusted to best reflect this.</Text>
-                  <Text className="mb-4 mt-4"><i>Sfe end-to-end encrypted chats</i> was simplified to <i>Secure communications</i>, with the meaning of "end-to-end encrypted chats" clearly explained in the copy.</Text>
-                  <Text className="mb-4 mt-4">The <i>Mentee verification</i> title and copy were added when our client decided to move forward with 2-factor authorization in order to increase safety</Text>
+                  <Text className="mb-4 mt-4"><i>Safe end-to-end encrypted chats</i> was simplified to <i>Secure communications</i>, with the meaning of "end-to-end encrypted chats" clearly explained in the copy.</Text>
+                  <Text className="mb-4 mt-4">The <i>Mentee verification</i> title and copy were added when our client decided to move forward with 2-factor authorization in order to increase safety.</Text>
                 </div>
             </Row>
           </Section>
