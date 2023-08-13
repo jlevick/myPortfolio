@@ -47,7 +47,7 @@ const Hero = () => {
               UX Writing
             </Title>
             <Title variant="secSm" mb="1.5rem">
-              Voice and Tone Guidelines
+              Voice and Tone Development
             </Title>
             <p>
               for the Sean's Legacy Mentorship Platform

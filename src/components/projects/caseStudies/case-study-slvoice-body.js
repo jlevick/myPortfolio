@@ -19,25 +19,6 @@ const CaseStudySLVoiceBody = () => {
     <>
       <Section className="position-relative">
         <Container>
-          {/* <Section hero={true} bg={"dark"} className="px-5">
-            <Container className="pb-3">
-              <Title color="light" variant="secSm">
-                Defining Product Voice
-              </Title>
-              <Title
-                color="light"
-                variant="card"
-                mb="2.5rem"
-                fontSize="1rem"
-                className="text-uppercase"
-                css={`
-                  letter-spacing: 1.63px;
-                `}
-              >
-                Content Audit - Discovery - Voice and Tone 
-              </Title>
-            </Container>
-          </Section> */}
           <Section>
             <Row className="mt-4">
               <div>
@@ -108,107 +89,6 @@ const CaseStudySLVoiceBody = () => {
                 </div>
             </Row>
           </Section>
-          {/* <Section hero={true} bg={"dark"} className="px-5">
-            <Container className="pb-3">
-              <Title color="light" variant="secSm">
-                Standardizing Copy
-              </Title>
-              <Title
-                color="light"
-                variant="card"
-                mb="2.5rem"
-                fontSize="1rem"
-                className="text-uppercase"
-                css={`
-                  letter-spacing: 1.63px;
-                `}
-              >
-                Content Style Guide - Trauma Informed Language 
-              </Title>
-            </Container>
-          </Section>
-          <Section>
-            <Row className='mt-4'>
-                <div>
-                  <Title variant="cardBig">A trauma-informed approach to communication</Title>
-                  <Text className="mb-4 mt-4">As our designers began building out new features we discovered <b>additional langauge in need of clarification</b>, as members of the LGBTQIA+ community experience a high rate of ongoing traumas.</Text>
-                  <Text className="mb-4 mt-4"><b>Using language that mitigates triggers is essential</b>, and 3 distinct phrases stood out:
-                  <Text variant="li">Quiz</Text>
-                  <Text variant="li">Support needed</Text>
-                  <Text variant="li">Preferred name or Name</Text></Text>
-                </div>
-                <Row className='mt-5'>
-                <div>
-                    <Title variant="cardBig"> <i>Quiz</i> connotes a score</Title>
-                    <Text className="mb-4 mt-4">Research shows <b>standardized testing has a negative impact on mental health</b>. As the Sean's Legacy Mentorship platform is based around connecting mentees to mentors, a <i>Mentorship Match Quiz</i> feature was established. There was discussion on how <i>Quiz</i> might leave mentees with <b>unintended stress or anxiety</b>, and how it wasn't the appropriate term anyway as there is no scoring at the end.
-                    <br />
-                    <br /> I initially offered <i>Survey</i> as a benign word choice that was short and easy to type, but ultimately the Design and our Content teams decided to move forward with <b><i>Questionnaire</i></b>.</Text>
-                </div>
-                <Col>
-                    <div>
-                        <Title variant="card">Before: quiz</Title>
-                        <img src={imgPhoto6} alt="" className="img-fluid w-100 mb-4" />
-                    </div>
-                </Col>
-                <Col>
-                    <div>
-                         <Title variant="card">After: questionnaire</Title>
-                        <img src={imgPhoto7} alt="" className="img-fluid w-100 mb-4" />
-                    </div>
-                </Col>
-              </Row>
-              <Row className='mt-5'>
-                <div>
-                    <br />
-                    <Title variant="cardBig"> <i>Support needed</i> offers the wrong impression</Title>
-                    <Text className="mb-4 mt-4">While our voice persona is the <i>cool guidance counselor</i>, the platform itself is not meant for counseling or therapy, but for professional career mentorship. 
-                    <br /><b>Focus area</b> was more true to the purpose of the platform and made more sense given the options (a focus on early career rather than support in early career).</Text>
-                </div>
-                <Col>
-                    <div>
-                        <Title variant="card">Before: support</Title>
-                        <img src={imgPhoto8} alt="" className="img-fluid w-100" />
-                    </div>
-                </Col>
-                <Col>
-                    <div>
-                         <Title variant="card">After: focus</Title>
-                        <img src={imgPhoto9} alt="" className="img-fluid w-100  mb-4" />
-                    </div>
-                </Col>
-              </Row>
-              <Row className='mt-5'>
-              <div>
-                    <br />
-                    <Title variant="cardBig"> <i>Preferred name</i> implies a name is not <i>real</i></Title>
-                    <Text className="mb-4 mt-4">Because the platform is built for the LGBTQIA+ community, <b>names</b>, <b>pronouns</b>, and <b>individual agency are significant</b>. Trans and non-binary folks may have a different name than was given to them at birth. Asking for someone's legal name may bring about unintended pain, and asking for someone's preferred name may come across as disrespectful.
-                    <br />In an effort to be inclusive, avoid deadnaming, and offer personal autonomy, I suggested using <b>Chosen name</b>.</Text>
-                    <Title variant="card">Chosen name</Title>
-                        <img src={imgPhoto10} alt="" className="img-fluid w-50  mb-4" />
-                    <Text className="mb-4 mt-4">To our delight, <i>Chosen name</i> was mentioned as copy that potential mentors liked during Phase 2 usability testing.</Text>
-                </div>
-              </Row>
-            </Row> 
-          </Section> */}
-          {/* <Section hero={true} bg={"dark"}>
-            <Container className="pb-3">
-              <Title color="light" variant="secSm">
-                Outcomes
-              </Title>
-              <Title
-                color="light"
-                variant="card"
-                mb="2.5rem"
-                fontSize="1rem"
-                className="text-uppercase"
-                css={`
-                  letter-spacing: 1.63px;
-                `}
-              >
-               Client Feedback - Impact
-              </Title>
-            </Container>
-          </Section> */}
           <Section>
             <Container>
             <Row className='mt-4'>
