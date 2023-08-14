@@ -4,10 +4,10 @@ export const menuItems = [
            label: "my work",
            items: [
              // case studies below
-             { name: "seans-legacy", label: "mentorship platform" },
              { name: "slvoice", label: "voice and tone" },
              { name: "jargon", label: "clarifying jargon" },
-             { name: "ethical", label: "ethical copywriting" },
+             { name: "user", label: "user-centered copy" },
+             { name: "seans-legacy", label: "mentorship platform" },
              { name: "aspect", label: "astrology app" },
              { name: "front-end-portfolio", label: "front end portfolio" },
            ],

@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Section, Title, Text, Button } from "../../../components/Core";
+import { Section, Title, Text, Button } from "../../Core";
 
-const Ethical = ({ hero = true, bg = "dark", ...rest }) => {
+const User = ({ hero = true, bg = "dark", ...rest }) => {
   return (
     <>
       <Section hero={hero} bg={bg} {...rest}>
@@ -20,7 +20,7 @@ const Ethical = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  The LGBTQIA+ community experiences a high rate of ongoing traumas and using language that mitigates triggers is essential.
+                  The Sean's Legacy Mentorship platform needs to attract mentors in order to offer a successful product.
                 </Text>
               </div>
             </Col>
@@ -31,7 +31,7 @@ const Ethical = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  Offer a trauma-informed approach to language.
+                  Offer language mentors already align with in order to personalize their experience and increase sign-ups.
                   </Text>
                 </div>
               </div>
@@ -43,7 +43,7 @@ const Ethical = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  More inclusive copy that resonated with both users and the client.
+                  Copy that resonates with mentors and eases concerns, and one word that didn't...
                   </Text>
                 </div>
               </div>
@@ -67,4 +67,4 @@ const Ethical = ({ hero = true, bg = "dark", ...rest }) => {
   );
 };
 
-export default Ethical;
+export default User;

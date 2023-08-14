@@ -3,18 +3,10 @@ import imgT3 from '../assets/image/png/sl.png';
 import imgPhoto from "../assets/image/png/aspectindex.png";
 import imgPhoto1 from "../assets/image/png/jargon.png";
 import imgPhoto2 from "../assets/image/png/indexvoice.png";
-import imgPhoto3 from "../assets/image/png/ethics.png";
+import imgPhoto3 from "../assets/image/png/benefits.png";
 
 
 const devWorks2 = [
-  {
-    brand: `Sean's Legacy Mentorship Platform`,
-    slug: `seanslegacycontentdesign`,
-    title: `ux writing`,
-    categories: [`uxwriting`],
-    thumbnail: imgT3,
-    link: '/seans-legacy',
-  },
   {
     brand: `Voice and Tone Development`,
     slug: `voiceandtone`,
@@ -32,12 +24,20 @@ const devWorks2 = [
     link: '/jargon',
   },
   {
-    brand: `Ethical Copywriting`,
-    slug: `ethical`,
+    brand: `User-Centered Copy`,
+    slug: `user`,
+    title: `ux writing`,
+    categories: [`uxwriting`],
+    thumbnail: imgT3,
+    link: '/user',
+  },
+  {
+    brand: `Sean's Legacy Mentorship Platform`,
+    slug: `seanslegacycontentdesign`,
     title: `ux writing`,
     categories: [`uxwriting`],
     thumbnail: imgPhoto3,
-    link: '/ethical',
+    link: '/seans-legacy',
   },
   {
     brand: `Aspect Astrology App`,

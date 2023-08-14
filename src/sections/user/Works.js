@@ -43,7 +43,7 @@ const Works = () => {
       {/* <!-- Works Area --> */}
       <Section className="position-relative">
         <Container>
-          <Title variant="cardBig" className=" text-center mb-5 mt-4">Want to see more?</Title>
+          <Title variant="cardBig" className=" text-center mb-5 mt-4">Want to learn more?</Title>
           <Grid>
             {items.map((item, index) => (
               <Col

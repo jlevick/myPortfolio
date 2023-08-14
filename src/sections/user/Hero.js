@@ -56,9 +56,9 @@ const Hero = () => {
               UX Writing
             </Title>
             <Title variant="secSm" mb="1.5rem">
-              Ethical Copywriting
+              User-Centered Copy
             </Title>
-              <p>for the Sean's Legacy Mentorship platform</p>
+              <p>speaking to Sean's Legacy mentors in their own words</p>
           </Box>
         </Container>
       </SectionStyled>

@@ -11,14 +11,6 @@ import imgPhoto7 from "../../../assets/image/png/programgoalsbefore.png";
 import imgPhoto8 from "../../../assets/image/png/programgoalsafter.png";
 import imgPhoto9 from "../../../assets/image/png/reasoning.png";
 import imgPhoto10 from "../../../assets/image/png/reasoning2.png";
-import imgPhoto11 from "../../../assets/image/png/questions.png";
-import imgPhoto12 from "../../../assets/image/png/menteeprofile.png";
-import imgPhoto13 from "../../../assets/image/png/faqbefore.png";
-import imgPhoto14 from "../../../assets/image/png/faqafter.png";
-import imgPhoto15 from "../../../assets/image/png/words.png";
-import imgPhoto16 from "../../../assets/image/png/mentorsupport.png";
-import imgPhoto17 from "../../../assets/image/png/beforechecklist.png";
-import imgPhoto18 from "../../../assets/image/png/checklist.png";
 import imgPhoto19 from "../../../assets/image/png/background.png";
 import imgPhoto20 from "../../../assets/image/png/wordcloud.png";
 
@@ -158,109 +150,6 @@ const CaseStudy2Body = () => {
                   <img src={imgPhoto10} alt="" className="img-fluid w-100" />
               </div>
             </Row>
-            <Row className='mt-5'>
-                  <Title variant="cardBig" className='mt-5'>Offering guidance and personal autonomy</Title>
-                  <Text className="mb-4 mt-4 w-100">Researchers from Phase 1 suggested <b>pre-filled examples </b>for write-in text fields as well as more <b>specific writing prompts</b>. As this is an area where users may drop off due to uncertainty, confusion, or even annoyance, we knew it was important to offer guidance.
-                    <br />
-                    <br />
-                    Initial Phase 2 user interview findings seemed to indicate some mentors specifically used the word <i>story</i> when referring to learning more about their mentee. ADPList, another mentorship platform, also uses this language (<i>"Tell us your origin story", and "Everyone has a story, what's yours?"</i>).</Text>
-                    <Text className="mb-4 mt-4 w-100">We <b>hypothesized utilizing the word <i>story</i></b> would be <b>easily understandable, familiar, and speak directly to our users in their own words</b> (you will find moderated usability test results around this in the 03 Testing section).</Text>
-                <Col className='mt-5'>
-                  <Title variant="card">Guided prompts to help users complete their profile</Title>
-                  <Text className="mb-4 mt-4 w-100">We broke down the questions in to bite-sized sections and combined responses into the <i>About</i> section.</Text>
-                  <img src={imgPhoto11} alt="" className="img-fluid w-100" />
-                </Col>
-                <Col className='mt-5'>
-                  <Title variant="card">Offering choice, guidance, and inclusivity</Title>
-                  <Text className="mb-4 mt-4 w-100">Both Mentees and Mentors have the option to share their info, increasing privacy and autonomy.</Text>
-                  <img src={imgPhoto12} alt="" className="img-fluid w-100" />
-                </Col>
-            </Row>
-            <Row className='mt-5'>
-                  <Title variant="cardBig" className='mt-5'>Speaking to mentors in their own words</Title>
-                  <Text className="mt-4 w-100">Just as we did with the word <i>story</i>, we <b>included numerous words and terms that potential mentors used</b> during interviews and moderated usability testing. I met with the UX Research team to go over their findings and share keywords I was seeing from their initial insights. Their team confirmed I was on the right track and helped add a couple more:</Text>
-                  <Text className="mb-4 mt-4 w-100">
-                        <Text variant="li">Connection</Text>
-                        <Text variant="li">Community</Text>
-                        <Text variant="li">Growth</Text>
-                        <Text variant="li">Giving back / Impact</Text>
-                        <Text variant="li">Resources / Support</Text>
-                        <Text variant="li">Shared experiences</Text>
-                        <Text variant="li">Imposter syndrome / addressing challenges</Text>
-                  </Text>
-                    <img src={imgPhoto15} alt="" className="img-fluid w-100 mt-4" />
-            </Row>
-            <Row className='mt-5'>
-                  <Title variant="cardBig" className='mt-5'>Reworking content hierarchy and addressing mentor concerns</Title>
-                  <Text className="mb-4 mt-4 w-100">
-                    Prior to Phase 2 usability testing, and in conjunction with the 2nd Design team, we reimagined the landing page hierarchy and iterated upon an initial FAQ section.
-                    We utilized <i>giving back</i> and <i>community</i> in the copy in an effort to speak to mentors directly and <b>crafted questions based on themes from Phase 2 user interviews</b>.
-                  </Text>
-                <Col>
-                  <Title variant="card" className='mt-5'>Before</Title>
-                  <Text className="mb-4 mt-4 w-100">With input from Design 2 and Research, we removed questions regarding how mentors are supported and instead dedicated an entire section to the topic.</Text>
-                  <img src={imgPhoto13} alt="" className="img-fluid w-100" />
-                </Col>
-                <Col>
-                  <Title variant="card" className='mt-5'>After</Title>
-                  <Text className="mb-4 mt-4 w-100">Research indicated themes of <b>imposter syndrome</b> and I wrote compassionate body copy around supporting mentees.</Text>
-                  <img src={imgPhoto14} alt="" className="img-fluid w-100" />
-                </Col>
-                <Text className="mb-4 mt-4 w-100">The Research team suggested a question around ending mentorship. While our team supported adding this Q, we wondered if it might be better suited within the platform's internal <i>Resource</i> section, and not on the landing page. 
-                      However, Research indicated potential mentors named this as an area of concern and therefore we chose to move forward with including it here.</Text>
-            </Row>
-            <Row className='mt-4'>
-                  <Title variant="cardBig" className='mt-5'>Addressing mentor desires for community, resources, and privacy</Title>
-                  <Text className="mt-4 w-100">With the question around mentorship support removed from the FAQ, we focused our efforts on crafting copy for an entire mentor support section. Sean's Legacy's <b><i>Master's of Public Health</i> interns are creating a comprehensive onboarding kit</b>, and <b>our client wanted this reflected within the copy</b>.</Text>
-                  <Text className="mt-4 w-100">Potential mentors indicated a desire for community support and resources in general, and we included these needs using <b>uplifting</b>, <b>compassionate language</b>.</Text>
-                    <img src={imgPhoto16} alt="" className="img-fluid w-75 mt-4" />
-            </Row>
-            <Row className='mt-5'>
-                  <Title variant="cardBig" className='mt-5'>Promoting safety through transparency and consistency</Title>
-                  <Text className="mb-4 mt-4 w-100">
-                     Because safety and privacy matter to both potential users and to Sean's Legacy, mentors are required to pass a background check. Needing to <b>convey the importance of completing the background check quickly</b>, the content hierarchy lists this step first and is supported in the body copy throughout the page.
-                  </Text>
-                <Col className='mt-5'>
-                  <Title variant="card">Before</Title>
-                  <img src={imgPhoto17} alt="" className="img-fluid w-100" />
-                </Col>
-                <Col className='mt-5'>
-                  <Text className="mb-4 mt-4 w-100">Profile copy on both mentee and mentor sides of the platform initially read as <i>Fill out</i>. This was <b>standardized</b> to <i>Complete</i> <b>for clarity and consistency</b>, as we use the term <i>Complete</i> in numerous locations througout the platform.
-                  <br />
-                  To <b>increase transparency</b> that mentors need to both read and sign the privacy agreement, <i>sign</i> was added to the copy. Adding <i>sign</i> also increases clarity.
-                  </Text>
-                </Col>
-                <div>
-                  <Title variant="card">After</Title>
-                  <Text>Following our voice and tone guidelines, copy was written to be <b>uplifting</b>, <b>ethical</b>, and <b>respectful</b>.</Text>
-                  <Text className="mb-4 mt-4 w-100"></Text>
-                  <img src={imgPhoto18} alt="" className="img-fluid w-75" />
-                </div>
-            </Row>
-            <Row className="mb-4 mt-5 w-100">
-                <Title variant="cardBig" className='mt-5'>What information is required for a background check?</Title>
-                <Text className="mb-4 mt-4 w-100">Research showed mentors expect and are used to background checks. In conjunction with the 2nd Design team, <b>we worked on making the background check process as clear and easy as possible</b>.</Text>
-                <Text className="mb-4 mt-4 w-100">Unsure of what exactly Sean's Legacy would be checking for, I reached out to our client for requirements: Social Security number, address history, and a form of payment were all needed. We wrote concise body copy to help mentors understand why we are asking for this information.</Text>
-                <img src={imgPhoto19} alt="" className="img-fluid w-75" />
-            </Row>
-          </Section>
-          <Section hero={true} bg={"dark"}>
-            <Container className="pb-3">
-              <Title color="light" variant="secSm">
-                03 Test
-              </Title>
-              <Title
-                color="light"
-                variant="card"
-                mb="2.5rem"
-                fontSize="1rem"
-                className="text-uppercase"
-                css={`
-                  letter-spacing: 1.63px;
-                `}
-              > Unmoderated Feedback - Moderated Usability Findings
-              </Title>
-            </Container>
           </Section>
           <Section>
             <Row className='mt-4'>
@@ -291,17 +180,13 @@ const CaseStudy2Body = () => {
                   <Title variant="card">Moderated research goal</Title>
                   <Text className="mb-4 mt-4">Assess the <b>impact of copy and word choices on usability</b>, with special attention to areas that may have an emotional impact.</Text>
                   <Title variant="cardBig" className="mb-4 mt-5 w-100">Here is what research found...</Title>
-                  <Title variant="card" className="mb-4 mt-5 w-100">Confusing copy</Title>
-                  <Text className="mb-4 mt-4">You may recall our hypothesis that using the word <i>story</i> ("<i>Where does your story begin?</i> ") would speak to users in their own words. Research found <b>3 out of 6</b> potential mentors <b>found this phrasing confusing</b>. <br /> <br /> <b>My recommendation</b> is to rewrite this question and consider changing the supporting copy above from <i>"Share your story so mentors/mentees can get to know you better"</i> to <i>"Share as much or as little as you'd like"</i>. Changing the question into a statement may offer a more active, conversational feel and is worth testing to increase the chance of users filling out their profile entirely. Copy ideas: <i>"Tell us about yourself"</i>, or <i>"I want my mentor/mentee to know..."</i>.</Text>
                   <Title variant="card" className="mb-4 mt-5 w-100">Unclear directions</Title>
                   <Text className="mb-4 mt-4">Completing a background check as soon as possible is an important step in mentorship approval, however <b>3 out of 6</b> mentors <b>wouldn't choose to complete their background check first</b>. <br /> <br /> Users were more likely to complete their profile prior to initiating their background check, and it might be worth using this knowledge in proposing a solution. I'm not certain changing copy alone is the best answer (although it may be the easiest and quickest to test), and <b>my recommendation</b> is to get more folks involved in brainstorming around potential solutions.</Text>
                   <Text className="mb-4 mt-4">Perhaps instructional copy such as <i>"Initiate your background check and complete your profile while you wait"</i> would help. Maybe design decisions need to be rethought. Possibly an explicit or even mandatory mentorship approval step-by-step could be created for the landing page. It could be this is actually a non-issue and not as much time is lost on profile creation as we might think. Or ... it could be something else entirely!</Text>
                   <Title variant="card" className="mb-4 mt-5 w-100">More information needed</Title>
                   <Text className="mb-4 mt-4"><b>4 out of 6</b> mentors wanted to know <b>what data would be checked</b> and <b>what would make them ineligible to be a mentor</b>. I was not surprised by these findings as we too were unclear on the totality of the background check process. <br /> <br /> <b>My recommendation</b> is to set up a meeting with the client at the start of Phase 3 to discuss any new information they may have regarding which 3rd party vendor will be conducting the background checks. Conducting further research on what generally disqualifies applicants will also be useful. Ultimately more information is needed internally to effectively propose any useful changes. Once the Phase 3 writers are clear on the information themselves, I have no doubt they will be able to craft copy for increased clarity.</Text>
-                  
                 </div> 
             </Row>
-        
           </Section>
           <Section hero={true} bg={"dark"}>
             <Container className="pb-3">
@@ -324,20 +209,6 @@ const CaseStudy2Body = () => {
           </Section>
           <Section>
             <Container>
-            <Row className='mt-5'>
-                <div>
-                  <Title variant="cardBig">Consistency requires cross-functional collaboration</Title>
-                  <Text className="mb-4 mt-4">In order to maintain consistency throughout designs, it's important to work with all team members. Occasionally an update to copy would be missed by one of our Design teams during Development handoff. This resulted in outdated copy being included on both final Phase 2 prototypes and in the actual build.</Text>
-                  
-                </div>
-              </Row>
-              <Row className='mt-5'>
-                <div>
-                  <Title variant="cardBig">UX writers should be embedded within design teams</Title>
-                  <Text className="mb-4 mt-4"> At times it was difficult to write copy or develop content because our team didn't have as clear of an understanding of specific flows, constraints, and design decisions as the designers did. Our team had a Content representative present during most Design Working Sessions, which helped greately as requirements changed throughout the project. We were able to collaborate and offer guidance in real time, which was especially helpful as the Phase 2 team as a whole was global and often needed to work asynchronously.</Text>
-                  
-                </div>
-              </Row>
               <Row className='mt-5'>
                 <div>
                   <Title variant="cardBig">Encouraging pushback is key</Title>
