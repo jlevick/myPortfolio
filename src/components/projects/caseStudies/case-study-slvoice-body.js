@@ -23,7 +23,7 @@ const CaseStudySLVoiceBody = () => {
             <Row className="mt-4">
               <div>
                 <Title variant="cardBig">Understanding user pain points</Title>
-                <Text  className="mb-4 mt-4">Research showed users want a platform built around
+                <Text  className="mb-4 mt-4">Research showed users want a platform built around:
                   <li><b>safety</b></li>
                   <li><b>privacy</b></li>
                   <li>and <b>inclusivity</b></li>
@@ -33,23 +33,21 @@ const CaseStudySLVoiceBody = () => {
                    In order to understand how to write for our users, I read through a provided research report and created a list of keywords and themes.
                 </Text>
                 <Text className="mb-4 mt-4">
-                    The report included a <b>list of adjectives provided by our client</b> describing Sean's Legacy
+                    The report included a <b>list of adjectives provided by our client</b> describing Sean's Legacy:
                     <li><b>welcoming</b></li>
                     <li><b>trustworthy</b></li>
                     <li><b>professional</b></li>
-                    <li><b>engaging</b></li>
-                    <li><b>uplifting</b></li>
                     <li><b>community</b></li>
                 </Text>
                 <Text className="mb-4 mt-4">
-                    Sean's Legacy has their own <b>guiding principles</b>, which were also added
+                    Sean's Legacy has their own <b>guiding principles</b>, which were also added:
                     <li><b>inclusivity</b></li>
                     <li><b>empowerment</b></li>
                     <li><b>compassion</b></li>
                     <li><b>respect</b></li>
                 </Text>
                 <Text className="mb-4 mt-4">
-                I viewed raw data from user interviews, again writing down common themes and terms. This helped me understand how our potential users use language and what their needs, goals, and concerns are. Findings were imported into FigJam and I began looking for patterns.
+                I then viewed raw data from user interviews, again writing down common themes and words. This helped me understand how our potential users use language and what their needs, goals, and concerns are. Findings were imported into FigJam and I began looking for patterns.
                 </Text>
               </div>
               <div>
@@ -60,25 +58,16 @@ const CaseStudySLVoiceBody = () => {
               </div>
               <div className="mt-5">
                   <Title variant="cardBig">How do we create safety through language?</Title>
-                  <Text className="mb-4 mt-4"><b>Safety and personal autonomy stood out as 2 important areas to focus on</b>. I knew our platform's voice needed to communicate in a way that left our users feeling secure, but in an age where no one can guarantee a true safe space, how do we accomplish this? <i>How do we create safety</i>? 
+                  <Text className="mb-4 mt-4"><b>Safety and personal autonomy stood out as 2 important areas to focus on</b>. Our platform's voice needs to communicate in a way that leaves users feeling secure and in control, but in an age where no one can guarantee a true safe space, how do we accomplish this? <i>How do we create safety</i>? 
                   <br />
                   <br />
-                  The answer is we can't. Safety is built and requires time and effort. My team brainstormed around the idea of designing experiences that promote safety and build trust through respect, consistency, transparency, inclusivity, and clarity.
+                  The answer is we can't. Safety is built and requires time and effort. What we <i>can</i> do is design experiences that promote safety and build trust through respect, consistency, transparency, inclusivity, and clarity.
                   </Text>
-                  <Text>Communicating choice and consent was imperative in creating a digital community where users feel safe to connect and grow.</Text>
+                  <Text>Communicating choice and consent is imperative in creating a digital community where users feel safe to connect and grow.</Text>
                 </div>
                 <div className="mt-5">
                   <Title variant="cardBig">Introducing: the <i>Cool Guidance Counselor</i></Title>
-                  <Text className="mb-4 mt-4">With all of this in mind, I envisioned our voice persona to be the well-balanced guidance counselor we all want(ed) to have. 
-                  <br />
-                  <br />
-                  They're warm, reliable, and make others feel at ease. 
-                  They're professional and knowledgeable, inspiring trust and confidence. 
-                  They speak with authority without being authoritarian. 
-                  They're clear communicators, offering guidance with a tone of empowerment. 
-                  They promote diversity and a sense of belonging, and they prioritize safety above all.
-                  </Text>
-                    <br />
+                  <Text className="mb-4 mt-4">With all of this in mind, I envisioned our voice persona to be the guidance counselor we all want(ed) to have. They don't use gendered language and they speak with authority without being authoritarian.</Text>
                   <Text>
                         Ultimately, <b>our persona is</b>:
                         <li>Kind, not pushy</li>
@@ -88,25 +77,36 @@ const CaseStudySLVoiceBody = () => {
                     </Text>
                 </div>
             </Row>
-          </Section>
-          <Section>
-            <Container>
-            <Row className='mt-4'>
+            <Row>
+                <Title variant="cardBig" className='mt-5'>A trauma-informed approach to communication</Title>
+                  <Text className="mb-2 mt-2 w-100">With our persona in mind, existing language was audited, and one phrase in particular stood out as non-inclusive and potentially triggering: <b>preferred name</b>.</Text>
+                  <Text className="mb-4 mt-4 w-100">The LGBTQIA+ community experiences a high rate of ongoing traumas and using language that mitigates triggers is essential.</Text>
+            </Row>
+            <Row>
                 <div>
-                  <Title variant="cardBig">Client feedback</Title>
-                  <Text className="mb-4 mt-4">
-                  <b><i>"The clear, consistent, inclusive, uplifting, and ethical voice you have established aligns perfectly with our brand values and objectives. It reflects our commitment to creating a welcoming and empowering environment for our mentees and mentors."</i></b> - Steph Lambruschini, Sean's Legacy Lead Client</Text>
-                  <Row className="justify-content-center align-items-center">
-                  </Row>
+                    <Title variant="cardBig" className='mt-4'> <i>Preferred name</i> implies a name is not <i>real</i></Title>
+                    <Text className="mb-4 mt-4">Because the platform is built for the LGBTQIA+ community, <b>names</b>, <b>pronouns</b>, and <b>individual agency are significant</b>. Trans and non-binary folks may have a different name than was given at birth. Asking for someone's preferred name may bring about unintended pain or come across as disrespectful.
+                    <br />In an effort to be inclusive, avoid deadnaming, and offer personal autonomy, I suggested using <b>Chosen name</b>.</Text>
+                        <img src={imgPhoto10} alt="" className="img-fluid w-50  mb-4" />
+                </div>
+              </Row>
+              <Row className='mt-5'>
+                <div>
+                    <Title variant="cardBig">Outcomes and client feedback</Title>
+                    <Text className="mb-4 mt-4"><i><b>Chosen name</b></i> was mentioned during usability testing as an inclusive phrase users like.</Text>
+                    <Text className="mb-4 mt-4">Our client had this to say:<i><b>"The focus on maintaining a respectful tone by avoiding assumptions and gendered language is crucial in creating an inclusive and welcoming environment for our mentees. The clear, consistent, inclusive, uplifting, and ethical voice you have established aligns perfectly with our brand values and objectives."</b></i> - Steph Lambruschini, Lead Sean's Legacy Client</Text>
                 </div>
               </Row>
               <Row className='mt-5'>
                 <div>
                   <Title variant="cardBig">Setting the stage for future designs</Title>
                   <Text className="mb-4 mt-4">Determining product voice and tone early on has already led to more cohesive designs. The project itself is still in its infancy yet already has a clear and distinct personality.</Text>
-                  {/* <Text className="mb-4 mt-4">Designers are referencing the Content Style Guide, decreasing questions related to grammar and word choice, and increasing productivity.</Text> */}
                 </div>
               </Row>
+          </Section>
+          <Section>
+            <Container>
+              
               {/* <Row className='mt-5'>
                 <div>
                   <Title variant="cardBig">The style guide is a living document</Title>

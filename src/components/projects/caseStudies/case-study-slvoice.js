@@ -51,7 +51,7 @@ const CaseStudySLVoice = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  My contribution played a key role in the future of the Sean's Legacy Mentorship platform by determining a unique voice that speaks directly to their audience.
+                  More inclusive copy that resonated with both users and the client. My contribution played a key role in the future of Sean's Legacy's Mentorship platform by determining a unique voice that speaks directly to their audience.
                 </Text>
               </div>
             </Col>
