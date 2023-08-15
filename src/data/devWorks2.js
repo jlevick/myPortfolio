@@ -32,8 +32,8 @@ const devWorks2 = [
     link: '/user',
   },
   {
-    brand: `Sean's Legacy Mentorship Platform`,
-    slug: `seanslegacycontentdesign`,
+    brand: `Value Proposition`,
+    slug: `valueprop`,
     title: `ux writing`,
     categories: [`uxwriting`],
     thumbnail: imgPhoto3,

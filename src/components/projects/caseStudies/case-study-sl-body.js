@@ -22,7 +22,11 @@ const CaseStudy2Body = () => {
             <Row>
               <div>
                 <Title variant="cardBig" className='mt-2 mb-4'>Clarifying purpose, cost, and location upfront</Title>
-                <Text>With no clear value proposition, users don't understand the value they might receive from mentorship through the Sean's Legacy Mentorship platform. A tagline was being used in place of a value prop, offering no clear understanding of the purpose of the site.</Text>
+                <Text className="mb-4 mt-4">Value propositions let people know 2 things:
+                  <li>What value a product provides</li>
+                  <li>What value that product provides specifically for them</li>
+                </Text>
+                <Text className="mb-4 mt-4">With no clear value proposition, users don't understand what they get from mentorship through the Sean's Legacy Mentorship platform. A tagline was being used in place of a value prop, offering no clear understanding of the purpose of the site.</Text>
               </div>
             </Row>
             <Row className='mt-5'>

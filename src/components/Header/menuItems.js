@@ -7,7 +7,7 @@ export const menuItems = [
              { name: "slvoice", label: "voice and tone" },
              { name: "jargon", label: "clarifying jargon" },
              { name: "user", label: "user-centered copy" },
-             { name: "seans-legacy", label: "mentorship platform" },
+             { name: "seans-legacy", label: "value proposition" },
              { name: "aspect", label: "astrology app" },
              { name: "front-end-portfolio", label: "front end portfolio" },
            ],
