@@ -14,8 +14,9 @@ const UserBody = () => {
      <Section className="position-relative">
         <Container>
             <Row>
-                <Title variant="cardBig" className='mt-5'>Speaking to mentors in their own words</Title>
-                  <Text className="mb-4 mt-4 w-100">I met with the UX research team to go over their findings and share keywords I noticed from their initial insights. They confirmed I was on the right track and helped add to the list:
+                <Title variant="cardBig" className='mt-4'>Speaking to mentors in their own words</Title>
+                  <Text className="mb-4 mt-4 w-100">In collaboration with the research team, a list of themes and words was compiled:
+                  <br />
                     <li><b>Connection</b></li>
                     <li><b>Growth</b></li>
                     <li><b>Giving back / Impact</b></li>
@@ -28,41 +29,65 @@ const UserBody = () => {
             <Row>
                   <Title variant="cardBig" className='mt-5'>Reworking content hierarchy and addressing mentor concerns</Title>
                   <Text className="mb-4 mt-4 w-100">
-                    Our list helped to reimagine the landing page hierarchy, where our team iterated upon an initial FAQ section.
+                    Our list helped reimagine the landing page hierarchy, where we iterated upon an initial FAQ section.
                     We utilized <i>giving back</i> and <i>community</i> in the copy in an effort to speak to mentors directly and <b>crafted questions based on themes from user interviews</b>.
                   </Text>
                 <Col>
                   <Title variant="card" className='mt-5'>Before</Title>
-                  <Text className="mb-4 mt-4 w-100">With input from Design and Research, we removed questions regarding how mentors are supported and instead dedicated an entire section to the topic.</Text>
+                  <Text className="mb-4 mt-4 w-100">With input from Design and Research, we removed questions around how mentors are supported, and instead dedicated an entire section to the topic.</Text>
                   <img src={imgPhoto13} alt="" className="img-fluid w-100" />
                 </Col>
                 <Col>
                   <Title variant="card" className='mt-5'>After</Title>
-                  <Text className="mb-4 mt-4 w-100">Research indicated themes of <b>imposter syndrome</b> and I wrote compassionate body copy around supporting mentees.</Text>
+                  <Text className="mb-4 mt-4 w-100">Research showed themes of <b>imposter syndrome</b>. I was responsible for writing body copy around supporting mentees.</Text>
                   <img src={imgPhoto14} alt="" className="img-fluid w-100" />
                 </Col>
-                <Text className="mb-4 mt-4 w-100">The Research team suggested a question around ending mentorship. While our team supported adding this, we wondered if it might be better suited within the platform's internal <i>resource</i> section, and not on the landing page. 
-                      However, research indicated potential mentors named this as an area of high concern and therefore we chose to move forward with including it here.</Text>
+                <Text className="mb-4 mt-4 w-100">The Research team suggested adding a question on ending mentorship. While we supported this, we discussed if it might be better placed within the platform's internal <i>resource</i> section, not on the landing page. 
+                      However, research indicated mentors named this an area of high concern and therefore we chose to move forward with including it here.</Text>
             </Row>
             <Row>
+              <div>
+                <Title variant="cardBig" className='mt-4'>Addressing mentor desires for community, resources, and privacy</Title>
+              </div>
+            </Row>
+            <Row>
+                <Col className='mt-4'>
+                  <img src={imgPhoto16} alt="" className="img-fluid w-100" />
+                </Col>
+                <Col className='mt-5'>
+                  <Text className="mt-4 w-100">With the question around mentorship support removed from the FAQ, we focused our efforts on crafting copy for an entire mentor support section. Sean's Legacy's <i>Master's of Public Health</i> interns are creating a <b>comprehensive onboarding kit</b>, and our client wanted this reflected within the copy.</Text>
+                  <Text className="mt-4 w-100">Potential mentors indicated a desire for community support and resources in general, and we included these needs using <b>uplifting</b>, <b>compassionate language</b>.</Text>
+                </Col>
+            </Row>
+            {/* <Row>
                   <Title variant="cardBig" className='mt-5'>Addressing mentor desires for community, resources, and privacy</Title>
                   <Text className="mt-4 w-100">With the question around mentorship support removed from the FAQ, we focused our efforts on crafting copy for an entire mentor support section. Sean's Legacy's <b><i>Master's of Public Health</i> interns are creating a comprehensive onboarding kit</b>, and <b>our client wanted this reflected within the copy</b>.</Text>
                   <Text className="mt-4 w-100">Potential mentors indicated a desire for community support and resources in general, and we included these needs using <b>uplifting</b>, <b>compassionate language</b>.</Text>
-                    <img src={imgPhoto16} alt="" className="img-fluid w-75 mt-4" />
-            </Row>
-            <Row className='mt-5'>
-                  <Title variant="cardBig" className='mt-5'>Offering guidance and personal autonomy</Title>
-                  <Text className="mb-4 mt-4 w-100">Researchers suggested <b>pre-filled examples </b>for write-in text fields as well as more <b>specific writing prompts</b>. As this is an area where users may drop off due to uncertainty, confusion, or even annoyance, it was important to offer guidance.
-                    <br />
-                    <br />
-                    Initial findings indicated some mentors specifically used the word <i>story</i> when referring to learning more about their mentee. ADPList, another mentorship platform, also uses this language (<i>"Tell us your origin story", and "Everyone has a story, what's yours?"</i>).</Text>
-                    <Text className="mb-4 mt-4 w-100">We <b>hypothesized utilizing the word <i>story</i></b> would be <b>easily understandable, familiar, and speak directly to our users in their own words</b>.</Text>
-                    <img src={imgPhoto11} alt="" className="img-fluid w-75" />   
+                    <img src={imgPhoto16} alt="" className="img-fluid w-75" />
+            </Row> */}
+            <Row>
+              <div>
+                <Title variant="cardBig" className='mt-5'>Offering guidance and personal autonomy</Title>
+              </div>
             </Row>
             <Row>
-            <Title variant="cardBig"  className='mt-4'>Most fit, but one was not quite right</Title>
-                  <Text className="mb-2 mt-4">Mentors liked the FAQ's and support resources, but the hypothesis of using the word <i>story</i> turned out to be incorrect. Research found <b>3 out of 6</b> mentors <b>found this phrasing confusing</b>.</Text>
-                  <Text className="mb-2 mt-2">I recommended rewriting the question and changing the supporting copy from <i>"Share your story so mentors/mentees can get to know you better"</i> to <i>"Share as much or as little as you'd like."</i> Changing the question into a statement may offer a more active, conversational feel and is worth testing to increase the chance of users filling out their profile entirely. Copy ideas: <i>"Tell us about yourself"</i>, or <i>"I want my mentor/mentee to know..."</i></Text>
+                <Col className='mt-4'>
+                  <Text className="mb-4 mt-4 w-100"><b>Pre-filled examples</b> for write-in text fields, as well as more <b>specific writing prompts</b> were considered for added clarity. This is an area where users may drop off due to uncertainty, confusion, or even annoyance so it's important to offer guidance. <br /> <br />Initial findings indicated mentors used the word <i>story</i> when referring to learning more about their mentee. ADPList, another mentorship platform, also uses this language (<i>"Tell us your origin story", and "Everyone has a story, what's yours?"</i>).</Text>
+                  <Text className="mb-4 mt-4 w-100">We <b>hypothesized utilizing the word <i>story</i></b> would be <b>easily understandable, familiar, and speak directly to our users in their own words</b>.</Text>
+                </Col>
+                <Col className='mt-5'>
+                  <img src={imgPhoto11} alt="" className="img-fluid w-100" />
+                </Col>
+            </Row>
+            {/* <Row className='mt-4'>
+                  <Title variant="cardBig" className='mt-5'>Offering guidance and personal autonomy</Title>
+                  <Text className="mb-4 mt-4 w-100">Researchers suggested <b>pre-filled examples </b>for write-in text fields as well as more <b>specific writing prompts</b>. As this is an area where users may drop off due to uncertainty, confusion, or even annoyance, it was important to offer guidance. Initial findings indicated some mentors specifically used the word <i>story</i> when referring to learning more about their mentee. ADPList, another mentorship platform, also uses this language (<i>"Tell us your origin story", and "Everyone has a story, what's yours?"</i>).</Text>
+                  <Text className="mb-4 mt-4 w-100">We <b>hypothesized utilizing the word <i>story</i></b> would be <b>easily understandable, familiar, and speak directly to our users in their own words</b>.</Text>
+                    <img src={imgPhoto11} alt="" className="img-fluid w-75" />   
+            </Row> */}
+            <Row>
+            <Title variant="cardBig" className='mt-4'>Most fit, but one was not quite right</Title>
+                  <Text className="mb-2 mt-4">Mentors liked the FAQ's and support resources, but the hypothesis of using the word <i>story</i> turned out to be incorrect. Research found <b>3 out of 6</b> mentors <b>found this phrasing confusing</b>. Different copy was offered for the next round of usability testing.</Text>
                   <Text className="mb-2 mt-2">Crafting user-centered copy takes time and testing to get right. Learning that <i>story</i> didn't resonate with mentors is not a failure but a learning opportunity and a chance to get closer next time.</Text>
             </Row>
             {/* <Row className='mt-5'>
