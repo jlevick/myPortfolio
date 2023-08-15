@@ -2,17 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { Section, Title, Text, Box, Button } from "../../../components/Core";
-import imgPhoto from "../../../assets/image/png/audit1.png";
-import imgPhoto1 from "../../../assets/image/png/audit2.png";
+
 import imgPhoto2 from "../../../assets/image/png/landingbefore.png";
 import imgPhoto3 from "../../../assets/image/png/landingafter.png";
 import imgPhoto4 from "../../../assets/image/png/menteebenefits.png";
 import imgPhoto7 from "../../../assets/image/png/programgoalsbefore.png";
 import imgPhoto8 from "../../../assets/image/png/programgoalsafter.png";
-import imgPhoto9 from "../../../assets/image/png/reasoning.png";
+import imgPhoto9 from "../../../assets/image/png/whysignup.png";
 import imgPhoto10 from "../../../assets/image/png/reasoning2.png";
-import imgPhoto19 from "../../../assets/image/png/background.png";
-import imgPhoto20 from "../../../assets/image/png/wordcloud.png";
+
 
 
 const CaseStudy2Body = () => {
@@ -21,39 +19,43 @@ const CaseStudy2Body = () => {
       <Section className="position-relative">
         <Container>
           <Section>
-            <Row className='mt-2'>
+            <Row>
               <div>
-                <Title variant="cardBig">Clarifying purpose, cost, and location upfront</Title>
+                <Title variant="cardBig" className='mt-2 mb-4'>Clarifying purpose, cost, and location upfront</Title>
+                <Text>With no clear value proposition, users don't understand the value they might receive from mentorship through the Sean's Legacy Mentorship platform. A tagline was being used in place of a value prop, offering no clear understanding of the purpose of the site.</Text>
               </div>
             </Row>
             <Row className='mt-5'>
                 <Col>
                   <Title variant="card">Before</Title>
-                  <Text className="mb-4 mt-4">The copy was vague and unclear:<br /><i>"Wherever you are on your journey, a mentor can help you take the next step."</i></Text>
                   <img src={imgPhoto2} alt="" className="img-fluid w-100" />
                 </Col>
                 <Col>
                   <Title variant="card">After</Title>
-                  <Text className="mb-4 mt-4"><i>"A free, online mentorship program that matches LGBTQIA+ young adults with mentors in the queer community."</i></Text>
                   <img src={imgPhoto3} alt="" className="img-fluid w-100" />
                 </Col>
-                <Text className="mb-5 mt-4">It was important to use <i>young adults</i> in the copy to further clarify who the platform is for and distinguish a separation from Sean's Legacy's non-profit mission. Adding upfront that mentorship is virtual, free, and specifically for the LGBTQIA+ community helps build trust from the start.</Text>
+                <Text className="mb-5 mt-4">It was important to state <i>young adults</i> in the copy for further clariification on who the platform is for, and to distinguish a separation from Sean's Legacy's non-profit mission. Adding upfront that mentorship is virtual, free, and specifically for the LGBTQIA+ community helps build trust from the start.</Text>
             </Row>
             <Row className='mt-4'>
-              <div>
-                  <Title variant="cardBig">Why should I sign up for the Sean's Legacy Mentorship Program?</Title>
-                  <Text className="mb-4 mt-4">Originally located on the About page, we recommended changing the content hierarchy and moving this information to the first screen a user sees, the landing page. As the landing page had <b>no clear value proposition</b>, we ideated on how a potential mentee might feel and what questions they might be asking.</Text>
-                  <Text className="mb-4 mt-4"> Privacy is important to users based on prior research, and we added copy to show mentees we understand their concerns and take them seriously.</Text>
-                  <img src={imgPhoto4} alt="" className="img-fluid w-100" />
-              </div>
-              <div>
-                  <Text className="mb-4 mt-4">Before handing off suggestions to the Design team, we reworked content in a dedicated UXW Copy Iterating Figma file. Here you can see my recommendations, which were iterated upon in the final version.</Text>
+                <Title variant="cardBig">Why should I sign up for the Sean's Legacy Mentorship Program?</Title>
+                  <Text className="mb-4 mt-4">A logical question located in the wrong place. Originally on the about page, the content hierarchy was changed to include this information on the first screen a user visits, the landing page.</Text>
+                <Col className='mt-5'>
+                  <Title variant="card">Before</Title>
+                  <Text className="mb-4 mt-4 w-100"></Text>
                   <img src={imgPhoto9} alt="" className="img-fluid w-100" />
+                </Col>
+                <Col className='mt-5'>
+                  <Title variant="card">After</Title>
+                  <Text className="mb-4 mt-4 w-100"></Text>
+                  <img src={imgPhoto4} alt="" className="img-fluid w-100" />
+                </Col>
+                <div className='mt-5'>
+                  <Text className="mb-4 mt-4">Users want increased personalization, and copy was written as if we are speaking directly to each mentee, using "you" instead of "they" or "mentees".</Text>
               </div>
             </Row>
             <Row className='mt-5'>
                   <Title variant="cardBig">Balancing needs of our client and our users</Title>
-                  <Text className="mb-4 mt-4 w-100">Our client was keen to showcase the goals of their mentorship program but <b>current designs were lacking transparency</b>. We wanted to ensure potential users would understand what the platform was for so we sharpened the copy.
+                  <Text className="mb-4 mt-4 w-100">Our client was keen to showcase the goals of their mentorship program but <b>current designs were lacking transparency</b>. We wanted to ensure potential users would understand the goals of the platform so we sharpened the copy.
                   </Text>
                 <Col className='mt-5'>
                   <Title variant="card">Before</Title>
@@ -65,10 +67,6 @@ const CaseStudy2Body = () => {
                   <Text className="mb-4 mt-4 w-100">We improved readability by editing copy for concision. Headers were created to make scanning easier.</Text>
                   <img src={imgPhoto8} alt="" className="img-fluid w-100" />
                 </Col>
-                <div className='mt-5'>
-                  <Text className="mb-4 mt-4">Here you can see my recommendations and the iterations this content went through. <b>Because users wanted increased personalization</b>, we wrote copy as if we were speaking directly to each mentee, using "you" instead of "they" or "mentees".</Text>
-                  <img src={imgPhoto10} alt="" className="img-fluid w-100" />
-              </div>
             </Row>
           </Section>
           {/* <Section>

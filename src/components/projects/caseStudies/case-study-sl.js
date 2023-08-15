@@ -20,8 +20,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  With no clear value proposition, users don't understand the value they might receive from mentorship through the SL platform.  
-                  <br/>My mission was to help mentees understand the value Sean's Legacy Mentorship provides and who Sean's Legacy is.
+                  Help mentees understand the value Sean's Legacy Mentorship provides and who Sean's Legacy is.
                 </Text>
               </div>
             </Col>
@@ -80,11 +79,8 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                   `}
                 >
                   <li>Audited exisiting designs</li>
-                  <li>Developed the initial Voice and Tone and Content Style Guide</li>
                   <li>Worked with Research to understand user needs</li>
-                  <li>Wrote copy for both sides of the platform</li>
-                  <li>Collaborated with Design on content strategy</li>
-                  <li>Consulted with Development on feature feasibility</li>
+                  <li>Collaborated with Design and Product on content strategy</li>
                   </Text>
               </div>
             </Col>
