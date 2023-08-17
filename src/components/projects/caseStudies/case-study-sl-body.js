@@ -38,7 +38,7 @@ const CaseStudy2Body = () => {
                   <Title variant="card">After</Title>
                   <img src={imgPhoto3} alt="" className="img-fluid w-100" />
                 </Col>
-                <Text className="mb-5 mt-4">It was important to state <i>young adults</i> in the copy for further clariification on who the platform is for, and to distinguish a separation from Sean's Legacy's non-profit mission. Adding upfront that mentorship is virtual, free, and specifically for the LGBTQIA+ community helps build trust from the start.</Text>
+                <Text className="mb-5 mt-4">It was important to state <i>young adults</i> in the copy for further clariification on who the platform is for, and to distinguish a separation from Sean's Legacy's non-profit mission. Adding upfront that mentorship is virtual, free, and specifically for the LGBTQIA+ community offers clarity and helps build trust from the start.</Text>
             </Row>
             <Row className='mt-4'>
                 <Title variant="cardBig">Why should I sign up for the Sean's Legacy Mentorship Program?</Title>
