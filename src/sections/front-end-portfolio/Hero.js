@@ -58,10 +58,10 @@ const Hero = () => {
               Web Dev
             </Title>
             <Title variant="secSm" mb="1.5rem">
-              Front-End Portfolio
+              Frontend Coding
             </Title>
             <p>
-            A responsive portfolio site built with HTML, CSS, and vanilla JavaScript.
+            Building a responsive portfolio site with HTML, CSS, and vanilla JavaScript
             </p>
           </Box>
             </Row>

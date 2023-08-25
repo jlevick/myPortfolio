@@ -56,12 +56,10 @@ const Hero = () => {
               UX
             </Title>
             <Title variant="secSm" mb="1.5rem">
-              Aspect
+              UX/UI Design: Astrology App
             </Title>
             <p>
-              A comprehensive astrology resource offering access to your birth
-              chart, vetted professional astrologers, and a community of
-              astro-enthusiasts. Designed in Figma for iOS mobile.
+              Researching, designing, and testing an astrology app concept
             </p>
           </Box>
         </Container>

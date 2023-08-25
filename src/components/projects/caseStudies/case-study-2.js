@@ -11,18 +11,6 @@ const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
             <Col lg="6">
               <div>
                 <Title color="light" variant="secSm">
-                  Duration
-                </Title>
-                <Text
-                  color="light"
-                  className="mt-4 mb-5"
-                  css={`
-                    line-height: 0.07;
-                  `}
-                >
-                  2 months
-                </Text>
-                <Title color="light" variant="secSm">
                   My Role
                 </Title>
                 <Text
@@ -39,24 +27,11 @@ const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
             <Col lg="6">
               <div>
                 <Title color="light" variant="secSm">
-                  Tools
-                </Title>
-                <Text
-                  color="light"
-                  className="mt-4 mb-5"
-                  css={`
-                    line-height: 0.07;
-                  `}
-                >
-                  VS Code, Github, Codepen.io, Figma
-                </Text>
-                <Title color="light" variant="secSm">
                   Project Goal
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                    Code a responsive portfolio website in order to learn front
-                    end skills.
+                    Code a responsive portfolio website to practice frontend skills.
                   </Text>
                 </div>
               </div>

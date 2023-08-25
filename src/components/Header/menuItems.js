@@ -8,8 +8,8 @@ export const menuItems = [
              { name: "jargon", label: "clarifying jargon" },
              { name: "user", label: "user-centered copy" },
              { name: "seans-legacy", label: "value proposition" },
-             { name: "aspect", label: "astrology app" },
-             { name: "front-end-portfolio", label: "front end portfolio" },
+             { name: "aspect", label: "UX/UI design" },
+             { name: "front-end-portfolio", label: "frontend coding" },
            ],
          },
        ];

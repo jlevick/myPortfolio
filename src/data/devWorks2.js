@@ -40,7 +40,7 @@ const devWorks2 = [
     link: '/seans-legacy',
   },
   {
-    brand: `Aspect Astrology App`,
+    brand: `UX/UI Design: Astrology App`,
     slug: `aspect`,
     title: `astrology app prototype`,
     categories: [`ux`],
@@ -48,7 +48,7 @@ const devWorks2 = [
     link: '/aspect',
   },
   {
-    brand: `Front-End Portfolio`,
+    brand: `Frontend Coding`,
     slug: `frontendportfolio`,
     title: `a portfolio within a portfolio`,
     categories: [`webdev`],
