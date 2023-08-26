@@ -26,38 +26,38 @@ const CaseStudySLVoiceBody = () => {
                 <Text  className="mb-4 mt-4">Users say the site is <b>lacking personality</b>. Research shows users want a platform built around:
                   <li><b>safety</b></li>
                   <li><b>privacy</b></li>
-                  <li>and <b>inclusivity</b></li></Text>
+                  <li><b>inclusivity</b></li></Text>
               </div>
             </Row>
             <Row>
-            <Row>
-                <Col className='mt-4'>
-                  <Text>
+                <div>
+                  <Text className="mb-4 mt-4">
                     The report included a <b>list of adjectives provided by our client</b> describing Sean's Legacy:
                     <li><b>welcoming</b></li>
                     <li><b>trustworthy</b></li>
                     <li><b>professional</b></li>
                     <li><b>community</b></li>
                   </Text>
-                </Col>
-                <Col className='mt-4'>
-                  <Text>
+                </div>
+            </Row>
+            <Row>
+              <div>
+                  <Text className="mb-4 mt-4">
                     Sean's Legacy has their own <b>guiding principles</b>, which were also added:
                     <li><b>inclusivity</b></li>
                     <li><b>empowerment</b></li>
                     <li><b>compassion</b></li>
                     <li><b>respect</b></li>
                   </Text>
-                </Col>
-            </Row>
+                </div>
             </Row>
             <Row>
                 <Title variant="cardBig" className="mb-4 mt-5">If this platform was a person, who would they be?</Title>
                 <Text className="mb-4 mt-2">
-                   In order to understand how to write for our users, I read through the esearch report and created a list of keywords and themes.
+                   To understand how to write for our users, I read through the research report and created a list of keywords and themes.
                 </Text>
                 <Text>
-                I also viewed raw data from user interviews, writing down common themes and words. This helped me understand how our users use language and what their needs, goals, and concerns are. Findings were imported into FigJam and I began looking for patterns.
+                I also viewed data from user interviews, writing down common words. This helped me understand how our users use language and what their needs, goals, and concerns are. Findings were imported into FigJam and I began looking for patterns.
                 </Text>
               <div>
                 <Box

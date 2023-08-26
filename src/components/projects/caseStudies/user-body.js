@@ -19,30 +19,30 @@ const UserBody = () => {
                   <br />
                     <li><b>Connection</b></li>
                     <li><b>Growth</b></li>
-                    <li><b>Giving back / Impact</b></li>
-                    <li><b>Resources / Support</b></li>
+                    <li><b>Giving back</b> and <b>impact</b></li>
+                    <li><b>Resources</b> and <b>support</b></li>
                     <li><b>Shared experiences</b></li>
-                    <li><b>Imposter syndrome / Addressing challenges</b></li>
+                    <li><b>Imposter syndrome</b> and <b>addressing challenges</b></li>
                     <img src={imgPhoto15} alt="" className="img-fluid w-100 mt-4" />
                   </Text>
             </Row>
             <Row>
                   <Title variant="cardBig" className='mt-5'>Reworking content hierarchy and addressing mentor concerns</Title>
                   <Text className="mb-4 mt-4 w-100">
-                    Our list helped reimagine the landing page hierarchy, where we iterated upon an initial FAQ section.
-                    We utilized <i>giving back</i> and <i>community</i> in the copy in an effort to speak to mentors directly and <b>crafted questions based on themes from user interviews</b>.
+                    The list helped reimagine the landing page hierarchy, where an initial FAQ section was iterated upon. <i>Giving back</i> and <i>community</i> were utilized in the copy to speak to mentors directly and <b>questions were crafted based on themes from user interviews</b>.
                   </Text>
-                <Col>
+                <Col className='mt-4'>
                   <Title variant="card" className='mt-5'>Before</Title>
-                  <Text className="mb-4 mt-4 w-100">With input from Design and Research, we removed questions around how mentors are supported, and instead dedicated an entire section to the topic.</Text>
                   <img src={imgPhoto13} alt="" className="img-fluid w-100" />
                 </Col>
-                <Col>
+                <Col className='mt-4'>
                   <Title variant="card" className='mt-5'>After</Title>
-                  <Text className="mb-4 mt-4 w-100">Research showed themes of <b>imposter syndrome</b>. I was responsible for writing body copy around supporting mentees.</Text>
                   <img src={imgPhoto14} alt="" className="img-fluid w-100" />
                 </Col>
-                <Text className="mb-4 mt-4 w-100">The Research team suggested adding a question on ending mentorship. While we supported this, we discussed if it might be better placed within the platform's internal <i>resource</i> section, not on the landing page. 
+            </Row>
+            <Row>
+                  <Text className="mb-4 mt-4 w-100">With cross-team input, questions on how mentors are supported were removed and an entire section was dedicated to the topic of support. The original question was changed to address themes of <b>imposter syndrome</b> . I was responsible for writing body copy around supporting mentees.</Text>
+                  <Text className="mb-4 mt-4 w-100">The Research team suggested the question on ending mentorship. While our team supported this, we discussed if it might be better placed within the platform's internal <i>resource</i> section, not on the landing page. 
                       However, research indicated mentors named this an area of high concern and therefore we chose to move forward with including it here.</Text>
             </Row>
             <Row>
@@ -59,12 +59,6 @@ const UserBody = () => {
                   <Text className="mt-4 w-100">Potential mentors indicated a desire for community support and resources in general, and we included these needs using <b>uplifting</b>, <b>compassionate language</b>.</Text>
                 </Col>
             </Row>
-            {/* <Row>
-                  <Title variant="cardBig" className='mt-5'>Addressing mentor desires for community, resources, and privacy</Title>
-                  <Text className="mt-4 w-100">With the question around mentorship support removed from the FAQ, we focused our efforts on crafting copy for an entire mentor support section. Sean's Legacy's <b><i>Master's of Public Health</i> interns are creating a comprehensive onboarding kit</b>, and <b>our client wanted this reflected within the copy</b>.</Text>
-                  <Text className="mt-4 w-100">Potential mentors indicated a desire for community support and resources in general, and we included these needs using <b>uplifting</b>, <b>compassionate language</b>.</Text>
-                    <img src={imgPhoto16} alt="" className="img-fluid w-75" />
-            </Row> */}
             <Row>
               <div>
                 <Title variant="cardBig" className='mt-5'>Offering guidance and personal autonomy</Title>
