@@ -80,8 +80,8 @@ console.log(size, breakpoints.md)
                     line-height: 0.07;
                   `}
                 >
-                  Astrology offers personal guidance and support in increasingly
-                  stressful times. It's no wonder the mystical services industry
+                  It offers personal guidance and support in increasingly
+                  stressful times. The mystical services industry
                   is worth $2.2 billion and growing. Determining if Aspect could
                   be a viable business opportunity required an understanding of
                   the market. 
