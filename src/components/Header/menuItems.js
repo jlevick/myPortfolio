@@ -1,15 +1,15 @@
 export const menuItems = [
          {
            name: "my-work",
-           label: "my work",
+           label: "My Work",
            items: [
              // case studies below
-             { name: "slvoice", label: "voice and tone" },
-             { name: "seans-legacy", label: "value proposition" },
-             { name: "user", label: "user-centered copy" },
-             { name: "jargon", label: "clarifying jargon" },
-             { name: "aspect", label: "ux/ui app design" },
-             { name: "front-end-portfolio", label: "frontend development" },
+             { name: "slvoice", label: "Voice and Tone" },
+             { name: "seans-legacy", label: "Value Proposition" },
+             { name: "user", label: "User-Centered Copy" },
+             { name: "jargon", label: "Clarifying Jargon" },
+             { name: "aspect", label: "UX/UI Design" },
+             { name: "front-end-portfolio", label: "Frontend Development" },
            ],
          },
        ];

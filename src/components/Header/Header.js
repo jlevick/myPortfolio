@@ -62,7 +62,6 @@ const Menu = styled.ul`
         padding-left: 18px !important;
         padding-right: 18px !important;
 
-        text-transform: lowercase;
 
         &.dropdown-toggle:after {
           margin-left: 10px;
@@ -143,7 +142,7 @@ const MenuDropdown = styled.ul`
       display: flex;
       align-items: center;
       font-weight: 700;
-      text-transform: lowercase;
+      text-transform:
       &.dropdown-toggle::after {
         margin-left: 10px;
         position: relative;
@@ -156,15 +155,17 @@ const MenuDropdown = styled.ul`
         font-weight: 900;
         line-height: 14px;
       }
+      
     }
 
-    &:hover,
+    &:hover ,
     &.active {
       > a {
         color: ${({ theme }) => theme.colors.primary} !important;
-        text-decoration: none;
+        text-decoration: underline;
         &::after {
           transform: rotate(180deg);
+          text-decoration: underline;
         }
       }
     }
@@ -439,7 +440,7 @@ const Header = ({ isDark }) => {
                       className="nav-link"
                       href="/about"
                     >
-                      About me
+                      About Me
                     </a>
                   </li>
                   <li className="nav-item">

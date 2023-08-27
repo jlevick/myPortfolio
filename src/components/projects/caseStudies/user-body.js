@@ -41,7 +41,7 @@ const UserBody = () => {
                 </Col>
             </Row>
             <Row>
-                  <Text className="mb-4 mt-4 w-100">With cross-team input, questions on how mentors are supported were removed and an entire section was dedicated to the topic of support. The original question was changed to address themes of <b>imposter syndrome</b> . I was responsible for writing body copy around supporting mentees.</Text>
+                  <Text className="mb-4 mt-4 w-100">With cross-team input, questions on how mentors are supported were removed and an entire section was dedicated to the topic of support. The original question was changed to address themes of <b>imposter syndrome</b>. I was responsible for writing body copy around supporting mentees.</Text>
                   <Text className="mb-4 mt-4 w-100">The Research team suggested the question on ending mentorship. While our team supported this, we discussed if it might be better placed within the platform's internal <i>resource</i> section, not on the landing page. 
                       However, research indicated mentors named this an area of high concern and therefore we chose to move forward with including it here.</Text>
             </Row>
