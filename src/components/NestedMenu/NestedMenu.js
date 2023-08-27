@@ -10,18 +10,16 @@ const NestedMenuContainer = styled.div`
     color: ${({ theme }) => theme.colors.dark} !important;
     transition: all 0.3s ease-out;
     font-weight: 700;
-    text-transform: lowercase;
 
     &:hover,
     &:active {
       color: ${({ theme }) => theme.colors.primary};
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 
   .list-group-item {
     font-weight: 700;
-    text-transform: lowercase;
     color: ${({ theme }) => theme.colors.dark};
     &:hover,
     &:active,
@@ -207,7 +205,7 @@ const NestedMenu = ({ menuItems = defaultMenuItems }) => {
                 }
               }}
             >
-              about me.
+             About Me
             </a>
           }
         </ListGroup.Item>
@@ -230,7 +228,7 @@ const NestedMenu = ({ menuItems = defaultMenuItems }) => {
                 }
               }}
             >
-              contact.
+              Contact
             </a>
           }
         </ListGroup.Item>
