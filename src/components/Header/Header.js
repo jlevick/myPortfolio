@@ -442,6 +442,14 @@ const Header = ({ isDark }) => {
                       About me
                     </a>
                   </li>
+                  <li className="nav-item">
+                    <a
+                      className="nav-link"
+                      href="#footer"
+                    >
+                      Contact
+                    </a>
+                  </li>
                 </Menu>
               </div>
             </div>

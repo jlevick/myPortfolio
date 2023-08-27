@@ -34,7 +34,7 @@ body {
 
 a {
   color: #608CEE;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* --------------------------------
@@ -58,12 +58,14 @@ header p {
 
 header a:hover {
   text-decoration: underline;
+  color: #333333;
 }
 
 ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-decoration: underline;
 }
 
 ul li {
@@ -73,10 +75,13 @@ ul li {
   overflow: hidden;
   text-align: center;
   padding: 1em;
+  text-decoration: underline;
 }
 
 ul li:hover {
   background: #f8f8f8;
+  text-decoration: underline;
+  color: #333333;
 }
 
 ul p, ul em, ul input {
@@ -92,6 +97,7 @@ ul p, ul em, ul input {
   text-overflow: ellipsis;
   cursor: pointer;
   max-width: 11rem;
+  text-decoration: underline;
 }
 
 ul p {
@@ -101,11 +107,13 @@ ul p {
 ul p::selection, ul em::selection {
   background: #608CEE;
   color: #fff;
+  text-decoration: underline;
 }
 
 ul p::-moz-selection, ul em::-moz-selection {
   background: #608CEE;
   color: #fff;
+  text-decoration: underline;
 }
 
 ul em {
@@ -125,6 +133,7 @@ ul input {
   border: none;
   box-shadow: none;
   outline: none;
+  text-decoration: underline;
 }
 
 /* --------------------------------

@@ -16,7 +16,7 @@ const Footer = ({ isDark = true }) => {
         className="position-relative"
       >
         <Container>
-          <div className="text-center">
+          <div className="text-center" id="footer">
             <Title
               variant="card"
               mb="2.5rem"

@@ -18,7 +18,7 @@ const Hero = () => {
             <Col lg="11" xl="10" className="text-center">
               <Box mt="42px" mb="22px">
                 <Title variant="secSm">
-                  Let's connect!
+                  Contact me
                 </Title>
 
                 <Box
@@ -50,6 +50,15 @@ const Hero = () => {
                       target="_blank"
                     >
                       GitHub
+                    </LinkContact>
+                    <span className="divider mx-2 mx-lg-4 d-none d-lg-block">
+                      |
+                    </span>
+                    <LinkContact
+                      href="tel:3072211069"
+                      target="_blank"
+                    >
+                      Call me
                     </LinkContact>
                   </div>
                 </Box>
