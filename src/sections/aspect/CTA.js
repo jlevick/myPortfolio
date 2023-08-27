@@ -55,10 +55,10 @@ const Hero = () => {
                       |
                     </span>
                     <LinkContact
-                      href="tel:3072211069"
+                      href="https://calendly.com/jaimelevick/chatty"
                       target="_blank"
                     >
-                      Call me
+                      Calendly
                     </LinkContact>
                   </div>
                 </Box>
