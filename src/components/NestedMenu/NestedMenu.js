@@ -25,7 +25,7 @@ const NestedMenuContainer = styled.div`
     &:active,
     &.active {
       color: ${({ theme }) => theme.colors.primary};
-      text-decoration: none;
+      text-decoration: underline;
       background-color: transparent;
       border-bottom: 1px solid rgba(22, 28, 45, 0.125);
     }

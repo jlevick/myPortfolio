@@ -123,7 +123,7 @@ const MenuDropdown = styled.ul`
     border: 1px solid #e5e5e5;
     border-radius: 0 0 10px 10px;
     display: block;
-    border-top: ${({ theme }) => `3px solid ${theme.colors.primary}`};
+    //border-top: ${({ theme }) => `3px solid ${theme.colors.primary}`};
   }
   > .drop-menu-item {
     color: ${({ theme }) => theme.colors.dark};
