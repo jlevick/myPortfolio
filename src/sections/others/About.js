@@ -31,7 +31,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                         letter-spacing: 1.63px;
                       `}
                     >
-                     How I can contribute
+                     How I can help
                   </Title>
                     </Accordion.Toggle>
                   </Card.Header>
@@ -66,16 +66,16 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                   </Card.Header>
                   <Accordion.Collapse eventKey="0">
                     <Card.Body>
+                      <Text className="mt-2 mb-4"><b>Experience</b></Text>
                       <Text className="mt-2 mb-5">
-                        <b><ul>Experience</ul></b>
                         <li><b>Lead UX Writer</b> | <i>Global Justice Ecology Project</i> | August 2023 - present</li>
                         <li><b>UX Writer</b> | <i>Oppia Foundation</i> | May 2023 - present</li>
                         <li><b>Content Strategist </b>| <i>Sean's Legacy</i> | January 2023 - April 2023</li>
                         <li><b>Project Coordinator</b> | <i>SeniorCorps</i> | March 2020 - February 2022</li>
                         <li><b>Administrative Specialist</b> | <i>University of Wyoming</i> | August 2012 - July 2019</li>
                       </Text>
+                      <Text className="mt-2 mb-4"><b>Education</b></Text>
                       <Text className="mt-2 mb-2">
-                        <b><ul>Education</ul></b>
                         <li><b>UX Design Immersive</b>, frontend for designers specialization | <i>CareerFoundry</i> | February 2022 - January 2023</li>
                         <li><b>Bachelor of Arts</b>, anthropology and gender studies | <i>University of Wyoming</i> | August 2007 - December 2011</li>
                       </Text>
