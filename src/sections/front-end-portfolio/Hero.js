@@ -35,7 +35,6 @@ const Hero = () => {
         pt={["25px", null, "25px", "30px"]}
       >
         <Container>
-          <Col>
             <Row>
             <Box mt="" className="d-flex flex-column text-center">
             <Box
@@ -65,7 +64,6 @@ const Hero = () => {
             </Text>
           </Box>
             </Row>
-          </Col>
         </Container>
       </SectionStyled>
     </>
