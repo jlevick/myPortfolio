@@ -8,10 +8,9 @@ const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
       <Section hero={hero} bg={bg} {...rest}>
         <Container>
           <Row>
-            <Col lg="6">
               <div>
                 <Title color="light" variant="secSm">
-                  My Role
+                  Challenge
                 </Title>
                 <Text
                   color="light"
@@ -20,28 +19,14 @@ const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  Developer and Designer
+                  Not understanding design constraints or the language developers use is costly, especially in agile environments.
                 </Text>
               </div>
-            </Col>
-            <Col lg="6">
-              <div>
-                <Title color="light" variant="secSm">
-                  Project Goal
-                </Title>
-                <div className="mt-4 mb-5">
-                  <Text color="light">
-                    Code a responsive portfolio website to practice frontend skills.
-                  </Text>
-                </div>
-              </div>
-            </Col>
           </Row>
-          <Row className="justify-content-center align-items-center">
-            <Col className="justify-content-center">
+          <Row>
               <div>
                 <Title color="light" variant="secSm">
-                  Project Overview
+                  Solution
                 </Title>
                 <Text
                   color="light"
@@ -50,31 +35,28 @@ const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  In order to improve my communication with developers and
-                  facilitate smooth design hand-offs, I sought to deepen my
-                  understanding of the dynamic between UX designers and
-                  developers by learning HTML, CSS, and vanilla JavaScript. In
-                  order to exercise my front-end skills, I coded a responsive
-                  portfolio website from scratch.
+                  Become more familliar with development concepts by learning HTML, CSS, and JavaScript, and coding a website from scratch.
                 </Text>
               </div>
-            </Col>
+          </Row>
+          <Row>
+              <div>
+                <Title color="light" variant="secSm">
+                  Outcome
+                </Title>
+                <Text
+                  color="light"
+                  className="mt-4 mb-5"
+                  css={`
+                    line-height: 0.07;
+                  `}
+                >
+                  A responsive website, smoother collaborations with the dev team, easier design hand-offs, and more successful projects.
+                </Text>
+              </div>
           </Row>
         </Container>
       </Section>
-      <Container>
-        <Row className="pl-4 mt-5">
-          <div className="pt-5">
-            <Title variant="cardBig">Problem</Title>
-            <Text className="mb-4 mt-4">
-              Designers and developers are working toward the same goal, but problems can arise when design decisions don't take into account the technical limitations and challenges involved in bringing a design to life.   
-            </Text>
-            <Text className="mb-4 mt-4">
-            By becoming familiar with coding concepts, designers can better understand the capabilities and limitations of the development process.  This leads to smoother collaboration, easier design hand-offs, and more successful projects.
-            </Text>
-          </div>
-        </Row>
-      </Container>
       <Container>
         <Row className="pl-4 mt-5 mb-5 justify-content-center">
           <div>

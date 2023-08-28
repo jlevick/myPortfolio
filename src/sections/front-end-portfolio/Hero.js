@@ -58,11 +58,11 @@ const Hero = () => {
               Web Dev
             </Title>
             <Title variant="secSm" mb="1.5rem">
-              Frontend Coding
+              Frontend Development
             </Title>
-            <p>
-            Building a responsive portfolio site with HTML, CSS, and vanilla JavaScript
-            </p>
+            <Text>
+              Building a responsive portfolio site with HTML, CSS, and vanilla JavaScript.
+            </Text>
           </Box>
             </Row>
           </Col>

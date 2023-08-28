@@ -9,10 +9,9 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
       <Section hero={hero} bg={bg} {...rest}>
         <Container>
           <Row className="align-items-start justify-content-start">
-            <Col lg="6">
               <div className="pl-4 pl-lg-4">
                 <Title color="light" variant="secSm">
-                  My Role
+                  Challenge
                 </Title>
                 <Text
                   color="light"
@@ -21,11 +20,10 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  UX/UI Designer
+                  Design the minimum viable product (MVP) of a mobile app that
+                  allows users to instantly connect with astrologers.
                 </Text>
               </div>
-            </Col>
-            <Col lg="6">
               <div className="pl-4 pl-lg-4">
                 <div className="mt-4 mb-5">
                 </div>
@@ -33,13 +31,11 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
                 <Text color="light" className="mt-3 font-weight-bold"></Text>
                 <Text color="light" variant="small"></Text>
               </div>
-            </Col>
           </Row>
-          <Row className="justify-content-center align-items-center">
-            <Col className="justify-content-center">
+          <Row className="align-items-start justify-content-start">
               <div className="pl-4 pl-lg-4">
                 <Title color="light" variant="secSm">
-                  The Challenge
+                  Solution
                 </Title>
                 <Text
                   color="light"
@@ -48,11 +44,31 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  Design the minimum viable product (MVP) for a mobile app that
-                  allows users to instantly connect with astrologers.
+                   An inclusive astrology app with 3 distinct features, offering users exactly what they want.</Text>
+              </div>
+          </Row>
+          <Row className="align-items-start justify-content-start">
+              <div className="pl-4 pl-lg-4">
+                <Title color="light" variant="secSm">
+                  Outcome
+                </Title>
+                <Text
+                  color="light"
+                  className="mt-4 mb-5"
+                  css={`
+                    line-height: 0.07;
+                  `}
+                >
+                  An inclusive astrology app with 3 distinct features, offering users exactly what they want.
                 </Text>
               </div>
-            </Col>
+              <div className="pl-4 pl-lg-4">
+                <div className="mt-4 mb-5">
+                </div>
+                <div className="mt-4 mb-5"></div>
+                <Text color="light" className="mt-3 font-weight-bold"></Text>
+                <Text color="light" variant="small"></Text>
+              </div>
           </Row>
         </Container>
       </Section>

@@ -72,7 +72,8 @@ console.log(size, breakpoints.md)
             <Row>
               <Box>
                 <Title variant="cardBig" className="mb-4">
-                  Why astrology?{" "}
+                  The mystical services industry
+                  is worth $2.2 billion {" "}
                 </Title>
                 <Text
                   className="mb-5"
@@ -80,14 +81,10 @@ console.log(size, breakpoints.md)
                     line-height: 0.07;
                   `}
                 >
-                  It offers personal guidance and support in increasingly
-                  stressful times. The mystical services industry
-                  is worth $2.2 billion and growing. Determining if Aspect could
-                  be a viable business opportunity required an understanding of
-                  the market. 
+                  And this number is growing. It's no wonder, as astrology offers guidance and support in these increasingly stressful times.
                   <br /> 
-                  My exploratory research began with competetive
-                  analyses of 2 popular astro-related apps: Sanctuary Astrology
+                  To develop a useful, sought-after product, exploratory research began with competetive
+                  analyses. 2 popular astro-related apps were considered top contenders: Sanctuary Astrology
                   and Kasamba.
                 </Text>
               </Box>

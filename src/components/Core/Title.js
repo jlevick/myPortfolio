@@ -32,13 +32,13 @@ const SectionSm = styled(SectionTitle)`
   line-height: 1.115;
 
   @media ${device.sm} {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.225;
     letter-spacing: -1.8px;
   }
 
   @media ${device.lg} {
-    font-size: 3rem;
+    font-size: 2rem;
 
     line-height: 1.25;
   }

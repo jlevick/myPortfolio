@@ -2,10 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import { Container } from 'react-bootstrap'
 
-import { Title, Section, Box } from '../../components/Core'
+import { Title, Section, Box, Text } from '../../components/Core'
 
 import bgHeroPattern from '../../assets/image/webp/hero-pattern.webp'
-import imgL from '../../assets/image/png/seanhero.png'
 
 const SectionStyled = styled(Section)`
   &::before {
@@ -58,7 +57,9 @@ const Hero = () => {
             <Title variant="secSm" mb="1.5rem">
               User-Centered Copy
             </Title>
-              <p>speaking to Sean's Legacy mentors in their own words</p>
+            <Text>
+              Research-backed copywriting that speaks to Sean's Legacy mentors in their own words.
+            </Text>
           </Box>
         </Container>
       </SectionStyled>

@@ -8,7 +8,6 @@ const User = ({ hero = true, bg = "dark", ...rest }) => {
       <Section hero={hero} bg={bg} {...rest}>
         <Container>
           <Row>
-            <Col lg="6">
               <div>
                 <Title color="light" variant="secSm">
                   Challenge
@@ -23,8 +22,6 @@ const User = ({ hero = true, bg = "dark", ...rest }) => {
                   The Sean's Legacy Mentorship platform needs to attract mentors in order to offer a successful product.
                 </Text>
               </div>
-            </Col>
-            <Col lg="6">
               <div>
                 <Title color="light" variant="secSm">
                   Solution
@@ -35,8 +32,7 @@ const User = ({ hero = true, bg = "dark", ...rest }) => {
                   </Text>
                 </div>
               </div>
-            </Col>
-            <Col lg="6">
+         
               <div>
                 <Title color="light" variant="secSm">
                   Outcome
@@ -47,19 +43,6 @@ const User = ({ hero = true, bg = "dark", ...rest }) => {
                   </Text>
                 </div>
               </div>
-            </Col>
-            <Col lg="6">
-              <div>
-                <Title color="light" variant="secSm">
-                 My Role
-                </Title>
-                <div className="mt-4 mb-5">
-                  <Text color="light">
-                  UX Writer and Content Strategist on a 3-person UXW team. 
-                  </Text>
-                </div>
-              </div>
-            </Col>
           </Row>
         </Container>
       </Section>

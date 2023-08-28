@@ -1,9 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Section, Title, Text, Box, Button } from "../../../components/Core";
+import { Section, Title, Text, Box } from "../../../components/Core";
 import imgPhoto from "../../../assets/image/png/affinitymap.png";
-import imgPhoto1 from "../../../assets/image/png/voice.png";
-import imgPhoto2 from "../../../assets/image/png/tone.png";
 import imgPhoto3 from "../../../assets/image/png/titlecase.png";
 import imgPhoto4 from "../../../assets/image/png/wordlist.png";
 import imgPhoto5 from "../../../assets/image/png/styleguidemvp.png";

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Container } from 'react-bootstrap'
 
-import { Title, Section, Box } from '../../components/Core'
+import { Title, Section, Box, Text} from '../../components/Core'
 
 import bgHeroPattern from '../../assets/image/webp/hero-pattern.webp'
 
@@ -20,7 +20,7 @@ const SectionStyled = styled(Section)`
 `
 
 const ImgRight = styled.img`
-  border-radius: 10%;
+  border-radius: %;
   transition: 0.8s;
   &:hover {
     transform: scale(0.8) rotate(-2deg);
@@ -46,12 +46,10 @@ const Hero = () => {
             >
               UX Writing
             </Title>
-            <Title variant="secSm" mb="1.5rem">
+            <Title variant="secSm" color="dark" mb="1rem">
               Voice and Tone Development
             </Title>
-            <p>
-              for the Sean's Legacy Mentorship Platform
-            </p>
+            <Text>Using research to create a unique persona that aligns with Sean's Legacy's brand values and objectives.</Text>
           </Box>
         </Container>
       </SectionStyled>

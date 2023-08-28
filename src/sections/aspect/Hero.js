@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Container } from 'react-bootstrap'
 
-import { Title, Section, Box } from '../../components/Core'
+import { Title, Section, Box, Text } from '../../components/Core'
 
 import bgHeroPattern from '../../assets/image/webp/hero-pattern.webp'
 import imgL from '../../assets/image/png/aspect_hero@2x.png'
@@ -58,9 +58,9 @@ const Hero = () => {
             <Title variant="secSm" mb="1.5rem">
               UX/UI Design: Astrology App
             </Title>
-            <p>
-              Researching, designing, and testing an astrology app concept
-            </p>
+            <Text>
+            Researching, designing, and testing an astrology app concept.
+            </Text>
           </Box>
         </Container>
       </SectionStyled>

@@ -2,10 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import { Container } from 'react-bootstrap'
 
-import { Title, Section, Box } from '../../components/Core'
+import { Title, Section, Box, Text } from '../../components/Core'
 
 import bgHeroPattern from '../../assets/image/webp/hero-pattern.webp'
-import imgL from '../../assets/image/png/seanhero.png'
 
 const SectionStyled = styled(Section)`
   &::before {
@@ -58,7 +57,7 @@ const Hero = () => {
             <Title variant="secSm" mb="1.5rem">
               Clarifying Jargon
             </Title>
-              <p>for the Sean's Legacy Mentorship platform</p>
+             <Text>Users question what terms like <i>Whisper Technology</i> mean. This confusion decreases trust and lowers conversion rates.</Text>
           </Box>
         </Container>
       </SectionStyled>

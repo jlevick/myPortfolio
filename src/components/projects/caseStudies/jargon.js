@@ -8,7 +8,6 @@ const Jargon = ({ hero = true, bg = "dark", ...rest }) => {
       <Section hero={hero} bg={bg} {...rest}>
         <Container>
           <Row>
-            <Col lg="6">
               <div>
                 <Title color="light" variant="secSm">
                   Challenge
@@ -20,11 +19,9 @@ const Jargon = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                   Users question what <i>Whisper Technology</i> is, and this confusion decreases trust in the platform. <br />My mission was to help users understand platform features in order to build trust.
+                   Help users understand platform features and the benefits they provide in order to build trust.
                 </Text>
               </div>
-            </Col>
-            <Col lg="6">
               <div>
                 <Title color="light" variant="secSm">
                   Solution
@@ -35,31 +32,16 @@ const Jargon = ({ hero = true, bg = "dark", ...rest }) => {
                   </Text>
                 </div>
               </div>
-            </Col>
-            <Col lg="6">
               <div>
                 <Title color="light" variant="secSm">
-                  My Role
+                  Outcome
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  UX Writer and Content Strategist on a 3-person UXW team.
+                  By focusing on benefits for the user and <i>not</i> the features that offer those benefits, users are 50% more likely to sign up for mentorship.
                   </Text>
                 </div>
               </div>
-            </Col>
-            <Col lg="6">
-              <div>
-                <Title color="light" variant="secSm">
-                  The Client
-                </Title>
-                <div className="mt-4 mb-5">
-                  <Text color="light">
-                  Sean's Legacy is a non-profit dedicated to supporting LGBTQIA+ youth, with a primary focus on suicide prevention. 
-                  </Text>
-                </div>
-              </div>
-            </Col>
           </Row>
         </Container>
       </Section>
