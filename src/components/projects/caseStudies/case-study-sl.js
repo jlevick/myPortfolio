@@ -43,7 +43,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  Offering clear information through simple language increased benefits the user gets instead of focusing on 
+                  By focusing on benefits for the user and <i>not</i> the features that offer those benefits, users are 50% more likely to sign up for mentorship.
                 </Text>
               </div>
           </Row>

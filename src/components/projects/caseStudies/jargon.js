@@ -38,7 +38,7 @@ const Jargon = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  By focusing on benefits for the user and <i>not</i> the features that offer those benefits, users are 50% more likely to sign up for mentorship.
+                  Increased accessibility by removing confusing copy and abbreviations, resulting in 100% of users understanding this safety feature.
                   </Text>
                 </div>
               </div>

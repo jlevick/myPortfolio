@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import { Section, Title, Text, Box, Button } from "../../../components/Core";
+import { Section, Title, Text } from "../../../components/Core";
 
 import imgPhoto5 from "../../../assets/image/png/safetybefore.png";
 import imgPhoto6 from "../../../assets/image/png/safetyafter.png";
@@ -15,7 +15,8 @@ const JargonBody = () => {
         <Container>
           <Section>
             <Row>
-                  <Text className="mb-4 mt-2 w-100">Jargon is specialized language used by a certain group. While not always bad, <b>it's often exclusionary</b>. Using jargon is poor practice, and <b>decreases trust because it prevents clarity</b>.</Text>
+                  <Title variant="cardBig" className='mt-2 mb-4'>Jargon is specialized language used by a certain group</Title>
+                  <Text className="mb-4 mt-2 w-100">While not always bad, <b>it's often exclusionary</b>. Using jargon is poor practice, and <b>decreases trust because it prevents clarity</b>.</Text>
                   <Text className="mb-4 w-100">After ensuring I understood this jargon, <i>whisper technology</i> was changed to <b><i>customizable privacy settings</i></b>.</Text>
                   <Text className="mb-4 mt-4">Further clarification is given by changing <i>DM's</i> to <i>messaging feature</i>. Removing abbreviations is best practice for accessibility because <b>screen readers don't read abbreviations</b>. Although UX writing can allow for abbreviations of common words, lessening ambiguity and increasing accessibility should outweigh brevity.</Text>
                 <Col className='mt-5'>
