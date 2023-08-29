@@ -42,7 +42,7 @@ const UserBody = () => {
             </Row>
             <Row>
                   <Text className="mb-4 mt-4 w-100">With cross-team input, questions on how mentors are supported were removed and an entire section was dedicated to the topic of support. The original question was changed to address themes of <b>imposter syndrome</b>. I was responsible for writing body copy around supporting mentees.</Text>
-                  <Text className="mb-4 mt-4 w-100">The Research team suggested the question on ending mentorship. While our team supported this, we discussed if it might be better placed within the platform's internal <i>resource</i> section, not on the landing page. 
+                  <Text className="mb-4 mt-4 w-100">The Research team suggested a question on ending mentorship. While our team supported this, we discussed if it might be better placed within the platform's internal <i>resource</i> section, not on the landing page. 
                       However, research indicated mentors named this an area of high concern and therefore we chose to move forward with including it here.</Text>
             </Row>
             <Row>
@@ -73,12 +73,6 @@ const UserBody = () => {
                   <img src={imgPhoto11} alt="" className="img-fluid w-100" />
                 </Col>
             </Row>
-            {/* <Row className='mt-4'>
-                  <Title variant="cardBig" className='mt-5'>Offering guidance and personal autonomy</Title>
-                  <Text className="mb-4 mt-4 w-100">Researchers suggested <b>pre-filled examples </b>for write-in text fields as well as more <b>specific writing prompts</b>. As this is an area where users may drop off due to uncertainty, confusion, or even annoyance, it was important to offer guidance. Initial findings indicated some mentors specifically used the word <i>story</i> when referring to learning more about their mentee. ADPList, another mentorship platform, also uses this language (<i>"Tell us your origin story", and "Everyone has a story, what's yours?"</i>).</Text>
-                  <Text className="mb-4 mt-4 w-100">We <b>hypothesized utilizing the word <i>story</i></b> would be <b>easily understandable, familiar, and speak directly to our users in their own words</b>.</Text>
-                    <img src={imgPhoto11} alt="" className="img-fluid w-75" />   
-            </Row> */}
             <Row>
             <Title variant="cardBig" className='mt-4'>Most fit, but one was not quite right</Title>
                   <Text className="mb-2 mt-4">Mentors liked the FAQ's and support resources, but the hypothesis of using the word <i>story</i> turned out to be incorrect. Research found <b>3 out of 6</b> mentors <b>found this phrasing confusing</b>. Different copy was offered for the next round of usability testing.</Text>

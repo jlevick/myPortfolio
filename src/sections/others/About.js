@@ -3,6 +3,9 @@ import { Container, Row, Card, Accordion, Button } from 'react-bootstrap'
 
 import { Section, Title, Text } from '../../components/Core'
 import imgPhoto from '../../assets/image/png/jaime_small.png'
+import imgPhoto1 from '../../assets/image/png/jaime1.png'
+import imgPhoto2 from '../../assets/image/png/jaime2.png'
+import imgPhoto3 from '../../assets/image/png/jaime3.png'
 
 
 const About = ({ hero = true, bg = 'light', ...rest }) => {
@@ -12,7 +15,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
         <Container>
           <Row className="justify-content-center align-items-center py-5">
               <div className='w-25'>
-                <img src={imgPhoto} alt="Photo of Jaime holding a dog" aria-label='Photo of Jaime smiling and holding a boston terrier dog named Cricket' className="img-fluid" />
+                <img src={imgPhoto3} alt="Jaime holding a dog" aria-label='Jaime smiling and holding a boston terrier dog named Cricket' className="img-fluid" />
               </div>
           </Row> 
           <Row>
