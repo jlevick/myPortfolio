@@ -15,17 +15,16 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
                 </Title>
                 <Text
                   color="light"
-                  className="mt-4 mb-5"
+                  className="mt-4 mb-4"
                   css={`
                     line-height: 0.07;
                   `}
                 >
-                  Design the minimum viable product (MVP) of a mobile app that
-                  allows users to instantly connect with astrologers.
+                  People want astrology readings but don't know how to find reputable astrologers, and no single resource offers everything they need.
                 </Text>
               </div>
               <div className="pl-4 pl-lg-4">
-                <div className="mt-4 mb-5">
+                <div className="mt-2 mb-5">
                 </div>
                 <div className="mt-4 mb-5"></div>
                 <Text color="light" className="mt-3 font-weight-bold"></Text>
@@ -44,7 +43,8 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                   An inclusive astrology app with 3 distinct features, offering users exactly what they want.</Text>
+                  Design the minimum viable prototype of a mobile app that
+                  allows users to instantly connect with astrologers.</Text>
               </div>
           </Row>
           <Row className="align-items-start justify-content-start">
