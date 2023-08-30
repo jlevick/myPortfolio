@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Section, Title, Text, Box } from "../../../components/Core";
-import imgPhoto from "../../../assets/image/png/affinitymap.png";
+import imgPhoto from "../../../assets/image/png/affinity.png";
 import imgPhoto3 from "../../../assets/image/png/titlecase.png";
 import imgPhoto4 from "../../../assets/image/png/wordlist.png";
 import imgPhoto5 from "../../../assets/image/png/styleguidemvp.png";
@@ -60,7 +60,7 @@ const CaseStudySLVoiceBody = () => {
               <div>
                 <Box
                   className="d-flex justify-content-center align-items-center w-100">
-                  <img src={imgPhoto} alt="sticky notes with top four themes: community, agency, growth, and safety" className="img-fluid" />
+                  <img src={imgPhoto} alt="sticky notes with top four themes: community, personal autonomy, growth, and safety" className="img-fluid" />
                 </Box>
               </div>
             </Row>
