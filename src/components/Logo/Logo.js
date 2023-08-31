@@ -6,7 +6,7 @@ const Logo = ({ color = 'front', height, className = '', ...rest }) => {
   return (
     <Link to="/" className={`${className}`} {...rest}>
       <Title color={color} variant="cardLg" className="mb-0">
-        Jaime Levick-Oxner | UX Writer
+        Jaime Levick-Oxner
       </Title>
     </Link>
   )

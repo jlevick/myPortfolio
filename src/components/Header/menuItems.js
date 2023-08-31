@@ -1,7 +1,7 @@
 export const menuItems = [
          {
            name: "my-work",
-           label: "My Work",
+           label: "My work",
            items: [
              // case studies below
              { name: "slvoice", label: "Voice and Tone" },

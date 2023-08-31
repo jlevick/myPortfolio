@@ -440,7 +440,7 @@ const Header = ({ isDark }) => {
                       className="nav-link"
                       href="/about"
                     >
-                      About Me
+                      About me
                     </a>
                   </li>
                   <li className="nav-item">

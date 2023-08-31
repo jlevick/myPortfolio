@@ -45,19 +45,17 @@ const UserBody = () => {
                   <Text className="mb-4 mt-4 w-100">The Research team suggested a question on ending mentorship. While our team supported this, we discussed if it might be better placed within the platform's internal <i>resource</i> section, not on the landing page. 
                       However, research indicated mentors named this an area of high concern and therefore we chose to move forward with including it here.</Text>
             </Row>
-            <Row>
+            <Row className="mb-4 mt-4 w-100">
               <div>
                 <Title variant="cardBig" className='mt-4'>Addressing mentor desires for community, resources, and privacy</Title>
               </div>
             </Row>
             <Row>
-                <Col className='mt-4'>
-                  <img src={imgPhoto16} alt="" className="img-fluid w-100" />
-                </Col>
-                <Col className='mt-5'>
-                  <Text className="mt-4 w-100">With the question around mentorship support removed from the FAQ, we focused our efforts on crafting copy for an entire mentor support section. Sean's Legacy's <i>Master's of Public Health</i> interns are creating a <b>comprehensive onboarding kit</b>, and our client wanted this reflected within the copy.</Text>
-                  <Text className="mt-4 w-100">Potential mentors indicated a desire for community support and resources in general, and we included these needs using <b>uplifting</b>, <b>compassionate language</b>.</Text>
-                </Col>
+                  <Text className="mt-2 w-100">With the question around mentorship support removed from the FAQ, we focused our efforts on crafting copy for an entire mentor support section. Sean's Legacy is creating a <b>comprehensive onboarding kit</b>, and wanted this reflected in the copy.</Text>
+                  <Text className="mt-4 mb-4 w-100">Potential mentors indicated a desire for community support and resources in general, and we included these needs using <b>uplifting</b>, <b>compassionate language</b>.</Text>
+            </Row>
+            <Row>
+                <img src={imgPhoto16} alt="" className="img-fluid w-50" />
             </Row>
             <Row>
               <div>
