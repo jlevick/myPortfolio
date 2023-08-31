@@ -2,13 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Section, Title, Text, Box } from "../../../components/Core";
 import imgPhoto from "../../../assets/image/png/affinity.png";
-import imgPhoto3 from "../../../assets/image/png/titlecase.png";
-import imgPhoto4 from "../../../assets/image/png/wordlist.png";
-import imgPhoto5 from "../../../assets/image/png/styleguidemvp.png";
-import imgPhoto6 from "../../../assets/image/png/quiz.png";
-import imgPhoto7 from "../../../assets/image/png/questionnaire.png";
-import imgPhoto8 from "../../../assets/image/png/support.png";
-import imgPhoto9 from "../../../assets/image/png/focus.png";
 import imgPhoto10 from "../../../assets/image/png/chosen.png";
 
 

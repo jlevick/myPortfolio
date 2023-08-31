@@ -30,7 +30,7 @@ const Contact = ({ hero = true, bg = 'dark', ...rest }) => {
                 <Text color="light" mb="2.75rem">
                   I will respond to messages within 48 hours.
                 </Text>
-                <ContactForm theme="dark" />
+                <ContactForm theme="light" />
               </Box>
             </Col>
             <Col lg="5">
