@@ -51,7 +51,7 @@ const UserBody = () => {
               </div>
             </Row>
             <Row>
-                  <Text className="mt-2 w-100">With the question around mentorship support removed from the FAQ, we focused our efforts on crafting copy for an entire mentor support section. Sean's Legacy is creating a <b>comprehensive onboarding kit</b>, and wanted this reflected in the copy.</Text>
+                  <Text className="mt-2 w-100">With the question around mentorship support removed from the FAQ, efforts focused on crafting copy for an entire mentor support section. Sean's Legacy has a <b>comprehensive onboarding kit</b>, and wanted this reflected in the copy.</Text>
                   <Text className="mt-4 mb-4 w-100">Potential mentors indicated a desire for community support and resources in general, and we included these needs using <b>uplifting</b>, <b>compassionate language</b>.</Text>
             </Row>
             <Row>
