@@ -41,7 +41,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                   <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <Text className="mt-2 mb-5">
-                        <li><b>UX Writing</b>: combining data sets to write clear, consistent, and concise copy</li>
+                        <li><b>UX Writing</b>: using data to write clear, consistent, and useful copy</li>
                         <li><b>Software Development</b>: making changes in complex codebases and creating relevant pull requests</li>
                         <li><b>Content Design</b>: offering what users need when and where they expect it with a user-centered approach</li>
                         <li><b>Accessibility Compliance</b>: ensuring content is available to <i>everyone</i> and writing proper ARIA labels and alt text</li>
@@ -71,6 +71,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                     <Card.Body>
                       <Text className="mt-2 mb-4"><b>Experience</b></Text>
                       <Text className="mt-2 mb-5">
+                        <li><b>Lead UX Writer</b> | <i>Global Justice Ecology Project</i> | August 2023 - present</li>
                         <li><b>UX Writer</b> | <i>Oppia Foundation</i> | May 2023 - present</li>
                         <li><b>Content Strategist </b>| <i>Sean's Legacy</i> | January 2023 - April 2023</li>
                         <li><b>Project Coordinator</b> | <i>SeniorCorps</i> | March 2020 - February 2022</li>
