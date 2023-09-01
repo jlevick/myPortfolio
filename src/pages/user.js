@@ -5,6 +5,7 @@ import Hero from '../sections/user/Hero'
 import Works from '../sections/user/Works'
 import User from '../components/projects/caseStudies/user'
 import UserBody from '../components/projects/caseStudies/user-body'
+import CTA from '../sections/aspect/CTA'
 
 const user = () => {
   return (
@@ -14,6 +15,7 @@ const user = () => {
         <User />
         <UserBody />
         <Works />
+        <CTA />
       </PageWrapper>
     </>
   )

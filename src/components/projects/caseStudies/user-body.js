@@ -51,11 +51,13 @@ const UserBody = () => {
               </div>
             </Row>
             <Row>
+              <Col className='mt-4'>
+                  <img src={imgPhoto16} alt="" className="img-fluid w-100" />
+              </Col>
+              <Col className='mt-4'>
                   <Text className="mt-2 w-100">With the question around mentorship support removed from the FAQ, efforts focused on crafting copy for an entire mentor support section. Sean's Legacy has a <b>comprehensive onboarding kit</b>, and wanted this reflected in the copy.</Text>
                   <Text className="mt-4 mb-4 w-100">Potential mentors indicated a desire for community support and resources in general, and we included these needs using <b>uplifting</b>, <b>compassionate language</b>.</Text>
-            </Row>
-            <Row>
-                <img src={imgPhoto16} alt="" className="img-fluid w-50" />
+              </Col>
             </Row>
             <Row>
               <div>
@@ -65,7 +67,7 @@ const UserBody = () => {
             <Row>
                 <Col className='mt-4'>
                   <Text className="mb-4 mt-4 w-100"><b>Pre-filled examples</b> for write-in text fields, as well as more <b>specific writing prompts</b> were considered for added clarity. This is an area where users may drop off due to uncertainty, confusion, or even annoyance so it's important to offer guidance. <br /> <br />Initial findings indicated mentors used the word <i>story</i> when referring to learning more about their mentee. ADPList, another mentorship platform, also uses this language (<i>"Tell us your origin story", and "Everyone has a story, what's yours?"</i>).</Text>
-                  <Text className="mb-4 mt-4 w-100">We <b>hypothesized utilizing the word <i>story</i></b> would be <b>easily understandable, familiar, and speak directly to our users in their own words</b>.</Text>
+                  <Text className="mb-4 mt-4 w-100">I <b>hypothesized utilizing the word <i>story</i></b> would be <b>easily understandable, familiar, and speak directly to our users in their own words</b>.</Text>
                 </Col>
                 <Col className='mt-5'>
                   <img src={imgPhoto11} alt="" className="img-fluid w-100" />
@@ -74,7 +76,7 @@ const UserBody = () => {
             <Row>
             <Title variant="cardBig" className='mt-4'>Most fit, but one was not quite right</Title>
                   <Text className="mb-2 mt-4">Mentors liked the FAQ's and support resources, but the hypothesis of using the word <i>story</i> turned out to be incorrect. Research found <b>3 out of 6</b> mentors <b>found this phrasing confusing</b>. Different copy was offered for the next round of usability testing.</Text>
-                  <Text className="mb-2 mt-2">Crafting user-centered copy takes time and testing to get right. Learning that <i>story</i> didn't resonate with mentors is not a failure but a learning opportunity and a chance to get closer next time.</Text>
+                  <Text className="mb-2 mt-2">Crafting excellent user-centered copy takes time and testing to get right. Learning that <i>story</i> didn't resonate with mentors is not a failure but a learning opportunity and an opportunity to get closer next time.</Text>
             </Row>
             {/* <Row className='mt-5'>
                 <div>

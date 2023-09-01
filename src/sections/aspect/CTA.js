@@ -18,7 +18,7 @@ const Hero = () => {
             <Col lg="11" xl="10" className="text-center">
               <Box mt="42px" mb="22px">
                 <Title variant="secSm">
-                  Contact me
+                  Let's connect
                 </Title>
 
                 <Box
