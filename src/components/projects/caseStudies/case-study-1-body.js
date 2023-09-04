@@ -81,7 +81,7 @@ console.log(size, breakpoints.md)
                     line-height: 0.07;
                   `}
                 >
-                  And this number is growing. It's no wonder, as astrology offers guidance and support in these increasingly stressful times.
+                  ...and this number is growing. It's no wonder, as astrology offers guidance and support in these increasingly stressful times.
                   <br /> 
                   To develop a useful, sought-after product, exploratory research began with competetive
                   analyses. 2 popular astro-related apps were considered top contenders: Sanctuary Astrology
@@ -139,10 +139,9 @@ console.log(size, breakpoints.md)
                   line-height: 0.07;
                 `}
               >
-                After determining the viability of the project, I surveyed 22
-                people in order to gather information about their interest in
-                astrology and what they look for in an astrologer. The survey
-                was open to everyone.
+                After determining the viability of the project, 22
+                people were surveyed to gather insight on their interest in
+                astrology and what they look for in an astrologer.
               </Text>
             </Row>
             <Row className="justify-content-center align-items-center py-5">
@@ -158,7 +157,7 @@ console.log(size, breakpoints.md)
                   <Text variant="li">Astrologer's background (63.6%)</Text>
                   <Text variant="li">Client reviews (45.5%)</Text>
                 </ul>
-                <Row>
+                <Row  className="py-5">
                   <Col>
                     <Title variant="cardBig" className="mb-4">
                       People don't book astrology readings because they are
@@ -170,16 +169,16 @@ console.log(size, breakpoints.md)
                       <Text variant="li">Unsure whom to book with (64.7%)</Text>
                     </ul>
                     <Text>
-                      The survey was followed up with user interviews with 4
-                      self identified astro-enthusiasts. The goal of interviews
-                      was to gain a deeper understanding of people's motivations
-                      for following astrology, their experiences working with
-                      astrologers, and their expectations of astrological
+                      The survey was followed up with 4 user interviews with
+                      self identified astro-enthusiasts. The goal
+                      was to gain a deeper understanding of motivations
+                      for following astrology, experiences working with
+                      astrologers, and expectations of astrological
                       content.
                     </Text>
                   </Col>
                 </Row>
-                <Row className="pt-5">
+                <Row className="pt-2">
                   <Col className="justify-content-center align-items-center">
                     <Title variant="cardBig" className="mb-4">
                       User interview key findings
@@ -248,13 +247,6 @@ console.log(size, breakpoints.md)
                   unique birth chart.
                 </b>
               </Text>
-              <Text>
-                We will know our problem statement is accurate when users are
-                able to connect with other astrology enthusiasts and no longer
-                have to spend time searching for an astrologer or researching
-                their personal astrology, all within a single app.
-              </Text>
-              <br />
             </Box>
             <Box className="pt-3">
               <Title variant="cardSm">Hypothesis</Title>
@@ -342,7 +334,7 @@ console.log(size, breakpoints.md)
                 `}
               >
                 With a clear understanding of target users and required screens,
-                I used a hybrid card sort to create Aspect's site map; I wanted
+                a hybrid card sort was used to create Aspect's site map. I wanted
                 to offer the structure of defined categories so participants
                 wouldn't abandon the study, while leaving room for their mental
                 models to shine.
@@ -390,8 +382,7 @@ console.log(size, breakpoints.md)
                   line-height: 0.07;
                 `}
               >
-                I began my prototyping process with my final paper sketches as I
-                was still learning Figma. In hindsight I created a lot of extra
+                I began my prototyping process with my final paper sketches. In hindsight I created lots of extra
                 work for myself and likely wouldn't do this again, but it's a
                 nice keepsake and inspired confidence moving forward.
               </Text>
@@ -437,7 +428,7 @@ console.log(size, breakpoints.md)
               <Row className="justify-content-center align-items-center pt-3">
                 <div className="pl-3">
                   <Text className="mb-4 mt-4">
-                    The goal of usability testing was to measure for usability
+                    The goal of testing was to measure for usability
                     errors. Moderated remote testing was used for all 6
                     usability tests. Participants were given 4 tasks to
                     complete.
@@ -758,7 +749,7 @@ console.log(size, breakpoints.md)
               <Row className="mb-4">
                 <Text>
                   As a new product on the market, the KPI (key performance
-                  indicator) I would measure is <b>user return rate</b>, a
+                  indicator) to measure is <b>user return rate</b>, a
                   relatively easy metric to track that holds invaluable insight.{" "}
                   <i>
                     How many users are booking an astrologer through our
@@ -771,33 +762,13 @@ console.log(size, breakpoints.md)
               </Row>
               <Row className="mb-4">
                 <Text>
-                  I believe Aspect is a genuinely profitable business venture.
+                  Aspect is a genuinely profitable business venture.
                   Testing would need to be done on a much larger scale with more
                   participants but I stand behind the idea as an entry point in
                   to this quickly growing industry.
                 </Text>
               </Row>
             </Box>
-          </Row>
-          <Row>
-            <Col>
-              <br />
-              <Title variant="cardBig" className="mb-4">
-                Next steps
-              </Title>
-              <Text variant="li">
-                Design a Direct Message feature for user to user connection
-              </Text>
-              <Text variant="li">Design a feature to compare astrologers</Text>
-              <Text variant="li">Design a more robust review feature</Text>
-              <Text variant="li">
-                Develop a strategy for vetting and recruiting astrologers
-              </Text>
-              <Text variant="li">
-                Re-design the Browse feature to include a section on how
-                astrologers are vetted
-              </Text>
-            </Col>
           </Row>
         </Container>
       </Section>
