@@ -115,35 +115,6 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                   </Accordion.Collapse>
                 </Card>
               </Accordion>
-              {/* <Accordion>
-                <Card>
-                  <Card.Header>
-                    <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                  <Title
-                      variant="card"
-                      mb="1.5rem"
-                      fontSize="1rem"
-                      className="text-uppercase mt-2 mb-4"
-                      css={`
-                        letter-spacing: 1.63px;
-                      `}
-                    >
-                      My approach
-                  </Title>
-                    </Accordion.Toggle>
-                  </Card.Header>
-                  <Accordion.Collapse eventKey="0">
-                    <Card.Body>
-                      <Text className="mt-2 mb-4">
-                        <li>I use an intersectional feminist framework</li>
-                        <li>I don't use gendered language</li>
-                        <li>I don't center whiteness or hetero normativity</li>
-                        <li>I am committed to </li>
-                      </Text>
-                    </Card.Body>
-                  </Accordion.Collapse>
-                </Card>
-              </Accordion> */}
             </div>
           </Row>
         </Container>
