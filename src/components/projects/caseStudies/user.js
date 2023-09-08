@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Accordion, Card } from "react-bootstrap";
 import { Section, Title, Text, Button } from "../../Core";
 
 const User = ({ hero = true, bg = "dark", ...rest }) => {
@@ -32,7 +32,6 @@ const User = ({ hero = true, bg = "dark", ...rest }) => {
                   </Text>
                 </div>
               </div>
-         
               <div>
                 <Title color="light" variant="secSm">
                   Outcome

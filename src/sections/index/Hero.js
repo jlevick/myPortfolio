@@ -19,7 +19,7 @@ const Hero = () => {
                   className="text-uppercase"
                   color="heading"
                 >
-                UX Writer
+                Content Designer and UX Writer
                 </Text>
                 <Title variant="Hero">
                 Empowering people, one word at a time. 

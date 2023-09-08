@@ -20,7 +20,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
           </Row> 
           <Row>
             <div className="pl-lg-4 pt-5 pt-lg-0">
-              <Title variant="cardBig" className="mt-2 mb-5 mt-lg-5">Hi! I'm Jaime, a UX writer with front-end development skills and a knack for simplifying complex jargon.</Title>
+              <Title variant="cardBig" className="mt-2 mb-5 mt-lg-5">Hi! I'm Jaime, a Content Designer with front-end development skills and a talent for simplifying complex jargon.</Title>
               <Accordion defaultActiveKey="0">
                 <Card>
                   <Card.Header>
