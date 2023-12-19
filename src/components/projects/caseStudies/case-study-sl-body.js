@@ -76,6 +76,10 @@ const CaseStudy2Body = () => {
                   <img src={imgPhoto8} alt="" className="img-fluid w-100" />
                 </Col>
             </Row>
+            <Row className='mt-5'>
+                  <Title variant="cardBig">Increased understanding through content design</Title>
+                  <Text className="mb-4 mt-4 w-100">Through small copy changes and re-ordering of content placement, 5 out 6 mentees report increased understanding of the platform compared to 3 out of 6 before the update.</Text>
+            </Row>
           </Section>
         </Container>
       </Section>
