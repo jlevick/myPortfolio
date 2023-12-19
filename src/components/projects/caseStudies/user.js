@@ -38,7 +38,7 @@ const User = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  Copy that resonates with mentors and eases concerns, but one word that 3 out of 6 mentors found confusing...
+                  Copy that resonates with mentors and eases concerns, except one word that 3 out of 6 mentors found confusing...
                   </Text>
                 </div>
               </div>
