@@ -57,7 +57,7 @@ const Hero = () => {
             <Title variant="secSm" mb="1.5rem">
               Clarifying Jargon
             </Title>
-             <Text>Users question what terms like <i>Whisper Technology</i> mean. This confusion decreases trust and lowers conversion rates.</Text>
+             <Text>Users don't understand what <i>Whisper Technology</i> means. This confusion decreases trust and lowers conversion rates.</Text>
           </Box>
         </Container>
       </SectionStyled>

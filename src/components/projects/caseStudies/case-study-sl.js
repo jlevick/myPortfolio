@@ -19,7 +19,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  Help mentees understand the value Sean's Legacy Mentorship provides and who Sean's Legacy is.
+                  3 out of 6 mentees don't understand the purpose of the Sean's Legacy platform. Help mentees understand the value mentorship provides and who Sean's Legacy is.
                 </Text>
               </div>
               <div>
@@ -28,7 +28,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                    Offer value proposition up front and clarify purpose of the platform through copywriting.
+                    Frontload important information to provide value proposition up front. Clarify purpose of the platform using concise, personalized copy.
                   </Text>
                 </div>
               </div>
@@ -43,7 +43,7 @@ const CaseStudySl = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  By focusing on benefits for the user and <i>not</i> the features that offer those benefits, users are 50% more likely to sign up for mentorship.
+                  By focusing on benefits for the user and <i>not</i> the features that offer those benefits, 5 out of 6 mentees are more likely to sign up for mentorship.
                 </Text>
               </div>
           </Row>

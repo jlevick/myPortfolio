@@ -38,7 +38,7 @@ const Jargon = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  Increased accessibility by removing confusing copy and abbreviations, resulting in 100% of users understanding this safety feature.
+                  Increased accessibility by removing confusing copy and abbreviations, resulting in 6 out of 6 users understanding this safety feature.
                   </Text>
                 </div>
               </div>
