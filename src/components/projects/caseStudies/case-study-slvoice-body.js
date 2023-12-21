@@ -117,23 +117,18 @@ const CaseStudySLVoiceBody = () => {
                   <Text className="mb-4 mt-4">Determining product voice and tone early on has already led to more cohesive designs. The project itself is still in its infancy yet already has a clear and distinct personality.</Text>
                 </div>
               </Row>
-          </Section>
-          <Section>
-            <Container>
-              
-              {/* <Row className='mt-5'>
-                <div>
-                  <Title variant="cardBig">The style guide is a living document</Title>
-                  <Text className="mb-4 mt-4">There are still major decisions to be made regarding language. Toward the end of Phase 2 we began working on language for gender, orientation, race, and ethnicity. Phase 2 usability testing showed users were confused with various options, and our team recommended Phase 3 begin with a content audit of existing designs to determine any inconsistencies and standardize terminology. We also recommended testing various copy such as <i>Female</i> versus <i>Woman</i>, and <i>Trans</i> versus <i>Transgender</i>.</Text>
-                </div>
-              </Row>
               <Row className='mt-5'>
                 <div>
-                <Title variant="cardBig">Consistency takes time</Title>
-                  <Text className="mb-4 mt-4">Phase 1 had already written copy for mentee designs and Phase 2 began designing for the mentor side of the platform. There were 2 design teams during Phase 2 and thusly it was important to standardize copy between them. Occasionally we didn't see a copy change from one team which led to overall confusion on all teams and a lack of cohesion within designs. Future phases will be able to unify designs with the help of our style guide.</Text>
+                  <Title variant="cardBig">The style guide is a living document</Title>
+                  <Text className="mb-4 mt-4">There are still major decisions to be made regarding language. Toward the end of the project we began working on language for gender, orientation, race, and ethnicity. Usability testing showed users were confused with various options, and our team recommended a content audit of existing designs to determine any inconsistencies and standardize terminology. We also recommended testing various copy such as <i>Female</i> versus <i>Woman</i>, and <i>Trans</i> versus <i>Transgender</i>.</Text>
                 </div>
-              </Row> */}
-            </Container>
+              </Row>
+              {/* <Row className='mt-5'>
+                <div>
+                <Title variant="cardBig">Consistency takes time</Title>
+                  <Text className="mb-4 mt-4">Phase 1 had already written copy for mentee designs and Phase 2 began designing for the mentor side of the platform. There were 2 design teams during Phase 2 and thusly it was important to standardize copy between them. Occasionally we didn't see a copy change from one team which led to overall confusion on all teams and a lack of cohesion within designs. Future phases will be able to unify designs with the help of the style guide.</Text>
+                </div>
+              </Row>  */}
           </Section>
         </Container>
       </Section>

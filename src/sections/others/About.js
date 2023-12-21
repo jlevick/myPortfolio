@@ -15,7 +15,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
         <Container>
           <Row className="justify-content-center align-items-center py-5">
               <div className='w-25'>
-                <img src={imgPhoto3} alt="Jaime holding a dog" aria-label='Jaime smiling and holding a boston terrier dog named Cricket' className="img-fluid" />
+                <img src={imgPhoto3} alt="Jaime holding a black and white boston terrier" aria-label='Jaime smiling and holding a black and white boston terrier dog named Cricket' className="img-fluid" />
               </div>
           </Row> 
           <Row>
@@ -71,11 +71,11 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                     <Card.Body>
                       <Text className="mt-2 mb-4"><b>Experience</b></Text>
                       <Text className="mt-2 mb-5">
-                        <li><b>Lead UX Writer</b> | <i>Global Justice Ecology Project</i> | August 2023 - present</li>
-                        <li><b>UX Writer</b> | <i>Oppia Foundation</i> | May 2023 - present</li>
-                        <li><b>Content Strategist </b>| <i>Sean's Legacy</i> | January 2023 - April 2023</li>
-                        <li><b>Project Coordinator</b> | <i>SeniorCorps</i> | March 2020 - February 2022</li>
-                        <li><b>Administrative Specialist</b> | <i>University of Wyoming</i> | August 2012 - July 2019</li>
+                        <li><b>Lead UX Writer</b> | <i>Global Justice Ecology Project</i> | August 2023 - December 2023</li>
+                        <li><b>UX Writer</b> | <i>Oppia Foundation</i> | May 2023 - October 2023</li>
+                        <li><b>UX Content Designer</b> | <i>Sean's Legacy</i> | January 2023 - April 2023</li>
+                        <li><b>Content Designer and Project Coordinator</b> | <i>SeniorCorps</i> | March 2020 - February 2022</li>
+                        <li><b>Sr. Administrative Specialist</b> | <i>University of Wyoming</i> | August 2012 - July 2019</li>
                       </Text>
                       <Text className="mt-2 mb-4"><b>Education</b></Text>
                       <Text className="mt-2 mb-2">
@@ -115,7 +115,9 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                       <br /> <br />
                       <Text><li><i>"[Jaime] provided us with a wealth of information on accessibility best practices for writing inclusive image alt text. When we had concerns and questions about the topic, Jaime provided us with multiple resources, detailed explanations, and personalized recommendations that made me feel that I had received an entire course of the best material on this topic! Her encouragement and teaching style has also built the confidence in our team to fully implement the best practices she suggested. Jaime’s passion in, and enthusiasm towards, her field was extremely evident and has left a lasting impression at GJEP.</i> - <b>Heather Lee, Programs Associate and Lead Global Justice Ecology Project Client</b></li></Text>
                       <br /> <br />
-                      <Text><li><i>"What truly sets Jaime apart is her innate ability to create and maintain a positive work environment and always be open to discussions. She fosters a positive and open communication style, making collaboration enjoyable and efficient. She actively sought input from team members, valuing diverse perspectives and creating a team culture that thrived on mutual respect and support. Jaime possesses a remarkable ability to lead, fostering a collaborative and inclusive environment. She championed accessibility and inclusion in all aspects of our projects, ensuring that our work was considerate of diverse needs. Jaime is an exemplary UX Writing Lead, combining leadership skills, a commitment to accessibility and inclusion, a collaborative spirit, adaptability, and strong organizational skills.</i> - <b>Stephanie Roncone, UX Researcher and UX Writing Apprentice on the Global Justice Ecology Project</b></li></Text>
+                      <Text><li><i>"Jaime didn’t have an ego, she created a safe space for our team to have open discussions, and was open to feedback or suggestions. She led with a servant-leadership style: she prioritized helping others, wasn’t shy about doing the work, and created an environment where each person could be themselves."</i> - <b>Alanna Olear, Global Justice Ecology Project Co-Lead and UX Researcher</b></li></Text>
+                      <br /> <br />
+                      <Text><li><i>"What truly sets Jaime apart is her innate ability to create and maintain a positive work environment and always be open to discussions. She actively sought input from team members, valuing diverse perspectives and creating a team culture that thrived on mutual respect and support. Jaime possesses a remarkable ability to lead, fostering a collaborative and inclusive environment. She championed accessibility and inclusion in all aspects of our projects, ensuring that our work was considerate of diverse needs.</i> - <b>Stephanie Roncone, UX Researcher and UX Writing Apprentice on the Global Justice Ecology Project</b></li></Text>
                       </Card.Body>
                   </Accordion.Collapse>
                 </Card>

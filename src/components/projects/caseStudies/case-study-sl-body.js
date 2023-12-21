@@ -59,12 +59,12 @@ const CaseStudy2Body = () => {
                   <img src={imgPhoto4} alt="" className="img-fluid w-100" />
                 </Col>
                 <div className='mt-5'>
-                  <Text className="mb-4 mt-4"><b>Users want increased personalization</b>, so copy was written to speak directly to each mentee, using "you" instead of "they" or "mentees".</Text>
+                  <Text className="mb-4 mt-4"><b>Research showed users want increased personalization</b>, so copy was written to speak directly to each mentee, using "you" instead of "they" or "mentees".</Text>
               </div>
             </Row>
             <Row className='mt-4'>
-                  <Title variant="cardBig">Balancing needs of my client and their users</Title>
-                  <Text className="mb-4 mt-4 w-100">Sean's Legacy wants to share their mentorship goals but initial designs lacked transparency. The goals of the platform were restructured to <b>show users what benefit the platform gives them</b>.</Text>
+                  <Title variant="cardBig">Sean's Legacy wanted to share their mentorship goals but initial designs lacked transparency</Title>
+                  <Text className="mb-4 mt-4 w-100">The goals of the platform were restructured to <b>show users what benefit the platform gives them</b>.</Text>
                   <Text className="mb-4 w-100">Before, the copy was impersonal, referring to users as “they” and “mentees”.</Text>
                   <Text className="w-100">After, readability was improved by adding headers and simply explaining the benefits of signing up for the platform.</Text>
                 <Col className='mt-5'>
@@ -79,6 +79,12 @@ const CaseStudy2Body = () => {
             <Row className='mt-5'>
                   <Title variant="cardBig">Increased understanding through content design</Title>
                   <Text className="mb-4 mt-4 w-100">Through small copy changes and re-ordering of content placement, 5 out 6 mentees report increased understanding of the platform compared to 3 out of 6 before the update.</Text>
+            </Row>
+            <Row className='mt-5'>
+                <div>
+                  <Title variant="cardBig">Reflections: UX writers should be embedded within design teams</Title>
+                  <Text className="mb-4 mt-4"> At times it was difficult to write copy or develop content because our team didn't have as clear of an understanding of specific flows, constraints, and design decisions as the designers did. Our team had a Content representative present during most Design Working Sessions, which helped greately as requirements changed throughout the project. We were able to collaborate and offer guidance in real time, which was especially helpful as the Phase 2 team as a whole was global and often needed to work asynchronously.</Text>
+                </div>
             </Row>
           </Section>
         </Container>

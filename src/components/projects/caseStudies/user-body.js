@@ -80,16 +80,8 @@ const UserBody = () => {
             </Row>
             <Row className='mt-5'>
                 <div>
-                  <Title variant="cardBig">Reflections</Title>
-                  <Title variant="card">Consistency requires cross-functional collaboration</Title>
+                  <Title variant="cardBig">Reflections: consistency requires cross-functional collaboration</Title>
                   <Text className="mb-4 mt-4">In order to maintain consistency throughout designs, it's important to work with all team members. Occasionally an update to copy would be missed by one of our Design teams during Development handoff. This resulted in outdated copy being included on both final Phase 2 prototypes and in the actual build.</Text>
-                </div>
-            </Row>
-            <Row className='mt-5'>
-                <div>
-                  <Title variant="card">UX writers should be embedded within design teams</Title>
-                  <Text className="mb-4 mt-4"> At times it was difficult to write copy or develop content because our team didn't have as clear of an understanding of specific flows, constraints, and design decisions as the designers did. Our team had a Content representative present during most Design Working Sessions, which helped greately as requirements changed throughout the project. We were able to collaborate and offer guidance in real time, which was especially helpful as the Phase 2 team as a whole was global and often needed to work asynchronously.</Text>
-                  
                 </div>
             </Row>
         </Container>
