@@ -81,14 +81,14 @@ const Works = () => {
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === 'webdev' ? 'active' : null
+                    activeLink === 'contentdesign' ? 'active' : null
                   }`}
                   onClick={e => {
                     e.preventDefault()
-                    filterBy('webdev')
+                    filterBy('contentdesign')
                   }}
                 >
-                  Web Dev
+                  Content Design
                 </a>
               </li>
             </ListNav>

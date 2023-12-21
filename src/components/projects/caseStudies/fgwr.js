@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Accordion, Card } from "react-bootstrap";
 import { Section, Title, Text, Button } from "../../Core";
 
-const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
+const Fgwr1 = ({ hero = true, bg = "dark", ...rest }) => {
   return (
     <>
       <Section hero={hero} bg={bg} {...rest}>
@@ -19,7 +19,7 @@ const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  The Global Justice Ecology Project both needs and wants to increase their website accessibility.  
+                  It's the spring of 2020. Senior volunteers are alone and disconnected from the outside world. Technology use is low to nonexistent, increasing feelings of anixety and isolation. Volunteers need a way to earn their usual monthly stipend as they can no longer serve in their usual capacity.
                 </Text>
               </div>
               <div>
@@ -28,7 +28,7 @@ const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  Increase accessibility through clear, descriptive alt text, and improving content readability. 
+                  Develop a virtual technology training program to afford volunteers their usual stipend, and help volunteers connect with others during the COVID-19 pandemic.
                   </Text>
                 </div>
               </div>
@@ -38,7 +38,7 @@ const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  Accessibility scores increased X amount and a content style guide was created to house readability guidelines. Adding alt text also increased the site's SEO as both drive search engine traffic.  
+                  Participation in the program grew by an astounding 80% within 6 months. Qualitative data confirmed participants felt more confident using technology after completing the program.
                   </Text>
                 </div>
               </div>
@@ -49,4 +49,4 @@ const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
   );
 };
 
-export default Alt1;
+export default Fgwr1;

@@ -4,6 +4,8 @@ import imgPhoto from "../assets/image/png/aspectindex.png";
 import imgPhoto1 from "../assets/image/png/jargon.png";
 import imgPhoto2 from "../assets/image/png/indexvoice.png";
 import imgPhoto3 from "../assets/image/png/benefits.png";
+import imgPhoto4 from "../assets/image/png/NoGETrees.png";
+import imgPhoto5 from "../assets/image/png/techtrainingprogram.png";
 
 
 const devWorks2 = [
@@ -16,10 +18,18 @@ const devWorks2 = [
     link: '/slvoice',
   },
   {
+    brand: `Accessible Content`,
+    slug: `accessiblecontent`,
+    title: `content design`,
+    categories: [`contentdesign`],
+    thumbnail: imgPhoto5,
+    link: '/fgwr',
+  },
+  {
     brand: `Value Proposition`,
     slug: `valueprop`,
-    title: `ux writing`,
-    categories: [`uxwriting`],
+    title: `contentdesign`,
+    categories: [`contentdesign`],
     thumbnail: imgPhoto3,
     link: '/seans-legacy',
   },
@@ -31,6 +41,14 @@ const devWorks2 = [
     thumbnail: imgT3,
     link: '/user',
   },
+  // {
+  //   brand: `Increasing Accessibility`,
+  //   slug: `alttext`,
+  //   title: `ux writing`,
+  //   categories: [`uxwriting`],
+  //   thumbnail: imgPhoto4,
+  //   link: '/alt',
+  // },
   {
     brand: `Clarifying Jargon`,
     slug: `jargon`,
@@ -47,14 +65,6 @@ const devWorks2 = [
     thumbnail: imgPhoto,
     link: '/aspect',
   },
-  {
-    brand: `Frontend Development`,
-    slug: `frontendportfolio`,
-    title: `a portfolio within a portfolio`,
-    categories: [`webdev`],
-    thumbnail: imgT2,
-    link: '/front-end-portfolio',
-  }
 ]
 
 export default devWorks2;

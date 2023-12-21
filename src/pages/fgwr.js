@@ -1,23 +1,23 @@
 import React from 'react'
 
 import PageWrapper from '../components/PageWrapper'
-import Hero from '../sections/alt/Hero'
+import Hero from '../sections/fgwr/Hero'
+import Fgwr1 from '../components/projects/caseStudies/fgwr'
 import Works from '../sections/user/Works'
-import Alt1 from '../components/projects/caseStudies/alt-text'
-import AltBody from '../components/projects/caseStudies/alt-text-body'
+import FgwrBody from '../components/projects/caseStudies/fgwr-body'
 import CTA from '../sections/aspect/CTA'
 
-const Alt = () => {
+const Fgwr = () => {
   return (
     <>
       <PageWrapper lightTheme>
         <Hero />
-        <Alt1 />
-        <AltBody />
+        <Fgwr1 />
+        <FgwrBody />
         <Works />
         <CTA />
       </PageWrapper>
     </>
   )
 }
-export default Alt 
+export default Fgwr

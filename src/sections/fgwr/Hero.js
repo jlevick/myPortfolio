@@ -52,14 +52,12 @@ const Hero = () => {
                 letter-spacing: 1.63px;
               `}
             >
-              Content Design
+             Content Design
             </Title>
             <Title variant="secSm" mb="1.5rem">
-              Value Proposition
+              Accessible Content
             </Title>
-            <Text>
-              Increasing signups through clearly explained, user-centered benefits of the Sean's Legacy Mentorship platform.
-            </Text>
+             <Text>Designing and implementing an accessible technology training program for senior users aged 65 and up.</Text>
           </Box>
         </Container>
       </SectionStyled>

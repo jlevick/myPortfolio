@@ -14,8 +14,8 @@ const Alt = () => {
      <Section className="position-relative">
         <Container>
             <Row>
-                <Title variant="cardBig" className='mt-4'>Speaking to mentors in their own words</Title>
-                  <Text className="mb-4 mt-4 w-100">In collaboration with the research team, I compiled a list of themes and words from their findings:
+                <Title variant="cardBig" className='mt-4'>The Global Justice Ecology Project has been around for 25 years</Title>
+                  <Text className="mb-4 mt-4 w-100">
                   <br />
                     <li><b>Connection</b></li>
                     <li><b>Growth</b></li>

@@ -78,7 +78,7 @@ const UserBody = () => {
                   <Text className="mb-2 mt-4">Mentors liked the FAQ's and support resources, but the hypothesis of using the word <i>story</i> turned out to be incorrect. Research found <b>3 out of 6</b> mentors <b>found this phrasing confusing</b>. Different copy was offered for the next round of usability testing.</Text>
                   <Text className="mb-2 mt-2">Crafting excellent user-centered copy takes time and testing to get right. Learning that <i>story</i> didn't resonate with mentors is not a failure but a learning opportunity and an opportunity to get closer next time.</Text>
             </Row>
-            {/* <Row className='mt-5'>
+            <Row className='mt-5'>
                 <div>
                   <Title variant="cardBig">Reflections</Title>
                   <Title variant="card">Consistency requires cross-functional collaboration</Title>
@@ -91,7 +91,7 @@ const UserBody = () => {
                   <Text className="mb-4 mt-4"> At times it was difficult to write copy or develop content because our team didn't have as clear of an understanding of specific flows, constraints, and design decisions as the designers did. Our team had a Content representative present during most Design Working Sessions, which helped greately as requirements changed throughout the project. We were able to collaborate and offer guidance in real time, which was especially helpful as the Phase 2 team as a whole was global and often needed to work asynchronously.</Text>
                   
                 </div>
-            </Row> */}
+            </Row>
         </Container>
       </Section>
     </>
