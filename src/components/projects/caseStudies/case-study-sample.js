@@ -16,7 +16,7 @@ import imgPhoto10 from "../../../assets/image/png/tooltipafter.png";
 import imgPhoto11 from "../../../assets/image/png/notificationbefore.png";
 import imgPhoto12 from "../../../assets/image/png/notificationafter.png";
 
-const CaseStudySample = () => {
+const CaseStudySample1 = () => {
   return (
     <>
       <Section className="position-relative">
@@ -142,4 +142,4 @@ const CaseStudySample = () => {
   );
 };
 
-export default CaseStudySample;
+export default CaseStudySample1;

@@ -23,7 +23,7 @@ const devWorks2 = [
     title: `content design`,
     categories: [`contentdesign`],
     thumbnail: imgPhoto5,
-    link: '/fgwr',
+    link: '/accessible-content',
   },
   {
     brand: `Value Proposition`,
@@ -64,7 +64,7 @@ const devWorks2 = [
     categories: [`ux`],
     thumbnail: imgPhoto,
     link: '/aspect',
-  },
+  }
 ]
 
 export default devWorks2;

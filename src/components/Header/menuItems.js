@@ -10,7 +10,8 @@ export const menuItems = [
              { name: "user", label: "User-Centered Copy" },
              //{ name: "alt", label: "Increasing Accessibility"},
              { name: "jargon", label: "Clarifying Jargon" },
-             { name: "aspect-astrology", label: "UX/UI Design" },
+             { name: "aspect", label: "UX/UI Design" },
+             
             
              
            ],

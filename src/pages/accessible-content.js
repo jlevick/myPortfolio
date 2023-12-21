@@ -7,7 +7,7 @@ import Works from '../sections/user/Works'
 import FgwrBody from '../components/projects/caseStudies/fgwr-body'
 import CTA from '../sections/aspect/CTA'
 
-const Fgwr = () => {
+const AccessibleContent = () => {
   return (
     <>
       <PageWrapper lightTheme>
@@ -20,4 +20,4 @@ const Fgwr = () => {
     </>
   )
 }
-export default Fgwr
+export default AccessibleContent

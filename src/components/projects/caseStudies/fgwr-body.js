@@ -7,7 +7,7 @@ import imgPhoto2 from "../../../assets/image/png/resources.png";
 import imgPhoto3 from "../../../assets/image/png/resources2.png";
 
 
-const fgwr = () => {
+const AccessibleContent = () => {
   return (
     <>
      <Section className="position-relative">
@@ -144,4 +144,4 @@ const fgwr = () => {
   );
 };
 
-export default fgwr;
+export default AccessibleContent;

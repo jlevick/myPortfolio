@@ -29,7 +29,7 @@ const ImgRight = styled.img`
   }
 `
 
-const Hero = () => {
+const CaseStudySample = () => {
   return (
     <>
       {/* <!-- Hero Area --> */}
@@ -60,4 +60,4 @@ const Hero = () => {
   );
 }
 
-export default Hero
+export default CaseStudySample
