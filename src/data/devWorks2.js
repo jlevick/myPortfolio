@@ -5,7 +5,7 @@ import imgPhoto1 from "../assets/image/png/jargon.png";
 import imgPhoto2 from "../assets/image/png/indexvoice.png";
 import imgPhoto3 from "../assets/image/png/benefits.png";
 import imgPhoto4 from "../assets/image/png/NoGETrees.png";
-import imgPhoto5 from "../assets/image/png/techtrainingprogram.png";
+import imgPhoto5 from "../assets/image/png/techtraining.png";
 
 
 const devWorks2 = [
