@@ -57,7 +57,7 @@ const Hero = () => {
             <Title variant="secSm" mb="1.5rem">
               Accessible Content
             </Title>
-             <Text>Designing and implementing an accessible technology training program for senior users aged 65 and up.</Text>
+             <Text>Designing and implementing an accessible, virtual technology training program for senior users aged 65 and up.</Text>
           </Box>
         </Container>
       </SectionStyled>

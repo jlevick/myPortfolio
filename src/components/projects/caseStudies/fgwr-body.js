@@ -1,12 +1,11 @@
 import React from "react";
-import { Container, Row, Col, Accordion, Card } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 
-import { Section, Title, Text, Button } from "../../Core";
-import imgPhoto11 from "../../../assets/image/png/questions.png";
-import imgPhoto13 from "../../../assets/image/png/faqbefore.png";
-import imgPhoto14 from "../../../assets/image/png/faqafter.png";
-import imgPhoto15 from "../../../assets/image/png/words.png";
-import imgPhoto16 from "../../../assets/image/png/mentorsupport.png";
+import { Section, Title, Text} from "../../Core";
+import imgPhoto1 from "../../../assets/image/png/zoom.png";
+import imgPhoto2 from "../../../assets/image/png/resources.png";
+import imgPhoto3 from "../../../assets/image/png/resources2.png";
+
 
 const fgwr = () => {
   return (
@@ -34,10 +33,10 @@ const fgwr = () => {
                   <Text className="mb-4 mt-4 w-100">
                     The original user guide lacked imagery, so I took screenshots to include in my updated user guide. I annotated with arrows and tips to help users better understand their new device.
                   </Text>
-                  <Text className="mb-4 mt-4 w-100"> <b>Fun fact:</b> this is when I learned the importance of <b><i>consistent terminology</i></b>. Prior to my first revision, it was pointed out I was using both <i>Click</i> and <i>Tap</i> interchangeably.</Text>
+                  <Text className="mb-4 mt-4 w-100"> <b>Fun fact:</b> this is when I learned the importance of <b><i>consistent terminology</i></b>. Prior to my first revision, it was pointed out I was using both <i>Click</i> and <i>Tap</i> interchangeably. Since I was writing for a tablet, I went with <i>Tap</i>.</Text>
                   <Title variant="cardBig" className='mt-5'>Redesigning content to meet the accessibility of my users</Title>
                   <Text className="mb-4 mt-4 w-100">
-                  With an average age of 76, the small print was illegible. Additionally there were volunteers who lacked much formal education, and most of the original content wasn't readable for them. <b>Accessibility was enhanced through</b>:
+                  With an average age of 76, the small print was hard to read. Additionally there were volunteers who lacked much formal education, and most of the original content wasn't readable for them. <b>Accessibility was enhanced through</b>:
                   <br />
                   <br />
                     <li>Increasing body font size to 14</li>
@@ -53,7 +52,7 @@ const fgwr = () => {
                   The group was not shy to let me know what they were (or were not!) interested in. One volunteer wanted to see her grandchild and expressed an interest in setting up her own Zoom account. Another volunteer - the oldest at 92 - loved the opera and was delighted to find out about the "Nightly Met Opera" livestream.
                 </Text>
                 <Text>
-                  I began was basics such as how to use Gmail and Zoom, and the remaining were based on user needs and wants:
+                  I began with basics such as how to use Gmail and Zoom, and then tailored trainings based on user needs and wants:
                   <br /> <br /> 
                     <li>Intro to Gmail</li>
                     <li>Intro to Zoom, parts 1 and 2</li>
@@ -67,16 +66,23 @@ const fgwr = () => {
                     <li>How to Sign Up for a Zoom Account</li>
                     <li>...in addition to many others</li>
                 </Text>
+                  <div className="d-flex justify-content-center align-items-center w-50 mb-4 mt-4">
+                      <img src={imgPhoto1} alt="Zoom screen with six participants, only two faces are visible and the rest have cameras off or are sitting in the dark" className="img-fluid" />
+                  </div>
             </Row>
             <Row>
-                <Title variant="cardBig" className='mt-4'>To increase participation and offer unique content, I invited guest speakers</Title>
+                  <Title variant="cardSm">One of our early Zoom training sessions</Title>
+            </Row>
+            <Row>
+                <Title variant="cardBig" className='mt-5'>To increase participation and offer unique content, I invited guest speakers</Title>
                 <Text className="mb-4 mt-4 w-100">
-                 Our volunteers were thrilled to connect with the outside world, and reported feeling quite special when others wanted to share time with them. Our guest speakers spoke to their unique areas of interest:
+                 Our volunteers were thrilled to connect with the outside world, and reported feeling quite special when others wanted to share time with them. Our guest speakers shared about their area of expertise:
                  <br /> <br />
-                    <li>AARP: Caregiving for Others and Yourself</li>
-                    <li>Dr. Mary Moreno, Local Physician: Benefits of Telehealth and Pro Tips</li>
-                    <li>Bernard Stein, UW Professor: Senior Economics, parts 1 and 2</li>
-                    <li>Jackie Walker, Retired UW Professor: Internet Safety and Phishing Scams</li>
+                    <li>Stella M., AARP: Caregiving for Yourself</li>
+                    <li>Dr. Mary M., Local Physician: Benefits of Telehealth</li>
+                    <li>Bernard S., UW Professor: Senior Economics, parts 1 and 2</li>
+                    <li>Jackie W., Retired UW Professor: Internet Safety and Phishing Scams</li>
+                    <li>Terri L., UW Office Associate: How to Edit Photos Online</li>
                     <li>...to name a few!</li>
                   </Text>
             </Row>
@@ -115,7 +121,7 @@ const fgwr = () => {
                   <li>My phone rang less often and my email inbox got much busier</li>
                   <li>Some volunteers earned a larger monthly stipend than they usually did serving in their original capacity, leading to increased attendance</li>
                   <li>I began receiving attention from senior leadership and was able to share the resources I created and the learnings I had gained to help other programs begin their own technology training</li></Text>
-                  <Text className="mb-2 mt-4">The experience was both personally and professionally fulfilling. Witnessing such tremendous growth in a short amount of time made me proud of all the hardwork the volunteers put into learning. Once they were able to return to their schools, they reported feeling more confident working with and relating to students.</Text>
+                  <Text className="mb-2 mt-4">The experience was both personally and professionally fulfilling. Witnessing such tremendous growth and an increase in tech literacy in a short amount of time was inspiring. Once volunteers were able to return to their schools, they reported feeling more confident working with - and relating to - their students.</Text>
             </Row>
             <Row>
               <Title variant="cardBig" className='mt-4'>"Had Jaime not taught us all how to 'Zoom', many of us would have little to no contact outside our home"</Title>
@@ -124,7 +130,13 @@ const fgwr = () => {
                     <li><i>"Jaime has been put in a position where she has to teach old dogs new tricks so to speak but she never makes us feel stupid because we didn't grow up in a computer or technology oriented era."</i></li>
                     <li><i>"She is able to give the training on a level that is easy to understand (age appropriate for senior adults)."</i></li>
                     <li><i>"Jaime is very understanding and kind and teaches us only what we need to know on a level that is very easy to understand."</i></li>
+                    <li><i>"There is a big age gap between Jaime and those she serves but she has bridged that gap. I have never noticed Jaime talk down to anyone."</i></li>
                   </Text>
+            </Row>
+            <Row>
+              <Title variant="cardBig" className='mt-4'>Making accessible content doesn't have to be a pain (in fact, it's incredibly rewarding)</Title>
+                  <Text className="mb-2 mt-4">This project was one of my earliest forays into creating accessible content and truly focusing on the user experience. I made choices then that I wouldn't now, for example center aligning everything in the guide and using a serif font for headers, both of which are very difficult to read and not best practice.</Text>
+                  <Text className="mb-2 mt-4">With a few small changes - and despite the fact I wasn't totally sure what I was doing - people who didn't think they could learn new technology became proficient within 6 months. I still email with some of the volunteers to this day.</Text>
             </Row>
         </Container>
       </Section>
