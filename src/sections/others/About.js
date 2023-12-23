@@ -29,7 +29,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                       variant="card"
                       mb="1.5rem"
                       fontSize="1rem"
-                      className="text-uppercase mt-2 mb-4"
+                      className="mt-2 mb-4"
                       css={`
                         letter-spacing: 1.63px;
                       `}
@@ -58,7 +58,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                       variant="card"
                       mb="1.5rem"
                       fontSize="1rem"
-                      className="text-uppercase mt-2 mb-4"
+                      className="mt-2 mb-4"
                       css={`
                         letter-spacing: 1.63px;
                       `}
@@ -94,7 +94,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                       variant="card"
                       mb="1.5rem"
                       fontSize="1rem"
-                      className="text-uppercase mt-2 mb-4"
+                      className="mt-4 mb-4"
                       css={`
                         letter-spacing: 1.63px;
                       `}
@@ -122,6 +122,32 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                   </Accordion.Collapse>
                 </Card>
               </Accordion>
+              {/* <Accordion>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                  <Title
+                      variant="card"
+                      mb="1.5rem"
+                      fontSize="1rem"
+                      className="text-uppercase mt-2 mb-4"
+                      css={`
+                        letter-spacing: 1.63px;
+                      `}
+                    >
+                      More about me
+                  </Title>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                      <Text className="mt-2 mb-2">
+                      My life path has been different from my peers. Former Pilates and Breathwork instructor turned Content Designer. 
+                      </Text>
+                    </Card.Body>
+                  </Accordion.Collapse>
+                </Card>
+              </Accordion> */}
             </div>
           </Row>
         </Container>

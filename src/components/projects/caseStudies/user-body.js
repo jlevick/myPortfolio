@@ -67,7 +67,7 @@ const UserBody = () => {
             <Row>
                 <Col className='mt-4'>
                   <Text className="mb-4 mt-4 w-100"><b>Pre-filled examples</b> for write-in text fields, as well as more <b>specific writing prompts</b> were considered for added clarity. This is an area where users may drop off due to uncertainty, confusion, or even annoyance so it's important to offer guidance. <br /> <br />Initial findings indicated mentors used the word <i>story</i> when referring to learning more about their mentee. ADPList, another mentorship platform, also uses this language (<i>"Tell us your origin story", and "Everyone has a story, what's yours?"</i>).</Text>
-                  <Text className="mb-4 mt-4 w-100">I <b>hypothesized utilizing the word <i>story</i></b> would be <b>easily understandable, familiar, and speak directly to our users in their own words</b>.</Text>
+                  <Text className="mb-4 mt-4 w-100"><b>I hypothesized utilizing the word <i>story</i></b> would be easily understandable, familiar, and speak directly to our users in their own words.</Text>
                 </Col>
                 <Col className='mt-5'>
                   <img src={imgPhoto11} alt="" className="img-fluid w-100" />
@@ -80,8 +80,8 @@ const UserBody = () => {
             </Row>
             <Row className='mt-5'>
                 <div>
-                  <Title variant="cardBig">Reflections: consistency requires cross-functional collaboration</Title>
-                  <Text className="mb-4 mt-4">In order to maintain consistency throughout designs, it's important to work with all team members. Occasionally an update to copy would be missed by one of our Design teams during Development handoff. This resulted in outdated copy being included on both final Phase 2 prototypes and in the actual build.</Text>
+                  <Title variant="cardBig">Consistency requires cross-functional collaboration</Title>
+                  <Text className="mb-4 mt-4">In order to maintain consistency throughout designs, it's important to work with all cross-functional team members. Occasionally an update to copy would be missed by one of our two design teams during development handoff. This resulted in outdated copy being included on working prototypes and in the actual build.</Text>
                 </div>
             </Row>
         </Container>
