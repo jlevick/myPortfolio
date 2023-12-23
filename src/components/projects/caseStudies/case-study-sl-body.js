@@ -117,7 +117,7 @@ const CaseStudy2Body = () => {
             </Row>
             <Row className='mt-5'>
                 <div>
-                  <Title variant="cardBig">UX writers should be embedded within teams</Title>
+                  <Title variant="cardBig">UX writers should be embedded within design teams</Title>
                   <Text className="mb-4 mt-4">At times it was difficult to write copy or develop content because our team didn't have as clear of an understanding of constraints or design decisions as the designers did.</Text>
                   <Text className="mb-4 mt-4">Our team had a content representative present during most design working sessions, which helped create a cohesive cross-functional environment as requirements changed frequently throughout the project. We were able to collaborate and offer guidance in real time which was especially helpful as the entire team was global and otherwise often needed to work asynchronously.</Text>
                 </div>
