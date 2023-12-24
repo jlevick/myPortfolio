@@ -19,7 +19,7 @@ const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  The Global Justice Ecology Project both needs and wants to increase their website accessibility.  
+                  The Global Justice Ecology Project (GJEP) both needs and wants to increase their website accessibility. They have a content-rich site with high quality, professional photos, but none of them include alt text.
                 </Text>
               </div>
               <div>
@@ -28,7 +28,7 @@ const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  Increase accessibility through clear, descriptive alt text, and improving content readability. 
+                  Increase accessibility through clear, descriptive alt text that's in line with both SEO and accessibility best practices.
                   </Text>
                 </div>
               </div>
