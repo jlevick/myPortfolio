@@ -29,7 +29,8 @@ const Alt = () => {
             <Row className="mb-4 mt-4 w-100">
               <div>
                 <Title variant="cardBig" className='mt-4'>Now comes the awkward part: describing how people look</Title>
-                <Text>Our client wasn't shy to say they felt weird describing how people look...</Text>
+                <Text>Our client wasn't shy to say they felt weird describing how people look:<i> "I have one quick question regarding skin tone and alt text. I can definitely see why it is helpful, it just feels very awkward to try and find words for people's skin colour. Is there a "guideline/best practices" document that we could use going forward, especially as we are posting pictures from people around the world?"</i>
+</Text>
               </div>
             </Row>
             
