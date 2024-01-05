@@ -19,7 +19,7 @@ const CaseStudySLVoice = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                   The Sean's Legacy Mentorship Program is a free, online platform that matches LGBTQIA+ young adults with mentors in the queer community. The product voice was not determined, making it difficult to bring personality or a sense of trust to the platform. 
+                   The Sean's Legacy Mentorship Program is a free, online platform that pairs LGBTQIA+ young adults with mentors in the queer community. The product voice was not determined, making it difficult to bring personality or a sense of trust to the platform. 
                 </Text>
               </div>
               <div>
