@@ -20,7 +20,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
           </Row> 
           <Row>
             <div className="pl-lg-4 pt-5 pt-lg-0">
-              <Title variant="cardBig" className="mt-2 mb-5 mt-lg-5">Hi! I'm Jaime, a Content Designer with front-end development skills and a talent for simplifying complex jargon.</Title>
+              <Title variant="cardBig" className="mt-2 mb-5 mt-lg-5">Hi! I'm Jaime, a Content Designer with front-end development skills and a talent for simplifying complex jargon. I value diversity, empathy, curiosity, and open communication.</Title>
               <Accordion defaultActiveKey="0">
                 <Card>
                   <Card.Header>
@@ -41,10 +41,10 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                   <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <Text className="mt-2 mb-2">
-                        <li><b>UX Writing</b>: using data and plan language to write clear, consistent, and useful copy</li>
+                        <li><b>Accessibility Advocacy</b>: ensuring content is inclusive and available to <i>everyone</i></li>
+                        <li><b>UX Writing</b>: using data and plain language to write clear, consistent, and useful copy</li>
                         <li><b>Software Development</b>: making changes in complex codebases and creating relevant pull requests</li>
                         <li><b>Content Design</b>: offering what users need when and where they expect it with a user-centered approach</li>
-                        <li><b>Accessibility Compliance</b>: ensuring content is available to <i>everyone</i> and writing proper ARIA labels and alt text</li>
                         </Text>
                       </Card.Body>
                   </Accordion.Collapse>
@@ -71,10 +71,10 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                     <Card.Body>
                       <Text className="mt-2 mb-4"><b>Experience</b></Text>
                       <Text className="mt-2 mb-5">
-                        <li><b>Lead UX Writer</b> | <i>Global Justice Ecology Project</i> | August 2023 - December 2023</li>
+                        <li><b>UX Writing Lead</b> | <i>Global Justice Ecology Project</i> | August 2023 - January 2024</li>
                         <li><b>UX Writer</b> | <i>Oppia Foundation</i> | May 2023 - October 2023</li>
                         <li><b>UX Content Designer</b> | <i>Sean's Legacy</i> | January 2023 - April 2023</li>
-                        <li><b>Content Designer and Project Coordinator</b> | <i>SeniorCorps</i> | March 2020 - February 2022</li>
+                        <li><b>Content Designer</b> | <i>SeniorCorps</i> | March 2020 - February 2022</li>
                         <li><b>Sr. Administrative Specialist</b> | <i>University of Wyoming</i> | August 2012 - July 2019</li>
                       </Text>
                       <Text className="mt-2 mb-4"><b>Education</b></Text>
