@@ -20,7 +20,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
           </Row> 
           <Row>
             <div className="pl-lg-4 pt-5 pt-lg-0">
-              <Title variant="cardBig" className="mt-2 mb-5 mt-lg-5">Hi! I'm Jaime, a Content Designer with front-end development skills and a talent for simplifying complex jargon. I value diversity, empathy, curiosity, and open communication.</Title>
+              <Title variant="cardBig" className="mt-2 mb-5 mt-lg-5">Hi! I'm Jaime, a Content Designer with front-end development skills and a talent for simplifying complex jargon.</Title>
               <Accordion defaultActiveKey="0">
                 <Card>
                   <Card.Header>
@@ -63,7 +63,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                         letter-spacing: 1.63px;
                       `}
                     >
-                      My resume
+                      Experience
                   </Title>
                     </Accordion.Toggle>
                   </Card.Header>
@@ -122,7 +122,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                   </Accordion.Collapse>
                 </Card>
               </Accordion>
-              {/* <Accordion>
+              {/* {<Accordion>
                 <Card>
                   <Card.Header>
                     <Accordion.Toggle as={Button} variant="link" eventKey="0">
@@ -130,24 +130,24 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                       variant="card"
                       mb="1.5rem"
                       fontSize="1rem"
-                      className="text-uppercase mt-2 mb-4"
+                      className="mt-2 mb-4"
                       css={`
                         letter-spacing: 1.63px;
                       `}
                     >
-                      More about me
+                     Fun facts
                   </Title>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="0">
                     <Card.Body>
                       <Text className="mt-2 mb-2">
-                      My life path has been different from my peers. Former Pilates and Breathwork instructor turned Content Designer. 
+                      I value diversity, empathy, curiosity, and open communication. 
                       </Text>
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
-              </Accordion> */}
+              </Accordion>} */}
             </div>
           </Row>
         </Container>
