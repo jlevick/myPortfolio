@@ -41,10 +41,10 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                   <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <Text className="mt-2 mb-2">
-                        <li><b>Accessibility Advocacy</b>: ensuring content is inclusive and available to <i>everyone</i></li>
-                        <li><b>UX Writing</b>: using data and plain language to write clear, consistent, and useful copy</li>
-                        <li><b>Software Development</b>: making changes in complex codebases and creating relevant pull requests</li>
-                        <li><b>Content Design</b>: offering what users need when and where they expect it with a user-centered approach</li>
+                        <li><b>Accessibility advocacy</b>: ensuring content is inclusive and available to <i>everyone</i></li>
+                        <li><b>UX writing</b>: using data and plain language to write clear, consistent, and useful copy</li>
+                        <li><b>Reducing development time</b>: making changes in complex codebases and creating relevant pull requests</li>
+                        <li><b>Content design</b>: offering what users need when and where they expect it with a user-centered approach</li>
                         </Text>
                       </Card.Body>
                   </Accordion.Collapse>
