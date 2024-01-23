@@ -79,8 +79,8 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                       </Text>
                       <Text className="mt-2 mb-4"><b>Education</b></Text>
                       <Text className="mt-2 mb-2">
-                        <li><b>UX Design Immersive</b>, frontend for designers specialization | <i>CareerFoundry</i> | February 2022 - January 2023</li>
-                        <li><b>Bachelor of Arts</b>, anthropology and gender studies | <i>University of Wyoming</i> | August 2007 - December 2011</li>
+                        <li><b>UX Design Immersive</b>, frontend for designers specialization | <i>CareerFoundry</i> | 2022</li>
+                        <li><b>Bachelor of Arts</b>, anthropology and gender studies | <i>University of Wyoming</i> | 2011</li>
                       </Text>
                     </Card.Body>
                   </Accordion.Collapse>

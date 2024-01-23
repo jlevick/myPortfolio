@@ -28,7 +28,7 @@ const AccessibleContent = () => {
             <Row>
                 <Title variant="cardBig" className='mt-4'>However, the user guide that came with each tablet was inaccessible</Title>
                   <Text className="mb-4 mt-4 w-100">
-                   Full of jargon, heavy paragraphs, and complicated instructions, I rewrote the guide to suit our volunteers - pulling only necessary information and editing for clarification. 
+                   Full of jargon, heavy paragraphs, and complicated instructions. I rewrote the guide to suit our volunteers - pulling only necessary information and editing for clarification. 
                   </Text>
                   <Text className="mb-4 mt-4 w-100">
                     The original user guide lacked imagery, so I took screenshots to include in my updated user guide. I annotated with arrows and tips to help users better understand their new device.
@@ -36,12 +36,12 @@ const AccessibleContent = () => {
                   <Text className="mb-4 mt-4 w-100"> <b>Fun fact:</b> this is when I learned the importance of <b><i>consistent terminology</i></b>. Prior to my first revision, it was pointed out I was using both <i>Click</i> and <i>Tap</i> interchangeably. Since I was writing for a tablet, I went with <i>Tap</i>.</Text>
                   <Title variant="cardBig" className='mt-5'>Redesigning content to meet the accessibility of my users</Title>
                   <Text className="mb-4 mt-4 w-100">
-                  With an average age of 76, the small print was hard to read. Additionally there were volunteers who lacked much formal education, and most of the original content wasn't readable for them. <b>Accessibility was enhanced through</b>:
+                  With an average age of 76, the small print was hard to read. A few volunteers lacked formal education, and most of the original content wasn't accessible to them. <b>Accessibility was enhanced through</b>:
                   <br />
                   <br />
                     <li>Increasing body font size to 14</li>
-                    <li>Using consistent terminology </li>
-                    <li>Utilizing plain language at a 6th grade reading level, following plainlanguage.gov guidelines</li>
+                    <li>Using consistent terminology</li>
+                    <li>Utilizing plain language at a 7th grade reading level, following plainlanguage.gov guidelines</li>
                     <li>Adding bullet points and short lists to help with comprehension and readability</li>
                     <li>Offering both written and video content to accomodate learning styles and abilities</li>
                   </Text>
@@ -127,10 +127,10 @@ const AccessibleContent = () => {
               <Title variant="cardBig" className='mt-4'>"Had Jaime not taught us all how to 'Zoom', many of us would have little to no contact outside our home"</Title>
                   <Text className="mb-2 mt-4">Toward the end of training I sent out a 3rd and final survey, asking how the program personally affected users. <b>Here are a few of their reponses:</b>
                   <br /> <br />
+                    <li><i>"There is a big age gap between Jaime and those she serves but she has bridged that gap. I have never noticed Jaime talk down to anyone if they didn't understand something."</i></li>
                     <li><i>"Jaime has been put in a position where she has to teach old dogs new tricks so to speak but she never makes us feel stupid because we didn't grow up in a computer or technology oriented era."</i></li>
                     <li><i>"She is able to give the training on a level that is easy to understand (age appropriate for senior adults)."</i></li>
                     <li><i>"Jaime is very understanding and kind and teaches us only what we need to know on a level that is very easy to understand."</i></li>
-                    <li><i>"There is a big age gap between Jaime and those she serves but she has bridged that gap. I have never noticed Jaime talk down to anyone."</i></li>
                   </Text>
             </Row>
             <Row>
