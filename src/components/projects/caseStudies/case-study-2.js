@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 import { Section, Title, Text, Button } from '../../../components/Core'
 
 const CaseStudy2 = ({ hero = true, bg = 'dark', ...rest }) => {

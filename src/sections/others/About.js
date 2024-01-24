@@ -2,9 +2,6 @@ import React from 'react'
 import { Container, Row, Card, Accordion, Button } from 'react-bootstrap'
 
 import { Section, Title, Text } from '../../components/Core'
-import imgPhoto from '../../assets/image/png/jaime_small.png'
-import imgPhoto1 from '../../assets/image/png/jaime1.png'
-import imgPhoto2 from '../../assets/image/png/jaime2.png'
 import imgPhoto3 from '../../assets/image/png/jaime3.png'
 
 

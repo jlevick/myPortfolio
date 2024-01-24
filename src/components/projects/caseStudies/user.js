@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Row, Accordion, Card } from "react-bootstrap";
-import { Section, Title, Text, Button } from "../../Core";
+import { Container, Row } from "react-bootstrap";
+import { Section, Title, Text } from "../../Core";
 
 const User = ({ hero = true, bg = "dark", ...rest }) => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Row, Accordion, Card } from "react-bootstrap";
-import { Section, Title, Text, Button } from "../../Core";
+import { Container, Row } from "react-bootstrap";
+import { Section, Title, Text } from "../../Core";
 
 const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
   return (
@@ -19,7 +19,7 @@ const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  The Global Justice Ecology Project (GJEP) needs to increase both website accessibility and organic site traffic.
+                  The Global Justice Ecology Project (GJEP) has been around for 20 years, using direct action to defend people and forests from greedy corporations and the threat of genetically engineered (GE) trees. They want to increase both website accessibility and organic site traffic in order to reach a wider audience.
                 </Text>
               </div>
               <div>
@@ -38,7 +38,7 @@ const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  SEO scores raised from 83% to 92%, while accessibility scores raised by 1%.
+                  SEO Lighthouse scores raised from 83% to 92% and a content inventory of over 200 images was created.
                   </Text>
                 </div>
               </div>

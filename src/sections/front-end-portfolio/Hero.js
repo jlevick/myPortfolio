@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 import { Title, Section, Box, Text } from '../../components/Core'
 import imgPhoto from "../../assets/image/png/portfolio_index@2x.png";
 

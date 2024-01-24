@@ -1,5 +1,4 @@
 import React from 'react'
-import { Element } from 'react-scroll'
 
 import PageWrapper from '../components/PageWrapper'
 import Hero from '../sections/seans-legacy/Hero'

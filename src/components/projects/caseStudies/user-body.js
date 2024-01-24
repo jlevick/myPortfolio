@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Row, Col, Accordion, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
-import { Section, Title, Text, Button } from "../../Core";
+import { Section, Title, Text } from "../../Core";
 import imgPhoto11 from "../../../assets/image/png/questions.png";
 import imgPhoto13 from "../../../assets/image/png/faqbefore.png";
 import imgPhoto14 from "../../../assets/image/png/faqafter.png";

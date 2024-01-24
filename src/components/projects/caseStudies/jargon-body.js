@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import { Section, Title, Text } from "../../../components/Core";
 
-import imgPhoto5 from "../../../assets/image/png/safetybefore.png";
-import imgPhoto6 from "../../../assets/image/png/safetyafter.png";
 import imgPhoto1 from "../../../assets/image/png/jargonbefore.png";
 import imgPhoto2 from "../../../assets/image/png/jargonafter.png";
 

@@ -1,8 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import myPdf from '../../../static/resume_updated.pdf'
 
-import { Title, Button, Section, Box, Text } from '../../components/Core'
+import { Title, Section, Box, Text } from '../../components/Core'
 
 const Hero = () => {
   return (

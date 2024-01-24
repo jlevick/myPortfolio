@@ -1,10 +1,8 @@
 import React from "react";
-import { Container, Row, Col} from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 import { Section, Title, Text} from "../../Core";
 import imgPhoto1 from "../../../assets/image/png/zoom.png";
-import imgPhoto2 from "../../../assets/image/png/resources.png";
-import imgPhoto3 from "../../../assets/image/png/resources2.png";
 
 
 const AccessibleContent = () => {

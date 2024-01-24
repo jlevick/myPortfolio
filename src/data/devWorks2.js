@@ -1,4 +1,3 @@
-import imgT2 from '../assets/image/png/frontend.png';
 import imgT3 from '../assets/image/png/sl.png';
 import imgPhoto from "../assets/image/png/aspectindex.png";
 import imgPhoto1 from "../assets/image/png/jargon.png";
@@ -42,7 +41,7 @@ const devWorks2 = [
     link: '/user',
   },
   // {
-  //   brand: `Increasing Accessibility`,
+  //   brand: `Optimizing SEO`,
   //   slug: `alttext`,
   //   title: `ux writing`,
   //   categories: [`uxwriting`],

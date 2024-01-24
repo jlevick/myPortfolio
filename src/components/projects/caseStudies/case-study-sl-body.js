@@ -11,8 +11,6 @@ import imgPhoto8 from "../../../assets/image/png/programgoalsafter.png";
 import imgPhoto9 from "../../../assets/image/png/whysignup.png";
 import imgPhoto10 from "../../../assets/image/png/landingpagebefore.png";
 import imgPhoto11 from "../../../assets/image/png/landingpageafter.png";
-import imgPhoto12 from "../../../assets/image/png/reasoning2.png";
-
 
 
 

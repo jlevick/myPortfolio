@@ -19,15 +19,6 @@ const SectionStyled = styled(Section)`
   }
 `
 
-const ImgRight = styled.img`
-  border-radius: 10%;
-  transition: 0.8s;
-  &:hover {
-    transform: scale(0.8) rotate(-2deg);
-    box-shadow: 0 32px 74px rgba(68, 77, 136, 0.2);
-  }
-`
-
 const Hero = () => {
   return (
     <>

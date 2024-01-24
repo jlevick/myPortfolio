@@ -8,7 +8,7 @@ export const menuItems = [
              { name: "accessible-content", label: "Accessible Content"},
              { name: "seans-legacy", label: "Value Proposition" },
              { name: "user", label: "User-Centered Copy" },
-             //{ name: "alt", label: "Increasing Accessibility"},
+             //{ name: "alt", label: "Optimizing SEO"},
              { name: "jargon", label: "Clarifying Jargon" },
              { name: "aspect", label: "UX/UI Design" },
              

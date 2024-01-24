@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { Section, Title, Text, Button } from "../../../components/Core";
+import { Container, Row } from "react-bootstrap";
+import { Section, Title, Text } from "../../../components/Core";
 
 const Jargon = ({ hero = true, bg = "dark", ...rest }) => {
   return (

@@ -55,9 +55,9 @@ const Hero = () => {
               UX Writing
             </Title>
             <Title variant="secSm" mb="1.5rem">
-              Increasing Accessibility
+              Enhancing SEO
             </Title>
-             <Text>Increasing accessibility - and subsequently SEO rankings - through useful alternative text.</Text>
+             <Text>Increasing accessibility and enhancing search engine optimization (SEO) rankings through useful alternative text.</Text>
           </Box>
         </Container>
       </SectionStyled>
