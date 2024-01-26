@@ -15,6 +15,7 @@ const devWorks2 = [
     categories: [`uxwriting`],
     thumbnail: imgPhoto2,
     link: '/slvoice',
+    anchor: 'Voice and Tone',
   },
   {
     brand: `Accessible Content`,
@@ -23,30 +24,34 @@ const devWorks2 = [
     categories: [`contentdesign`],
     thumbnail: imgPhoto5,
     link: '/accessible-content',
+    anchor: 'Accessible Content',
   },
   {
     brand: `Value Proposition`,
     slug: `valueprop`,
-    title: `contentdesign`,
+    title: `Value Proposition`,
     categories: [`contentdesign`],
     thumbnail: imgPhoto3,
     link: '/seans-legacy',
+    anchor: 'Value Proposition',
   },
   {
     brand: `Optimizing SEO`,
     slug: `alttext`,
-    title: `ux writing`,
+    title: `Optimizing SEO`,
     categories: [`uxwriting`],
     thumbnail: imgPhoto4,
     link: '/alt',
+    anchor: 'Optimizing SEO',
   },
   {
     brand: `User-Centered Copy`,
     slug: `user`,
-    title: `ux writing`,
+    title: `User-Centered Copy`,
     categories: [`uxwriting`],
     thumbnail: imgT3,
     link: '/user',
+    anchor: 'User-Centered Copy',
   },
   {
     brand: `Clarifying Jargon`,
@@ -55,6 +60,7 @@ const devWorks2 = [
     categories: [`uxwriting`],
     thumbnail: imgPhoto1,
     link: '/jargon',
+    anchor: 'Clarifying Jargon',
   },
   {
     brand: `UX/UI Design: Astrology App`,
@@ -63,6 +69,7 @@ const devWorks2 = [
     categories: [`ux`],
     thumbnail: imgPhoto,
     link: '/aspect',
+    anchor: 'Astrology App Prototype',
   }
 ]
 

@@ -131,6 +131,7 @@ const ThemeSwitch = props => {
           </ButtonGroup>
           <ButtonToggle
             bg="primary"
+            name='switch light or dark mode'
             onClick={() => setActive(!active)}
             className={active ? 'opened' : ''}
           >

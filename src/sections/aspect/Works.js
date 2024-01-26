@@ -61,7 +61,7 @@ const Works = () => {
                         {item.categories[0]}
                       </Text>
                       <Title variant="cardLg">
-                        <Link to={item.link}>{item.brand} </Link>
+                        <Link anchor={item.anchor} to={item.link}>{item.brand} </Link>
                       </Title>
                     </WorkText>
                   </Box>
