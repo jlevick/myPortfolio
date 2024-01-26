@@ -39,7 +39,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                     <Card.Body>
                         <Text className="mt-2 mb-2">
                         <li><b>Accessibility advocacy</b>: ensuring content is inclusive and available to <i>everyone</i></li>
-                        <li><b>UX writing</b>: using data and plain language to write clear, consistent, and useful copy</li>
+                        <li><b>UX writing</b>: using evidence and plain language to write clear, consistent, and useful copy</li>
                         <li><b>Content design</b>: offering what users need when and where it's useful with a user-centered approach</li>
                         <li><b>Reducing development time</b>: making changes in complex codebases and creating relevant pull requests</li>
                         </Text>
