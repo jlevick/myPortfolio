@@ -11,9 +11,6 @@ export const menuItems = [
              { name: "user", label: "User-Centered Copy" },
              { name: "jargon", label: "Clarifying Jargon" },
              { name: "aspect", label: "UX/UI Design" },
-             
-            
-             
            ],
          },
        ];
