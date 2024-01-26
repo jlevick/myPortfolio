@@ -70,6 +70,29 @@ const CaseStudy1 = ({ hero = true, bg = 'dark', ...rest }) => {
                 <Text color="light" variant="small"></Text>
               </div>
           </Row>
+          <Row className="align-items-start justify-content-start">
+              <div className="pl-4 pl-lg-4">
+                <Title color="light" variant="secSm">
+                  My Role
+                </Title>
+                <Text
+                  color="light"
+                  className="mt-4 mb-5"
+                  css={`
+                    line-height: 0.07;
+                  `}
+                >
+                  Sole UX/UI Designer
+                </Text>
+              </div>
+              <div className="pl-4 pl-lg-4">
+                <div className="mt-4 mb-5">
+                </div>
+                <div className="mt-4 mb-5"></div>
+                <Text color="light" className="mt-3 font-weight-bold"></Text>
+                <Text color="light" variant="small"></Text>
+              </div>
+          </Row>
         </Container>
       </Section>
       <Container>

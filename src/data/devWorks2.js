@@ -33,6 +33,14 @@ const devWorks2 = [
     link: '/seans-legacy',
   },
   {
+    brand: `Optimizing SEO`,
+    slug: `alttext`,
+    title: `ux writing`,
+    categories: [`uxwriting`],
+    thumbnail: imgPhoto4,
+    link: '/alt',
+  },
+  {
     brand: `User-Centered Copy`,
     slug: `user`,
     title: `ux writing`,
@@ -40,14 +48,6 @@ const devWorks2 = [
     thumbnail: imgT3,
     link: '/user',
   },
-  // {
-  //   brand: `Optimizing SEO`,
-  //   slug: `alttext`,
-  //   title: `ux writing`,
-  //   categories: [`uxwriting`],
-  //   thumbnail: imgPhoto4,
-  //   link: '/alt',
-  // },
   {
     brand: `Clarifying Jargon`,
     slug: `jargon`,

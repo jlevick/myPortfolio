@@ -43,6 +43,18 @@ const Fgwr1 = ({ hero = true, bg = "dark", ...rest }) => {
                 </div>
               </div>
           </Row>
+          <Row>
+            <div>
+                <Title color="light" variant="secSm">
+                  My Role
+                </Title>
+                <div className="mt-4 mb-5">
+                  <Text color="light">
+                  Sole Content Designer 
+                  </Text>
+                </div>
+              </div>
+          </Row>
         </Container>
       </Section>
     </>

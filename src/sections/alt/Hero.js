@@ -57,7 +57,7 @@ const Hero = () => {
             <Title variant="secSm" mb="1.5rem">
               Enhancing SEO
             </Title>
-             <Text>Increasing accessibility and enhancing search engine optimization (SEO) rankings through useful alternative text.</Text>
+             <Text>Increasing search engine optimization (SEO) rankings through useful alternative text and proper meta descriptions.</Text>
           </Box>
         </Container>
       </SectionStyled>

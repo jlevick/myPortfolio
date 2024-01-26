@@ -19,7 +19,7 @@ const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  The Global Justice Ecology Project (GJEP) has been around for 20 years, using direct action to defend people and forests from greedy corporations and the threat of genetically engineered (GE) trees. They want to increase both website accessibility and organic site traffic in order to reach a wider audience.
+                 The Global Justice Ecology Project (GJEP) has been defending people and forests from corporations and the threat of genetically engineered trees for 20 years. They want to increase both website accessibility and organic site traffic in order to reach a wider audience.
                 </Text>
               </div>
               <div>
@@ -28,7 +28,7 @@ const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  Increase search engine optimization (SEO) and accessibility through useful alt text and meta descriptions.
+                    Reach a wider audience by gettting Google to notice the website. Enhance on-page SEO by utilizing top keywords, and increase accessibility through writing usefuk alt text and meta descriptions.
                   </Text>
                 </div>
               </div>
@@ -38,7 +38,20 @@ const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  SEO Lighthouse scores raised from 83% to 92% and a content inventory of over 200 images was created.
+                  <li>Raised SEO Lighthouse scores from 83% to 92%</li>
+                  <li>Image alt text was added to over 100 images</li>
+                  </Text>
+                </div>
+              </div>
+          </Row>
+          <Row>
+            <div>
+                <Title color="light" variant="secSm">
+                  My Role
+                </Title>
+                <div className="mt-4 mb-5">
+                  <Text color="light">
+                  UX Writing co-lead on a team of 5
                   </Text>
                 </div>
               </div>

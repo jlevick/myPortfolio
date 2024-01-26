@@ -20,7 +20,7 @@ const AccessibleContent = () => {
                   <Text className="mb-4 mt-4 w-100">With most of the volunteers born between the 1930's-50's, this group had limited experience using technology. Moreso, a few were uninterested in learning to use technology. <b>If I was going to help teach them, I needed to make the process as easy as possible</b>.
                   </Text>
                   <Text className="mb-4 mt-4 w-100">
-                    But first, I needed a way for volunteers to practice using technology. Since only 2 out of 11 had a smart device of any kind, <a style={{textDecoration: "underline"}} href="https://www.wyomingnews.com/laramieboomerang/news/local_news/foster-grandparents-of-the-wyoming-rockies-receives-grant/article_8f3964f8-9dfa-5680-999e-14a40422d439.html">we submitted for and were awarded a grant to buy tablets for each of our volunteers.</a>
+                    But first, I needed a way for volunteers to practice using technology. Since only 2 out of 11 had a smart device of any kind, <a style={{textDecoration: "underline"}} target="blank" href="https://www.wyomingnews.com/laramieboomerang/news/local_news/foster-grandparents-of-the-wyoming-rockies-receives-grant/article_8f3964f8-9dfa-5680-999e-14a40422d439.html">we submitted for and were awarded a grant to buy tablets for each of our volunteers.</a>
                   </Text>
             </Row>
             <Row>

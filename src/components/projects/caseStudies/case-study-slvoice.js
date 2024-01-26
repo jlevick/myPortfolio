@@ -43,6 +43,18 @@ const CaseStudySLVoice = ({ hero = true, bg = "dark", ...rest }) => {
                 </div>
               </div>
           </Row>
+          <Row>
+            <div>
+                <Title color="light" variant="secSm">
+                  My Role
+                </Title>
+                <div className="mt-4 mb-5">
+                  <Text color="light">
+                  Content Designer on a team of 3
+                  </Text>
+                </div>
+              </div>
+          </Row>
         </Container>
       </Section>
     </>
