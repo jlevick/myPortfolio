@@ -21,7 +21,7 @@ const Alt = () => {
             <Text className="mb-2 mt-4 w-100">
               Image alt text provides context and clarity for:
                 <li>Folks who utilize a screenreader (a tool that speaks text aloud)</li>
-                <li>Those with low internet bandwidth (causing images to not load or break)</li>
+                <li>Those with low internet bandwidth (causing images to load slowly or not at all)</li>
             </Text>
         </Row>
         <Row className="mb-2 mt-2 w-100">
@@ -43,10 +43,10 @@ const Alt = () => {
         <Row className="mb-4 mt-4 w-100">
           <Title variant="cardBig" className='mt-5'>Advocating for accessibility and alt text</Title>
             <Text className="mb-4 mt-4 w-100">
-              Based on initial user interviews, 2 out of 5 users reported not understanding the purpose or context of select images, despite their high-quality. Because of this, my co-lead was unsure our client would continue to use the current photos.
+              Based on initial user interviews, 2 out of 5 reported not understanding the purpose or context of certain images, despite their high-quality. Because of this, my co-lead was unsure our client would continue to use the current photos.
             </Text>
             <Text className="mb-2 mt-2 w-100">
-              Neither of us wanted to waste valuable time, but I was convinced writing alt text was the right call. In an effort to align on this decision (we agreed on the importance of meta descriptions right away), I offered the following reasonings:
+              Neither of us wanted to waste valuable time, but I was convinced writing alt text was the right call. In an effort to align on this decision (<i>we agreed on the importance of meta descriptions right away</i>), I offered the following reasoning:
             </Text>
         </Row>
         <Row className="mb-4 mt-4 w-100">
@@ -61,9 +61,9 @@ const Alt = () => {
           <img src={imgPhoto} alt="example of an unloaded or broken image with random numbers at the top of an empty box" className="img-fluid w-25"/>
         </Row>
         <Row className="mb-4 mt-2 w-100">
-          <Title variant="cardSm">Images that don't load are confusing and distract from a positive user experience</Title>
+          <Title variant="cardSm">Images that don't load are confusing, annoying, and distract from a positive user experience</Title>
           <Text className="mb-4 mt-4 w-100">
-            Upon agreeing to spend time on writing alt text, we presented the idea to our client, who was thrilled.
+            We ultimately agreed to spend some time writing alt text. I presented the idea to our client and they were fully behind the decision. 
           </Text>
         </Row>
         <Row className="mb-4 mt-4 w-100">
@@ -87,7 +87,7 @@ const Alt = () => {
         </Row>
         <Row className="mb-4 mt-4 w-100">
           <Text className="mb-2 mt-4 w-100">
-              My teammate provided a spreadsheet of our client's top keywords, which we used when appropriate. I went through their findings and pulled out the keywords I felt would be most applicable: 
+              My teammate provided a spreadsheet of our client's <b>top keywords</b>, which we used when appropriate. I went through their findings and pulled out the keywords I felt would be most applicable: 
               <li>gjep</li>
               <li>ge trees</li>
               <li>1971 protest</li>
@@ -104,20 +104,19 @@ const Alt = () => {
         </Row>
         <Row className="mb-2 mt-2 w-100">
           <Text className="mb-2 mt-2 w-100">
-            I utilized an array of resources, providing suggestions to our client:
-            <li>Don't assume race, ethnicity, or gender when describing people.</li>
-            <li><a style={{textDecoration: "underline"}} target="blank" href="https://www.sandstormdesign.com/blog/website-accessibility-101-5-best-practices-writing-alt-text-images">Use gender-neutral language.</a> If gender is identified in a caption, follow that. Otherwise, use gender-neutral terms like "person," "people," or "child." </li>
-            <li><a style={{textDecoration: "underline"}} target="blank" href="https://vocaleyes.co.uk/wp-content/uploads/2020/09/Twelve-principles-for-describing-human-characteristics-in-an-Audio-Introduction.pdf">Describe skin color (versus ethnicity or race) with pale, light, medium, medium-dark, or dark skin tones when relevant. </a></li>
-            <li>If GJEP has identified someone's ethnicity, feel free to follow suit (examples already in use: Cree Indigenous, Mapuche, Quilombola).</li>
+            <b>I utilized an array of resources, providing suggestions to our client</b>:
+            <li>Don't assume race, ethnicity, or gender when describing people</li>
+            <li><a style={{textDecoration: "underline"}} target="blank" href="https://www.sandstormdesign.com/blog/website-accessibility-101-5-best-practices-writing-alt-text-images">Do use gender-neutral language.</a> If gender is already identified in the caption, follow that. Otherwise, use neutral terms like "person," "people," or "child" </li>
+            <li><a style={{textDecoration: "underline"}} target="blank" href="https://vocaleyes.co.uk/wp-content/uploads/2020/09/Twelve-principles-for-describing-human-characteristics-in-an-Audio-Introduction.pdf">Do describe skin color (versus ethnicity or race) with pale, light, medium, medium-dark, or dark skin tones when relevant.</a> If GJEP has identified someone's ethnicity, feel free to follow suit (examples already in use: Cree Indigenous, Mapuche, Quilombola)</li>
           </Text>
         </Row>
-        <Row className="mb-4 mt-4 w-100">
+        <Row className="mb-2 mt-2 w-100">
           <Title variant="cardBig" className='mt-5'>"Jaime provided us with a wealth of information on accessibility best practices for writing inclusive image alt text"</Title>
             <Text className="mb-2 mt-4 w-100">
               "<i>When we had concerns and questions about the topic, Jaime provided us with multiple resources, detailed explanations, and personalized recommendations that made me feel that I had received an entire course of the best material on this topic! Her encouragement and teaching style has also built the confidence in our team to fully implement the best practices she suggested.</i>" - Heather Lee, Programs Associate and Lead Global Justice Ecology Project Client
             </Text>
         </Row>
-        <Row className="mb-4 mt-2 w-100">
+        <Row className="mb-2 mt-2 w-100">
           <Title variant="cardBig" className='mt-5'>Increased SEO scores, but accessibility scores remained the same</Title>
             <Text className="mb-4 mt-4 w-100">
               Lighthouse scores are not the only or best way to measure success with SEO, but merely an easy way to check their pulse. Our client didn't have Google Analytics set up prior to the alt text implementation, so we chose to use Lighthouse to determine if our changes made any difference.
