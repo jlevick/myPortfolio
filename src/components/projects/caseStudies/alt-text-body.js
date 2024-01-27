@@ -144,7 +144,7 @@ const Alt = () => {
           </Row>
           <Row className="mb-4 mt-2 w-100">
             <Text className="mb-4 mt-4 w-100">
-              Although we clearly made an impact on SEO, the accessibility scores only went up by 1%. Regardless, I consider this a win. Numbers and concrete data are important, but so is ensuring <i>everyone</i> has access to the same information. <br/> <br />Now, if an image fails to load or someone who uses a screenreader comes across an iamge, they will have much more underestanding than before - and I consider that a success.
+              Although we clearly made an impact on SEO, the accessibility scores only went up by 1%. Regardless, I consider this a win. Numbers and concrete data are important, but so is ensuring <i>everyone</i> has access to the same information. <br/> <br />Now, if an image fails to load or someone who uses a screenreader uses the website, they will have much more underestanding than before - and I consider that a success.
             </Text>
           </Row>
       </Container>

@@ -28,7 +28,7 @@ const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                    Reach a wider audience by gettting Google to notice the website. Enhance on-page SEO by utilizing top keywords, and increase accessibility through writing usefuk alt text and meta descriptions.
+                    Reach a wider audience by gettting Google to notice the website. Enhance on-page SEO by utilizing top keywords, and increase accessibility through writing useful alt text and meta descriptions.
                   </Text>
                 </div>
               </div>
