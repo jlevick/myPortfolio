@@ -36,13 +36,13 @@ const devWorks2 = [
     anchor: 'Value Proposition',
   },
   {
-    brand: `Optimizing SEO`,
+    brand: `Improving SEO`,
     slug: `alttext`,
-    title: `Optimizing SEO`,
+    title: `Improving SEO`,
     categories: [`uxwriting`],
     thumbnail: imgPhoto4,
     link: '/alt',
-    anchor: 'Optimizing SEO',
+    anchor: 'Improving SEO',
   },
   {
     brand: `User-Centered Copy`,
