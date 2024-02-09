@@ -30,7 +30,7 @@ const Alt = () => {
             </Text>
         </Row>
         <Row className="mb-4 mt-4 w-100">
-          <img src={imgPhoto1} alt="Good search results showing the client's Brazil trip meta descripiton" className="img-fluid w-75"/>
+          <img src={imgPhoto1} alt="Good search results showing the client's Brazil trip meta descripiton. It reads GJEP's global community meets in Brazil to discuss the impacts of GE tree plantations. Hear from those harmed and learn about the efforts to stop GE trees" className="img-fluid w-75"/>
         </Row>
         <Row className="mb-4 mt-2 w-100">
           <Title variant="cardSm">The meta description I wrote for GJEP's trip to Brazil, offering a call to action and utilizing a top keyword, "GE trees"</Title>
@@ -51,10 +51,10 @@ const Alt = () => {
         </Row>
         <Row className="mb-4 mt-4 w-100">
           <Text>
+              <li>Even if the images are removed, we will still increase accessibility and inclusion in the interim, and gain valuable skills</li>
               <li>GJEP was co-founded by two professional photographers, so the high-quality images are likely to stay</li>
-              <li>Even if the use of these images is discontinued, we will still increase accessibility, inclusion, and gain valuable skills</li>
-              <li>Alt text can improve SEO by providing indexable descriptions for images</li>
-              <li>Users with low internet bandwidth really won't understand an image if it fails to load</li>
+              <li>Alt text provides indexable descriptions for images, meaning Google shows them in search results</li>
+              <li>Users with slow internet really won't understand an image if it fails to load</li>
           </Text> 
         </Row>
         <Row className="mb-4 mt-2 w-100">
@@ -63,7 +63,7 @@ const Alt = () => {
         <Row className="mb-4 mt-2 w-100">
           <Title variant="cardSm">Images that don't load are confusing, annoying, and distract from a positive user experience</Title>
           <Text className="mb-4 mt-4 w-100">
-            We ultimately agreed to spend some time writing alt text. I presented the idea to our client and they were fully behind the decision. 
+            We ultimately agreed to spend time writing alt text. I presented the idea to our client and they were fully behind the decision. 
           </Text>
         </Row>
         <Row className="mb-4 mt-4 w-100">
@@ -78,16 +78,16 @@ const Alt = () => {
         <Row className="mb-4 mt-2 w-100">
           <Title variant="cardSm">I included captions when available, providing context to my team so they could write appropriate alternative text</Title>
         </Row>
-        <Row className="mb-4 mt-4 w-100">
+        {/* <Row className="mb-4 mt-4 w-100">
             <Text className="mb-2 mt-4 w-100">
               A sample of the alt text instructions:
               <li><b>Don't include "image/photo of".</b> Screenreaders know alt text belongs to an image. Also, don't add alt text to purely decorative images.</li>
               <li><b>Include your keywords, but avoid keyword stuffing.</b> Providing context for the image is our priority, but if it makes sense, include keywords.</li>
             </Text>
-        </Row>
+        </Row> */}
         <Row className="mb-4 mt-4 w-100">
           <Text className="mb-2 mt-4 w-100">
-              My teammate provided a spreadsheet of our client's <b>top keywords</b>, which we used when appropriate. I went through their findings and pulled out the keywords I felt would be most applicable: 
+              My teammate provided a spreadsheet of our client's <b>top keywords</b>, which we used when appropriate. I went through their findings and pulled out keywords that might be useful in our copy:
               <li>gjep</li>
               <li>ge trees</li>
               <li>1971 protest</li>
@@ -144,7 +144,7 @@ const Alt = () => {
           </Row>
           <Row className="mb-4 mt-2 w-100">
             <Text className="mb-4 mt-4 w-100">
-              Although we clearly made an impact on SEO, the accessibility scores only went up by 1%. Regardless, I consider this a win. Numbers and concrete data are important, but so is ensuring <i>everyone</i> has access to the same information. <br/> <br />Now, if an image fails to load or someone who uses a screenreader uses the website, they will have much more underestanding than before - and I consider that a success.
+              Although we clearly made an impact on SEO, only one accessibility score increased by a mere 1%. Regardless, I consider this a success. Numbers and concrete data are important, but so is ensuring <i>everyone</i> has equal access to information. <br/> <br />Now, if an image fails to load or when someone who uses a screenreader visits the website, they will have more understanding than before. Winning!
             </Text>
           </Row>
       </Container>
