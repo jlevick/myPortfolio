@@ -19,7 +19,7 @@ const Fgwr1 = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                  It's the spring of 2020. Senior volunteers are alone and disconnected from the outside world. Technology use is low to nonexistent, increasing feelings of anixety and isolation. Volunteers need a way to earn their usual monthly stipend as they can no longer serve in their usual capacity.
+                  It's the spring of 2020. Senior volunteers are alone and disconnected from the outside world. Technology use is low to nonexistent, increasing feelings of anixety and isolation. Volunteers need 1) a way to earn their usual monthly stipend as they can no longer serve in their usual capacity, and 2) human connection.
                 </Text>
               </div>
               <div>
@@ -28,7 +28,7 @@ const Fgwr1 = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <div className="mt-4 mb-5">
                   <Text color="light">
-                  Develop a virtual technology training program to afford volunteers their usual stipend, and help volunteers connect with others during the COVID-19 pandemic.
+                  Develop a virtual technology training program to pay volunteers their usual stipend, and help volunteers connect with others during the COVID-19 pandemic.
                   </Text>
                 </div>
               </div>

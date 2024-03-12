@@ -17,7 +17,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
           </Row> 
           <Row>
             <div className="pl-lg-4 pt-5 pt-lg-0">
-              <Title variant="cardBig" className="mt-2 mb-5 mt-lg-5">Hi! I'm Jaime, a Content Designer with front-end development skills and a talent for simplifying complex jargon.</Title>
+              <Title variant="cardBig" className="mt-2 mb-5 mt-lg-5">Hi! I'm Jaime, a Content Strategist with front-end development skills and a talent for simplifying complex jargon. I improve user experiences (UX) with an accessibility-first approach and thrive when collaborating with cross-functional, diverse teams.</Title>
               <Accordion defaultActiveKey="0">
                 <Card>
                   <Card.Header>
@@ -38,8 +38,8 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                   <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <Text className="mt-2 mb-2">
-                        <li><b>Accessibility advocacy</b>: ensuring content is inclusive and available to <i>everyone</i></li>
                         <li><b>UX writing</b>: using evidence and plain language to write clear, consistent, and useful copy</li>
+                        <li><b>Accessibility advocacy</b>: ensuring content is inclusive and available to <i>everyone</i> in <i>every</i> situation</li>
                         <li><b>Content design</b>: offering what users need when and where it's useful with a user-centered approach</li>
                         <li><b>Reducing development time</b>: making changes in complex codebases and creating relevant pull requests</li>
                         </Text>
@@ -70,7 +70,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                       <Text className="mt-2 mb-5">
                         <li><b>UX Writing Lead</b> | <i>Global Justice Ecology Project</i> | August 2023 - January 2024</li>
                         <li><b>UX Writer</b> | <i>Oppia Foundation</i> | May 2023 - October 2023</li>
-                        <li><b>UX Content Designer</b> | <i>Sean's Legacy</i> | January 2023 - April 2023</li>
+                        <li><b>Content Strategist</b> | <i>Sean's Legacy</i> | January 2023 - April 2023</li>
                         <li><b>Content Designer</b> | <i>SeniorCorps</i> | March 2020 - February 2022</li>
                         <li><b>Sr. Administrative Specialist</b> | <i>University of Wyoming</i> | August 2012 - July 2019</li>
                       </Text>
