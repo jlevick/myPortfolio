@@ -19,7 +19,7 @@ const Alt1 = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 0.07;
                   `}
                 >
-                 The Global Justice Ecology Project (GJEP) has been defending people and forests from corporations and the threat of genetically engineered trees for 20 years...but not enough people are seeing their important work. GJEP want to increase both website accessibility and organic site traffic in order to reach a wider audience.
+                 The Global Justice Ecology Project (GJEP) has been defending people and forests from corporations and the threat of genetically engineered trees for 20 years...but not enough people are seeing their important work. GJEP wants to increase both website accessibility and organic site traffic in order to reach a wider audience.
                 </Text>
               </div>
               <div>

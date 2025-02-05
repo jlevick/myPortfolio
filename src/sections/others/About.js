@@ -68,6 +68,7 @@ const About = ({ hero = true, bg = 'light', ...rest }) => {
                     <Card.Body>
                       <Text className="mt-2 mb-4"><b>Experience</b></Text>
                       <Text className="mt-2 mb-5">
+                        <li><b>Content Designer</b>|<i>Fearless Tech</i>| April 2024 - Current</li>
                         <li><b>UX Writing Lead</b> | <i>Global Justice Ecology Project</i> | August 2023 - January 2024</li>
                         <li><b>UX Writer</b> | <i>Oppia Foundation</i> | May 2023 - October 2023</li>
                         <li><b>Content Strategist</b> | <i>Sean's Legacy</i> | January 2023 - April 2023</li>
